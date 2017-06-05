@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato/LatoRegular.eot");
+	src: url("fonts/Lato/LatoRegular.eot?#iefix") format("embedded-opentype"),
+	url("fonts/Lato/LatoRegular.woff") format("woff"),
+	url("fonts/Lato/LatoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "LatoSemiBold";
+	src: url("fonts/Lato/Lato-semibold.eot");
+	src: url("fonts/Lato/Lato-semibold.eot?#iefix") format("embedded-opentype"),
+	url("fonts/Lato/Lato-semibold.woff") format("woff"),
+	url("fonts/Lato/Lato-semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "BergenSansSemiBold";
+	src: url("fonts/BergenSans/BergenSans-SemiBold.eot");
+	src: url("fonts/BergenSans/BergenSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+	url("fonts/BergenSans/BergenSans-SemiBold.woff") format("woff"),
+	url("fonts/BergenSans/BergenSans-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("fonts/Gilroy/Gilroy-Regular.eot");
+	src: url("fonts/Gilroy/Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+	url("fonts/Gilroy/Gilroy-Regular.woff") format("woff"),
+	url("fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Gilroy-Semibold';
+	src: url('fonts/Gilroy/Gilroy-Semibold.eot');
+	src: local('☺'), url('fonts/Gilroy/Gilroy-Semibold.woff') format('woff'), url('fonts/Gilroy/Gilroy-Semibold.ttf') format('truetype'), url('fonts/Gilroy/Gilroy-Semibold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

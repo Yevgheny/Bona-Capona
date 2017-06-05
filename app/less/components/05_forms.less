@@ -1,0 +1,56 @@
+input, textarea, select {
+	box-sizing: border-box;
+	font-family: @ff;
+	font-size: @fs;
+	font-weight: 700;
+	color: @text-color;
+	padding-left: 20px;
+  	border: none;
+  	outline: none;
+}
+form {
+    ::-webkit-input-placeholder { /* WebKit browsers */
+     color: #000 !important;
+     font-family: @ff;
+     font-size: 18px;   
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color:  #000!important;
+     font-family: @ff;
+     font-size: 18px;   
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: #000 !important;
+     font-family: @ff;
+     font-size: 18px;   
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+     color: #000 !important;
+     font-family: @ff;
+     font-size: 18px;   
+ }
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder 		{opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder          				{opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder           				{opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder      			{opacity: 0; transition: opacity 0.3s ease;}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #3F4E62;}
+input::-moz-placeholder, textarea::-moz-placeholder {color: #3F4E62;}
+input::-moz-placeholder, textarea::-moz-placeholder {color: #3F4E62;}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {color: #3F4E62;}
+
+.input-group {
+	position: relative;
+}
+input.error {
+    border: 2px solid red;
+}
+label.error {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	font-size: 14px;
+    color: red;
+}
