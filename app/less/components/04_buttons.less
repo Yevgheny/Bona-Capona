@@ -24,11 +24,15 @@
 }
 .btn-white,
 .slider-btn {
-	border: 4px solid @white;
+	border: 3px solid @white;
 	background: transparent;
 	&:hover {
 		color: @blue;
 		background: @white;
+	}
+	&:focus,
+	&:active{
+		text-decoration: none;
 	}
 }
 .slider-btn {
@@ -42,12 +46,14 @@
 	}
 }
 .btn-yellow {
+	border: 2px solid @yellow;
 	background: @yellow;
 	&:hover {
 		background: #e6c31c;
 	}
 	&:focus,
-	&:active{
+	&:active {
+		text-decoration: none;
 		background: #ccad19;
 	}
 }
