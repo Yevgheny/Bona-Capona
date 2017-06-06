@@ -7,7 +7,15 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.r-tabs .r-tabs-nav .r-tabs-anchor {
+		padding: 12px 11.8px;
+	}
+	.ab-p__news--item {
+		min-height: 120px;
+	}
+	.ab-p__news--more a {
+		padding-left: 195px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -36,13 +44,54 @@
 	}
 	section, header, footer {
 		overflow: hidden;
-	}
+	}	
+    .ab-p__news--item {
+		display: block;
+		margin: 0 auto;
+    }
+    .ab-p__news--description,
+    .ab-p__news--all-news {
+    	margin: 0 auto;
+    }
+    .ab-p__news--more {
+    	display: block;
+    	max-width: 370px;
+    	margin: 0 auto;
+    }  
+    .ab-p__news--more a {
+	    padding-left: 270px;
+	}  
+    .ab-p__cooks-team--item-content {
+    	max-width: 410px;
+    	margin: 0 auto 30px;
+    }
+    .ab-p__interior {
+    	padding-top: 40px;
+    }
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+    .r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+    	text-align: center;
+    }
+    .r-tabs-accordion-title .r-tabs-state-active {
+    	display: block;
+    }
+    .ab-p__interior--item-foto {
+    	display: block;
+    	margin: 15px auto 15px;
+    }
 
 }
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
-
+	.ab-p__news--all-news {
+		width: 370px;
+	}
 }
 
 /* Custom, iPhone 6 */
@@ -61,29 +110,33 @@
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
+	.ab-p__news--all-news {
+		max-width: 100%;	    
+	}
+}
 
+@media only screen and (max-width : 377px) {
+	.ab-p__news--more a {
+	    padding-left: 245px;
+	}
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-
+	
 }
 
+@media only screen and (max-width : 360px) {
+	.ab-p__news--more a {
+	    padding-left: 230px;
+	}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.ab-p__news--more a {
+	    padding-left: 190px;
+	}
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
 
 /*==========  Mobile First Method  ==========*/
 

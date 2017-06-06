@@ -1,4 +1,34 @@
-
+.ab-p{
+	padding-top: 35px;	
+}
+.ab-p__head {
+	margin-bottom: 45px;
+}
+.ab-p__top-content {
+	margin-bottom: 50px;
+}
+.ab-p__top-content p {	
+	margin-bottom: 35px;
+}
+.ab-p__top-foto {
+	max-width: 570px;
+	min-height: 380px;
+	overflow: hidden;
+}
+.ab-p__top-foto img {
+	max-width: 100%;
+	height: auto;
+}
+.ab-p__middle-content {
+	max-width: 1170px;
+	min-height: 380px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.ab-p__middle-content img {
+	max-width: 100%;
+	height: auto;
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -8,6 +38,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.ab-p__top-content,
+	.ab-p__middle-content {
+		margin-bottom: 0;
+	}
 
 }
 
@@ -35,6 +69,14 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
+	.ab-p__top-content {
+		display: block;
+		max-width: 570px;
+		margin: 0 auto 20px;
+	}
+	.ab-p__middle-content {
+		min-height: 255px;
+	}
 
 }
 
@@ -49,39 +91,49 @@
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.ab-p__middle-content {
+	    min-height: 200px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.ab-p__top-foto {
+		min-height: 305px;
+	}
+	.ab-p__middle-content {
+	    min-height: 175px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
-
+	.ab-p__top-foto {
+	    min-height: 260px;
+	}
+	.ab-p__middle-content {
+	    min-height: 150px;
+	}
+	
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-
+	.ab-p__top-foto {
+		min-height: 235px;
+	}
+	.ab-p__middle-content {
+		min-height: 135px;
+	}
+	
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.ab-p__top-foto {
+	    min-height: 210px;
+	}
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
 
 /*==========  Mobile First Method  ==========*/
 

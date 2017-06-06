@@ -52,3 +52,27 @@ $(document).ready(function() {
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
 $("#contact-get-price").validate();
+
+$(document).ready(function () {
+
+    var $tabs = $('#horizontalTab');
+    
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,                        
+        
+    });
+
+    var $tabs = $('#horizontalTab-2');
+
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,
+        
+    });        
+     
+});

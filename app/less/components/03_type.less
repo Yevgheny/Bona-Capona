@@ -6,7 +6,7 @@ body {
 
 p {
 	font-size: @fs; 
-	line-height: @lh; 
+	line-height: 1.6; 
 	color: @text-color; 
 	margin: @text-margin;
 }
@@ -25,10 +25,13 @@ h2 {
 	margin: @text-margin;
 }
 h3 {
-	font-size: @h3; 
+	font-size: @h3;
 	font-weight: 400; 
-	line-height: @lh; 
-	color: @text-color; 
+	line-height: @lh;
+	font-family: @ff4; 
+	color: @light-grey;
+	text-align: center;
+	text-transform: uppercase; 
 	margin: @text-margin;
 }
 h4 {
@@ -67,13 +70,14 @@ a {
 	color: @blue;
 	text-align: center;
 	text-transform: uppercase;	
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	&:after {
 		content: '';
 		display: block;
 		width: 90px;
 		height: 4px;
 		background-color: @blue;
+		margin: 10px auto 0;
 	}
 }
 .after-none {
