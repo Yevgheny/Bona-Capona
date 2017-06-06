@@ -24,32 +24,38 @@
 }
 .btn-white,
 .slider-btn {
-	border: 4px solid @white;
-	background: transparent;
-	&:hover {
-		color: @blue;
-		background: @white;
-	}
+ border: 3px solid @white;
+ background: transparent;
+ &:hover {
+  color: @blue;
+  background: @white;
+ }
+ &:focus,
+ &:active{
+  text-decoration: none;
+ }
 }
 .slider-btn {
-	&:hover {
-		color: #696969;
-		border: 4px solid transparent;
-	}
-	&:focus,
-	&:active{
-		background: rgba(255,255,255,0.5);
-	}
+ &:hover {
+  color: #696969;
+  border: 4px solid transparent;
+ }
+ &:focus,
+ &:active{
+  background: rgba(255,255,255,0.5);
+ }
 }
 .btn-yellow {
-	background: @yellow;
-	&:hover {
-		background: #e6c31c;
-	}
-	&:focus,
-	&:active{
-		background: #ccad19;
-	}
+ border: 2px solid @yellow;
+ background: @yellow;
+ &:hover {
+  background: #e6c31c;
+ }
+ &:focus,
+ &:active {
+  text-decoration: none;
+  background: #ccad19;
+ }
 }
 .btn-blue {
 	color: @blue;
