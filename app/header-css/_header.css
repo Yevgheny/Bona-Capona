@@ -215,7 +215,6 @@ nav>ul>li.drop-down>ul:after, nav>ul>li.drop-down>ul:before {
 	position: absolute;
 	pointer-events: none;
 }
-
 nav>ul>li.drop-down>ul:after {
 	border-color: rgba(236, 240, 241, 0);
 	border-bottom-color: #ecf0f1;
@@ -356,3 +355,4 @@ nav>ul>li.contact-drop .contact-drop-inner .misc-contact{
 nav>ul>li.contact-drop .contact-drop-inner .misc-contact span,nav>ul>li.contact-drop .contact-drop-inner .misc-contact a{
 	color:#e74c3c;
 }
+
