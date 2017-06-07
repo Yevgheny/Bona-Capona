@@ -54,4 +54,15 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .gmnoprint > div {
 	background: green !important;
 }
-
+.main-header {
+	min-height: 167px;
+	background-color: #78c8c9;
+}
+.header__btn,
+.header__btn-yellow {
+	margin-top: 50px;
+}
+.main-logo-wrap {
+	text-align: center;
+	margin-top: 40px;
+}
