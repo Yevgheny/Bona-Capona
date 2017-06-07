@@ -17,10 +17,10 @@
 		&--description {
 			display: block;
 			max-width: 370px;
-			min-height: 160px;
+			min-height: 205px;
 			background: #f9f9f9;
 			padding-top: 8px;
-			margin-bottom: -10px;			
+			margin-bottom: 30px;			
 			time {
 				font-family: @ff4;
 				font-size: @fss;
@@ -32,26 +32,32 @@
 				max-width: 285px;
 				padding-top: 30px;
 				margin-left: 35px;
+				margin-bottom: 0;
 			}			
 		}
-		&--more {			
+		&--more {
+			max-width: 120px;
+			min-height: 60px;
+			float: right;
+			margin-top: -3px;			
 			a {
 				display: block;
-				max-width: 370px;
-				min-height: 55px;
+				width: 120px;
+				height: 60px;
+				text-align: center;
 				font-family: @ff4;
 				text-transform: uppercase;
 				color: @grey;				
 				background: #f9f9f9;				
-				padding: 15px 17px 10px 260px;				
-				margin-bottom: 30px;
+				padding: 20px 10px;				
+				margin-bottom: 0;
 				&:after {
 					content: '';
 					display: block;
-					width: 85px;
+					width: 82px;
 					height: 2px;
 					background-color: #94959a;
-					margin: 2px auto 0;					
+					margin-left: 10px;										
 				}
 				&:hover {
 					color: @grey;

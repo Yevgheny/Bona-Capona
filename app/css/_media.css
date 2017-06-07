@@ -12,10 +12,26 @@
 	}
 	.ab-p__news--item {
 		min-height: 120px;
+	}	
+	.ab-p__cooks-team {
+		padding-top: 0;
 	}
-	.ab-p__news--more a {
-		padding-left: 195px;
+	#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
+	    padding: 15px 29.7px;
 	}
+	.file-upload-wrap {
+		padding-right: 20px;
+	}
+	.checkbox-custom, .label {
+		font-size: 1.1rem;
+	}	
+	.checkbox-custom, .label a {
+	    font-size: 1.1rem;
+	}
+	.label a::after {
+		width: 165px;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -49,18 +65,12 @@
 		display: block;
 		margin: 0 auto;
     }
-    .ab-p__news--description,
+    .ab-p__news--description {
+    	margin: 0 auto 30px;
+    }    
     .ab-p__news--all-news {
     	margin: 0 auto;
-    }
-    .ab-p__news--more {
-    	display: block;
-    	max-width: 370px;
-    	margin: 0 auto;
-    }  
-    .ab-p__news--more a {
-	    padding-left: 270px;
-	}  
+    }           
     .ab-p__cooks-team--item-content {
     	max-width: 410px;
     	margin: 0 auto 30px;
@@ -84,6 +94,25 @@
     	display: block;
     	margin: 15px auto 15px;
     }
+    .photo-gallery {
+    	height: 105px;
+    }
+    .checkbox-wrap {
+    	display: block;
+    	margin-top: -30px;
+    }
+    .checkbox-custom, .label {
+	    font-size: 1.4rem;
+	}
+    .checkbox-custom, .label a {
+	    font-size: 1.4rem;
+	}
+	.label a::after {
+	    width: 215px;
+	}
+	.btn-main-form-wrap {
+		padding-top: 25px;
+	}
 
 }
 
@@ -91,6 +120,11 @@
 @media only screen and (max-width : 736px) {
 	.ab-p__news--all-news {
 		width: 370px;
+	}
+	.photo-gallery {    
+	    display: block;
+	    height: 180px;
+	    margin: 15px auto;
 	}
 }
 
@@ -105,7 +139,20 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+    .checkbox-wrap {	    
+	    margin-top: -34px;
+	}
+}
+
+@media only screen and (max-width : 416px) {
+	.file-upload-wrap {
+	    padding-right: 0;
+	    float: left;
+	    margin-bottom: 25px;
+	}
+	.checkbox-wrap {
+	    margin-top: 0;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -113,12 +160,7 @@
 	.ab-p__news--all-news {
 		max-width: 100%;	    
 	}
-}
-
-@media only screen and (max-width : 377px) {
-	.ab-p__news--more a {
-	    padding-left: 245px;
-	}
+	
 }
 
 /* Custom, iPhone 6 */
@@ -127,14 +169,17 @@
 }
 
 @media only screen and (max-width : 360px) {
-	.ab-p__news--more a {
-	    padding-left: 230px;
-	}
+	
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.ab-p__news--more {
+		min-height: 50px;
+	}
 	.ab-p__news--more a {
-	    padding-left: 190px;
+		height: 50px;
+		padding-top: 14px;
+		margin-top: 10px;
 	}
 }
 
