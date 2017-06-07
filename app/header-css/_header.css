@@ -49,7 +49,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	display: none;
 }
 #map {
-	min-height: 650px;
+	min-height: 1000px;
 }
 .gmnoprint > div {
 	background: green !important;
