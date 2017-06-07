@@ -7,9 +7,19 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.r-tabs .r-tabs-nav .r-tabs-tab{
+		width: 50%;
+		border-bottom: 1px solid #ccc;
+	}
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
+		width: 100%;
+		text-align: center;
 		padding: 12px 11.8px;
 	}
+	.ab-p__cooks-team--item-content {
+    	max-width: 410px;
+    	margin: 0 auto 30px;
+    }
 	.ab-p__news--item {
 		min-height: 120px;
 	}	
@@ -18,6 +28,9 @@
 	}
 	#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
 	    padding: 15px 29.7px;
+	}
+	.ab-p__interior--item-photo {
+		height: 140px;
 	}
 	.file-upload-wrap {
 		padding-right: 20px;
@@ -33,7 +46,18 @@
 	}
 
 }
-
+@media only screen and (max-width : 991px) {
+	.ab-p__news--item {
+		display: block;
+		margin: 0 auto;
+    }
+    .ab-p__news--description {
+    	margin: 0 auto 30px;
+    }    
+    .ab-p__news--all-news {
+    	margin: 0 auto;
+    }
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
@@ -60,21 +84,8 @@
 	}
 	section, header, footer {
 		overflow: hidden;
-	}	
-    .ab-p__news--item {
-		display: block;
-		margin: 0 auto;
-    }
-    .ab-p__news--description {
-    	margin: 0 auto 30px;
-    }    
-    .ab-p__news--all-news {
-    	margin: 0 auto;
-    }           
-    .ab-p__cooks-team--item-content {
-    	max-width: 410px;
-    	margin: 0 auto 30px;
-    }
+	}   
+    
     .ab-p__interior {
     	padding-top: 40px;
     }
@@ -90,7 +101,7 @@
     .r-tabs-accordion-title .r-tabs-state-active {
     	display: block;
     }
-    .ab-p__interior--item-foto {
+    .ab-p__interior--item-photo {
     	display: block;
     	margin: 15px auto 15px;
     }
@@ -120,6 +131,9 @@
 @media only screen and (max-width : 736px) {
 	.ab-p__news--all-news {
 		width: 370px;
+	}
+	.ab-p__interior--item-photo {
+		height: 170px;
 	}
 	.photo-gallery {    
 	    display: block;

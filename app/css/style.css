@@ -649,7 +649,7 @@ label.error {
   padding-top: 8px;
   margin-bottom: 30px;
 }
-.ab-p__news--description time {
+.ab-p__news--description span {
   font-family: 'Gilroy-Semibold', sans-serif;
   font-size: 1.2rem;
   color: #fff;
@@ -716,7 +716,7 @@ label.error {
 .ab-p__cooks-team--head h2:after {
   display: none;
 }
-.ab-p__cooks-team--item-foto {
+.ab-p__cooks-team--item-photo {
   display: block;
   width: 168px;
   height: 168px;
@@ -725,7 +725,7 @@ label.error {
   overflow: hidden;
   margin: 0 auto 50px;
 }
-.ab-p__cooks-team--item-foto img {
+.ab-p__cooks-team--item-photo img {
   max-width: 100%;
   height: auto;
 }
@@ -758,26 +758,36 @@ label.error {
 .ab-p__cooks-team--item-content {
   display: block;
 }
-.ab-p__interior--item-foto {
+.ab-p__interior--item-photo {
   display: block;
   max-width: 270px;
   height: 170px;
   overflow: hidden;
   margin: 14px auto;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
-.ab-p__interior--item-foto img {
+.ab-p__interior--item-photo img {
   max-width: 100%;
   height: auto;
+}
+.ab-p__interior--item-photo:hover {
+  opacity: 0.6;
 }
 /* Tabs container */
 .r-tabs {
   position: relative;
-  background-color: #78c8c9;
 }
 /* Tab element */
 .r-tabs .r-tabs-nav .r-tabs-tab {
   position: relative;
   background-color: #f7f7f7;
+  border-right: 2px solid #78c8c9;
+  border-left: 2px solid #78c8c9;
+  margin-right: -2px;
+  margin-left: -2px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 /* Tab anchor */
 .r-tabs .r-tabs-nav .r-tabs-anchor {
@@ -876,10 +886,15 @@ label.error {
   height: 180px;
   overflow: hidden;
   margin-bottom: 25px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 .photo-gallery img {
   max-width: 100%;
   height: auto;
+}
+.photo-gallery:hover {
+  opacity: 0.6;
 }
 .image-source-link {
   display: none;

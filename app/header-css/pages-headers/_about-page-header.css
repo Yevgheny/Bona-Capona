@@ -11,12 +11,12 @@
 .ab-p__top-content p {	
 	margin-bottom: 35px;
 }
-.ab-p__top-foto {
+.ab-p__top-photo {
 	max-width: 570px;
 	min-height: 380px;
 	overflow: hidden;
 }
-.ab-p__top-foto img {
+.ab-p__top-photo img {
 	max-width: 100%;
 	height: auto;
 }
@@ -39,14 +39,17 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	.ab-p__top-content,
+@media only screen and (max-width : 992px) {	
+	.ab-p__top-content {
+		display: block;
+		max-width: 570px;
+		margin: 0 auto 20px;
+	}
 	.ab-p__middle-content {
-		margin-bottom: 0;
+		min-height: 255px;
 	}
 
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
@@ -71,14 +74,7 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-	.ab-p__top-content {
-		display: block;
-		max-width: 570px;
-		margin: 0 auto 20px;
-	}
-	.ab-p__middle-content {
-		min-height: 255px;
-	}
+	
 
 }
 
@@ -100,7 +96,7 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.ab-p__top-foto {
+	.ab-p__top-photo {
 		min-height: 305px;
 	}
 	.ab-p__middle-content {
@@ -110,7 +106,7 @@
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
-	.ab-p__top-foto {
+	.ab-p__top-photo {
 	    min-height: 260px;
 	}
 	.ab-p__middle-content {
@@ -121,7 +117,7 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-	.ab-p__top-foto {
+	.ab-p__top-photo {
 		min-height: 235px;
 	}
 	.ab-p__middle-content {
@@ -132,7 +128,7 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.ab-p__top-foto {
+	.ab-p__top-photo {
 	    min-height: 210px;
 	}
 }
