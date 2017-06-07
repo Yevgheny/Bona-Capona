@@ -799,7 +799,14 @@ label.error {
   color: #78c8c9;
 }
 #horizontalTab li:hover,
-#horizontalTab-2 li:hover {
+#horizontalTab-2 li:hover,
+#horizontalTab-3 li:hover,
+#horizontalTab-4 li:hover,
+#horizontalTab-5 li:hover,
+#horizontalTab-6 li:hover,
+#horizontalTab-7 li:hover,
+#horizontalTab-8 li:hover,
+#horizontalTab-9 li:hover {
   background: #ebebeb;
 }
 .r-tabs a {
@@ -862,6 +869,69 @@ label.error {
 }
 .r-tabs .r-tabs-panel.r-tabs-state-active {
   display: block;
+}
+.me-p__novelty {
+  border: 4px solid #fdd71f;
+}
+.me-p__kitchen--download-menu {
+  display: block;
+  max-width: 368px;
+  padding-top: 60px;
+  margin-left: 15px;
+}
+.me-p__children {
+  padding-top: 45px;
+}
+.me-p__breakfasts {
+  padding-top: 45px;
+}
+.me-p__breakfasts--price h3 {
+  display: inline-block;
+  max-width: 265px;
+  text-align: left;
+  padding-left: 15px;
+  color: #646569;
+}
+.me-p__breakfasts--price span {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: 'Gilroy-Semibold', sans-serif;
+  color: #646569;
+  padding: 0 0 0 5px;
+}
+.me-p__breakfasts--price .me-p__dish-dot {
+  color: #646569;
+}
+.me-p__business-lunches {
+  padding-top: 45px;
+}
+.me-p__map-alcohol {
+  padding-top: 45px;
+}
+.me-p__map-alcohol--confirmation {
+  display: block;
+  max-width: 205px;
+  margin: 20px auto 30px;
+}
+#horizontalTab-4 .r-tabs-nav .r-tabs-anchor,
+#horizontalTab-6 .r-tabs-nav .r-tabs-anchor {
+  padding: 15px 34px;
+}
+#horizontalTab-5 .r-tabs-nav {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+#horizontalTab-7 .r-tabs-nav .r-tabs-anchor,
+#horizontalTab-8 .r-tabs-nav .r-tabs-anchor {
+  padding: 15px 40px;
+}
+#horizontalTab-7 .r-tabs-nav,
+#horizontalTab-8 .r-tabs-nav {
+  margin-left: 17%;
+  margin-right: 17%;
+}
+#horizontalTab-9 .r-tabs-nav .r-tabs-anchor {
+  padding: 15px 38.7px;
 }
 #horizontalTab-3 li:hover {
   background: #ebebeb;

@@ -1,7 +1,71 @@
 /*------------------- MENU-PAGE-HEADER.css------------------*/
-.menu-page {
-	
+.menu-page{
+	width: 100%;
+	min-height: 350px;
+	overflow: hidden;
 }
+.me-p__content {
+	position: relative;
+	z-index: 200;
+}
+.me-p__kitchen {
+	padding-top: 50px;
+}
+.me-p__kitchen--novelty span {
+	display: block;
+	width: 170px;
+	font-family: 'Gilroy-Semibold', sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    background: #fdd71f;
+    padding: 10px 56px;
+}
+.me-p__kitchen--menu-map {
+	padding: 20px 16px;
+	margin-bottom: 10px;
+}
+.me-p__dish-menu h3 {
+	width: 210px;
+	text-align: left;
+	color: #646569;
+}
+.me-p__dish-dot {
+	color: #646569;
+}
+.me-p__dish-menu span {
+	display: inline-block;
+	width: 60px;
+	font-size: 1.8rem;
+	font-weight: 400; 	
+	font-family: 'Gilroy-Semibold', sans-serif; 
+	color: #646569;
+	padding: 0 0 0 5px;
+	background: none;
+}
+.me-p__dish-menu h3, 
+.me-p__dish-dot, 
+.me-p__dish-menu span {
+	display: inline-block;
+}
+.me-p__kitchen--dish-description {
+	max-width: 465px;
+}
+.me-p__kitchen--dish-description span {
+	display: inline-block;
+	font-size: 1.4rem;
+	color: #86878c;
+	background: none;
+	padding: 0;
+}
+.me-p__kitchen--dish-photo {
+	max-width: 570px;
+	min-height: 380px;
+	overflow: hidden;
+}
+.me-p__kitchen--dish-photo img {
+	max-width: 100%;
+}
+
 /*------------------- finish MENU-PAGE-HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
 

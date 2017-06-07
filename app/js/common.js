@@ -85,6 +85,66 @@ $(document).ready(function () {
         
     });
 
+    var $tabs = $('#horizontalTab-4');
+
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,
+        
+    });
+
+    var $tabs = $('#horizontalTab-5');
+
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,
+        
+    });
+
+    var $tabs = $('#horizontalTab-6');
+
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,
+        
+    });
+
+    var $tabs = $('#horizontalTab-7');
+
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,
+        
+    });
+
+    var $tabs = $('#horizontalTab-8');
+
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,
+        
+    });
+
+    var $tabs = $('#horizontalTab-9');
+
+        $tabs.responsiveTabs({
+            rotate: false,
+            startCollapsed: 'accordion',
+            collapsible: 'accordion',
+            setHash: true,
+        
+    });
+
     $('#b-f__zoom-gallery').magnificPopup({
         delegate: 'a',
         type: 'image',
