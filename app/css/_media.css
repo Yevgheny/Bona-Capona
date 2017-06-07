@@ -7,6 +7,12 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.si-p_social,
+	.si-e_social,
+	.si-n_social {
+		margin-bottom: 30px;
+		text-align: center;
+	}
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
 		padding: 12px 11.8px;
 	}
@@ -31,7 +37,6 @@
 	.label a::after {
 		width: 165px;
 	}
-
 }
 
 /* Small Devices, Tablets */
