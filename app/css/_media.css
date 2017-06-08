@@ -10,6 +10,12 @@
 	.r-tabs .r-tabs-nav .r-tabs-tab{
 		width: 50%;
 		border-bottom: 1px solid #ccc;
+  }
+	.si-p_social,
+	.si-e_social,
+	.si-n_social {
+		margin-bottom: 30px;
+		text-align: center;
 	}
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
 		width: 100%;
@@ -60,6 +66,7 @@
     .me-p__dish-dot {
     	display: none;
     }
+
 
 }
 @media only screen and (max-width : 991px) {
