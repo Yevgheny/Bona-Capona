@@ -2,14 +2,14 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	.pr-p__hedline-post {
+		padding-top: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.si-p_social,
-	.si-e_social,
-	.si-n_social {
+	.news-social {
 		margin-bottom: 30px;
 		text-align: center;
 	}

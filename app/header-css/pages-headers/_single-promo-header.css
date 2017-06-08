@@ -5,20 +5,10 @@
 .si-p__headline.main-headline::after {
 	display: none;
 }
-.si-p_date {
-	max-width: 164px;
-	font-family: 'Gilroy-Semibold', sans-serif;
-	font-size: 12px;
-	color: #fff;
-	text-align: center;
-	background-color: #FDD71F;
-	padding: 6px 23px;
-	margin: 0 auto 47px; 
-}
-.si-p_photo-wrap {
+.si-p__photo-wrap {
 	margin-bottom: 45px;
 }
-.si-p_photo-wrap img {
+.si-p__photo-wrap img {
 	width: 100%;
 	max-width: 100%;
 }
