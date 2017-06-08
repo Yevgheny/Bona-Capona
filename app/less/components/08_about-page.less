@@ -160,12 +160,14 @@
 /* Tab element */
 .r-tabs .r-tabs-nav .r-tabs-tab {
 	position: relative;
-	background-color: #f7f7f7;
-	border-right: 2px solid @blue;
+	background-color: #f7f7f7;	
 	border-left: 2px solid @blue;
 	margin-right: -2px;
 	margin-left: -2px;
 	transition: 0.5s ease;
+}
+.r-tabs .r-tabs-nav .r-tabs-tab:last-child {
+	border-right: 2px solid @blue;
 }
 /* Tab anchor */
 .r-tabs .r-tabs-nav .r-tabs-anchor {

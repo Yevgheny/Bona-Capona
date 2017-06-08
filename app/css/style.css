@@ -782,12 +782,14 @@ label.error {
 .r-tabs .r-tabs-nav .r-tabs-tab {
   position: relative;
   background-color: #f7f7f7;
-  border-right: 2px solid #78c8c9;
   border-left: 2px solid #78c8c9;
   margin-right: -2px;
   margin-left: -2px;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
+}
+.r-tabs .r-tabs-nav .r-tabs-tab:last-child {
+  border-right: 2px solid #78c8c9;
 }
 /* Tab anchor */
 .r-tabs .r-tabs-nav .r-tabs-anchor {
