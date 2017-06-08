@@ -1,3 +1,143 @@
+/*------------------- CART-DELIVERY-HEADER.css------------------*/
+.cart-delivery {
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.ca-d__head {
+	margin-bottom: 75px;
+}
+.ca-d__head h2:after {
+	display: none;
+} 
+.ca-d__ordered--photo {
+	width: 170px;
+	height: 114px;
+	overflow: hidden;
+}
+.ca-d__ordered--photo img {
+	max-width: 100%;
+}
+.ca-d__ordered--midlle {
+	padding: 19px 0;
+	margin-left: -30px;
+}
+.ca-d__ordered--dish h5 {
+	font-family: 'Gilroy-Semibold', sans-serif;
+	text-transform: uppercase;
+	color: #78c8c9;
+	margin-bottom: 30px;
+}
+.ca-d__ordered--dish span {
+	color: #86878c;
+}
+.ca-d__ordered--right {
+	padding: 40px 0;
+}
+.ca-d__ordered--price {
+	width: 100%;
+}
+.input-ca-d {
+	display: inline-block;
+	vertical-align: middle;
+}
+.input-ca-d span {
+	color: #86878c;
+	padding: 12px;
+}
+.ca-d__value  span{
+	font-family: 'BergenSansSemiBold', sans-serif;
+	font-size: 16px;
+	color: #646569;
+}
+.input-number {
+  border: 2px solid #78c8c9; 
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+  width: 70px;
+}
+.input-number input {
+  border: none;
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  padding: 0 10px;
+  outline: none;
+  position: relative;
+  width: calc(100% - 27px);
+}
+.input-number-increment,
+.input-number-decrement {
+  background-color: white;
+  border: 0;  
+  cursor: pointer;
+  display: block;
+  outline: none;
+  position: absolute;  
+  height: 12px;
+  text-align: center;
+  right: 0;
+}
+.input-number-increment {
+	height: 14px;
+}
+.input-number-increment:hover:before {
+  border-bottom-color: #78c8c9;
+}
+.input-number-decrement:hover:before {
+  border-top-color: #78c8c9;
+}
+.input-number-increment {  
+  top: 0;
+}
+.input-number-decrement {
+  bottom: 0;
+}
+.input-number-increment:before,
+.input-number-decrement:before {
+  	content: '';
+  	display: inline-block;
+  	vertical-align: top;
+  	padding-top: 4px;
+  	width: 0; 
+  	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.input-number-increment:before {
+	border-bottom: 5px solid #78c8c9;
+}
+.input-number-decrement:before {
+	border-top: 5px solid #78c8c9;
+}
+.ca-d__ordered-wrap {
+	width: 100%;
+}
+.ca-d__ordered-wrap {
+	margin-bottom: 30px;
+}
+.group:last-child {
+	float: right;
+	margin-right: 15px;
+}
+.ca-d__ordered--inner ul {
+	padding: 0;
+	margin: 0;
+}
+.ca-d__ordered--inner ul li {
+	list-style: none;
+	border-bottom: 2px dotted #a9a8ab;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.ca-d__ordered--inner ul li:last-child {
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+.ca-d__label {
+	padding: 0 18px;
+}
+/*-------------------finish CART-DELIVERY-HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
