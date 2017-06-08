@@ -6,14 +6,9 @@
 	display: none;
 }
 .si-e_date {
-	max-width: 120px;
-	font-family: 'Gilroy-Semibold', sans-serif;
-	font-size: 12px;
-	color: #fff;
+	display: block;
 	text-align: center;
-	background-color: #FDD71F;
-	padding: 7px 23px;
-	margin: 0 auto 57px; 
+	margin-bottom: 60px;
 }
 .si-e_photo-wrap {
 	margin-bottom: 45px;

@@ -7,6 +7,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.r-tabs .r-tabs-nav .r-tabs-tab{
+		width: 50%;
+		border-bottom: 1px solid #ccc;
+  }
 	.si-p_social,
 	.si-e_social,
 	.si-n_social {
@@ -14,8 +18,14 @@
 		text-align: center;
 	}
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
+		width: 100%;
+		text-align: center;
 		padding: 12px 11.8px;
 	}
+	.ab-p__cooks-team--item-content {
+    	max-width: 410px;
+    	margin: 0 auto 30px;
+    }
 	.ab-p__news--item {
 		min-height: 120px;
 	}	
@@ -24,6 +34,9 @@
 	}
 	#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
 	    padding: 15px 29.7px;
+	}
+	.ab-p__interior--item-photo {
+		height: 140px;
 	}
 	.file-upload-wrap {
 		padding-right: 20px;
@@ -37,8 +50,38 @@
 	.label a::after {
 		width: 165px;
 	}
-}
+	#horizontalTab-5 .r-tabs-nav,
+    #horizontalTab-7 .r-tabs-nav, 
+    #horizontalTab-8 .r-tabs-nav {
+    	margin-left: 0;
+    	margin-right: 0;
+    }
+    .me-p__kitchen,
+    .me-p__map-beverages,
+    .me-p__children,
+    .me-p__breakfasts,
+    .me-p__map-alcohol {
+    	padding-bottom: 45px;
+    }
+    .me-p__dish-dot {
+    	display: none;
+    }
 
+
+}
+@media only screen and (max-width : 991px) {
+	.ab-p__news--item {
+		display: block;
+		margin: 0 auto;
+    }
+    .ab-p__news--description {
+    	margin: 0 auto 30px;
+    }    
+    .ab-p__news--all-news {
+    	margin: 0 auto;
+    }
+
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
@@ -65,21 +108,8 @@
 	}
 	section, header, footer {
 		overflow: hidden;
-	}	
-    .ab-p__news--item {
-		display: block;
-		margin: 0 auto;
-    }
-    .ab-p__news--description {
-    	margin: 0 auto 30px;
-    }    
-    .ab-p__news--all-news {
-    	margin: 0 auto;
-    }           
-    .ab-p__cooks-team--item-content {
-    	max-width: 410px;
-    	margin: 0 auto 30px;
-    }
+	}   
+    
     .ab-p__interior {
     	padding-top: 40px;
     }
@@ -95,7 +125,7 @@
     .r-tabs-accordion-title .r-tabs-state-active {
     	display: block;
     }
-    .ab-p__interior--item-foto {
+    .ab-p__interior--item-photo {
     	display: block;
     	margin: 15px auto 15px;
     }
@@ -126,11 +156,36 @@
 	.ab-p__news--all-news {
 		width: 370px;
 	}
+	.ab-p__interior--item-photo {
+		height: 170px;
+	}
 	.photo-gallery {    
 	    display: block;
 	    height: 180px;
 	    margin: 15px auto;
-	}
+	}	
+    .me-p__kitchen--menu-map,
+    .me-p__kitchen--novelty {
+    	max-width: 570px;
+    	margin: 0 auto;
+    }
+    .me-p__dish-menu h3 {
+    	width: 80%;
+    }    
+    .me-p__kitchen--dish-photo,
+    .me-p__kitchen--download-menu  {
+    	margin: 0 auto;
+    }
+    .breakfasts-dot {
+    	display: inline-block;    	
+    }
+    .me-p__breakfasts--price h3 {
+    	max-width: 270px;
+    }
+    .me-p__breakfasts--price {
+    	max-width: 570px;
+    	margin: 45px auto 0;
+    }
 }
 
 /* Custom, iPhone 6 */
@@ -147,6 +202,18 @@
     .checkbox-wrap {	    
 	    margin-top: -34px;
 	}
+	.me-p__kitchen--dish-photo {
+		min-height: 250px;
+	}
+	.me-p__kitchen--download-menu {
+		padding-top: 30px;
+	}
+	.breakfasts-dot {
+		display: none;
+	}
+	.me-p__breakfasts--price span {
+		padding-left: 120px;
+	}
 }
 
 @media only screen and (max-width : 416px) {
@@ -158,6 +225,9 @@
 	.checkbox-wrap {
 	    margin-top: 0;
 	}
+	.me-p__breakfasts--price span {
+		padding-left: 60px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -165,12 +235,23 @@
 	.ab-p__news--all-news {
 		max-width: 100%;	    
 	}
+	.me-p__breakfasts--price h3 {
+		padding-left: 0;
+	}
 	
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-	
+	.me-p__breakfasts--price span {
+	    padding-left: 30px;
+	}
+	.me-p__dish-menu h3 {
+	    width: 75%;
+	}
+	.me-p__map-alcohol--confirmation {
+		max-width: 80%;
+	}
 }
 
 @media only screen and (max-width : 360px) {
@@ -185,6 +266,12 @@
 		height: 50px;
 		padding-top: 14px;
 		margin-top: 10px;
+	}
+	.me-p__breakfasts--price h3 {
+	    max-width: 195px;
+	}
+	.me-p__dish-menu h3 {
+	    width: 70%;
 	}
 }
 
