@@ -5,10 +5,10 @@
 .si-p__headline.main-headline::after {
 	display: none;
 }
-.si-p_photo-wrap {
+.si-p__photo-wrap {
 	margin-bottom: 45px;
 }
-.si-p_photo-wrap img {
+.si-p__photo-wrap img {
 	width: 100%;
 	max-width: 100%;
 }
