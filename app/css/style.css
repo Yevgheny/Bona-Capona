@@ -649,13 +649,6 @@ label.error {
   padding-top: 8px;
   margin-bottom: 30px;
 }
-.ab-p__news--description time {
-  font-family: 'Gilroy-Semibold', sans-serif;
-  font-size: 1.2rem;
-  color: #fff;
-  background: #fdd71f;
-  padding: 10px 15px;
-}
 .ab-p__news--description p {
   max-width: 285px;
   padding-top: 30px;
@@ -716,7 +709,7 @@ label.error {
 .ab-p__cooks-team--head h2:after {
   display: none;
 }
-.ab-p__cooks-team--item-foto {
+.ab-p__cooks-team--item-photo {
   display: block;
   width: 168px;
   height: 168px;
@@ -725,7 +718,7 @@ label.error {
   overflow: hidden;
   margin: 0 auto 50px;
 }
-.ab-p__cooks-team--item-foto img {
+.ab-p__cooks-team--item-photo img {
   max-width: 100%;
   height: auto;
 }
@@ -758,38 +751,66 @@ label.error {
 .ab-p__cooks-team--item-content {
   display: block;
 }
-.ab-p__interior--item-foto {
+.ab-p__interior--item-photo {
   display: block;
   max-width: 270px;
   height: 170px;
   overflow: hidden;
   margin: 14px auto;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
-.ab-p__interior--item-foto img {
+.ab-p__interior--item-photo img {
   max-width: 100%;
   height: auto;
+}
+.ab-p__interior--item-photo:hover {
+  opacity: 0.6;
+}
+.news-date span {
+  font-family: 'Gilroy-Semibold', sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #fdd71f;
+  padding: 10px 15px;
 }
 /* Tabs container */
 .r-tabs {
   position: relative;
-  background-color: #78c8c9;
 }
 /* Tab element */
 .r-tabs .r-tabs-nav .r-tabs-tab {
   position: relative;
   background-color: #f7f7f7;
+  border-left: 2px solid #78c8c9;
+  margin-right: -2px;
+  margin-left: -2px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.r-tabs .r-tabs-nav .r-tabs-tab:last-child {
+  border-right: 2px solid #78c8c9;
 }
 /* Tab anchor */
 .r-tabs .r-tabs-nav .r-tabs-anchor {
   display: inline-block;
-  padding: 15px 28.2px;
+  padding: 10px 28.2px;
   text-decoration: none;
   font-family: 'Gilroy-Semibold', sans-serif;
   text-transform: uppercase;
   color: #78c8c9;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 #horizontalTab li:hover,
-#horizontalTab-2 li:hover {
+#horizontalTab-2 li:hover,
+#horizontalTab-3 li:hover,
+#horizontalTab-4 li:hover,
+#horizontalTab-5 li:hover,
+#horizontalTab-6 li:hover,
+#horizontalTab-7 li:hover,
+#horizontalTab-8 li:hover,
+#horizontalTab-9 li:hover {
   background: #ebebeb;
 }
 .r-tabs a {
@@ -870,9 +891,72 @@ label.error {
   text-align: right;
 }
 .news-social ul {
-  margin: 0;
+   margin: 0;
   padding: 0;
   list-style: none;
+}
+.me-p__novelty {
+  border: 4px solid #fdd71f;
+}
+.me-p__kitchen--download-menu {
+  display: block;
+  max-width: 368px;
+  padding-top: 60px;
+  margin-left: 15px;
+}
+.me-p__children {
+  padding-top: 45px;
+}
+.me-p__breakfasts {
+  padding-top: 45px;
+}
+.me-p__breakfasts--price h3 {
+  display: inline-block;
+  max-width: 270px;
+  text-align: left;
+  padding-left: 15px;
+  color: #646569;
+}
+.me-p__breakfasts--price span {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-family: 'Gilroy-Semibold', sans-serif;
+  color: #646569;
+  padding: 0 0 0 5px;
+}
+.me-p__breakfasts--price .me-p__dish-dot {
+  color: #646569;
+}
+.me-p__business-lunches {
+  padding-top: 45px;
+}
+.me-p__map-alcohol {
+  padding-top: 45px;
+}
+.me-p__map-alcohol--confirmation {
+  display: block;
+  max-width: 205px;
+  margin: 20px auto 30px;
+}
+#horizontalTab-4 .r-tabs-nav .r-tabs-anchor,
+#horizontalTab-6 .r-tabs-nav .r-tabs-anchor {
+  padding: 10px 34px;
+}
+#horizontalTab-5 .r-tabs-nav {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+#horizontalTab-7 .r-tabs-nav .r-tabs-anchor,
+#horizontalTab-8 .r-tabs-nav .r-tabs-anchor {
+  padding: 10px 40px;
+}
+#horizontalTab-7 .r-tabs-nav,
+#horizontalTab-8 .r-tabs-nav {
+  margin-left: 17%;
+  margin-right: 17%;
+}
+#horizontalTab-9 .r-tabs-nav .r-tabs-anchor {
+  padding: 10px 38.7px;
 }
 .news-social ul li {
   display: inline-block;
@@ -903,6 +987,7 @@ label.error {
   max-width: 175px;
   margin: 0 auto 60px;
 }
+
 #horizontalTab-3 li:hover {
   background: #ebebeb;
 }
@@ -926,10 +1011,15 @@ label.error {
   height: 180px;
   overflow: hidden;
   margin-bottom: 25px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 .photo-gallery img {
   max-width: 100%;
   height: auto;
+}
+.photo-gallery:hover {
+  opacity: 0.6;
 }
 .image-source-link {
   display: none;
