@@ -9,7 +9,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Актуальная новость</title>
+	<title>Bona Capona, актуальная новость</title>
 	<meta name="description" content="">
 
 	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
@@ -50,7 +50,9 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="si-n_date">01.01 – 30.01.2017</div>
+						<div class="si-e_date news-date">
+							<span>01.01 – 30.01.2017</span>
+						</div>
 					</div>
 				</div>
 				<div class="row">
@@ -123,8 +125,7 @@
 			</div>
 		</section>
 	</main>
-	<footer class="main-footer">
-		<div id="map" class="map"></div>
+	<footer class="main-footer">		
 		<div class="container clearfix">
 
 		</div>
@@ -161,7 +162,7 @@
 <!--  модальное окно политика конфиденциальности -->
 <div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog">
 	<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-	<div id="policy" class="mfp-hide white-popup-block">
+	<div id="policy" class="white-popup-block">
 		<div class="policy-confidential">
 			<h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
 			<p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>
@@ -241,39 +242,5 @@
 	});
 </script>
 
-
-
-<script type="text/javascript">
-	function initMap() {
-		var myLatLng = {lat: 48.458073, lng: 35.023564};
-
-		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 13,
-			center: myLatLng,
-			scrollwheel: false,
-			disableDefaultUI: false,
-
-			styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
-		});
-
-
-		var image = 'img/map-pointer.png';
-		var beachMarker = new google.maps.Marker({
-			position: {lat: 48.458473, lng: 35.035564},
-			map: map,
-			icon: image,
-			animation: google.maps.Animation.DROP
-		});
-
-
-	};
-</script>
-
-<script type="text/javascript">
-	day = 1; hour= 2; minute= 55; sec= 56;
-	function CountBox(a){dateNow=new Date,amount=dateFuture-dateNow.getTime()+5,delete dateNow,amount<0?(out="<div class='countbox-num'><div id='countbox-days1'><span></span>0</div><div id='countbox-days2'><span></span>0</div><div id='countbox-days-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-hours1'><span></span>0</div><div id='countbox-hours2'><span></span>0</div><div id='countbox-hours-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-mins1'><span></span>0</div><div id='countbox-mins2'><span></span>0</div><div id='countbox-mins-text'></div></div><div class='countbox-space'></div><div class='countbox-num  countbox-num__sec'><div id='countbox-secs1'><span></span>0</div><div id='countbox-secs2'><span></span>0</div><div id='countbox-secs-text'></div></div>",document.getElementById(a).innerHTML=out):(days=0,days1=0,days2=0,hours=0,hours1=0,hours2=0,mins=0,mins1=0,mins2=0,secs=0,secs1=0,secs2=0,out="",amount=Math.floor(amount/1e3),days=Math.floor(amount/86400),days1=days>=10?days.toString().charAt(0):"0",days2=days>=10?days.toString().charAt(1):days.toString().charAt(0),amount%=86400,hours=Math.floor(amount/3600),hours1=hours>=10?hours.toString().charAt(0):"0",hours2=hours>=10?hours.toString().charAt(1):hours.toString().charAt(0),amount%=3600,mins=Math.floor(amount/60),mins1=mins>=10?mins.toString().charAt(0):"0",mins2=mins>=10?mins.toString().charAt(1):mins.toString().charAt(0),amount%=60,secs=Math.floor(amount),secs1=secs>=10?secs.toString().charAt(0):"0",secs2=secs>=10?secs.toString().charAt(1):secs.toString().charAt(0),out="<div class='countbox-num'><div id='countbox-days1'><span></span>"+days1+"</div><div id='countbox-days2'><span></span>"+days2+"</div><div id='countbox-days-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-hours1'><span></span>"+hours1+"</div><div id='countbox-hours2'><span></span>"+hours2+"</div><div id='countbox-hours-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-mins1'><span></span>"+mins1+"</div><div id='countbox-mins2'><span></span>"+mins2+"</div><div id='countbox-mins-text'></div></div><div class='countbox-space'></div><div class='countbox-num  countbox-num__sec'><div id='countbox-secs1'><span></span>"+secs1+"</div><div id='countbox-secs2'><span></span>"+secs2+"</div><div id='countbox-secs-text'></div></div>",document.getElementById(a).innerHTML=out,setTimeout(function(){CountBox(a)},1e3))}day=1,hour=2,minute=55,sec=56,dateFuture=(new Date).getTime()+1e3*(60*(24*day+hour)*60+60*minute+sec),window.onload=function(){CountBox("countbox"),CountBox("countbox1")};
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQuA3wc-ZE2DtYyudxCJK0jZ2HGvsHOIM&callback=initMap"
-		type="text/javascript"></script>
 </body>
 </html>
