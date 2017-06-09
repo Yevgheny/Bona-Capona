@@ -90,8 +90,10 @@
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
 	.ab-p__middle-content {
-	    min-height: 200px;
+	    min-height: 160px;
+	    margin-bottom: 30px;
 	}
+	
 }
 
 /* Extra Small Devices, Phones */
@@ -100,18 +102,21 @@
 		min-height: 305px;
 	}
 	.ab-p__middle-content {
-	    min-height: 175px;
+	    min-height: 110px;
 	}
 }
-
-/* Custom, iPhone 6 Plus*/
-@media only screen and (max-width : 414px) {
+@media only screen and (max-width : 416px){
 	.ab-p__top-photo {
-	    min-height: 260px;
+	    min-height: 275px;
 	}
-	.ab-p__middle-content {
-	    min-height: 150px;
+
+}
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 414px) {	
+	.ab-p__news-head {
+	    padding-top: 5px;
 	}
+	
 	
 }
 
@@ -120,9 +125,13 @@
 	.ab-p__top-photo {
 		min-height: 235px;
 	}
-	.ab-p__middle-content {
-		min-height: 135px;
+	.ab-p__top-content {
+		margin-bottom: 0;
+	}	
+	.ab-p__news-head {
+	    padding-top: 0;
 	}
+	
 	
 }
 

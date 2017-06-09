@@ -2,8 +2,16 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+
+	.ab-p__cooks-team {
+	    padding-top: 40px;
+	}
+	.photo-gallery {
+		height: 110px;
+  }
 	.pr-p__hedline-post {
 		padding-top: 0;
+
 	}
 }
 
@@ -13,6 +21,7 @@
     margin-bottom: 30px;
 		text-align: center;
 	}
+
 	.r-tabs .r-tabs-nav .r-tabs-tab{
 		width: 50%;
 		border-bottom: 1px solid #ccc;
@@ -30,7 +39,10 @@
 		min-height: 120px;
 	}	
 	.ab-p__cooks-team {
-		padding-top: 0;
+		padding-top: 50px;
+	}
+	.r-tabs .r-tabs-panel {
+		padding: 25px 15px;
 	}
 	#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
 	    padding: 15px 29.7px;
@@ -106,9 +118,12 @@
 	section, header, footer {
 		overflow: hidden;
 	}   
-    
+    .ab-p__news-head {
+		padding-top: 50px;
+    }
+    .ab-p__cooks-team,
     .ab-p__interior {
-    	padding-top: 40px;
+    	padding-top: 5px;
     }
     .r-tabs .r-tabs-nav {
         display: none;
@@ -131,7 +146,7 @@
     }
     .checkbox-wrap {
     	display: block;
-    	margin-top: -30px;
+    	margin-top: -34px;
     }
     .checkbox-custom, .label {
 	    font-size: 1.4rem;
@@ -145,7 +160,9 @@
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
-
+	#map {
+	    min-height: 500px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -214,14 +231,15 @@
 }
 
 @media only screen and (max-width : 416px) {
-	.file-upload-wrap {
-	    padding-right: 0;
-	    float: left;
-	    margin-bottom: 25px;
+	.ab-p__news-head {
+	    padding-top: 40px;
 	}
 	.checkbox-wrap {
-	    margin-top: 0;
+	    margin-top: -30px;
 	}
+	.b-f__label {
+		display: block;
+	}	
 	.me-p__breakfasts--price span {
 		padding-left: 60px;
 	}
@@ -240,6 +258,9 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
+	.ab-p__news-head {
+	    padding-top: 15px;
+	}
 	.me-p__breakfasts--price span {
 	    padding-left: 30px;
 	}
@@ -249,10 +270,19 @@
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
+	.ab-p__restaurant-map,
+	.ab-p__cooks-team--head {
+		padding-top: 45px;
+	}
 }
 
 @media only screen and (max-width : 360px) {
-	
+	.ab-p__news-head {
+	    padding-top: 40px;
+	}
+	.ab-p__restaurant-map {
+		padding-top: 10px;
+	}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {

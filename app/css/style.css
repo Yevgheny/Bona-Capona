@@ -547,7 +547,7 @@ select {
   font-size: 1.4rem;
   font-weight: 400;
   color: #78c8c9;
-  padding-left: 20px;
+  padding-left: 10px;
   border: none;
   outline: none;
 }
@@ -601,19 +601,19 @@ textarea:focus:-ms-input-placeholder {
 }
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #3F4E62;
+  color: #78c8c9;
 }
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #3F4E62;
+  color: #78c8c9;
 }
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #3F4E62;
+  color: #78c8c9;
 }
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder {
-  color: #3F4E62;
+  color: #78c8c9;
 }
 .input-group {
   position: relative;
@@ -700,11 +700,11 @@ label.error {
 .ab-p__news--all-news .btn-all-news {
   width: 100%;
 }
-.ab-p__restaurant-map {
-  padding-top: 40px;
-}
 .ab-p__cooks-team {
-  padding-top: 50px;
+  padding-top: 10px;
+}
+.ab-p__cooks-team--head {
+  padding-top: 0;
 }
 .ab-p__cooks-team--head h2:after {
   display: none;
@@ -766,6 +766,9 @@ label.error {
 }
 .ab-p__interior--item-photo:hover {
   opacity: 0.6;
+}
+.ab-p__top-photo--bottom {
+  margin-bottom: 0;
 }
 .news-date span {
   font-family: 'Gilroy-Semibold', sans-serif;
@@ -937,6 +940,49 @@ label.error {
 #horizontalTab-9 .r-tabs-nav .r-tabs-anchor {
   padding: 10px 38.7px;
 }
+.ca-d__delivery-explanation {
+  padding-top: 35px;
+  margin-bottom: 30px;
+}
+.ca-d__map {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.ca-d__delivery-address .input-group {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ca-d__delivery-address .input-group input,
+.ca-d__delivery-address .input-group select {
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #78c8c9;
+}
+.ca-d__delivery-address .input-group-text {
+  height: 80px;
+}
+.ca-d__delivery-address .input-group textarea {
+  width: 100%;
+  height: 80px;
+  font-size: 14px;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #78c8c9;
+  padding-top: 10px;
+}
+.checkbox-custom,
+.ca-d__label {
+  font-size: 1.15rem;
+  padding: 0;
+}
+
 .si-n__text--1 {
   margin-bottom: 40px;
 }
@@ -1237,14 +1283,24 @@ label.error {
   top: 0;
   left: 0;
   cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 .file-upload span {
   text-align: center;
-  margin: 5px 5px;
+  margin: 3px 4px;
+}
+.fa-file-text-o {
+  color: #78c8c9;
+  font-size: 19px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 .file-upload:hover {
-  background: #fff;
-  border: 15px solid #78c8c9;
+  background: #78c8c9;
+}
+.file-upload:hover .fa-file-text-o {
+  color: #fff;
 }
 .checkbox {
   display: none;
@@ -1256,20 +1312,20 @@ label.error {
   border: 2px solid #78c8c9;
 }
 .checkbox-custom,
-.label {
+.b-f__label {
   display: inline-block;
   vertical-align: middle;
   color: #86878c;
 }
 .checkbox-custom,
-.label a {
+.b-f__label a {
   margin-bottom: 5px;
 }
 .checkbox-custom,
-.label a:hover {
+.b-f__label a:hover {
   text-decoration: none;
 }
-.label a:after {
+.b-f__label a:after {
   content: '';
   display: block;
   width: 215px;
