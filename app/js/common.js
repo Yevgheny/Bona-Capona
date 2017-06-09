@@ -468,3 +468,19 @@ switchAccordion = function(e) {
 })(jQuery);
 
 $('.input-number').inputNumber();
+
+;(function($) {
+$(function() {
+
+    $('input, select');
+
+    $('input.termsCheck').on('change', function() {
+        if ($(this).is(':checked')) {
+            $(".formOrderSubmit").attr("disabled","disabled");  
+        } else {
+            $(".formOrderSubmit").removeAttr("disabled");
+        }
+    });
+
+})
+})(jQuery);
