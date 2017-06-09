@@ -5,28 +5,29 @@
 .si-n__headline.main-headline::after {
 	display: none;
 }
-.si-n_slider {
+.si-n__slider {
 	position: relative;
 	margin-bottom: 45px;
 }
-.si-n_slider .owl-nav [class*=owl-] {
+.si-n__slider .owl-nav [class*=owl-] {
 	position: absolute;
     bottom: 45%;
     background: none;
     color: #77C6C7;
+    transition: 0.5s ease;
 }
-.si-n_slider .owl-nav [class*=owl-]:hover,
-.si-n_slider .owl-nav [class*=owl-]:active {
+.si-n__slider .owl-nav [class*=owl-]:hover,
+.si-n__slider .owl-nav [class*=owl-]:active {
     background: #F7F7F7;
     color: #77C6C7;
 }
-.si-n_slider .owl-nav .owl-prev {
+.si-n__slider .owl-nav .owl-prev {
     left: -90px;
 }
-.si-n_slider .owl-nav .owl-next {
+.si-n__slider .owl-nav .owl-next {
     right: -90px;
 }
-.si-n_slider .owl-dots{
+.si-n__slider .owl-dots{
 	position: absolute;
 	left: 0;
     bottom: 0;
@@ -34,27 +35,29 @@
     background-color: rgba(0,0,0,0.5);
     padding: 16px 0;	
 }
-.si-n_slider .owl-dots .owl-dot span {
+.si-n__slider .owl-dots .owl-dot span {
     width: 16px;
     height: 16px;
     border: 3px solid #fff;
     margin: -1px 6px;
     background: none;
     border-radius: 0;
+    transition: 0.5s ease;
 }
-.si-n_slider .owl-dots .owl-dot:hover span {
+.si-n__slider .owl-dots .owl-dot:hover span {
  	border: 3px solid #BFBFBF;
  	background: none;
  }
-.si-n_slider .owl-dots .owl-dot.active:hover span {
+.si-n__slider .owl-dots .owl-dot.active:hover span {
  	border: 3px solid #fff;
  }
-.si-n_slider .owl-dots .owl-dot.active span {
+.si-n__slider .owl-dots .owl-dot.active span {
     background: #fff;
 }
-.si-n_slider-img img {
+.si-n__slider-img img {
 	width: 100%;
 	max-width: 100%;
+	overflow: hidden;
 }
 /*==========  Desktop First Method  ==========*/
 
@@ -92,10 +95,10 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-	.si-n_slider .owl-nav .owl-prev {
+	.si-n__slider .owl-nav .owl-prev {
 		left: 10px;
 	}
-	.si-n_slider .owl-nav .owl-next {
+	.si-n__slider .owl-nav .owl-next {
 		right: 10px;
 	}
 
@@ -117,7 +120,7 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.si-n_slider .owl-dots {
+	.si-n__slider .owl-dots {
 		display: none;
 	}
 }

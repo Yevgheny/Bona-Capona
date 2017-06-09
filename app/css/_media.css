@@ -2,26 +2,30 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+
 	.ab-p__cooks-team {
 	    padding-top: 40px;
 	}
 	.photo-gallery {
 		height: 110px;
+  }
+	.pr-p__hedline-post {
+		padding-top: 0;
+
 	}
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {	
+@media only screen and (max-width : 992px) {
+	.news-social {
+    margin-bottom: 30px;
+		text-align: center;
+	}
+
 	.r-tabs .r-tabs-nav .r-tabs-tab{
 		width: 50%;
 		border-bottom: 1px solid #ccc;
   }
-	.si-p_social,
-	.si-e_social,
-	.si-n_social {
-		margin-bottom: 30px;
-		text-align: center;
-	}
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
 		width: 100%;
 		text-align: center;
@@ -74,8 +78,6 @@
     .me-p__dish-dot {
     	display: none;
     }
-
-
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -88,7 +90,6 @@
     .ab-p__news--all-news {
     	margin: 0 auto;
     }
-
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
