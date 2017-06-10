@@ -21,11 +21,10 @@
     margin-bottom: 30px;
 		text-align: center;
 	}
-
 	.r-tabs .r-tabs-nav .r-tabs-tab{
 		width: 50%;
 		border-bottom: 1px solid #ccc;
-  }
+  	}
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
 		width: 100%;
 		text-align: center;
@@ -53,15 +52,12 @@
 	.file-upload-wrap {
 		padding-right: 20px;
 	}
-	.checkbox-custom, .label {
+	.checkbox-custom, .b-f__label {
 		font-size: 1.1rem;
 	}	
-	.checkbox-custom, .label a {
+	.checkbox-custom, .b-f__label a {
 	    font-size: 1.1rem;
-	}
-	.label a::after {
-		width: 165px;
-	}
+	}	
 	#horizontalTab-5 .r-tabs-nav,
     #horizontalTab-7 .r-tabs-nav, 
     #horizontalTab-8 .r-tabs-nav {
@@ -78,6 +74,25 @@
     .me-p__dish-dot {
     	display: none;
     }
+    .ca-d__bonus-account::after,
+    .ca-d__delivery-address::after,
+    .ca-d__choose-payment-method::after {
+    	margin-left: 83px;
+    }
+
+    .main-screen-form .promo-input-group {
+    	width: 63px;
+    }
+    .btn-promo {
+    	min-width: 130px;
+    }
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 {
+	    margin-right: 25px;
+	}
+	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-3 {
+		margin-right: 0;
+	}
+	
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -144,24 +159,51 @@
     .photo-gallery {
     	height: 105px;
     }
-    .checkbox-wrap {
-    	display: block;
-    	margin-top: -34px;
+    .checkbox-wrap {    	
+    	margin-top: -32px;
     }
-    .checkbox-custom, .label {
+    .checkbox-custom, .b-f__label {
 	    font-size: 1.4rem;
+	    margin-top: 0;
 	}
-    .checkbox-custom, .label a {
+    .checkbox-custom, .b-f__label a {
 	    font-size: 1.4rem;
-	}
-	.label a::after {
-	    width: 215px;
-	}
+	}	
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
 	#map {
 	    min-height: 500px;
+	}	
+	.ca-d__delivery-address .checkbox-wrap {
+		margin-top: 0;
+	}
+	.ca-d__bonus-account::after, 
+	.ca-d__delivery-address::after, 
+	.ca-d__choose-payment-method::after {
+	    margin-left: 0;
+	    width: 100%;
+	}
+	.main-screen-form .promo-input-group {
+	    width: 120px;
+	}
+	.ca-d__choose-payment-method {
+	    padding-top: 50px;
+	}
+	.ca-d__solution-order-delivery {
+	    padding-top: 55px;
+	}
+	.ca-d__choose-payment--btn {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.ca-d__choose-payment--btn {
+		margin-top: -30px;
+	}	
+	.ca-d__choose-payment--cash,
+	.ca-d__solution-order-delivery--against-bots {
+		display: block;
+		margin-top: 30px;
 	}
 }
 
@@ -200,11 +242,28 @@
     	max-width: 570px;
     	margin: 45px auto 0;
     }
+    .ab-p__form--bottom-wrap {
+    	padding-left: 15px;
+    	padding-right: 15px;
+    }
 }
-
+@media only screen and (max-width : 668px) {
+	.ca-d__solution-order-delivery--confidentiality-agreement {
+		display: block;
+		margin-bottom: 40px;
+	}
+ 	.ca-d__solution-order-delivery--agree-terms { 
+ 		display: block;		
+		margin-top: 30px;
+		margin-bottom: 40px;		
+ 	}
+ 	.ca-d__solution-order-delivery--against-bots {
+ 		margin-top: 0;
+ 	}
+}
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
-
+ 
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
@@ -228,6 +287,11 @@
 	.me-p__breakfasts--price span {
 		padding-left: 120px;
 	}
+	.ca-d__choose-payment--card,
+	.ca-d__choose-payment--btn {
+		display: block;
+		margin-bottom: 40px;
+	}
 }
 
 @media only screen and (max-width : 416px) {
@@ -242,6 +306,22 @@
 	}	
 	.me-p__breakfasts--price span {
 		padding-left: 60px;
+	}	
+	.ca-d__label {
+		margin-bottom: 20px;
+	}
+	.ca-d__delivery-explanation {
+		padding-top: 0;
+	}
+	.ca-d__promo--btn {
+		padding-top: 25px;
+	}
+	.ca-d__choose-payment--btn {
+		margin-bottom: 60px;
+	}
+	.ca-d__total {
+		padding-top: 55px;
+		margin-left: -30px;
 	}
 }
 
@@ -253,7 +333,13 @@
 	.me-p__breakfasts--price h3 {
 		padding-left: 0;
 	}
-	
+	.ca-d__delivery-address .checkbox-wrap span {
+		margin-right: 0;
+	}
+	.btn-ca-d-main-form {
+		min-width: 100%;
+	}
+
 }
 
 /* Custom, iPhone 6 */
@@ -274,6 +360,7 @@
 	.ab-p__cooks-team--head {
 		padding-top: 45px;
 	}
+
 }
 
 @media only screen and (max-width : 360px) {
@@ -282,6 +369,9 @@
 	}
 	.ab-p__restaurant-map {
 		padding-top: 10px;
+	}	
+	.ca-d__delivery-address .checkbox-wrap span {
+		font-size: 1.3rem;
 	}
 }
 /* Custom, iPhone Retina */

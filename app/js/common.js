@@ -71,22 +71,24 @@ $(document).ready(function() {
     });
 
       $('#slider-1').owlCarousel({
-    loop:true,
-    margin:30,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
+        loop:true,
+        margin:30,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
         }
-    }
-})
-  });
+    })
+
+
+});
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
 $("#contact-get-price").validate();
@@ -181,9 +183,10 @@ $(document).ready(function () {
             collapsible: 'accordion',
             setHash: true,
         
-    });
+});
 
-    $('#b-f__zoom-gallery').magnificPopup({
+$('#b-f__zoom-gallery').magnificPopup({
+
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,
@@ -206,9 +209,10 @@ $(document).ready(function () {
             }
         }
         
-    });
+});
 
-    $('#ab-p-tab-1__zoom-gallery').magnificPopup({
+ $('#ab-p-tab-1__zoom-gallery').magnificPopup({
+
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,
@@ -231,9 +235,10 @@ $(document).ready(function () {
             }
         }
         
-    });
+});
 
-    $('#ab-p-tab-2__zoom-gallery').magnificPopup({
+$('#ab-p-tab-2__zoom-gallery').magnificPopup({
+
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,
@@ -256,9 +261,10 @@ $(document).ready(function () {
             }
         }
         
-    });
+});
 
-    $('#ab-p-tab-3__zoom-gallery').magnificPopup({
+$('#ab-p-tab-3__zoom-gallery').magnificPopup({
+
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,
@@ -281,9 +287,10 @@ $(document).ready(function () {
             }
         }
         
-    });
+});
 
-    $('#ab-p-tab-4__zoom-gallery').magnificPopup({
+$('#ab-p-tab-4__zoom-gallery').magnificPopup({
+
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,
@@ -306,9 +313,10 @@ $(document).ready(function () {
             }
         }
         
-    });
+});
 
-    $('#ab-p-tab-5__zoom-gallery').magnificPopup({
+$('#ab-p-tab-5__zoom-gallery').magnificPopup({
+
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,
@@ -331,9 +339,10 @@ $(document).ready(function () {
             }
         }
         
-    });
+});
 
-    $('#ab-p-tab-6__zoom-gallery').magnificPopup({
+$('#ab-p-tab-6__zoom-gallery').magnificPopup({
+
         delegate: 'a',
         type: 'image',
         closeOnContentClick: false,
@@ -360,127 +369,114 @@ $(document).ready(function () {
      
 });
 (function(){
+
     var d = document,
-    accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
-    setAria,
-    setAccordionAria,
-    switchAccordion,
-  touchSupported = ('ontouchstart' in window),
-  pointerSupported = ('pointerdown' in window);
+        accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+        setAria,
+        setAccordionAria,
+        switchAccordion,
+        touchSupported = ('ontouchstart' in window),
+        pointerSupported = ('pointerdown' in window);
   
-  skipClickDelay = function(e){
-    e.preventDefault();
-    e.target.click();
-  }
+    skipClickDelay = function(e){
+        e.preventDefault();
+        e.target.click();
+      }
 
         setAriaAttr = function(el, ariaType, newProperty){
         el.setAttribute(ariaType, newProperty);
     };
+
     setAccordionAria = function(el1, el2, expanded){
         switch(expanded) {
-      case "true":
-        setAriaAttr(el1, 'aria-expanded', 'true');
-        setAriaAttr(el2, 'aria-hidden', 'false');
+        case "true":
+            setAriaAttr(el1, 'aria-expanded', 'true');
+            setAriaAttr(el2, 'aria-hidden', 'false');
         break;
-      case "false":
-        setAriaAttr(el1, 'aria-expanded', 'false');
-        setAriaAttr(el2, 'aria-hidden', 'true');
+        case "false":
+            setAriaAttr(el1, 'aria-expanded', 'false');
+            setAriaAttr(el2, 'aria-hidden', 'true');
         break;
-      default:
-                break;
-        }
-    };
+        default:
+        break;
+    }
+};
 //function
 switchAccordion = function(e) {
-  console.log("triggered");
-    e.preventDefault();
+
+    console.log("triggered");
+        e.preventDefault();
     var thisAnswer = e.target.parentNode.nextElementSibling;
     var thisQuestion = e.target;
-    if(thisAnswer.classList.contains('is-collapsed')) {
-        setAccordionAria(thisQuestion, thisAnswer, 'true');
-    } else {
-        setAccordionAria(thisQuestion, thisAnswer, 'false');
-    }
-    thisQuestion.classList.toggle('is-collapsed');
-    thisQuestion.classList.toggle('is-expanded');
+        if(thisAnswer.classList.contains('is-collapsed')) {
+            setAccordionAria(thisQuestion, thisAnswer, 'true');
+        } else {
+            setAccordionAria(thisQuestion, thisAnswer, 'false');
+        }
+        thisQuestion.classList.toggle('is-collapsed');
+        thisQuestion.classList.toggle('is-expanded');
         thisAnswer.classList.toggle('is-collapsed');
         thisAnswer.classList.toggle('is-expanded');
     
-    thisAnswer.classList.toggle('animateIn');
+        thisAnswer.classList.toggle('animateIn');
     };
-    for (var i=0,len=accordionToggles.length; i<len; i++) {
-        if(touchSupported) {
-      accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+        for (var i=0,len=accordionToggles.length; i<len; i++) {
+            if(touchSupported) {
+                accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
     }
-    if(pointerSupported){
-      accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+        if(pointerSupported){
+            accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
     }
-    accordionToggles[i].addEventListener('click', switchAccordion, false);
-  }
+        accordionToggles[i].addEventListener('click', switchAccordion, false);
+    }
+
 })();
-;(function($) {
-  "use strict";
-  
-  function InputNumber(element) {
-    this.$el = $(element);
-    this.$input = this.$el.find('[type=text]');
-    this.$inc = this.$el.find('[data-increment]');
-    this.$dec = this.$el.find('[data-decrement]');
-    this.min = this.$el.attr('min') || false;
-    this.max = this.$el.attr('max') || false;
-    this.init();
-  }
-  
-  InputNumber.prototype = {
-    init: function() {
-      this.$dec.on('click', $.proxy(this.decrement, this));
-      this.$inc.on('click', $.proxy(this.increment, this));
-    },
-    
-    increment: function(e) {
-      var value = this.$input[0].value;
-      value++;
-      console.log(value, this.max);if (!this.max || value <= this.max) {this.$input[0].value = value++;
-      }
-    },
-    
-    decrement: function(e) {
-      var value = this.$input[0].value;
-      value--;
-      if (!this.min || value >= this.min) {
-        this.$input[0].value = value;
-      }
-    }
-  };
 
-  $.fn.inputNumber = function(option) {
-    return this.each(function () {
-      var $this = $(this),
-          data = $this.data('inputNumber');
+$(document).ready(function () {
 
-      if (!data) {
-        $this.data('inputNumber', (data = new InputNumber(this)));
-      }
-    });
-  };
+    myCh.addEventListener('change', changeListener);
 
-  $.fn.inputNumber.Constructor = InputNumber;
-})(jQuery);
-
-$('.input-number').inputNumber();
-
-;(function($) {
-$(function() {
-
-    $('input, select');
-
-    $('input.termsCheck').on('change', function() {
-        if ($(this).is(':checked')) {
-            $(".formOrderSubmit").attr("disabled","disabled");  
-        } else {
-            $(".formOrderSubmit").removeAttr("disabled");
+    function changeListener() {
+        var id = this.id;
+        var selects = document.querySelectorAll('[data-to-disable]');
+            for(var i=0; i<selects.length; i++) {
+            console.log(selects[i].disabled)
+            selects[i].disabled = !selects[i].disabled;
         }
+    }
+});
+
+jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-angle-up" aria-hidden="true"></i></div><div class="quantity-button quantity-down"><i class="fa fa-angle-down" aria-hidden="true"></i></div></div>').insertAfter('.quantity input');
+jQuery('.quantity').each(function() {
+    
+      var spinner = jQuery(this),
+        input = spinner.find('input[type="number"]'),
+        btnUp = spinner.find('.quantity-up'),
+        btnDown = spinner.find('.quantity-down'),
+        min = input.attr('min'),
+        max = input.attr('max');
+
+        btnUp.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue >= max) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue + 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
     });
 
-})
-})(jQuery);
+        btnDown.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue <= min) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue - 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+    });
+
+});
+
