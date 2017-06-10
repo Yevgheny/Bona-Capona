@@ -118,6 +118,10 @@
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
+	.ev-p-report__item {
+		width: 70%;
+		margin: 0 auto 30px;
+	}
 
 }
 
@@ -131,6 +135,14 @@
 	    height: 180px;
 	    margin: 15px auto;
 	}
+	.ev-p-poster__item:last-child {
+		margin: 0 auto 60px;
+	}
+	.ev-p-poster__item {
+		display: block;
+		width: 50%;
+		margin: 0 auto 40px;
+	}
 }
 
 /* Custom, iPhone 6 */
@@ -139,13 +151,21 @@
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.ev-p-poster__item {
+		width: 59%;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .checkbox-wrap {	    
 	    margin-top: -34px;
+	}
+	.ev-p-poster__item {
+		width: 80%;
+	}
+	.ev-p-report__item {
+		width: 90%;
 	}
 }
 
@@ -170,7 +190,9 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-	
+	.ev-p-poster__item {
+		width: 90%;
+	}
 }
 
 @media only screen and (max-width : 360px) {
