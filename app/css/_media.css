@@ -160,6 +160,10 @@
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
+	.ev-p-report__item {
+		width: 70%;
+		margin: 0 auto 30px;
+	}
 	#map {
 	    min-height: 500px;
 	}
@@ -177,7 +181,15 @@
 	    display: block;
 	    height: 180px;
 	    margin: 15px auto;
-	}	
+	}
+	.ev-p-poster__item:last-child {
+		margin: 0 auto 60px;
+	}
+	.ev-p-poster__item {
+		display: block;
+		width: 50%;
+		margin: 0 auto 40px;
+	}
     .me-p__kitchen--menu-map,
     .me-p__kitchen--novelty {
     	max-width: 570px;
@@ -208,7 +220,9 @@
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.ev-p-poster__item {
+		width: 59%;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -216,6 +230,12 @@
     .checkbox-wrap {	    
 	    margin-top: -34px;
 	}
+	.ev-p-poster__item {
+		width: 80%;
+	}
+	.ev-p-report__item {
+		width: 90%;
+  }
 	.me-p__kitchen--dish-photo {
 		min-height: 250px;
 	}
@@ -258,6 +278,9 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
+	.ev-p-poster__item {
+		width: 90%;
+  }
 	.ab-p__news-head {
 	    padding-top: 15px;
 	}
