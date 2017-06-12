@@ -1,6 +1,35 @@
+var feed = new Instafeed({
+	get: 'user',
+	userId: '1335886963',
+	accessToken: '1335886963.df81807.f39ad6d4b5ee4287a7c180f8f12655a7',
+	clientId: 'df818073a0684c838414a099ad0bd774',
+	template: '<a class="animation" href="{{link}}"><img src="{{image}} {{50px}}" /></a>'
+});
+feed.run();
+
+function mobileMenu(){
+	$('.open-mobile-menu').on('click', function(event) {
+		event.preventDefault();
+		/* Act on the event */
+		var button = $(this);
+		button.toggleClass('open');
+	});
+}
+$( document ).ready(function() {
+	mobileMenu();
+});
+$( ".open-mobile-menu" ).click(function() {
+	$( "#main-drop-down-menu" ).slideToggle( 200, function() {
+	});
+});
+$( "#search-toggle" ).click(function() {
+	$( "#searchform" ).slideToggle( 200, function() {
+	});
+});
 // Fetches recent post from blog...only applicable for Blogger blogs.
-// By Hamza Dhamiya
-// Twitter: @hamzadhamiya
+$('.drop-down a').on('click', function(event) {
+	event.preventDefault();
+});
 var q = $('li.blog-post');
 q.each(function() {
 	var e = $(this),
