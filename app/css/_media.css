@@ -11,7 +11,6 @@
   }
 	.pr-p__hedline-post {
 		padding-top: 0;
-
 	}
 }
 
@@ -74,6 +73,33 @@
     .me-p__dish-dot {
     	display: none;
     }
+	.logo-footer-wrap {
+		position: relative;
+		top: 0;
+		margin-top: 20px;
+	}
+	.logo-footer {
+		margin: 0 auto;
+	}
+	.footer-social-data {
+		text-align: center;
+	}
+	.footer-cotact-info ul {
+		margin-top: 30px;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--2,
+	.footer-cotact-info li.footer-cotact-info__item--3,
+	.footer-cotact-info li.footer-cotact-info__item--4{
+		width: 27%;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--1 {
+		width: 15%;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--3,
+	.footer-cotact-info li.footer-cotact-info__item--4{
+		margin-top: 0;
+	}
+   
     .main-screen-form .promo-input-group {
     	width: 63px;
     }
@@ -90,7 +116,13 @@
     .ca-d__total-two  {
     	text-align: center;
     }
-	
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 {
+	    margin-right: 25px;
+	}
+	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-3 {
+		margin-right: 0;
+	}
+
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -170,6 +202,43 @@
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
+	.footer-nav li {
+		display: block;
+	}
+	.footer-nav li a {
+		width: 100%;
+		font-size: 16px;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--1,
+	.footer-cotact-info li.footer-cotact-info__item--2,
+	.footer-cotact-info li.footer-cotact-info__item--3,
+	.footer-cotact-info li.footer-cotact-info__item--4 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.footer-cotact-info ul li, .footer-cotact-info ul a {
+		font-size: 16px;
+	}
+	.footer-social-data p {
+		display: block;
+		font-size: 16px;
+	}
+	.footer-social-data .main-header__social-icons {
+		height: auto;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+	.main-footer__form-wrap {
+		margin-top: 0;
+	}
+	.footer-social-data .main-header__social-icons .fa {
+		font-size: 22px;
+	}
+	.ev-p-report__item {
+		width: 70%;
+		margin: 0 auto 30px;
+	}
 	#map {
 	    min-height: 500px;
 	}	
@@ -192,8 +261,15 @@
 	}
 	.ca-d__choose-payment--btn {
 		margin-right: 0;		
-	}		
-	
+	}
+	.ca-d__choose-payment--btn {
+		margin-top: -30px;
+	}	
+	.ca-d__choose-payment--cash,
+	.ca-d__solution-order-delivery--against-bots {
+		display: block;
+		margin-top: 30px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
