@@ -1,3 +1,29 @@
+.si-e__headline {
+	padding-top: 70px;
+	margin-bottom: 20px;
+}
+.si-e__headline.main-headline::after {
+	display: none;
+}
+.news-date span {
+    font-family: 'Gilroy-Semibold', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #fdd71f;
+    padding: 10px 15px;
+}
+.si-e__date {
+	display: block;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.si-e__photo-wrap {
+	margin-bottom: 45px;
+}
+.si-e__photo-wrap img {
+	width: 100%;
+	max-width: 100%;
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */

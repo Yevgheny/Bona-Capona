@@ -1,1 +1,256 @@
+//------------- ABOUT-PAGE.css  -------------//
+.ab-p {
+	&__news-head {
+		padding-top: 30px;
+		margin-bottom: 45px;
+	}
+	&__news {
+		&--item {
+			max-width: 370px;
+			min-height: 235px;
+			overflow: hidden;			
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		&--description {
+			display: block;
+			max-width: 370px;
+			min-height: 205px;
+			background: #f9f9f9;
+			padding-top: 8px;
+			margin-bottom: 30px;
+			p {
+				max-width: 285px;
+				padding-top: 30px;
+				margin-left: 35px;
+				margin-bottom: 0;
+			}			
+		}
+		&--more {
+			max-width: 120px;
+			min-height: 60px;
+			float: right;
+			margin-top: -3px;			
+			a {
+				display: block;
+				width: 120px;
+				height: 60px;
+				text-align: center;
+				font-family: @ff4;
+				text-transform: uppercase;
+				color: @grey;				
+				background: #f9f9f9;				
+				padding: 20px 10px;				
+				margin-bottom: 0;
+				&:after {
+					content: '';
+					display: block;
+					width: 82px;
+					height: 2px;
+					background-color: #94959a;
+					margin-left: 10px;										
+				}
+				&:hover {
+					color: @grey;
+					text-decoration: none;
+					background: #ececec;
+				}
+				&:active,
+				&:focus {
+					color: @grey;
+					text-decoration: none;					
+					background: #e0e0e0;
+					outline: none;
+				}				
+			}
+		}
+		&--all-news {
+			display: block;
+			width: 172px; 
+			.btn-all-news {
+				width: 100%;
+			}
+		}
+	}
+	&__restaurant-map {
+		padding-top: 40px;
+	}
+	&__cooks-team {
+		padding-top: 50px;
+		&--head {			
+			h2 {
+				&:after {
+					display: none;
+				}
+			}
+		}
+		&--item-photo {
+			display: block;
+			width: 168px;
+			height: 168px;
+			border-radius: 50%;
+			overflow: hidden;
+			margin: 0 auto 50px;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		&--item-head {
+			display: block;
+			h5 {
+				font-family: @ff4;
+				font-size: @h5;
+				color: @blue;
+				text-align: center;
+				text-transform: uppercase;	
+				margin-bottom: 15px;
+				&:after {
+					content: '';
+					display: block;
+					width: 45px;
+					height: 3px;
+					background-color: @blue;
+					margin: 10px auto 0;
+				}
+			}
+			h6 {
+				font-family: @ff4; 
+				color: @light-grey;
+				text-align: center;
+				text-transform: uppercase; 
+				margin-bottom: 30px;
+			}
+		}
+		&--item-content {
+			display: block;
+		}		
+	}
+	&__interior {
+		&--item-photo {
+			display: block;
+			max-width: 270px;
+			height: 170px;
+			overflow: hidden;
+			margin: 14px auto;
+			transition: 0.5s ease;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			&:hover {
+				opacity: 0.6;
+			}
+		}
+	}
+}
+.news-date span {
+	font-family: @ff4;
+	font-size: @fss;
+	color: @white;
+	background: @yellow;
+	padding: 10px 15px;
+}
+/* Tabs container */
+.r-tabs {
+	position: relative;		
+}
+/* Tab element */
+.r-tabs .r-tabs-nav .r-tabs-tab {
+	position: relative;
+	background-color: #f7f7f7;	
+	border-left: 2px solid @blue;
+	margin-right: -2px;
+	margin-left: -2px;
+	transition: 0.5s ease;
+}
+.r-tabs .r-tabs-nav .r-tabs-tab:last-child {
+	border-right: 2px solid @blue;
+}
+/* Tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+	display: inline-block;
+	padding: 10px 28.2px;
+	text-decoration: none;		
+	font-family: @ff4;
+	text-transform: uppercase;
+	color: @blue;
+	transition: 0.5s ease;
+}
+#horizontalTab li:hover,
+#horizontalTab-2 li:hover,
+#horizontalTab-3 li:hover,
+#horizontalTab-4 li:hover,
+#horizontalTab-5 li:hover,
+#horizontalTab-6 li:hover,
+#horizontalTab-7 li:hover,
+#horizontalTab-8 li:hover,
+#horizontalTab-9 li:hover {
+	background: #ebebeb;
+}
+.r-tabs a {
+	margin-bottom: 0;
+}
+/* Disabled tab */
+.r-tabs .r-tabs-nav .r-tabs-state-disabled {
+	opacity: 0.5;
+}
+/* Active state tab anchor */
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+	color: @white;
+	text-shadow: none;
+	background-color: @blue;	
+}
+/* Tab panel */
+.r-tabs .r-tabs-panel {
+	background-color: white;
+	border-bottom: 4px solid white;	
+}
+/* Accordion anchor */
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+	display: block;
+	padding: 10px;
+	background-color: @blue;
+	color: #fff;
+	font-family: @ff4;
+	text-decoration: none;		
+}
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor:hover {
+	color: @blue;
+	background: #ebebeb;
+}
+/* Active accordion anchor */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+	background-color: #f7f7f7;
+	color: @blue;
+	text-shadow: none;
+}
+/* Disabled accordion button */
+.r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
+	opacity: 0.5;
+}
+/* Info bar */
+ 
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0;
+}
+.r-tabs .r-tabs-tab {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+.r-tabs .r-tabs-panel {
+    padding: 55px 15px;
+    display: none;
+}
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+//------------- finish ABOUT-PAGE.css  -------------//
 

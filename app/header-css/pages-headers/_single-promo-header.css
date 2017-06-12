@@ -1,4 +1,17 @@
-
+.si-p__headline {
+	padding-top: 60px;
+	margin-bottom: 30px;
+}
+.si-p__headline.main-headline::after {
+	display: none;
+}
+.si-p__photo-wrap {
+	margin-bottom: 45px;
+}
+.si-p__photo-wrap img {
+	width: 100%;
+	max-width: 100%;
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */

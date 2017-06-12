@@ -2,14 +2,115 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	.pr-p__hedline-post {
+		padding-top: 0;
+	}
+	.footer-nav li a {
+		width: 80px;
+	}
+	.footer-cotact-info__item--1, .footer-cotact-info__item--3 {
+		padding-left: 25px;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.news-social {
+    margin-bottom: 30px;
+		text-align: center;
+	}
+	.r-tabs .r-tabs-nav .r-tabs-tab{
+		width: 50%;
+		border-bottom: 1px solid #ccc;
+  }
+	.r-tabs .r-tabs-nav .r-tabs-anchor {
+		width: 100%;
+		text-align: center;
+		padding: 12px 11.8px;
+	}
+	.ab-p__cooks-team--item-content {
+    	max-width: 410px;
+    	margin: 0 auto 30px;
+    }
+	.ab-p__news--item {
+		min-height: 120px;
+	}	
+	.ab-p__cooks-team {
+		padding-top: 0;
+	}
+	#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
+	    padding: 15px 29.7px;
+	}
+	.ab-p__interior--item-photo {
+		height: 140px;
+	}
+	.file-upload-wrap {
+		padding-right: 20px;
+	}
+	.checkbox-custom, .label {
+		font-size: 1.1rem;
+	}	
+	.checkbox-custom, .label a {
+	    font-size: 1.1rem;
+	}
+	.label a::after {
+		width: 165px;
+	}
+	#horizontalTab-5 .r-tabs-nav,
+    #horizontalTab-7 .r-tabs-nav, 
+    #horizontalTab-8 .r-tabs-nav {
+    	margin-left: 0;
+    	margin-right: 0;
+    }
+    .me-p__kitchen,
+    .me-p__map-beverages,
+    .me-p__children,
+    .me-p__breakfasts,
+    .me-p__map-alcohol {
+    	padding-bottom: 45px;
+    }
+    .me-p__dish-dot {
+    	display: none;
+    }
+	.logo-footer-wrap {
+		position: relative;
+		top: 0;
+		margin-top: 20px;
+	}
+	.logo-footer {
+		margin: 0 auto;
+	}
+	.footer-social-data {
+		text-align: center;
+	}
+	.footer-cotact-info ul {
+		margin-top: 30px;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--2,
+	.footer-cotact-info li.footer-cotact-info__item--3,
+	.footer-cotact-info li.footer-cotact-info__item--4{
+		width: 27%;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--1 {
+		width: 15%;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--3,
+	.footer-cotact-info li.footer-cotact-info__item--4{
+		margin-top: 0;
+	}
 }
-
+@media only screen and (max-width : 991px) {
+	.ab-p__news--item {
+		display: block;
+		margin: 0 auto;
+    }
+    .ab-p__news--description {
+    	margin: 0 auto 30px;
+    }    
+    .ab-p__news--all-news {
+    	margin: 0 auto;
+    }
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
@@ -36,13 +137,116 @@
 	}
 	section, header, footer {
 		overflow: hidden;
+	}   
+    
+    .ab-p__interior {
+    	padding-top: 40px;
+    }
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+    .r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+    	text-align: center;
+    }
+    .r-tabs-accordion-title .r-tabs-state-active {
+    	display: block;
+    }
+    .ab-p__interior--item-photo {
+    	display: block;
+    	margin: 15px auto 15px;
+    }
+    .photo-gallery {
+    	height: 105px;
+    }
+    .checkbox-wrap {
+    	display: block;
+    	margin-top: -30px;
+    }
+    .checkbox-custom, .label {
+	    font-size: 1.4rem;
 	}
-
+    .checkbox-custom, .label a {
+	    font-size: 1.4rem;
+	}
+	.label a::after {
+	    width: 215px;
+	}
+	.btn-main-form-wrap {
+		padding-top: 25px;
+	}
+	.footer-nav li {
+		display: block;
+	}
+	.footer-nav li a {
+		width: 100%;
+		font-size: 16px;
+	}
+	.footer-cotact-info li.footer-cotact-info__item--1,
+	.footer-cotact-info li.footer-cotact-info__item--2,
+	.footer-cotact-info li.footer-cotact-info__item--3,
+	.footer-cotact-info li.footer-cotact-info__item--4 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.footer-cotact-info ul li, .footer-cotact-info ul a {
+		font-size: 16px;
+	}
+	.footer-social-data p {
+		display: block;
+		font-size: 16px;
+	}
+	.footer-social-data .main-header__social-icons {
+		height: auto;
+		padding-top: 0;
+		margin-bottom: 0;
+	}
+	.main-footer__form-wrap {
+		margin-top: 0;
+	}
+	.footer-social-data .main-header__social-icons .fa {
+		font-size: 22px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
-
+	.ab-p__news--all-news {
+		width: 370px;
+	}
+	.ab-p__interior--item-photo {
+		height: 170px;
+	}
+	.photo-gallery {    
+	    display: block;
+	    height: 180px;
+	    margin: 15px auto;
+	}	
+    .me-p__kitchen--menu-map,
+    .me-p__kitchen--novelty {
+    	max-width: 570px;
+    	margin: 0 auto;
+    }
+    .me-p__dish-menu h3 {
+    	width: 80%;
+    }    
+    .me-p__kitchen--dish-photo,
+    .me-p__kitchen--download-menu  {
+    	margin: 0 auto;
+    }
+    .breakfasts-dot {
+    	display: inline-block;    	
+    }
+    .me-p__breakfasts--price h3 {
+    	max-width: 270px;
+    }
+    .me-p__breakfasts--price {
+    	max-width: 570px;
+    	margin: 45px auto 0;
+    }
 }
 
 /* Custom, iPhone 6 */
@@ -56,34 +260,86 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+    .checkbox-wrap {	    
+	    margin-top: -34px;
+	}
+	.me-p__kitchen--dish-photo {
+		min-height: 250px;
+	}
+	.me-p__kitchen--download-menu {
+		padding-top: 30px;
+	}
+	.breakfasts-dot {
+		display: none;
+	}
+	.me-p__breakfasts--price span {
+		padding-left: 120px;
+	}
+}
+
+@media only screen and (max-width : 416px) {
+	.file-upload-wrap {
+	    padding-right: 0;
+	    float: left;
+	    margin-bottom: 25px;
+	}
+	.checkbox-wrap {
+	    margin-top: 0;
+	}
+	.me-p__breakfasts--price span {
+		padding-left: 60px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
-
+	.ab-p__news--all-news {
+		max-width: 100%;	    
+	}
+	.me-p__breakfasts--price h3 {
+		padding-left: 0;
+	}
+	
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-
+	.me-p__breakfasts--price span {
+	    padding-left: 30px;
+	}
+	.me-p__dish-menu h3 {
+	    width: 75%;
+	}
+	.me-p__map-alcohol--confirmation {
+		max-width: 80%;
+	}
 }
 
+@media only screen and (max-width : 360px) {
+	
+}
+@media only screen and (max-width : 330px) {
+	.footer-cotact-info ul a {
+		display: block;
+	}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.ab-p__news--more {
+		min-height: 50px;
+	}
+	.ab-p__news--more a {
+		height: 50px;
+		padding-top: 14px;
+		margin-top: 10px;
+	}
+	.me-p__breakfasts--price h3 {
+	    max-width: 195px;
+	}
+	.me-p__dish-menu h3 {
+	    width: 70%;
+	}
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
 
 /*==========  Mobile First Method  ==========*/
 

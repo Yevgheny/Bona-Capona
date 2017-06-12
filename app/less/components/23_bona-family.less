@@ -1,1 +1,283 @@
-
+//------------- BONA-FAMILI.css  -------------//
+#horizontalTab-3 li:hover {
+	background: #ebebeb;
+}
+#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
+	padding: 15px 46.4px;
+}
+.b-f {
+	&__vacancies{
+		&--description {
+			padding-left: 25px;
+		}
+	}
+	&__form-bottom-head {
+		padding-top: 45px;
+		h2 {
+			 &:after {
+		     	display: none;
+		    }
+		}
+	}
+	&__form-bottom {
+		padding-bottom: 90px;
+	}
+}
+.photo-gallery {
+	max-width: 270px;
+	height: 180px;
+	overflow: hidden;
+	margin-bottom: 25px;
+  transition: 0.5s ease;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.image-source-link {
+	display: none;
+}
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+.mfp-with-zoom.mfp-ready .mfp-container {
+	opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+.accordionTitle,
+.accordion__Heading {
+	background-color: #f9f9f9;
+	text-align: center;
+	font-weight: 700;
+	padding: 2em;
+	display: block;
+	text-decoration: none;
+	font-family: @ff4;
+	text-transform: uppercase;
+	color: @light-grey;
+	transition: background-color 0.5s ease-in-out;
+	border: 1px solid @blue;
+	margin-bottom: 5px;
+	&:before {
+		content: "+";
+	    font-size: 1.5em;
+	    line-height: 0.5em;
+	    float: left;
+	    transition: transform 0.3s ease-in-out;
+	}
+    &:hover {
+    	background-color: #f2f2f2;
+    	color: @light-grey;
+    	text-decoration: none;
+    }    
+}
+.accordionTitleActive,
+.accordionTitle.is-expanded {
+	color: @white;
+  	background-color: @blue;
+  	&:before {
+    	transform: rotate(-225deg);
+  	}
+}
+.accordionItem {
+  	height: auto;
+  	overflow: hidden; //SHAME: magic number to allow the accordion to animate
+  	max-height: 50em;
+  	transition: max-height 1s;
+  	@media screen and (min-width: 48em) {
+    max-height:15em;
+    transition: max-height 0.5s
+  	}
+}
+.accordionItem.is-collapsed {
+  	max-height: 0;
+}
+.no-js .accordionItem.is-collapsed {
+  	max-height: auto;
+}
+.animateIn {
+	border: 1px solid #78c8c9;
+	padding: 10px 50px;
+	margin-left: 0;
+	margin-bottom: 5px;
+  	animation: accordionIn 0.45s normal ease-in-out both 1;
+}
+.animateOut {
+  animation: accordionOut 0.45s alternate ease-in-out both 1;
+}
+@keyframes accordionIn {
+  	0% {
+    	opacity: 0;
+    	transform: scale(0.9) rotateX(-60deg);
+    	transform-origin: 50% 0;
+  	}
+  	100% {
+    	opacity: 1;
+    	transform: scale(1);
+  	}
+}
+@keyframes accordionOut {
+  	0% {
+    	opacity: 1;
+    	transform: scale(1);
+  	}
+  	100% {
+    	opacity: 0;
+    	transform: scale(0.9) rotateX(-60deg);
+  	}
+}
+.btn-main-form {
+  display: inline-block;
+}
+.main-screen-form .input-group {
+  width: 100%;
+  height: 30px;
+  text-align: center;  
+  margin-bottom: 20px;
+}
+.main-screen-form .input-group input {
+  width: 100%;
+  height: 30px;  
+  font-size: 14px;
+  outline: none;
+  background-color: #fff;  
+  border: 2px solid @blue;
+}
+.main-screen-form .input-group label {
+  display: block;
+  text-align: left;  
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.file-upload-wrap {
+	display: block;
+	position: relative;
+	padding-right: 100px;
+}
+.file-upload-wrap p {
+  text-align: right;  
+  color: @grey;
+  margin-right: 18px;
+  margin-bottom: 0;  
+}
+.file-upload-wrap span {
+	text-align: right;
+	display: block;
+	font-size: 0.8rem;
+	color: #b7b8bf;
+	margin-right: 15px;
+}
+.file-upload input[type="file"] {
+  display: none;
+}
+.file-upload {
+	display: block;  
+  width: 30px;
+  height: 30px;
+  font-size: 14px;  
+  color: inherit;
+  background: #fff;
+  border: 2px solid @blue;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  float: right;
+  margin-top: -30px;
+  margin-right: -20px;
+}
+.file-upload label {
+  display: block;
+  width: 100%;
+  height: 100%;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;  
+}
+.file-upload span {
+	text-align: center;
+  margin: 5px 5px;
+}
+.file-upload:hover {
+  background: #fff;
+  border: 15px solid @blue;
+}
+.checkbox {
+    display: none;
+}
+.checkbox-custom {
+    position: relative;      
+    width: 30px;             
+    height: 30px;            
+    border: 2px solid @blue;   
+}
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    color: @grey;
+}
+.checkbox-custom,
+.label a {	
+	margin-bottom: 5px;	
+}
+.checkbox-custom,
+.label a:hover {  
+  text-decoration: none;
+}
+.label a:after {
+	content: '';
+	display: block;
+	width: 215px;
+	height: 2px;
+	background: @grey;	
+	margin-left: 10px;	
+}
+.checkbox:checked + .checkbox-custom::before {
+    content: "";            
+    display: block;          
+    position: absolute;    
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px; 
+    background: @blue;    
+}
+.btn-b-f-main-form {
+	width: 100%;
+}
+//------------- finish BONA-FAMILI.css  -------------//
+//------------- policy BONA-FAMILI.css  -------------//
+.policy-confidential {
+  h1 {
+    font-size: @h1;
+    font-weight: 400;    
+    font-family: @ff3;
+    color: @blue;
+  }
+  h2 {
+    font-family: @ff;
+    font-size: @h2;
+    color: @blue;
+  }
+  p {
+    text-align: left;
+  }
+}
+//------------- finish policy BONA-FAMILI.css  -------------//
