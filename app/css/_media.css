@@ -245,6 +245,12 @@
 	.ca-d__delivery-address .checkbox-wrap {
 		margin-top: 0;
 	}
+	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1,
+	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap span,
+	.ca-d__solution-order-delivery--agree-terms .checkbox-wrap span,
+	.ca-d__solution-order-delivery--against-bots .checkbox-wrap span {
+		margin-right: 0;
+	}
 	.ca-d__bonus-account::after, 
 	.ca-d__delivery-address::after, 
 	.ca-d__choose-payment-method::after {	    
@@ -263,13 +269,15 @@
 		margin-right: 0;		
 	}
 	.ca-d__choose-payment--btn {
-		margin-top: -30px;
+		margin-top: -59px;
 	}	
-	.ca-d__choose-payment--cash,
-	.ca-d__solution-order-delivery--against-bots {
-		display: block;
-		margin-top: 30px;
+	.ca-d__choose-payment--card {
+		margin-bottom: 25px;
 	}
+	.ca-d__choose-payment--cash {
+		padding-top: 25px;
+	}
+	
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -306,10 +314,6 @@
     .me-p__breakfasts--price {
     	max-width: 570px;
     	margin: 45px auto 0;
-    }
-    .ab-p__form--bottom-wrap {
-    	padding-left: 15px;
-    	padding-right: 15px;
     }
     .ca-d__current-time,
     .ca-d__choose-payment--card,
@@ -443,6 +447,9 @@
 	.ca-d__delivery-address .checkbox-wrap span {
 		font-size: 1.3rem;
 	}
+	.ca-d__promo--btn {
+		padding-top: 25px;
+	}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -459,6 +466,9 @@
 	}
 	.me-p__dish-menu h3 {
 	    width: 70%;
+	}
+	.ca-d__promo--btn {
+	    padding-top: 0;
 	}
 }
 
