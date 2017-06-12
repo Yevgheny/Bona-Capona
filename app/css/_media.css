@@ -74,53 +74,23 @@
     .me-p__dish-dot {
     	display: none;
     }
-<<<<<<< HEAD
-	.logo-footer-wrap {
-		position: relative;
-		top: 0;
-		margin-top: 20px;
-	}
-	.logo-footer {
-		margin: 0 auto;
-	}
-	.footer-social-data {
-		text-align: center;
-	}
-	.footer-cotact-info ul {
-		margin-top: 30px;
-	}
-	.footer-cotact-info li.footer-cotact-info__item--2,
-	.footer-cotact-info li.footer-cotact-info__item--3,
-	.footer-cotact-info li.footer-cotact-info__item--4{
-		width: 27%;
-	}
-	.footer-cotact-info li.footer-cotact-info__item--1 {
-		width: 15%;
-	}
-	.footer-cotact-info li.footer-cotact-info__item--3,
-	.footer-cotact-info li.footer-cotact-info__item--4{
-		margin-top: 0;
-	}
-    .ca-d__bonus-account::after,
-    .ca-d__delivery-address::after,
-    .ca-d__choose-payment-method::after {
-    	margin-left: 83px;
-    }
-
     .main-screen-form .promo-input-group {
     	width: 63px;
     }
     .btn-promo {
     	min-width: 130px;
+    }    
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap span,
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap span,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a,
+    .ca-d__solution-order-delivery--against-bots .checkbox-wrap span {
+    	font-size: 1.1rem;
+    }  
+    .ca-d__total-two  {
+    	text-align: center;
     }
-    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 {
-	    margin-right: 25px;
-	}
-	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-3 {
-		margin-right: 0;
-	}
-=======
->>>>>>> parent of dbad1a8... Сверстаны Хедер и Футер
+	
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -200,44 +170,6 @@
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
-<<<<<<< HEAD
-	.footer-nav li {
-		display: block;
-	}
-	.footer-nav li a {
-		width: 100%;
-		font-size: 16px;
-	}
-	.footer-cotact-info li.footer-cotact-info__item--1,
-	.footer-cotact-info li.footer-cotact-info__item--2,
-	.footer-cotact-info li.footer-cotact-info__item--3,
-	.footer-cotact-info li.footer-cotact-info__item--4 {
-		width: 100%;
-		text-align: center;
-		margin-bottom: 15px;
-	}
-	.footer-cotact-info ul li, .footer-cotact-info ul a {
-		font-size: 16px;
-	}
-	.footer-social-data p {
-		display: block;
-		font-size: 16px;
-	}
-	.footer-social-data .main-header__social-icons {
-		height: auto;
-		padding-top: 0;
-		margin-bottom: 0;
-	}
-	.main-footer__form-wrap {
-		margin-top: 0;
-	}
-	.footer-social-data .main-header__social-icons .fa {
-		font-size: 22px;
-	}
-	.ev-p-report__item {
-		width: 70%;
-		margin: 0 auto 30px;
-	}
 	#map {
 	    min-height: 500px;
 	}	
@@ -246,8 +178,7 @@
 	}
 	.ca-d__bonus-account::after, 
 	.ca-d__delivery-address::after, 
-	.ca-d__choose-payment-method::after {
-	    margin-left: 0;
+	.ca-d__choose-payment-method::after {	    
 	    width: 100%;
 	}
 	.main-screen-form .promo-input-group {
@@ -260,20 +191,9 @@
 	    padding-top: 55px;
 	}
 	.ca-d__choose-payment--btn {
-		margin-right: 0;
-		margin-left: 0;
-	}
-	.ca-d__choose-payment--btn {
-		margin-top: -30px;
-	}	
-	.ca-d__choose-payment--cash,
-	.ca-d__solution-order-delivery--against-bots {
-		display: block;
-		margin-top: 30px;
-	}
-=======
-
->>>>>>> parent of dbad1a8... Сверстаны Хедер и Футер
+		margin-right: 0;		
+	}		
+	
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -288,15 +208,7 @@
 	    display: block;
 	    height: 180px;
 	    margin: 15px auto;
-	}
-	.ev-p-poster__item:last-child {
-		margin: 0 auto 60px;
-	}
-	.ev-p-poster__item {
-		display: block;
-		width: 50%;
-		margin: 0 auto 40px;
-	}
+	}	
     .me-p__kitchen--menu-map,
     .me-p__kitchen--novelty {
     	max-width: 570px;
@@ -323,20 +235,30 @@
     	padding-left: 15px;
     	padding-right: 15px;
     }
+    .ca-d__current-time,
+    .ca-d__choose-payment--card,
+    .ca-d__solution-order-delivery--confidentiality-agreement,
+    .ca-d__solution-order-delivery--agree-terms {
+    	margin-bottom: 25px;
+    }
+    .ca-d__choose-payment--btn {
+    	margin-top: -55px;
+    }
+    .ca-d__choose-payment--cash,
+    .ca-d__solution-order-delivery--agree-terms,
+    .ca-d__solution-order-delivery--against-bots {
+    	padding-top: 25px;
+    }    
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap span,
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap span,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a,
+    .ca-d__solution-order-delivery--against-bots .checkbox-wrap span {
+    	font-size: 1.4rem;
+    } 
 }
 @media only screen and (max-width : 668px) {
-	.ca-d__solution-order-delivery--confidentiality-agreement {
-		display: block;
-		margin-bottom: 40px;
-	}
- 	.ca-d__solution-order-delivery--agree-terms { 
- 		display: block;		
-		margin-top: 30px;
-		margin-bottom: 40px;		
- 	}
- 	.ca-d__solution-order-delivery--against-bots {
- 		margin-top: 0;
- 	}
+	
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
@@ -344,9 +266,7 @@
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-	.ev-p-poster__item {
-		width: 59%;
-	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -354,12 +274,6 @@
     .checkbox-wrap {	    
 	    margin-top: -34px;
 	}
-	.ev-p-poster__item {
-		width: 80%;
-	}
-	.ev-p-report__item {
-		width: 90%;
-  }
 	.me-p__kitchen--dish-photo {
 		min-height: 250px;
 	}
@@ -371,11 +285,9 @@
 	}
 	.me-p__breakfasts--price span {
 		padding-left: 120px;
-	}
-	.ca-d__choose-payment--card,
-	.ca-d__choose-payment--btn {
-		display: block;
-		margin-bottom: 40px;
+	}	
+	.ca-d__choose-payment--btn {	    
+	    margin: -10px 0 30px 0;
 	}
 }
 
@@ -397,13 +309,10 @@
 	}
 	.ca-d__delivery-explanation {
 		padding-top: 0;
-	}
-	.ca-d__promo--btn {
-		padding-top: 25px;
-	}
-	.ca-d__choose-payment--btn {
-		margin-bottom: 60px;
-	}
+	}	
+	.ca-d__choose-payment--card {
+		margin-bottom: 10px;
+	}	
 	.ca-d__total {
 		padding-top: 55px;
 		margin-left: -30px;
@@ -429,9 +338,6 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-	.ev-p-poster__item {
-		width: 90%;
-  }
 	.ab-p__news-head {
 	    padding-top: 15px;
 	}
