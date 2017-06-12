@@ -208,15 +208,23 @@
   position: absolute;
   top: 0;
   left: 0;
-  cursor: pointer;  
+  cursor: pointer; 
+  transition: 0.5s ease; 
 }
-.file-upload span {
+.file-upload span {  
 	text-align: center;
-  margin: 5px 5px;
+  margin: 3px 4px;
+}
+.fa-file-text-o {
+  color: @blue;
+  font-size: 19px;
+  transition: 0.5s ease;
 }
 .file-upload:hover {
-  background: #fff;
-  border: 15px solid @blue;
+  background: @blue;
+  .fa-file-text-o {
+    color: @white;
+  } 
 }
 .checkbox {
     display: none;
@@ -225,30 +233,26 @@
     position: relative;      
     width: 30px;             
     height: 30px;            
-    border: 2px solid @blue;   
+    border: 2px solid @blue;
+   cursor: pointer;  
 }
 .checkbox-custom,
-.label {
+.b-f__label {
     display: inline-block;
     vertical-align: middle;
     color: @grey;
 }
-.checkbox-custom,
-.label a {	
-	margin-bottom: 5px;	
+.checkbox-wrap .b-f__label--costom {  
+  a {   
+    border-bottom: 2px solid #86878c;
+    transition: 0.5s ease;
+    &:hover {
+      text-decoration: none; 
+      border-bottom: 2px dotted #86878c;       
+    }
+  }
 }
-.checkbox-custom,
-.label a:hover {  
-  text-decoration: none;
-}
-.label a:after {
-	content: '';
-	display: block;
-	width: 215px;
-	height: 2px;
-	background: @grey;	
-	margin-left: 10px;	
-}
+
 .checkbox:checked + .checkbox-custom::before {
     content: "";            
     display: block;          

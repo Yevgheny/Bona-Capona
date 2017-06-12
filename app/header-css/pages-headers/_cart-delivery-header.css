@@ -1,3 +1,157 @@
+/*------------------- CART-DELIVERY-HEADER.css------------------*/
+.cart-delivery {
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.ca-d__head {
+	margin-bottom: 75px;
+}
+.ca-d__head h2:after {
+	display: none;
+} 
+.ca-d__ordered--photo {
+	width: 170px;
+	height: 114px;
+	overflow: hidden;
+}
+.ca-d__ordered--photo img {
+	max-width: 100%;
+}
+.ca-d__ordered--midlle {
+	padding: 19px 0;
+	margin-left: -30px;
+}
+.ca-d__ordered--dish h5 {
+	font-family: 'Gilroy-Semibold', sans-serif;
+	text-transform: uppercase;
+	color: #78c8c9;
+	margin-bottom: 30px;
+}
+.ca-d__ordered--dish span {
+	color: #86878c;
+}
+.ca-d__ordered--right {
+	padding: 40px 0;
+}
+.ca-d__ordered--price {
+	width: 100%;
+}
+.input-ca-d {
+	display: inline-block;
+	vertical-align: middle;
+}
+.input-ca-d span {
+	color: #86878c;
+	padding: 12px 12px 12px 2px;
+}
+.ca-d__value  span{
+	font-family: 'BergenSansSemiBold', sans-serif;
+	font-size: 16px;
+	color: #646569;
+}
+.quantity {
+  position: relative;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+.quantity input {
+  width: 70px;
+  height: 30px;
+  line-height: 1.6;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  border: 2px solid #78c8c9;
+}
+.quantity input:focus {
+  outline: 0;
+}
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 30px;
+  margin-right: 10px;
+}
+.quantity-button {
+  position: relative;
+  cursor: pointer;  
+  width: 20px;
+  text-align: center;  
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 0;
+  transition: 0.5s ease;  
+}
+.quantity-button.quantity-down {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  transition: 0.5s ease;
+}
+.ca-d__ordered-wrap {
+	width: 100%;
+}
+.ca-d__ordered-wrap {
+	margin-bottom: 30px;
+}
+.group:last-child {
+	float: right;
+	margin-right: 15px;
+}
+.fa-angle-up,
+.fa-angle-down {
+	font-size: 1.8rem;
+	color: #78c8c9;
+	margin-top: -6px;
+	transition: 0.5s ease;
+}
+.quantity-button.quantity-up:hover,
+.quantity-button.quantity-down:hover {
+	background: #78c8c9;
+}
+.quantity-button.quantity-up:hover .fa-angle-up {
+	color: #fff;
+}
+.quantity-button.quantity-down:hover .fa-angle-down {
+	color: #fff;
+}
+.ca-d__ordered--inner ul {
+	padding: 0;
+	margin: 0;
+}
+.ca-d__ordered--inner ul li {
+	list-style: none;
+	border-bottom: 2px dotted #a9a8ab;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.ca-d__ordered--inner ul li:last-child {
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+.ca-d__label {
+	padding: 0 18px;
+}
+/*-------------------finish CART-DELIVERY-HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -7,7 +161,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.ca-d__ordered--midlle {
+		margin-left: 0;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -42,45 +198,88 @@
 
 }
 
+
+@media only screen and (max-width : 668px) {
+	.ca-d__ordered--midlle {
+		padding-left: 15px;
+	}
+	.group:last-child {
+		margin-right: 0;
+	}
+}
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
 
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.ca-d__ordered--inner ul li {
+		padding-bottom: 0;
+	}
+	.ca-d__ordered--inner ul li:last-child {
+		margin-bottom: 0;
+	}
+	.ca-d__ordered-wrap {
+		margin-bottom: 0;
+	}
+	.ca-d__ordered--photo {
+		width: 112px;
+	}
+	.ca-d__ordered--midlle,
+	.ca-d__ordered--right {
+		padding: 0;
+	}
+	.input-ca-d span {
+		padding: 12px 0 ;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.ca-d__ordered--dish h5 {
+		margin-bottom: 8px;
+	}
+	.group:last-child {
+		float: left;
+		padding-top: 30px;
+	}
 }
-
+@media only screen and (max-width : 416px) {
+	.ca-d__ordered--midlle {
+		padding-left: 15px;
+	}
+	.ca-d__ordered--photo {
+		height: 105px;
+	}
+}
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
-
+	.ca-d__ordered--midlle {
+	    padding-left: 20px;
+	}
+	.quantity-nav {
+		margin-right: 0;
+	}
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
+	
+}
+@media only screen and (max-width : 360px) {
+	.ca-d__ordered--photo {
+	    width: 100px;
+	    height: 100px;
+	}
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.ca-d__ordered--photo {
+	    width: 95px;
+	}
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
 
 /*==========  Mobile First Method  ==========*/
 
