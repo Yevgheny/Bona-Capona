@@ -1155,6 +1155,9 @@ label.error {
   min-width: 370px;
   margin: 0 auto;
 }
+.ca-d__total-two {
+  text-align: left;
+}
 .si-n__text--1 {
   margin-bottom: 40px;
 }

@@ -11,7 +11,6 @@
   }
 	.pr-p__hedline-post {
 		padding-top: 0;
-
 	}
 }
 
@@ -74,7 +73,6 @@
     .me-p__dish-dot {
     	display: none;
     }
-<<<<<<< HEAD
 	.logo-footer-wrap {
 		position: relative;
 		top: 0;
@@ -119,8 +117,6 @@
 	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-3 {
 		margin-right: 0;
 	}
-=======
->>>>>>> parent of dbad1a8... Сверстаны Хедер и Футер
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -200,7 +196,6 @@
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
-<<<<<<< HEAD
 	.footer-nav li {
 		display: block;
 	}
@@ -271,9 +266,6 @@
 		display: block;
 		margin-top: 30px;
 	}
-=======
-
->>>>>>> parent of dbad1a8... Сверстаны Хедер и Футер
 }
 
 /* Custom, iPhone 6 Plus*/
