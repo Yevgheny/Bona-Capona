@@ -158,9 +158,6 @@
     	display: block;
     	margin: 15px auto 15px;
     }
-    .photo-gallery {
-    	height: 105px;
-    }
     .checkbox-wrap {
     	display: block;
     	margin-top: -30px;
@@ -222,7 +219,6 @@
 	}
 	.photo-gallery {    
 	    display: block;
-	    height: 180px;
 	    margin: 15px auto;
 	}	
     .me-p__kitchen--menu-map,

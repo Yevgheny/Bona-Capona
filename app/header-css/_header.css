@@ -508,7 +508,9 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-
+	.main-headline {
+		font-size: 3rem;
+	}
 }
 
 /* Custom, iPhone Retina */
