@@ -278,7 +278,6 @@
 	}
 	.photo-gallery {    
 	    display: block;
-	    height: 180px;
 	    margin: 15px auto;
 	}
 	.ev-p-poster__item:last-child {
