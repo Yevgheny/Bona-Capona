@@ -160,7 +160,6 @@
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
-<<<<<<< HEAD
 	.ev-p-report__item {
 		width: 70%;
 		margin: 0 auto 30px;
@@ -168,9 +167,6 @@
 	#map {
 	    min-height: 500px;
 	}
-=======
-
->>>>>>> parent of f26ae78... Заполнена страница "Мероприятия"
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -186,7 +182,6 @@
 	    height: 180px;
 	    margin: 15px auto;
 	}
-<<<<<<< HEAD
 	.ev-p-poster__item:last-child {
 		margin: 0 auto 60px;
 	}
@@ -217,8 +212,6 @@
     	max-width: 570px;
     	margin: 45px auto 0;
     }
-=======
->>>>>>> parent of f26ae78... Заполнена страница "Мероприятия"
 }
 
 /* Custom, iPhone 6 */
@@ -235,13 +228,12 @@
     .checkbox-wrap {	    
 	    margin-top: -34px;
 	}
-<<<<<<< HEAD
 	.ev-p-poster__item {
 		width: 80%;
 	}
 	.ev-p-report__item {
 		width: 90%;
-  }
+    }
 	.me-p__kitchen--dish-photo {
 		min-height: 250px;
 	}
@@ -254,8 +246,6 @@
 	.me-p__breakfasts--price span {
 		padding-left: 120px;
 	}
-=======
->>>>>>> parent of f26ae78... Заполнена страница "Мероприятия"
 }
 
 @media only screen and (max-width : 416px) {
@@ -286,7 +276,6 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-<<<<<<< HEAD
 	.ev-p-poster__item {
 		width: 90%;
   }
@@ -306,9 +295,6 @@
 	.ab-p__cooks-team--head {
 		padding-top: 45px;
 	}
-=======
-	
->>>>>>> parent of f26ae78... Заполнена страница "Мероприятия"
 }
 
 @media only screen and (max-width : 360px) {
