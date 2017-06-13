@@ -2,15 +2,14 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
-	.ab-p__cooks-team {
-	    padding-top: 40px;
-	}
-	.photo-gallery {
-		height: 110px;
-  }
 	.pr-p__hedline-post {
 		padding-top: 0;
+	}
+	.footer-nav li a {
+		width: 80px;
+	}
+	.footer-cotact-info__item--1, .footer-cotact-info__item--3 {
+		padding-left: 25px;
 	}
 }
 
@@ -23,7 +22,7 @@
 	.r-tabs .r-tabs-nav .r-tabs-tab{
 		width: 50%;
 		border-bottom: 1px solid #ccc;
-  	}
+  }
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
 		width: 100%;
 		text-align: center;
@@ -37,10 +36,7 @@
 		min-height: 120px;
 	}	
 	.ab-p__cooks-team {
-		padding-top: 50px;
-	}
-	.r-tabs .r-tabs-panel {
-		padding: 25px 15px;
+		padding-top: 0;
 	}
 	#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
 	    padding: 15px 29.7px;
@@ -51,12 +47,15 @@
 	.file-upload-wrap {
 		padding-right: 20px;
 	}
-	.checkbox-custom, .b-f__label {
+	.checkbox-custom, .label {
 		font-size: 1.1rem;
 	}	
-	.checkbox-custom, .b-f__label a {
+	.checkbox-custom, .label a {
 	    font-size: 1.1rem;
-	}	
+	}
+	.label a::after {
+		width: 165px;
+	}
 	#horizontalTab-5 .r-tabs-nav,
     #horizontalTab-7 .r-tabs-nav, 
     #horizontalTab-8 .r-tabs-nav {
@@ -99,24 +98,6 @@
 	.footer-cotact-info li.footer-cotact-info__item--4{
 		margin-top: 0;
 	}
-    .ca-d__bonus-account::after,
-    .ca-d__delivery-address::after,
-    .ca-d__choose-payment-method::after {
-    	margin-left: 83px;
-    }
-
-    .main-screen-form .promo-input-group {
-    	width: 63px;
-    }
-    .btn-promo {
-    	min-width: 130px;
-    }
-    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 {
-	    margin-right: 25px;
-	}
-	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-3 {
-		margin-right: 0;
-	}
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -157,12 +138,9 @@
 	section, header, footer {
 		overflow: hidden;
 	}   
-    .ab-p__news-head {
-		padding-top: 50px;
-    }
-    .ab-p__cooks-team,
+    
     .ab-p__interior {
-    	padding-top: 5px;
+    	padding-top: 40px;
     }
     .r-tabs .r-tabs-nav {
         display: none;
@@ -180,19 +158,19 @@
     	display: block;
     	margin: 15px auto 15px;
     }
-    .photo-gallery {
-    	height: 105px;
+    .checkbox-wrap {
+    	display: block;
+    	margin-top: -30px;
     }
-    .checkbox-wrap {    	
-    	margin-top: -32px;
-    }
-    .checkbox-custom, .b-f__label {
+    .checkbox-custom, .label {
 	    font-size: 1.4rem;
-	    margin-top: 0;
 	}
-    .checkbox-custom, .b-f__label a {
+    .checkbox-custom, .label a {
 	    font-size: 1.4rem;
-	}	
+	}
+	.label a::after {
+	    width: 215px;
+	}
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}
@@ -229,43 +207,6 @@
 	.footer-social-data .main-header__social-icons .fa {
 		font-size: 22px;
 	}
-	.ev-p-report__item {
-		width: 70%;
-		margin: 0 auto 30px;
-	}
-	#map {
-	    min-height: 500px;
-	}	
-	.ca-d__delivery-address .checkbox-wrap {
-		margin-top: 0;
-	}
-	.ca-d__bonus-account::after, 
-	.ca-d__delivery-address::after, 
-	.ca-d__choose-payment-method::after {
-	    margin-left: 0;
-	    width: 100%;
-	}
-	.main-screen-form .promo-input-group {
-	    width: 120px;
-	}
-	.ca-d__choose-payment-method {
-	    padding-top: 50px;
-	}
-	.ca-d__solution-order-delivery {
-	    padding-top: 55px;
-	}
-	.ca-d__choose-payment--btn {
-		margin-right: 0;
-		margin-left: 0;
-	}
-	.ca-d__choose-payment--btn {
-		margin-top: -30px;
-	}	
-	.ca-d__choose-payment--cash,
-	.ca-d__solution-order-delivery--against-bots {
-		display: block;
-		margin-top: 30px;
-	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -279,15 +220,7 @@
 	.photo-gallery {    
 	    display: block;
 	    margin: 15px auto;
-	}
-	.ev-p-poster__item:last-child {
-		margin: 0 auto 60px;
-	}
-	.ev-p-poster__item {
-		display: block;
-		width: 50%;
-		margin: 0 auto 40px;
-	}
+	}	
     .me-p__kitchen--menu-map,
     .me-p__kitchen--novelty {
     	max-width: 570px;
@@ -310,34 +243,15 @@
     	max-width: 570px;
     	margin: 45px auto 0;
     }
-    .ab-p__form--bottom-wrap {
-    	padding-left: 15px;
-    	padding-right: 15px;
-    }
 }
-@media only screen and (max-width : 668px) {
-	.ca-d__solution-order-delivery--confidentiality-agreement {
-		display: block;
-		margin-bottom: 40px;
-	}
- 	.ca-d__solution-order-delivery--agree-terms { 
- 		display: block;		
-		margin-top: 30px;
-		margin-bottom: 40px;		
- 	}
- 	.ca-d__solution-order-delivery--against-bots {
- 		margin-top: 0;
- 	}
-}
+
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
- 
+
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-	.ev-p-poster__item {
-		width: 59%;
-	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -345,12 +259,6 @@
     .checkbox-wrap {	    
 	    margin-top: -34px;
 	}
-	.ev-p-poster__item {
-		width: 80%;
-	}
-	.ev-p-report__item {
-		width: 90%;
-  }
 	.me-p__kitchen--dish-photo {
 		min-height: 250px;
 	}
@@ -363,41 +271,19 @@
 	.me-p__breakfasts--price span {
 		padding-left: 120px;
 	}
-	.ca-d__choose-payment--card,
-	.ca-d__choose-payment--btn {
-		display: block;
-		margin-bottom: 40px;
-	}
 }
 
 @media only screen and (max-width : 416px) {
-	.ab-p__news-head {
-	    padding-top: 40px;
+	.file-upload-wrap {
+	    padding-right: 0;
+	    float: left;
+	    margin-bottom: 25px;
 	}
 	.checkbox-wrap {
-	    margin-top: -30px;
+	    margin-top: 0;
 	}
-	.b-f__label {
-		display: block;
-	}	
 	.me-p__breakfasts--price span {
 		padding-left: 60px;
-	}	
-	.ca-d__label {
-		margin-bottom: 20px;
-	}
-	.ca-d__delivery-explanation {
-		padding-top: 0;
-	}
-	.ca-d__promo--btn {
-		padding-top: 25px;
-	}
-	.ca-d__choose-payment--btn {
-		margin-bottom: 60px;
-	}
-	.ca-d__total {
-		padding-top: 55px;
-		margin-left: -30px;
 	}
 }
 
@@ -409,23 +295,11 @@
 	.me-p__breakfasts--price h3 {
 		padding-left: 0;
 	}
-	.ca-d__delivery-address .checkbox-wrap span {
-		margin-right: 0;
-	}
-	.btn-ca-d-main-form {
-		min-width: 100%;
-	}
-
+	
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-	.ev-p-poster__item {
-		width: 90%;
-  }
-	.ab-p__news-head {
-	    padding-top: 15px;
-	}
 	.me-p__breakfasts--price span {
 	    padding-left: 30px;
 	}
@@ -435,22 +309,14 @@
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
-	.ab-p__restaurant-map,
-	.ab-p__cooks-team--head {
-		padding-top: 45px;
-	}
-
 }
 
 @media only screen and (max-width : 360px) {
-	.ab-p__news-head {
-	    padding-top: 40px;
-	}
-	.ab-p__restaurant-map {
-		padding-top: 10px;
-	}	
-	.ca-d__delivery-address .checkbox-wrap span {
-		font-size: 1.3rem;
+	
+}
+@media only screen and (max-width : 330px) {
+	.footer-cotact-info ul a {
+		display: block;
 	}
 }
 /* Custom, iPhone Retina */
