@@ -98,6 +98,28 @@
 	.footer-cotact-info li.footer-cotact-info__item--4{
 		margin-top: 0;
 	}
+    .main-screen-form .promo-input-group {
+    	width: 63px;
+    }
+    .btn-promo {
+    	min-width: 130px;
+    }    
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap span,
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap span,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a,
+    .ca-d__solution-order-delivery--against-bots .checkbox-wrap span {
+    	font-size: 1.1rem;
+    }  
+    .ca-d__total-two  {
+    	text-align: center;
+    }
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 {
+	    margin-right: 25px;
+	}
+	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-3 {
+		margin-right: 0;
+	}
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -207,6 +229,48 @@
 	.footer-social-data .main-header__social-icons .fa {
 		font-size: 22px;
 	}
+	.ev-p-report__item {
+		width: 70%;
+		margin: 0 auto 30px;
+	}
+	#map {
+	    min-height: 500px;
+	}	
+	.ca-d__delivery-address .checkbox-wrap {
+		margin-top: 0;
+	}
+	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1,
+	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap span,
+	.ca-d__solution-order-delivery--agree-terms .checkbox-wrap span,
+	.ca-d__solution-order-delivery--against-bots .checkbox-wrap span {
+		margin-right: 0;
+	}
+	.ca-d__bonus-account::after, 
+	.ca-d__delivery-address::after, 
+	.ca-d__choose-payment-method::after {	    
+	    width: 100%;
+	}
+	.main-screen-form .promo-input-group {
+	    width: 120px;
+	}
+	.ca-d__choose-payment-method {
+	    padding-top: 50px;
+	}
+	.ca-d__solution-order-delivery {
+	    padding-top: 55px;
+	}
+	.ca-d__choose-payment--btn {
+		margin-right: 0;		
+	}
+	.ca-d__choose-payment--btn {
+		margin-top: -59px;
+	}	
+	.ca-d__choose-payment--card {
+		margin-bottom: 25px;
+	}
+	.ca-d__choose-payment--cash {
+		padding-top: 25px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -243,6 +307,29 @@
     	max-width: 570px;
     	margin: 45px auto 0;
     }
+    .ca-d__current-time,
+    .ca-d__choose-payment--card,
+    .ca-d__solution-order-delivery--confidentiality-agreement,
+    .ca-d__solution-order-delivery--agree-terms {
+    	margin-bottom: 25px;
+    }
+    .ca-d__choose-payment--btn {
+    	margin-top: -55px;
+    }
+    .ca-d__choose-payment--cash,
+    .ca-d__solution-order-delivery--agree-terms,
+    .ca-d__solution-order-delivery--against-bots {
+    	padding-top: 25px;
+    }    
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap span,
+    .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap span,
+    .ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a,
+    .ca-d__solution-order-delivery--against-bots .checkbox-wrap span {
+    	font-size: 1.4rem;
+    } 
+}
+@media only screen and (max-width : 668px) {
 }
 
 /* Custom, iPhone 6 */
@@ -270,6 +357,9 @@
 	}
 	.me-p__breakfasts--price span {
 		padding-left: 120px;
+	}	
+	.ca-d__choose-payment--btn {	    
+	    margin: -10px 0 30px 0;
 	}
 }
 
@@ -284,6 +374,19 @@
 	}
 	.me-p__breakfasts--price span {
 		padding-left: 60px;
+	}	
+	.ca-d__label {
+		margin-bottom: 20px;
+	}
+	.ca-d__delivery-explanation {
+		padding-top: 0;
+	}	
+	.ca-d__choose-payment--card {
+		margin-bottom: 10px;
+	}	
+	.ca-d__total {
+		padding-top: 55px;
+		margin-left: -30px;
 	}
 }
 
@@ -300,6 +403,9 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
+	.ab-p__news-head {
+	    padding-top: 15px;
+	}
 	.me-p__breakfasts--price span {
 	    padding-left: 30px;
 	}
@@ -318,6 +424,9 @@
 	.footer-cotact-info ul a {
 		display: block;
 	}
+	.ca-d__promo--btn {
+		padding-top: 25px;
+	}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -334,6 +443,9 @@
 	}
 	.me-p__dish-menu h3 {
 	    width: 70%;
+	}
+	.ca-d__promo--btn {
+	    padding-top: 0;
 	}
 }
 
