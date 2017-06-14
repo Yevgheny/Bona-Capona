@@ -65,6 +65,9 @@
 .me-p__kitchen--dish-photo img {
 	max-width: 100%;
 }
+.btn-download-menu.download-menu-btn-mob {
+	display: none;
+}
 
 /*------------------- finish MENU-PAGE-HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
@@ -103,7 +106,13 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-
+	.btn-download-menu {
+		display: none;
+	}
+	.btn-download-menu.download-menu-btn-mob {
+		display: block;
+		max-width: 368px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/

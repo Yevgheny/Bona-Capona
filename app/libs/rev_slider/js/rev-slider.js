@@ -22,7 +22,7 @@ $(document).ready(function() {
 		hideArrowsOnMobile:"off",
 		hideThumbsUnderResoluition:0,
 
-		hideThumbs:0,
+		hideThumbs:1000,
 		hideTimerBar:"off",
 
 		keyboardNavigation:"on",
@@ -31,20 +31,20 @@ $(document).ready(function() {
 		navigationArrows:"solo",
 		navigationStyle:"round",
 
-		navigationHAlign:"center",
+		navigationHAlign:"right",
 		navigationVAlign:"bottom",
-		navigationHOffset:30,
-		navigationVOffset:30,
+		navigationHOffset:300,
+		navigationVOffset:0,
 
 		soloArrowLeftHalign:"left",
 		soloArrowLeftValign:"center",
-		soloArrowLeftHOffset:20,
-		soloArrowLeftVOffset:0,
+		soloArrowLeftHOffset:250,
+		soloArrowLeftVOffset:150,
 
 		soloArrowRightHalign:"right",
 		soloArrowRightValign:"center",
-		soloArrowRightHOffset:20,
-		soloArrowRightVOffset:0,
+		soloArrowRightHOffset:250,
+		soloArrowRightVOffset:150,
 
 
 		touchenabled:"on",
@@ -64,7 +64,7 @@ $(document).ready(function() {
 		hideAllCaptionAtLilmit:0,
 		hideSliderAtLimit:0,
 
-		dottedOverlay:"none",
+		dottedOverlay:"twoxtwo",
 
 		spinned:"spinner4",
 
