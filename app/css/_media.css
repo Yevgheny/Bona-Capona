@@ -271,6 +271,9 @@
 	.ca-d__choose-payment--cash {
 		padding-top: 25px;
 	}
+	.delivery-page {
+		padding-bottom: 30px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -328,6 +331,10 @@
     .ca-d__solution-order-delivery--against-bots .checkbox-wrap span {
     	font-size: 1.4rem;
     } 
+    .de-p__card--buttons .learn-more a {
+    	border-right: none;
+    	border-bottom: 1px solid #e7f4f4;
+    }
 }
 @media only screen and (max-width : 668px) {
 }
@@ -367,6 +374,9 @@
 	.accordionTitle, 
 	.accordion__Heading {
 		padding: 30px 10px;
+	}
+	.de-p__card--photo-dish span {
+		padding: 3px 20px;
 	}
 }
 
@@ -422,6 +432,23 @@
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
+	.de-p__card--photo-dish {
+	    margin-bottom: 10px;
+	}
+	.de-p__card--discription-dish h5 {
+		margin-bottom: 10px;
+	}
+	.de-p__card--photo-dish span {
+		padding: 3px 10px;
+	}
+	.de-p__card--discription-dish {
+	    padding-left: 5px;
+	}
+	.de-p__card--discription-dish span {
+		margin-right: 5px;
+		margin-bottom: 10px;
+	}
+
 }
 
 @media only screen and (max-width : 360px) {
@@ -454,6 +481,9 @@
 	.ca-d__promo--btn {
 	    padding-top: 0;
 	}
+	.de-p__card--photo-dish span {
+		padding: 3px 1px;
+	}
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -470,7 +500,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	.no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+	.no-padding-right {
+		padding-right: 0;
+	}
+	.no-padding-left {
+		padding-left: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -479,6 +518,12 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .no-padding-right {
+		padding-right: 0;
+	}
+	.no-padding-left {
+		padding-left: 0;
+	}
 }
 
 /* Large Devices, Wide Screens */
