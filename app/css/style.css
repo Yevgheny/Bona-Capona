@@ -737,9 +737,6 @@ label.error {
 .ab-p__cooks-team {
   padding-top: 10px;
 }
-.ab-p__cooks-team--head {
-  padding-top: 0;
-}
 .ab-p__cooks-team--head h2:after {
   display: none;
 }
@@ -974,6 +971,89 @@ label.error {
 #horizontalTab-9 .r-tabs-nav .r-tabs-anchor {
   padding: 10px 38.7px;
 }
+/*------------------- DELIVERY-PAGE.css------------------*/
+.de-p__card {
+  background: #f9f9f9;
+  margin-bottom: 30px;
+}
+.de-p__card--photo-dish {
+  margin-bottom: 30px;
+}
+.de-p__card--photo-dish span {
+  text-transform: uppercase;
+  padding: 3px 35px;
+  position: absolute;
+}
+.de-p__card--photo-dish img {
+  max-width: 100%;
+  height: auto;
+}
+.de-p__card--discription-dish {
+  padding-left: 17px;
+}
+.de-p__card--discription-dish h5 {
+  text-transform: uppercase;
+  font-family: 'Gilroy-Semibold', sans-serif;
+  color: #78c8c9;
+  margin-bottom: 25px;
+}
+.de-p__card--discription-dish .weight {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
+  color: #86878c;
+  padding-top: 5px;
+  float: left;
+}
+.de-p__card--discription-dish span {
+  font-family: 'Gilroy-Semibold', sans-serif;
+  font-size: 1.8rem;
+  color: #646569;
+  float: right;
+  margin-right: 17px;
+  margin-bottom: 20px;
+}
+.de-p__card--buttons {
+  clear: both;
+}
+.de-p__card--buttons .learn-more {
+  background: #e7f4f4;
+}
+.de-p__card--buttons .learn-more a {
+  display: block;
+  font-family: 'Gilroy-Semibold', sans-serif;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #98d4d5;
+  outline: none;
+  cursor: pointer;
+  padding: 16.8px 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border-right: 1px solid #e7f4f4;
+}
+.de-p__card--buttons .learn-more a:hover {
+  background: #8fc4c5;
+}
+.btn-cart {
+  min-width: 100%;
+  background: #78c8c9;
+  border: 1px solid #78c8c9;
+  padding: 15px 0;
+}
+.btn-cart:hover {
+  color: #fff;
+  background: #69afb0;
+}
+.btn-cart:focus,
+.btn-cart:active {
+  text-decoration: none;
+}
+#horizontalTab-10.r-tabs .r-tabs-panel {
+  padding-bottom: 25px;
+}
+/*------------------- finish DELIVERY PAGE.css------------------*/
 .ca-d {
   padding-bottom: 40px;
 }
@@ -1323,6 +1403,17 @@ label.error {
   max-width: 175px;
   margin: 0 auto 60px;
 }
+/*------------------- FAQ PAGE.css------------------*/
+.fa-p__ask-your-question {
+  padding-bottom: 80px;
+}
+.fa-p__ask-your-question--head h2:after {
+  display: none;
+}
+.btn-fa-p-main-form {
+  min-width: 100%;
+}
+/*-------------------finish FAQ PAGE.css------------------*/
 #horizontalTab-3 li:hover {
   background: #ebebeb;
 }
@@ -1391,7 +1482,7 @@ label.error {
   -webkit-transition: background-color 0.5s ease-in-out;
   transition: background-color 0.5s ease-in-out;
   border: 1px solid #78c8c9;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 .accordionTitle:before,
 .accordion__Heading:before {
@@ -1445,7 +1536,8 @@ label.error {
   border: 1px solid #78c8c9;
   padding: 10px 50px;
   margin-left: 0;
-  margin-bottom: 5px;
+  margin-top: -20px;
+  margin-bottom: 25px;
   -webkit-animation: accordionIn 0.45s normal ease-in-out both 1;
           animation: accordionIn 0.45s normal ease-in-out both 1;
 }
@@ -1512,7 +1604,7 @@ label.error {
   width: 100%;
   height: 30px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .main-screen-form .input-group input {
   width: 100%;

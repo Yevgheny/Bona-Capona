@@ -175,6 +175,16 @@ $(document).ready(function () {
 
 	});
 
+	var $tabs = $('#horizontalTab-10');
+
+	$tabs.responsiveTabs({
+		rotate: false,
+		startCollapsed: 'accordion',
+		collapsible: 'accordion',
+		setHash: true,
+
+	});
+
 	$('#b-f__zoom-gallery').magnificPopup({
 
 		delegate: 'a',
