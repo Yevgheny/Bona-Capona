@@ -69,6 +69,13 @@ $(document).ready(function() {
 			}
 		}
 	})
+	$('.ev-p-events__slider').owlCarousel({
+		loop: true,
+		margin: 10,
+		nav: true,
+		dots: true,
+		items: 1
+	});
 
 
 });

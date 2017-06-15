@@ -130,7 +130,7 @@
     	margin: 0 auto 30px;
     }    
     .ab-p__news--all-news {
-    	margin: 0 auto;
+    	margin: 3px auto 0;
     }
 }
 /* Small Devices, Tablets */
@@ -164,6 +164,9 @@
     .ab-p__interior {
     	padding-top: 40px;
     }
+	.ab-p__news--all-news {
+		margin: 0 auto;
+	}
     .r-tabs .r-tabs-nav {
         display: none;
     }
@@ -180,6 +183,10 @@
     	display: block;
     	margin: 15px auto 15px;
     }
+	.ev-p-report__item {
+		 width: 70%;
+		 margin: 0 auto 30px;
+	 }
     .checkbox-wrap {
     	display: block;
     	margin-top: -30px;
@@ -281,6 +288,14 @@
 	.ab-p__interior--item-photo {
 		height: 170px;
 	}
+	.ev-p-poster__item:last-child {
+		margin: 0 auto 60px;
+	}
+	.ev-p-poster__item {
+		display: block;
+		width: 50%;
+		margin: 0 auto 40px;
+	}
 	.photo-gallery {    
 	    display: block;
 	    margin: 15px auto;
@@ -345,6 +360,12 @@
 @media only screen and (max-width : 480px) {
     .checkbox-wrap {	    
 	    margin-top: -34px;
+	}
+	.ev-p-poster__item {
+		width: 80%;
+	}
+	.ev-p-report__item {
+		width: 90%;
 	}
 	.me-p__kitchen--dish-photo {
 		min-height: 250px;
@@ -414,6 +435,9 @@
 	}
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
+	}
+	.ev-p-poster__item {
+		width: 90%;
 	}
 }
 
