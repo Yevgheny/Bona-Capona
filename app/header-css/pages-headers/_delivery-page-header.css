@@ -1,10 +1,28 @@
 /*------------------- DELIVERY PAGE-HEADER.css------------------*/
+.de-p {
+	padding-top: 80px;
+}
+.de-p__slide-info h2:after {
+	content: '';
+    display: block; 
+    width: 105px;
+    height: 15px; 
+    background: url("/../img/line-slider.png")top center no-repeat;     
+    margin: 15px 0;
+}
+.btn-de-p-slider {
+	max-width: 130px;
+}
+.de-p__delivery-page {
+	padding-top: 10px;
+}
 .de-p__catalog--head h2 {
 	margin-bottom: 50px;
 }
 .de-p__catalog--head h2:after {
 	display: none;
 }
+
 /*------------------- finish DELIVERY PAGE-HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
 
