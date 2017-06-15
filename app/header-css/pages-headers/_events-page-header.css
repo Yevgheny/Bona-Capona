@@ -62,6 +62,7 @@
     bottom: 0;
     height: 100%;
     background: none;
+	font-size: 0;
     color: #77C6C7;
     border-radius: 0;
     margin: 0;
@@ -85,6 +86,26 @@
 .ev-p-events__slider .owl-nav .owl-next {
 	width: 70px;
     right: 0px;
+}
+.ev-p-events__slider .owl-nav div:before {
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	color: #77c6c7;
+	font-size: 35px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-decoration: inherit;
+	margin-top: -25px;
+	margin-left: -6px;
+}
+.ev-p-events__slider .owl-nav .owl-prev:before {
+	content: "\f104";
+
+}
+.ev-p-events__slider .owl-nav .owl-next:before {
+	content: "\f105";
 }
 .ev-p-events__slider .owl-dots{
 	position: absolute;

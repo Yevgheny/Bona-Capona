@@ -25,10 +25,10 @@
 }
 .photo-gallery {
 	max-width: 270px;
-	height: 180px;
+	height: auto;
 	overflow: hidden;
 	margin-bottom: 25px;
-  transition: 0.5s ease;
+  	transition: 0.5s ease;
 	img {
 		max-width: 100%;
 		height: auto;
@@ -73,7 +73,7 @@
 	color: @light-grey;
 	transition: background-color 0.5s ease-in-out;
 	border: 1px solid @blue;
-	margin-bottom: 5px;
+	margin-bottom: 25px;
 	&:before {
 		content: "+";
 	    font-size: 1.5em;
@@ -115,7 +115,8 @@
 	border: 1px solid #78c8c9;
 	padding: 10px 50px;
 	margin-left: 0;
-	margin-bottom: 5px;
+  margin-top: -20px;
+	margin-bottom: 25px;
   	animation: accordionIn 0.45s normal ease-in-out both 1;
 }
 .animateOut {
@@ -149,7 +150,7 @@
   width: 100%;
   height: 30px;
   text-align: center;  
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .main-screen-form .input-group input {
   width: 100%;
@@ -233,7 +234,8 @@
     position: relative;      
     width: 30px;             
     height: 30px;            
-    border: 2px solid @blue;   
+    border: 2px solid @blue;
+   cursor: pointer;  
 }
 .checkbox-custom,
 .b-f__label {
@@ -241,22 +243,17 @@
     vertical-align: middle;
     color: @grey;
 }
-.checkbox-custom,
-.b-f__label a {	
-	margin-bottom: 5px;	
+.checkbox-wrap .b-f__label--costom {  
+  a {   
+    border-bottom: 2px solid #86878c;
+    transition: 0.5s ease;
+    &:hover {
+      text-decoration: none; 
+      border-bottom: 2px dotted #86878c;       
+    }
+  }
 }
-.checkbox-custom,
-.b-f__label a:hover {  
-  text-decoration: none;
-}
-.b-f__label a:after {
-	content: '';
-	display: block;
-	width: 215px;
-	height: 2px;
-	background: @grey;	
-	margin-left: 10px;	
-}
+
 .checkbox:checked + .checkbox-custom::before {
     content: "";            
     display: block;          

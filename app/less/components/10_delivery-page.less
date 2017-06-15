@@ -1,1 +1,84 @@
-
+/*------------------- DELIVERY-PAGE.css------------------*/
+.de-p {
+	&__card {
+		background: #f9f9f9;
+		margin-bottom: 30px;
+		&--photo-dish {
+			margin-bottom: 30px;
+			span {
+				text-transform: uppercase;
+				padding: 3px 35px;
+				position: absolute;
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		&--discription-dish {
+			padding-left: 17px;
+			h5 {
+				text-transform: uppercase;
+				font-family: @ff4;
+				color: @blue;
+				margin-bottom: 25px;
+			}
+			.weight {
+				font-family: @ff;
+				font-size: @fs;
+				color: @grey;
+				padding-top: 5px;
+				float: left;
+			}
+			span {
+				font-family: @ff4;
+				font-size: @fsb;
+				color: #646569;
+				float: right;
+				margin-right: 17px;
+				margin-bottom: 20px;
+			}
+		}
+		&--buttons {
+			clear: both;
+			.learn-more {
+				background: #e7f4f4;				
+				a {
+					display: block;
+					font-family: @ff4;
+					color: @white;
+					text-align: center;
+				    text-decoration: none;
+				    text-transform: uppercase;
+				    background: #98d4d5;
+				    outline: none;
+				    cursor: pointer;
+				    padding: 16.8px 0;
+				    transition: 0.5s ease;
+				    border-right: 1px solid #e7f4f4;
+				    &:hover {
+				    	background: #8fc4c5;
+				    }
+				}
+			}
+		}
+	}
+}
+.btn-cart {
+	min-width: 100%;
+	background: @blue;
+	border: 1px solid @blue;
+	padding: 15px 0;
+	&:hover {
+  		color: @white;
+  		background: #69afb0;
+ 	}
+ 	&:focus,
+ 	&:active{
+  	text-decoration: none;
+ 	}
+}
+#horizontalTab-10.r-tabs .r-tabs-panel {
+	padding-bottom: 25px;
+}
+/*------------------- finish DELIVERY PAGE.css------------------*/
