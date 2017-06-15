@@ -212,11 +212,19 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.ev-p-events__slider .owl-dots {
+	.ev-p-events__slider .owl-nav {
 		display: none;
 	}
-}
+	.ev-p-events__slider .owl-dots {
+	    left: 42%;
+	}
 
+}
+@media only screen and (max-width : 416px) {
+	.ev-p-events__slider .owl-dots {
+	    left: 41%;
+	}
+}
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
 	.ev-p-events__slide-info {
@@ -232,12 +240,16 @@
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
-
+	.ev-p-events__slider .owl-dots {
+	    left: 40%;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.ev-p-events__slider .owl-dots {
+	    left: 37%;
+	}
 }
 
 /* Extra Small Devices, Phones */
