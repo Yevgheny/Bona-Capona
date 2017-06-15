@@ -125,7 +125,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -151,7 +151,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -178,7 +178,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -204,7 +204,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -230,7 +230,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -256,7 +256,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -283,7 +283,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -309,7 +309,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -335,7 +335,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -361,7 +361,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -388,7 +388,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-xs-12 col-sm-6 col-md-6 no-padding-left">
@@ -414,7 +414,7 @@
 													<div class="de-p__card--buttons">
 														<div class="col-sm-6 col-md-6 no-padding-right">
 															<div class="learn-more">
-																<a href="#">Подробнее</a>
+																<a href="#de-p__modal">Подробнее</a>
 															</div>
 														</div>
 														<div class="col-sm-6 col-md-6 no-padding-left">
@@ -3313,29 +3313,32 @@
 		</footer>
 	</div>
 	<!-- Модальное окно -->
-	<div class="remodal" data-remodal-id="modal" role="dialog">
+	<div class="remodal de-p-remodal" data-remodal-id="de-p__modal" role="dialog">
 		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 		<div>
-			<h2>Заполните форму</h2>
-			<p>и наш специалист свяжется с Вами в течение 15 минут</p>
-			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form" name="main-form">
-				<!-- Hidden Required Fields -->
-				<input type="hidden" name="project_name" value="vilar-agro">
-				<input type="hidden" name="admin_email" value="vilaragro@gmail.com">
-				<input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
-				<!-- END Hidden Required Fields -->
-				<div class="input-group">
-					<input type="text"  name="name" placeholder="Ваше имя" required>
-				</div>
-				<div class="input-group">
-					<input type="email"  name="email" placeholder="Ваш e-mail" required>
-				</div>
-				<div class="input-group">
-					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
-				</div>
-				<input type="hidden"  name="s_formi" value="Получить консультацию">
-				<button type="submit" name="submit" class="btn btn-blue modal-btn">Получить консультацию</button>
-			</form>
+			<div class="de-p__modal-card">
+				<ul>
+					<li>
+						<div class="de-p__modal-cart--photo  news-date">
+							<span>рекомендуем!</span>
+							<img src="img/dish-4.jpg" alt="рекомендуем">	
+						</div>
+					</li>
+					<li>
+						<div class="de-p__modal-cart--discription">
+							<h5>название блюда</h5>
+							<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+							<span class="weight">300 гр</span>
+							<span>350  &#8381;</span>
+						</div>
+						<div class="de-p__modal-card--button">
+							<div class="add-to-cart">
+								<button type="submit" name="submit" class="btn btn-cart">В корзину</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
 		<br>
 	</div>
