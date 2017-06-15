@@ -144,6 +144,9 @@ main-logo-wrap a {
 	transition:opacity 300ms ease-in-out;
 	margin-top: -7px;
 }
+.main-menu-wrapper nav>ul>li.drop-down>a.no-arrow:after {
+	display: none;
+}
 .main-menu-wrapper nav>ul>li>a:hover:after {
 	transform: rotate(90deg);
 }
@@ -315,7 +318,7 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 .searchform-popup .searchform {
 	position: absolute;
 	top: 40px;
-	width: 320px;
+	width: 280px;
 	display: none;
 }
 .searchform-popup .searchform fieldset {
@@ -325,19 +328,19 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 }
 .searchform-popup .searchform .text {
 	float: left;
-	width: 78%;
+	width: 80%;
 	display: inline-block;
 	text-align: left;
+	margin-right: -6px;
 }
 .searchform-popup .searchform input {
 	width: 100%;
-	height: 38px;
+	height: 40px;
 }
 .searchform-popup .searchform .button-wrap {
-	float: right;
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
+	width: 22%;
 	overflow: hidden;
 	border: 1px solid #78c8c9;
 	margin: 0;
@@ -351,6 +354,7 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 	padding: 0;
 	border:1px;
 	border-radius: 0 0 0 0;
+	background: #fdd71f;
 	text-shadow: none;
 	height: 38px;
 	line-height: 37px;
@@ -399,18 +403,31 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 	.open-mobile-menu {
 		display: block;
 	}
+	.main-menu-wrapper nav>ul>li>a {
+		font-size: 20px;
+	}
+	.main-menu-wrapper nav>ul>li.drop-down>a:after {
+		margin-top: -15px;
+	}
 	.main-menu-wrapper nav .main-drop-down-menu {
 		display: none;
+		width: 100%;
 		margin-top: 15px;
 		margin-left: 35px;
 	}
 	.main-menu-wrapper nav>ul>li {
-		max-width: 114px;
+		max-width: 200px;
 		float: none;
 	}
 	nav>ul>li.drop-down:hover>ul {
 		top: 0;
-		left: 113px;
+		left: 200px;
+	}
+	nav>ul>li.drop-down>ul {
+		width: 200px;
+	}
+	nav>ul>li.drop-down>ul a {
+		font-size: 20px;
 	}
 	.searchform-popup .searchform.searchform-mob {
 		position: relative;
@@ -521,6 +538,22 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 @media only screen and (max-width : 375px) {
 	.main-headline {
 		font-size: 3rem;
+	}
+	.main-menu-wrapper nav .main-drop-down-menu {
+		width: 48%;
+	}
+	.main-menu-wrapper nav>ul>li>a {
+		font-size: 16px;
+	}
+	.main-menu-wrapper nav>ul>li.drop-down>a:after {
+		margin-top: -10px;
+	}
+	nav>ul>li.drop-down:hover>ul {
+		width: 125px;
+		left: 134px;
+	}
+	nav>ul>li.drop-down>ul a {
+		font-size: 16px;
 	}
 }
 

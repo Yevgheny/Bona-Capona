@@ -422,7 +422,7 @@ a:hover {
   text-decoration: underline;
 }
 .main-headline {
-  font-family: 'Lato', sans-serif;
+  font-family: 'BergenSansSemiBold', sans-serif;
   font-size: 4rem;
   color: #78c8c9;
   text-align: center;
@@ -439,6 +439,12 @@ a:hover {
 }
 .after-none .main-headline:after {
   display: none;
+}
+.grey-headline {
+  font-family: 'Gilroy-Semibold', sans-serif;
+  font-size: 1.8rem;
+  color: #949494;
+  text-transform: uppercase;
 }
 .align-right {
   text-align: right;
@@ -526,11 +532,11 @@ footer {
 }
 .btn-blue {
   color: #78c8c9;
-  border: 4px solid #78c8c9;
+  border: 3px solid #78c8c9;
 }
 .btn-blue:hover {
   color: #fff;
-  border: 4px solid transparent;
+  border: 3px solid transparent;
   background: #78c8c9;
 }
 .btn-blue:focus,
@@ -628,6 +634,32 @@ label.error {
   font-size: 14px;
   color: red;
 }
+.mp-p_about-restaurant {
+  padding-top: 90px;
+}
+.mp-p_about__headline {
+  padding-top: 20px;
+}
+.ab-p__news-head.mp-p_news__head-wrap {
+  padding-top: 0;
+}
+.mp-p_table-reserve {
+  padding-top: 85px;
+}
+.mp-p_table-reserve .mp-p_reserve__headline {
+  text-align: right;
+}
+.mp-p_table-reserve .mp-p_reserve__headline:after {
+  margin: 10px 0 0 auto;
+}
+.mp-p_reserve__sub-headline {
+  text-align: right;
+  margin: 20px 0;
+}
+.mp-p_reserve__btn {
+  max-width: 200px;
+  margin: 0 0 0 auto;
+}
 .ab-p__news-head {
   padding-top: 30px;
   margin-bottom: 45px;
@@ -672,6 +704,8 @@ label.error {
   background: #f9f9f9;
   padding: 20px 10px;
   margin-bottom: 0;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
 }
 .ab-p__news--more a:after {
   content: '';
@@ -1276,6 +1310,91 @@ label.error {
 .si-p__btn {
   max-width: 175px;
   margin: 0 auto 70px;
+}
+.ev-p-poster__head {
+  margin-bottom: 45px;
+}
+.ev-p-poster__item {
+  display: inline-block;
+  width: 29%;
+  background: #F9F9F9;
+  margin-bottom: 70px;
+  margin-right: 6%;
+}
+.ev-p-poster__item:last-child {
+  margin-right: -3px;
+}
+.ev-p-poster__photo-wrap {
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+.ev-p-poster__photo-wrap img {
+  width: 100%;
+}
+.ev-p-poster__title {
+  font-family: 'BergenSansSemiBold', sans-serif;
+  font-size: 2.4rem;
+  color: #77C6C7;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+}
+.ev-p-poster__date,
+.ev-p-report__date {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.ev-p-poster__link {
+  display: block;
+  font-family: 'Gilroy-Semibold', sans-serif;
+  color: #86878c;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  outline: none;
+  padding: 19px 10px;
+  margin: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.ev-p-poster__link:hover {
+  text-decoration: none;
+  background: #EBEBEB;
+  color: #86878c;
+}
+.ev-p-poster__link:active,
+.ev-p-poster__link:focus {
+  color: #86878c;
+  text-decoration: none;
+  background: #EBEBEB;
+  outline: none;
+}
+.ev-p-poster__link span {
+  position: relative;
+}
+.ev-p-poster__link span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 65px;
+  height: 2px;
+  background-color: #9C9CA1;
+  margin-left: 3px;
+}
+.ev-p-report {
+  padding-bottom: 35px;
+}
+.ev-p-report__head {
+  margin-bottom: 55px;
+}
+.ev-p-report__item {
+  background: #F9F9F9;
+  margin-bottom: 30px;
+}
+.ev-p-report__item span::after {
+  margin-left: -2px;
 }
 .si-e__promo-text {
   margin-bottom: 55px;
