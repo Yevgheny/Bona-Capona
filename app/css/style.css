@@ -768,12 +768,10 @@ label.error {
   max-width: 370px;
   min-height: 205px;
   background: #f9f9f9;
-  padding-top: 8px;
   margin-bottom: 30px;
 }
 .ab-p__news--description p {
   max-width: 285px;
-  padding-top: 30px;
   margin-left: 35px;
   margin-bottom: 0;
 }
@@ -891,11 +889,13 @@ label.error {
   margin-bottom: 0;
 }
 .news-date span {
+  display: inline-block;
   font-family: 'Gilroy-Semibold', sans-serif;
   font-size: 1.2rem;
   color: #fff;
   background: #fdd71f;
   padding: 10px 15px;
+  margin-bottom: 30px;
 }
 /* Tabs container */
 .r-tabs {
