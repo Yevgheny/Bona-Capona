@@ -1337,7 +1337,7 @@ label.error {
   text-align: center;
   margin-bottom: 20px;
 }
-.checkbox-custom,
+.checkbox-ca-d__delivery,
 .ca-d__delivery-label {
   margin-right: 15px;
 }
@@ -1808,7 +1808,7 @@ label.error {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   float: right;
-  margin-top: -30px;
+  margin-top: -45px;
   margin-right: -20px;
 }
 .file-upload label {
@@ -1847,6 +1847,9 @@ label.error {
   height: 30px;
   border: 2px solid #78c8c9;
   cursor: pointer;
+}
+.b-f__checkbox-custom {
+  margin-right: 15px;
 }
 .checkbox-custom,
 .b-f__label {

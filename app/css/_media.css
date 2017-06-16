@@ -47,12 +47,9 @@
 	.file-upload-wrap {
 		padding-right: 20px;
 	}
-	.checkbox-custom, .label {
-		font-size: 1.1rem;
+	.file-upload {
+		margin-top: -34px;
 	}	
-	.checkbox-custom, .label a {
-	    font-size: 1.1rem;
-	}
 	.label a::after {
 		width: 165px;
 	}
@@ -190,16 +187,13 @@
 		 width: 70%;
 		 margin: 0 auto 30px;
 	 }
-    .checkbox-wrap {
-    	display: block;
-    	margin-top: -30px;
-    }
-    .checkbox-custom, .label {
-	    font-size: 1.4rem;
+	 .file-upload {
+	    margin-top: -33px;
 	}
-    .checkbox-custom, .label a {
-	    font-size: 1.4rem;
-	}
+    .checkbox-wrap .b-f__label--costom,
+    .checkbox-wrap .b-f__label--costom a {
+		font-size: 1.4rem;
+	}	
 	.label a::after {
 	    width: 215px;
 	}
@@ -305,7 +299,7 @@
 	.photo-gallery {    
 	    display: block;
 	    margin: 15px auto;
-	}	
+	}		
     .me-p__kitchen--menu-map,
     .me-p__kitchen--novelty {
     	max-width: 570px;
@@ -355,18 +349,33 @@
     }
 }
 @media only screen and (max-width : 668px) {
+	.file-upload {
+	    margin-top: -34px;
+	}
 }
-
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
-
+	
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
 	.animateIn {
 		padding: 10px 20px;
 	}
-	 .de-p-remodal {
+	.file-upload {
+	    margin-top: -33px;
+	}
+	.checkbox-custom-wrap {
+		margin-top: 1px;
+	}
+	.checkbox-wrap .b-f__label--costom, 
+	.checkbox-wrap .b-f__label--costom a {
+	    font-size: 1.2rem;
+	}
+	.b-f__checkbox-custom {
+	    margin-right: 10px;
+	}	
+	.de-p-remodal {
 		max-width: 300px;
 	}
 	.de-p__modal-card ul li .de-p__modal-cart--photo {
@@ -380,11 +389,14 @@
 		margin-bottom: 10px;
 	}
 }
-
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-    .checkbox-wrap {	    
+@media only screen and (max-width : 480px) { 
+	.file-upload {
 	    margin-top: -34px;
+	}   
+	.checkbox-wrap .b-f__label--costom, 
+	.checkbox-wrap .b-f__label--costom a {
+	    font-size: 1rem;
 	}
 	.ev-p-poster__item {
 		width: 80%;
@@ -415,15 +427,21 @@
 		padding: 3px 20px;
 	}
 }
-
 @media only screen and (max-width : 416px) {
 	.file-upload-wrap {
 	    padding-right: 0;
 	    float: left;
 	    margin-bottom: 25px;
 	}
+	.file-upload {
+	    margin-top: -34.5px;
+	}
 	.checkbox-wrap {
 	    margin-top: 0;
+	}
+	.checkbox-wrap .b-f__label--costom, 
+	.checkbox-wrap .b-f__label--costom a {
+	    font-size: 1.3rem;
 	}
 	.me-p__breakfasts--price span {
 		padding-left: 60px;
@@ -458,7 +476,6 @@
 		margin-bottom: 10px;
 	}
 }
-
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
 	.ab-p__news--all-news {
@@ -466,10 +483,12 @@
 	}
 	.me-p__breakfasts--price h3 {
 		padding-left: 0;
-	}
-	
+	}	
 }
 @media only screen and (max-width : 380px) {
+	.file-upload {
+	    margin-top: -46px;
+	}
 	.ca-d__choice-delivery label {
 		margin-right: 80px;
 	}
@@ -558,6 +577,12 @@
 	}
 	.de-p__card--photo-dish span {
 		padding: 3px 1px;
+	}
+	.file-upload-wrap p {
+		font-size: 1.2rem;
+	}
+	.file-upload {
+	    margin-top: -43px;
 	}
 }
 
