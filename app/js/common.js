@@ -445,20 +445,6 @@ $(document).ready(function () {
 
 })();
 
-$(document).ready(function () {
-
-	myCh.addEventListener('change', changeListener);
-
-	function changeListener() {
-		var id = this.id;
-		var selects = document.querySelectorAll('[data-to-disable]');
-		for(var i=0; i<selects.length; i++) {
-			console.log(selects[i].disabled)
-			selects[i].disabled = !selects[i].disabled;
-		}
-	}
-});
-
 jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-angle-up" aria-hidden="true"></i></div><div class="quantity-button quantity-down"><i class="fa fa-angle-down" aria-hidden="true"></i></div></div>').insertAfter('.quantity input');
 jQuery('.quantity').each(function() {
 
