@@ -120,6 +120,9 @@
 	.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-3 {
 		margin-right: 0;
 	}
+	.ca-d__choose-payment--card {
+		margin-bottom: 25px;
+	}
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -425,15 +428,22 @@
 	.me-p__breakfasts--price span {
 		padding-left: 60px;
 	}	
-	.ca-d__label {
-		margin-bottom: 20px;
-	}
 	.ca-d__delivery-explanation {
 		padding-top: 0;
-	}	
+	}
+	.ca-d__promo--btn	{
+		padding-top: 25px;
+	}
 	.ca-d__choose-payment--card {
-		margin-bottom: 10px;
+		margin-bottom: 25px;
+	}
+	.ca-d__choose-payment--btn {
+		margin: 0;
 	}	
+	.ca-d__solution-order-delivery--agree-terms,
+	.ca-d__solution-order-delivery--against-bots {
+		padding-top: 0;
+	}
 	.ca-d__total {
 		padding-top: 55px;
 		margin-left: -30px;
@@ -459,7 +469,20 @@
 	}
 	
 }
-
+@media only screen and (max-width : 380px) {
+	.ca-d__choice-delivery label {
+		margin-right: 80px;
+	}
+	.checkbox-ca-d__delivery {
+		margin-bottom: 25px;
+	}
+	.ca-d__delivery-label {
+		margin-top: -25px;
+	}
+	.btn-ca-d-main-form {
+		min-width: 100%;
+	}
+}
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
 	.ab-p__news-head {
@@ -492,11 +515,19 @@
 	.de-p__card--discription-dish span {
 		margin-right: 5px;
 		margin-bottom: 10px;
-	}
+	}	
 }
 
 @media only screen and (max-width : 360px) {
-	
+	.ca-d__score--btn {
+		padding-top: 25px;
+	}
+	.ca-d__bonus-promo {
+		padding-top: 25px;
+	}
+	.ca-d__total span {
+		font-size: 1.5rem;
+	}
 }
 @media only screen and (max-width : 330px) {
 	.footer-cotact-info ul a {

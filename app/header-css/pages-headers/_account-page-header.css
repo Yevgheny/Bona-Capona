@@ -1,3 +1,14 @@
+/*------------------- ACCOUNT PAGE-HEADER.css------------------*/
+.account-page {
+	padding-top: 55px;
+}
+.ac-p__head h2:after {
+	display: none;
+}
+.ac-p__head {
+	margin-bottom: 65px;
+}
+/*-------------------finish ACCOUNT PAGE-HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
