@@ -74,7 +74,8 @@ $(document).ready(function() {
 		margin: 10,
 		nav: true,
 		dots: true,
-		items: 1
+		items: 1,
+		animateOut: 'fadeOut',
 	});
 
 
