@@ -53,7 +53,7 @@
 					<div class="row">
 						<form  action="form-control/mail.php" method="post" enctype="multipart/form-data" id="main-form" class="main-screen-form ca-d__main-form" name="main-form" novalidate="novalidate">
 							<div class="col-md-10 col-md-offset-1">
-								<div class="ab-p__form--wrap">		
+								<div class="ab-p__forms--wrap">		
 
 									<!-- Hidden Required Fields -->
 									<input type="hidden" name="project_name" value="Bona-Capona">
@@ -185,11 +185,11 @@
 										</ul>
 									</div>								
 									<div class="delivery-or-pickup"><!-- cart-delivery delivery or pickup-->
-										<div class="col-md-6 no-padding">
+										<div class="col-md-12 no-padding">
 											<div class="ca-d__choice-delivery">
 
 												<label for="ca-d__delivery">
-													<input class="checkbox" type="radio" id="ca-d__delivery" name="name" checked="checked" >	
+													<input class="checkbox" type="radio" id="ca-d__delivery" name="name" checked="checked" >  
 													<span class="checkbox-custom"></span>
 													<span class="b-f__label ca-d__label ca-d__delivery-label">Оформить доставку</span>
 												</label>
@@ -199,27 +199,27 @@
 													<span class="checkbox-custom"></span>
 													<span class="b-f__label ca-d__label ca-d__delivery-label">Самовывоз</span>
 												</label>
-												
-											</div>											
+
+											</div>                                          
 										</div>
 									</div><!--finish cart-delivery delivery or pickup-->
-									<div class="ca-d__delivery-explanation">
-										<div class="col-md-7  no-padding">
-											<p>Укажите адрес доставки:</p>
-										</div>
-									</div>
 								</div> 
 							</div>
 							<div class="ca-d__map"><!--cart-delivery map -->	
 								<div id="map" class="map"></div>
 							</div><!--finish cart-delivery map -->
 							<div class="col-md-10 col-md-offset-1">
-								<div class="ab-p__form--wrap ab-p__form--bottom-wrap">		
+								<div class="ab-p__form--wrap ab-p__form--bottom-wrap  ab-p__form-delivery--wrap">
+									<div class="ca-d__delivery-explanation">
+										<div class="col-md-12  no-padding">
+											<p>Укажите адрес доставки:</p>
+										</div>
+									</div>		
 									<div class="ca-d__delivery-address"><!--cart-delivery delivery-address -->
 										<div class="row">
 											<div class="col-xs-6 col-sm-6 col-md-3">
 												<div class="input-group">
-								
+
 													<select name="name" id="district" size="1">
 														<option selected value="Район"> Район </option>
 														<option value="Адмиралтейский район">Адмиралтейский район</option>
@@ -241,39 +241,38 @@
 														<option value="Фрунзенский район">Фрунзенский район</option>
 														<option value="Центральный район">Центральный район</option>
 													</select>
-								
+
 												</div>
 											</div>
 											<div class="col-xs-6 col-sm-6 col-md-3">
 												<div class="input-group">								
 													<input type="text" name="name" id="street" placeholder="Улица" required="" aria-required="true" autocomplete="on">
-								
+
 												</div>
 											</div>
 											<div class="col-xs-6 col-sm-3 col-md-1">
 												<div class="input-group">								
 													<input type="text" name="name" id="house" placeholder="Дом" required="" aria-required="true" autocomplete="on">
-								
+
 												</div>
 											</div>
 											<div class="col-xs-6 col-sm-3 col-md-1">
 												<div class="input-group">								
 													<input type="text" name="name" id="apartment" placeholder="Кв" required="" aria-required="true" autocomplete="on">
-								
+
 												</div>
 											</div>
 											<div class="col-xs-12 col-sm-6 col-md-3">
 												<div class="input-group">								
 													<input type="tel" name="name" id="phone-2" placeholder="Телефон" required="" aria-required="true" autocomplete="on">
-								
+
 												</div>
-											</div>
-								
+											</div>											
 											<div class="col-xs-12 col-sm-6 col-md-3">
 												<div class="ca-d__current-time">
 													<div class="checkbox-wrap">
 														<label>
-															<input class="checkbox" type="checkbox" name="name"  id="myCh">
+															<input class="checkbox" type="checkbox" name="name">
 															<span class="checkbox-custom"></span>
 															<span class="ca-d__delivery-address--label ca-d__label">На текущее время
 															</span>
@@ -283,7 +282,7 @@
 											</div>
 											<div class="col-xs-6 col-sm-3 col-md-2">
 												<div class="input-group">
-													<select id="first" size="1" data-to-disable>
+													<select size="1" data-to-disable>
 														<option selected value="Дата (на 2 дня)">Дата (на 2 дня)</option>
 														<option value="Дата (на 3 дня)">Дата (на 3 дня)</option>
 														<option value="Дата (на 4 дня)">Дата (на 4 дня)</option>
@@ -297,7 +296,7 @@
 											</div>
 											<div class="col-xs-6 col-sm-3 col-md-2">
 												<div class="input-group">
-													<select id="second" size="1" data-to-disable>
+													<select size="1" data-to-disable>
 														<option selected value="Время">Время</option>
 														<option value="10 : 00">10 : 00</option>
 														<option value="10 : 15">10 : 15</option>
@@ -314,7 +313,7 @@
 												<div class="input-group-text">												
 													<textarea name="text" id="message-1" cols="30" rows="10" required="">Добавьте комментарий Например:«Не работает домофон, пожалуйста, звоните на телефон».		
 													</textarea>
-								
+
 												</div>
 											</div>
 											<div class="col-xs-8 col-sm-7 col-md-5">
@@ -456,10 +455,205 @@
 											</div>
 										</div>
 									</div><!-- finish cart-delivery solution-order-delivery --> 
-								
+
 									<div class="ca-d__btn-main-form-wrap">
 										<input type="hidden"  name="s_formi" value="Заказать доставку">
 										<button type="submit" name="submit" class="btn btn-yellow btn-ca-d-main-form">Заказать доставку</button>			                                                    
+									</div>
+								</div>
+								<div class="ab-p__form--wrap ab-p__form--bottom-wrap ab-p__form-pickup--wrap">
+									<div class="ca-d__delivery-explanation">
+										<div class="col-md-12  no-padding">
+											<p>Выберите ресторан, из которого Вы самостоятельно заберете заказ:</p>
+										</div>
+									</div>		
+									<div class="ca-d__delivery-address"><!--cart-delivery delivery-address -->
+										<div class="row">
+											<div class="col-xs-12 col-sm-3 col-md-3">
+												<div class="ca-d__current-time">
+													<div class="checkbox-wrap">
+														<label>
+															<input class="checkbox" type="checkbox" name="name"  id="myCh">
+															<span class="checkbox-custom"></span>
+															<span class="ca-d__delivery-address--label ca-d__label">На текущее время
+															</span>
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="col-xs-6 col-sm-3 col-md-2">
+												<div class="input-group">
+													<select id="first" size="1" data-to-disable>
+														<option selected value="Дата (на 2 дня)">Дата (на 2 дня)</option>
+														<option value="Дата (на 3 дня)">Дата (на 3 дня)</option>
+														<option value="Дата (на 4 дня)">Дата (на 4 дня)</option>
+														<option value="Дата (на 5 дней)">Дата (на 5 дней)</option>
+														<option value="Дата (на 6 дней)">Дата (на 6 дней)</option>
+														<option value="Дата (на 7 дней)">Дата (на 7 дней)</option>
+														<option value="Дата (на 8 дней)">Дата (на 8 дней)</option>
+														<option value="Дата (на 9 дней)">Дата (на 9 дней)</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-xs-6 col-sm-3 col-md-2">
+												<div class="input-group">
+													<select id="second" size="1" data-to-disable>
+														<option selected value="Время">Время</option>
+														<option value="10 : 00">10 : 00</option>
+														<option value="10 : 15">10 : 15</option>
+														<option value="10 : 30">10 : 30</option>
+														<option value="10 : 45">10 : 45</option>
+														<option value="11 : 00">11 : 00</option>
+														<option value="11 : 15">11 : 15</option>
+														<option value="11 : 30">11 : 30</option>
+														<option value="11 : 45">11 : 45</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-3 col-md-3">
+												<div class="input-group">								
+													<input type="tel" name="name" id="phone-2" placeholder="Телефон" required="" aria-required="true" autocomplete="on">
+								
+												</div>
+											</div>								
+											<div class="col-xs-12 col-sm-12 col-md-4">
+												<div class="input-group-text">												
+													<textarea name="text" id="message-1" cols="30" rows="10" required="">Kомментарий 	
+													</textarea>
+								
+												</div>
+											</div>
+											<div class="col-xs-8 col-sm-7 col-md-5">
+												<div class="ca-d__order">
+													<div class="ca-d__order--delivery-address">
+														<span>3 товара на стоимость 1050 &#8381; по адресу: Ленина пр-т, 2, кв. 32</span>
+													</div>
+													<div class="ca-d__order--date-time">
+														<span>20 марта 20:00</span>
+													</div>
+													<div class="ca-d__order--delivery">
+														<span><i class="fa fa-plus" aria-hidden="true"></i> доставка <i class="fa fa-minus" aria-hidden="true"></i> 350  &#8381;</span>
+													</div>
+												</div>
+											</div>
+											<div class="col-xs-4 col-sm-5 col-md-2">
+												<div class="ca-d__total ca-d__total-two">
+													<span>ИТОГО: 1400 &#8381;</span>
+												</div>
+											</div>	
+										</div>
+									</div><!--finish cart-delivery delivery-address -->
+									<div class="ca-d__bonus-account"><!--cart-delivery bonus -->
+										<div class="row">
+											<div class="col-md-5 no-padding-right">
+												<div class="ca-d__bonus-account--your-score">
+													<span>На вашем счету 200 бонусов</span>
+													<div class="input-ca-d">
+														<div class="quantity ca-d__score">
+															<ul>
+																<li>
+																	<p>Использовать:</p>
+																</li>
+																<li>
+																	<input type="number" min="100" max="5000" step="50" value="100">
+																</li>
+																<li>
+																	<p>бонусов</p>
+																</li>
+																<li>
+																	<div class="ca-d__score--btn">
+																		<button type="submit" name="submit" class="btn btn-yellow btn-score">ok</button>
+																	</div>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>	
+											</div>
+											<div class="col-md-7 no-padding-left">
+												<div class="ca-d__bonus-account--your-score ca-d__bonus-promo">
+													<ul>
+														<li>
+															<p>Использовать промокод:</p>
+														</li>
+														<li>
+															<div class="promo-input-group">
+																<input type="text" name="name" id="promo" required="" >
+															</div>
+														</li>
+														<li>
+															<div class="ca-d__score--btn ca-d__promo--btn">
+																<button type="submit" name="submit" class="btn btn-yellow btn-promo">Активировать !</button>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div><!-- finish cart-delivery bonus -->
+									<div class="ca-d__choose-payment-method"><!-- cart-delivery choose-payment-method -->
+										<div class="row">
+											<div class="col-sm-12 col-md-7">
+												<div class="ca-d__choose-payment--card">
+													<div class="checkbox-wrap">			
+														<label for="ca-d__choose-payment--card">
+															<input class="checkbox" type="radio" id="ca-d__choose-payment--card" name="name">
+															<span class="checkbox-custom"></span>
+															<span class="b-f__label ca-d__label">Оплата картой Visa, Mastercard, EuroCard
+															</span>
+														</label>
+													</div>
+												</div>
+												<div class="ca-d__choose-payment--btn">
+													<button type="submit" name="submit" class="btn btn-yellow btn-card">Оплатить</button>
+												</div>
+											</div>
+											<div class="col-sm-12 col-md-5">
+												<div class="ca-d__choose-payment--cash">
+													<div class="checkbox-wrap">
+														<label for="ca-d__choose-payment--cash">
+															<input class="checkbox" type="radio" id="ca-d__choose-payment--cash" name="name" > 
+															<span class="checkbox-custom"></span>
+															<span class="b-f__label ca-d__label">Оплата наличными при получении
+															</span>
+														</label>
+													</div>
+												</div>
+											</div>											
+										</div>
+									</div><!-- finish cart-delivery choose-payment-method -->
+									<div class="ca-d__solution-order-delivery"><!-- cart-delivery solution-order-delivery -->
+										<div class="row">
+											<div class="col-sm-5 col-md-5">
+												<div class="ca-d__solution-order-delivery--confidentiality-agreement">
+													<div class="checkbox-wrap">			
+														<label>
+															<input class="checkbox" type="checkbox" name="name">
+															<span class="checkbox-custom"></span>
+															<span class="ca-d__label ca-d__label--solution-1">Согласен с <a href="#modal-2">политикой конфиденциальности</a>
+															</span>
+														</label>
+													</div>
+												</div>
+											</div>										
+											<div class="col-sm-3 col-md-3 col-md-offset-3">
+												<div class="ca-d__solution-order-delivery--against-bots">
+													<div class="checkbox-wrap">			
+														<label>
+															<input class="checkbox" type="checkbox" name="name">
+															<span class="checkbox-custom"></span>
+															<span class="ca-d__label ca-d__label--solution-3">Я не робот
+															</span>
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- finish cart-delivery solution-order-delivery --> 
+								
+									<div class="ca-d__btn-main-form-wrap">
+										<input type="hidden"  name="s_formi" value="Заказать доставку">
+										<button type="submit" name="submit" class="btn btn-yellow btn-ca-d-main-form">сделать заказ</button>	                                                    
 									</div>
 								</div>
 							</div>

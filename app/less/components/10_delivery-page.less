@@ -1,12 +1,13 @@
 /*------------------- DELIVERY-PAGE.css------------------*/
-.de-p {
+.de-p {	
 	&__card {
 		background: #f9f9f9;
 		margin-bottom: 30px;
 		&--photo-dish {
 			margin-bottom: 30px;
+			overflow: hidden;
 			span {
-				text-transform: uppercase;
+				text-transform: uppercase;				
 				padding: 3px 35px;
 				position: absolute;
 			}
@@ -63,6 +64,66 @@
 			}
 		}
 	}
+	&__modal-card {		
+		ul {
+			padding: 0;
+			margin: 0;
+			li {
+				list-style: none;
+				display: inline-block;
+				vertical-align: top;
+				.de-p {
+					&__modal-cart {
+						width: 270px;
+						&--photo {
+							max-width: 270px;							
+							height: auto;
+							overflow: hidden;							
+							margin-right: 30px;							
+							span {
+								text-transform: uppercase;
+								font-size: @fs;
+								padding: 3px 41px;
+								position: absolute;
+							}
+							img {
+								max-width: 100%;
+								height: auto;
+							}
+						}
+						&--discription {
+							max-width: 270px;							
+							h5 {
+								text-align: left;
+								font-family: @ff4;
+								text-transform: uppercase;
+								color: @blue;
+							}
+							p {
+								text-align: left;
+								margin-bottom: 25px;
+							}
+							.weight {
+								font-family: @ff;
+								font-size: @fs;
+								color: @grey;
+								padding-top: 5px;
+								float: left;
+							}
+							span {
+								font-family: @ff4;
+								font-size: @fsb;
+								color: #646569;
+								float: right;
+								margin-right: 17px;
+								margin-bottom: 20px;
+							}
+						}						
+					}
+				}
+			}
+		}		
+	}
 }
 .btn-cart {
 	min-width: 100%;
@@ -80,5 +141,13 @@
 }
 #horizontalTab-10.r-tabs .r-tabs-panel {
 	padding-bottom: 25px;
+}
+.remodal-close {
+	color: @blue;
+}
+.remodal-close:hover,
+.remodal-close:focus,
+.remodal-close:active {
+	color: #69afb0;
 }
 /*------------------- finish DELIVERY PAGE.css------------------*/
