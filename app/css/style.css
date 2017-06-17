@@ -1398,22 +1398,36 @@ label.error {
   color: #86878c;
 }
 .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a {
+  color: #86878c;
   border-bottom: 2px solid #86878c;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 .ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a:hover {
+  color: #86878c;
   text-decoration: none;
   border-bottom: 2px dotted #86878c;
 }
+.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a:focus,
+.ca-d__solution-order-delivery--confidentiality-agreement .checkbox-wrap .ca-d__label--solution-1 a:active {
+  color: #86878c;
+  text-decoration: none;
+}
 .ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a {
+  color: #86878c;
   border-bottom: 2px solid #86878c;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 .ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a:hover {
+  color: #86878c;
   text-decoration: none;
   border-bottom: 2px dotted #86878c;
+}
+.ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a:focus,
+.ca-d__solution-order-delivery--agree-terms .checkbox-wrap .ca-d__label--solution-2 a:active {
+  color: #86878c;
+  text-decoration: none;
 }
 .btn-ca-d-main-form {
   min-width: 370px;
@@ -1858,13 +1872,20 @@ label.error {
   color: #86878c;
 }
 .checkbox-wrap .b-f__label--costom a {
+  color: #86878c;
   border-bottom: 2px solid #86878c;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 .checkbox-wrap .b-f__label--costom a:hover {
+  color: #86878c;
   text-decoration: none;
   border-bottom: 2px dotted #86878c;
+}
+.checkbox-wrap .b-f__label--costom a:focus,
+.checkbox-wrap .b-f__label--costom a:active {
+  color: #86878c;
+  text-decoration: none;
 }
 .checkbox:checked + .checkbox-custom::before {
   content: "";
