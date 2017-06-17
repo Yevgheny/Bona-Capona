@@ -186,6 +186,8 @@ $(document).ready(function () {
 
 	});
 
+	
+
 	$('#b-f__zoom-gallery').magnificPopup({
 
 		delegate: 'a',
@@ -480,4 +482,10 @@ jQuery('.quantity').each(function() {
 
 
 });
-
+//Табы для главной страницы и личного кабинета !!!Обязательно в самом низу, иначе в корзине получается полный слэш!!!
+$("#verticalTab").easyResponsiveTabs({
+    type: 'vertical', //Типы: default, vertical, accordion           
+    width: 'auto', //auto или любое значение ширины
+    fit: false,   // 100% пространства занимает в контейнере
+    activate: function() {} // Функция обратного вызова, используется, когда происходит переключение вкладок
+});
