@@ -490,7 +490,7 @@
 							</div>
 						</div>
 					</div>
-					<a href="#" class="btn btn-blue mp-p_test-slider">оставить отзыв</a>
+					<a href="#modal-co" class="btn btn-blue mp-p_test-slider">оставить отзыв</a>
 				</div>
 			</section>
 			<section class="">
@@ -715,6 +715,36 @@
             			<button type="submit" name="submit" class="btn btn-yellow re-m__btn">Зарегистрироваться</button>
             		</form>
             		<a href="#modal-e" class="re-m__link-center">У меня уже есть аккаунт</a>
+            	</div>
+            </div>
+			
+			<!-- оставить отзыв-->
+            <div class="remodal comment-modal" data-remodal-id="modal-co" role="dialog">
+            	<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+            	<div>
+            		<h3 class="co-m__headline modal__headline">Ваш отзыв</h3>
+            		<form action="form-control/mail.php" method="post" class="co-m__form" id="main-form" name="main-form">
+            			<!-- Hidden Required Fields -->
+            			<input type="hidden" name="project_name" value="Bona-Capona">
+            			<input type="hidden" name="admin_email" value="mail@mail.ru">
+            			<input type="hidden" name="form_subject" value="Отзыв">
+            			<!-- END Hidden Required Fields -->   
+            			<div class="input-group">
+            				<input type="text"  name="name" placeholder="Имя" required>
+            			</div>
+            			<div class="input-group">
+            				<input type="text"  name="family" placeholder="Фамилия" required>
+            			</div>
+            			<div class="input-group">
+            				<input type="text"  name="status" placeholder="Род занятий" required>
+            			</div>
+            			<div class="input-group-text">		
+            				<textarea name="text" id="co-m-message" cols="30" rows="10" required>Оставьте ваш отзыв		
+            				</textarea>
+            			</div>
+            			<input type="hidden"  name="s_formi" value="Оставить отзыв">
+            			<button type="submit" name="submit" class="btn btn-yellow co-m__btn">Оставить отзыв</button>
+            		</form>
             	</div>
             </div>
 
