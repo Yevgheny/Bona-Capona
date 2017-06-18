@@ -1,3 +1,35 @@
+.ne-p__head {
+	padding-top: 60px;
+	margin-bottom: 45px;
+}
+.ne-p__news-post {
+	min-height: 380px;
+	margin-bottom: 50px;
+}
+.ne-p__photo-wrap img {
+	width: 100%;
+	max-width: 100%;
+}
+.ne-p__news-post h3 {
+	font-family: 'BergenSansSemiBold', sans-serif;
+	font-size: 2.4rem;
+	color: #78c8c9;
+	letter-spacing: 0.1em;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+.ne-p__date {
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.ne-p__news-post p {
+	margin-bottom: 40px;
+}
+.ne-p__btn {
+	max-width: 170px;
+	margin: 0 auto 30px;
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */

@@ -8,34 +8,29 @@
 	min-height: 380px;
 	margin-bottom: 50px;
 }
-.pr-p__photo-wrap {
-	margin-bottom: 20px;
-}
 .pr-p__photo-wrap img {
 	width: 100%;
 	max-width: 100%;
 }
-.pr-p__hedline-post {
-padding-top: 30px;
-}
-.pr-p__hedline-post {
+.pr-p__promo-post h3 {
 	font-family: 'BergenSansSemiBold', sans-serif;
 	font-size: 2.4rem;
 	color: #78c8c9;
 	letter-spacing: 0.1em;
 	margin-bottom: 25px;
+	padding-top: 30px;
 }
 .pr-p__date {
 	display: block;
 	text-align: center;
 	margin-bottom: 35px;
 }
-.pr-p__text-post {
+.pr-p__promo-post p {
 	margin-bottom: 40px;
 }
 .pr-p__btn {
 	max-width: 170px;
-	margin: 0 auto 10px;
+	margin: 0 auto 30px;
 }
 /*==========  Desktop First Method  ==========*/
 
