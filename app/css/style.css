@@ -636,7 +636,8 @@ label.error {
 }
 .password-modal,
 .enter-modal,
-.register-modal {
+.register-modal,
+.comment-modal {
   position: relative;
   width: 100%;
   max-width: 430px;
@@ -660,7 +661,8 @@ label.error {
 }
 .pa-m__form .input-group,
 .en-m__form .input-group,
-.re-m__form .input-group {
+.re-m__form .input-group,
+.co-m__form .input-group {
   width: 100%;
   height: 30px;
   text-align: center;
@@ -668,7 +670,8 @@ label.error {
 }
 .pa-m__form .input-group input,
 .en-m__form .input-group input,
-.re-m__form .input-group input {
+.re-m__form .input-group input,
+.co-m__form .input-group input {
   width: 100%;
   height: 30px;
   font-size: 1.4rem;
@@ -677,9 +680,25 @@ label.error {
   background-color: #fff;
   border: 2px solid #78c8c9;
 }
+.co-m__form .input-group-text {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.co-m__form .input-group-text textarea {
+  width: 100%;
+  height: 100px;
+  font-size: 1.4rem;
+  text-align: center;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #78c8c9;
+}
 .pa-m__btn,
 .en-m__btn,
-.re-m__btn {
+.re-m__btn,
+.co-m__btn {
   width: 100%;
   margin-bottom: 30px;
 }
