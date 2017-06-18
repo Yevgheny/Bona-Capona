@@ -414,6 +414,11 @@
 	.de-p__card--photo-dish span {
 		padding: 3px 20px;
 	}
+	.re-m__form-left,
+	.re-m__form-right {
+		display: block;
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width : 416px) {
@@ -496,10 +501,25 @@
 		margin-right: 5px;
 		margin-bottom: 10px;
 	}
-}
+	.password-modal a {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
 
 @media only screen and (max-width : 360px) {
-	
+	.enter-modal {
+		padding: 45px 20px 30px;
+	}
+	.en-m__social-item {
+		margin-right: 9px;
+	}
+	.en-m__social-item--3 {
+		margin-right: 0;
+	}
+	.register-modal {
+		padding: 45px 20px 30px;
+	}
 }
 @media only screen and (max-width : 330px) {
 	.footer-cotact-info ul a {

@@ -54,3 +54,134 @@ label.error {
 	font-size: 14px;
     color: red;
 }
+.password-modal,
+.enter-modal,
+.register-modal {
+    position: relative;
+    width: 100%;
+    max-width: 430px;
+    background: #fff;
+    margin: 0 auto 10px;
+    padding: 45px 30px 30px;
+}
+.remodal-close {
+    top: 15px;
+    right: 12px;
+    &:before {
+        font-size: 45px;
+    }
+}
+.modal__headline {
+    font-family: 'BergenSansSemiBold', sans-serif;
+    font-size: 2.4rem;
+    color: #78c8c9;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+.pa-m__form .input-group,
+.en-m__form .input-group,
+.re-m__form .input-group {
+    width: 100%;
+    height: 30px;
+    text-align: center;  
+    margin-bottom: 20px;
+    input {
+        width: 100%;
+        height: 30px;  
+        font-size: 1.4rem;
+        text-align: center;
+        outline: none;
+        background-color: #fff;  
+        border: 2px solid @blue;
+    }
+}
+.pa-m__btn,
+.en-m__btn,
+.re-m__btn {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.password-modal a,
+.enter-modal a,
+.re-m__link-center {
+    display: inline-block;
+    width: 49%;
+    transition: 0.5s ease;
+    &:hover,
+    &:active,
+    &:focus {
+        color: @grey;
+    }
+}
+.pa-m__link-right {
+    text-align: right;
+}
+.pa-m__link-left {
+    text-align: left;
+}
+.en-m__text-halp {
+    display: block;
+    color: @grey;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.en-m__social {
+    width: 300px;
+    margin: 0 auto 20px;
+}
+.en-m__social-item {
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    margin-right: 18px;
+    transition: 0.5s ease;
+    &:hover {
+        opacity: 0.6;
+    }
+    a {
+        display: block;
+        width: 85px;
+        height: 30px;
+    }
+}
+.en-m__social-item--1 {
+    background: url("@{dir}google-icon.svg") no-repeat top center;
+}
+.en-m__social-item--2 {
+    background: url("@{dir}facebook-icon.svg") no-repeat top center;
+}
+.en-m__social-item--3 {
+    background: url("@{dir}vkontakte-icon.svg") no-repeat top center;
+    margin-right: 0;
+}
+.en-m__checkbox-wrap {
+    margin-bottom: 25px;
+}
+.re-m__form-left,
+.re-m__form-right {
+    display: inline-block;
+    width: 47%;
+}
+.re-m__form-left {
+    margin-right: 5%;
+}
+.re-m__checkbox-wrap {
+    margin-bottom: 20px;
+    text-align: left;
+    a {
+        border-bottom: 2px solid #86878c;
+        transition: 0.5s ease;
+        &:hover,
+        &:active,
+        &:focus {
+            color: @grey;
+            text-decoration: none;
+            border-bottom: 2px dotted #86878c;
+        }
+    }
+
+}
+.re-m__link-center {
+    width: 100%;
+    text-align: center;
+}
