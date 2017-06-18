@@ -79,9 +79,6 @@
 	}
 	.file-upload {
 		margin-top: -34px;
-	}	
-	.label a::after {
-		width: 165px;
 	}
 	#horizontalTab-5 .r-tabs-nav,
     #horizontalTab-7 .r-tabs-nav, 
@@ -202,6 +199,7 @@
     }
     .r-tabs .r-tabs-accordion-title {
         display: block;
+        border-bottom: 1px solid #ccc;
     }
     .r-tabs .r-tabs-accordion-title .r-tabs-anchor {
     	text-align: center;
@@ -224,9 +222,6 @@
     .checkbox-wrap .b-f__label--costom a {
 		font-size: 1.4rem;
 	}	
-	.label a::after {
-	    width: 215px;
-	}
 	.btn-main-form-wrap {
 		padding-top: 25px;
 	}

@@ -1,12 +1,143 @@
 /*------------------- ACCOUNT PAGE-HEADER.css------------------*/
 .account-page {
 	padding-top: 55px;
+	padding-bottom: 250px;
 }
 .ac-p__head h2:after {
 	display: none;
 }
 .ac-p__head {
 	margin-bottom: 65px;
+}
+.resp-vtabs .resp-tabs-list li {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	color: #78c8c9;
+	background: #f7f7f7;
+	border-bottom: 1px solid #78c8c9;
+	transition: 0.5s ease;
+}
+.resp-tabs-list li:hover {
+	background: #fafafa;
+}
+.resp-vtabs li.resp-tab-active {
+	color: #fff;
+	background: #78c8c9;
+}
+.resp-vtabs .resp-tabs-container {
+	border: inherit;
+}
+.ac-p__tabs-content-head,
+.ac-p__tabs-content,
+.ac-p__account-exit,
+.ac-p__account-record {
+	padding-left: 37px;
+}
+.ac-p__tabs-content-head p {
+	font-size: 1.4rem;
+	color: #86878c;
+	margin-bottom: 20px;
+}
+.ac-p__tabs-content span {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Gilroy-Semibold', sans-serif;
+	font-size: 1.8rem;
+	color: #949494;
+	margin-bottom: 20px;
+}
+.ac-p__tabs-content a {
+	font-size: 1.2rem;
+	color: #b9bbc2;
+	border-bottom: 1px solid #b9bbc2;
+	margin-left: 25px;
+	transition: 0.5s ease;	
+}
+.ac-p__tabs-content a:hover {
+	color: #b9bbc2;
+	text-decoration: none;
+	border-bottom: 1px dotted #b9bbc2;
+}
+.ac-p__history ol {
+	font-family: 'Gilroy-Semibold', sans-serif;
+	font-size: 1.8rem;
+	color: #949494;
+}
+.ac-p__history ol li {
+	border-bottom: 1px dashed #949494;
+	margin-bottom: 25px;
+}
+.ac-p__history ol li:last-child {
+	border-bottom: inherit;
+}
+.ac-p__history--inner {
+	padding-left: 20px;
+}
+.ac-p__order span {
+    display: block;
+    color: #86878c;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+}
+.ca-d__total.ac-p__total {
+	text-align: left;
+	padding-top: 10px;
+}
+.ac-p__details-operation {
+	margin-bottom: 30px;
+}
+.ac-p__details-operation a {
+	text-transform: uppercase;
+	font-family: 'Gilroy-Semibold', sans-serif;
+	font-size: 9.98px;
+	color: #78c8c9;
+	border-bottom: 1px solid #78c8c9;
+	transition: 0.5s ease;
+}
+.ac-p__details-operation a:hover {
+	color: #78c8c9;
+	text-decoration: none;
+	border-bottom: 1px dotted #78c8c9;
+}
+.ac-p__account-exit--question {
+	margin-bottom: 25px;
+}
+.btn.btn-ac-p-verification {
+	min-width: 76px;
+}
+.ac-p__account-record .input-group {
+  width: 100%;
+  height: 30px;
+  text-align: center;  
+  margin-bottom: 20px;
+}
+.ac-p__account-record .input-group select,
+.ac-p__account-record .ac-p-input-group input {
+  width: 100%;
+  height: 30px;  
+  font-size: 1.4rem;
+  outline: none;
+  background-color: #fff;  
+  border: 2px solid #78c8c9;
+}
+.btn.btn-ac-p-main-form {
+	min-width: 100%;
+}
+.btn.btn--ac-p {
+	color: #fff;
+	background: #78c8c9;
+	border: 3px solid #78c8c9;
+}
+.btn.btn--ac-p:hover {
+	color: #6cb4b5;	
+	background: #fff;
+	border: 3px solid #6cb4b5;
+}
+.btn.btn--ac-p:focus,
+.btn.btn--ac-p:active {
+	color: #78c8c9;
+	border: 3px solid #78c8c9;
 }
 /*-------------------finish ACCOUNT PAGE-HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
@@ -45,7 +176,52 @@
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-
+	.account-page {
+		padding-bottom: 40px;
+	}
+	h2.resp-accordion {
+		text-transform: uppercase;
+	    font-size: 1.8rem;
+	    color: #78c8c9;
+	    background: #f7f7f7;
+	    border-bottom: 1px solid #78c8c9;
+	    transition: 0.5s ease;
+	}
+	h2.resp-accordion:hover {
+		background: #fafafa;
+	}
+	h2.resp-tab-active {
+		color: #fff;
+    	background: #78c8c9 !important;
+	}
+	.resp-arrow {
+		border-top: 12px solid #78c8c9;
+		transition: 0.5s ease;
+	}
+	h2.resp-tab-active span.resp-arrow {
+		border-bottom: 12px solid #fff;
+		transition: 0.5s ease;
+	}
+	.ac-p__tabs-content-head p,
+	.ac-p__tabs-content span {
+		margin-bottom: 0;
+	}
+	.ac-p__tabs-content-head,
+	.ac-p__tabs-content,
+	.ac-p__account-exit,
+	.ac-p__account-record {
+		padding-left: 0;
+	}
+	.ac-p__tabs-content-head {
+		padding: 10px;
+	}
+	.ac-p__tabs-content {
+		padding-left: 10px;
+	}	
+	.ac-p__account-exit,
+	.ac-p__account-record {
+		padding: 15px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -64,9 +240,24 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.ac-p__tabs-content-head {
+		padding: 0;
+		padding-top: 10px;
+	}
+	.ac-p__tabs-content {
+		padding-left: 0;
+	}
+	.ac-p__account-exit,
+	.ac-p__account-record {
+		padding: 0;
+	}
 }
 
+@media only screen and (max-width : 416px) {
+	.ca-d__total.ac-p__total {
+		margin-left: 0;
+	}
+}
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
 
