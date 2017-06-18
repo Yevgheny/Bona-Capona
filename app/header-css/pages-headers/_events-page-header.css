@@ -282,22 +282,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.no-padding {
-		padding-left: 0;
-		padding-right: 0;
-	}
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	.no-padding {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.no-padding-right {
-		padding-right: 0;
-	}
-	.no-padding-left {
-		padding-left: 0;
-	}
+
 }

@@ -2,6 +2,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.mp-p_menu-sec__list li {
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
 	.pr-p__hedline-post {
 		padding-top: 0;
 	}
@@ -15,6 +19,32 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.mp-p_reserve__btn, .del-ser__btn {
+		margin-bottom: 25px;
+	}
+	.mp-p__photo-wrap img {
+		width: 100%;
+	}
+	.mp-p_table-reserve {
+		padding-top: 20px;
+	}
+	.mp-p_menu-sec {
+		padding-top: 0;
+	}
+	.mp-p_menu-sec__list {
+		text-align: center;
+	}
+	.mp-p_menu-sec__list li {
+		width: 46%;
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
+	.mp-p_delivery-service {
+		padding-top: 0px;
+	}
+	.mp-p_testimonials {
+		padding-top: 30px;
+	}
 	.news-social {
     margin-bottom: 30px;
 		text-align: center;
@@ -22,7 +52,7 @@
 	.r-tabs .r-tabs-nav .r-tabs-tab{
 		width: 50%;
 		border-bottom: 1px solid #ccc;
-  }
+  	}
 	.r-tabs .r-tabs-nav .r-tabs-anchor {
 		width: 100%;
 		text-align: center;
@@ -390,7 +420,13 @@
 	}
 }
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) { 
+@media only screen and (max-width : 480px) {
+	.mp-p_testimonials-wr {
+		text-align: center;
+	}
+	.mp-p_testimonials-wr__pic {
+		margin-bottom: 25px;
+	}
 	.file-upload {
 	    margin-top: -34px;
 	}   
@@ -510,42 +546,52 @@
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
 	.ab-p__news-head {
-	    padding-top: 15px;
+		padding-top: 15px;
 	}
+
 	.me-p__breakfasts--price span {
-	    padding-left: 30px;
+		padding-left: 30px;
 	}
+
 	.me-p__dish-menu h3 {
-	    width: 75%;
+		width: 75%;
 	}
+
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
+
 	.ev-p-poster__item {
 		width: 90%;
 	}
+
 	.de-p__card--photo-dish {
-	    margin-bottom: 10px;
+		margin-bottom: 10px;
 	}
+
 	.de-p__card--discription-dish h5 {
 		margin-bottom: 10px;
 	}
+
 	.de-p__card--photo-dish span {
 		padding: 3px 10px;
 	}
+
 	.de-p__card--discription-dish {
-	    padding-left: 5px;
+		padding-left: 5px;
 	}
+
 	.de-p__card--discription-dish span {
 		margin-right: 5px;
 		margin-bottom: 10px;
 	}
+
 	.password-modal a {
 		display: block;
 		width: 100%;
 		text-align: center;
 	}
-
+}
 @media only screen and (max-width : 360px) {
 	.enter-modal {
 		padding: 45px 20px 30px;
@@ -656,9 +702,11 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
+
 	.no-padding-right {
 		padding-right: 0;
 	}
+
 	.no-padding-left {
 		padding-left: 0;
 	}

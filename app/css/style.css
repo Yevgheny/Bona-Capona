@@ -824,7 +824,7 @@ label.error {
 .mp-p_menu-sec__list li {
   display: inline-block;
   vertical-align: top;
-  max-width: 47.5%;
+  width: 47.5%;
   margin-right: 24px;
   margin-bottom: 24px;
 }
@@ -832,7 +832,7 @@ label.error {
   margin-right: 0;
 }
 .mp-p_menu-sec__list li img {
-  max-width: 100%;
+  width: 100%;
 }
 .mp-p_delivery-service {
   padding-top: 70px;

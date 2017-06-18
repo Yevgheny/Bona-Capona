@@ -190,8 +190,6 @@ $(document).ready(function () {
 
 	});
 
-
-
 	$('#b-f__zoom-gallery').magnificPopup({
 
 		delegate: 'a',
@@ -396,17 +394,20 @@ $(document).ready(function () {
 				return element.find('img');
 			}
 		}
+
+	});
+
 	$(function() {
-	    var d = $(".ca-d__choice-delivery label"),
-	        a = $("div.ab-p__form--wrap");
-	    d.each(function(c, b) {
-	        $(b).on("click", function() {
-	            a.stop().not(a.eq(c)).slideUp(function() {
-	                a.eq(c).slideDown()
-	            })
-	        });
-	        $("input", b).is(":checked") && $(b).click()
-	    })
+		var d = $(".ca-d__choice-delivery label"),
+			a = $("div.ab-p__form--wrap");
+		d.each(function(c, b) {
+			$(b).on("click", function() {
+				a.stop().not(a.eq(c)).slideUp(function() {
+					a.eq(c).slideDown()
+				})
+			});
+			$("input", b).is(":checked") && $(b).click()
+		})
 	});
 
 });
