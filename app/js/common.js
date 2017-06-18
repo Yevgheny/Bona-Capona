@@ -1,3 +1,4 @@
+
 function mobileMenu(){
 	$('.open-mobile-menu').on('click', function(event) {
 		event.preventDefault();
@@ -53,22 +54,25 @@ $(document).ready(function() {
 		items: 1
 	});
 
-	$('#slider-1').owlCarousel({
+	$('#test-slider').owlCarousel({
 		loop:true,
 		margin:30,
 		nav:true,
+		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		dots:false,
 		responsive:{
 			0:{
 				items:1
 			},
 			600:{
-				items:3
+				items:2
 			},
 			1000:{
-				items:5
+				items:2
 			}
 		}
 	})
+	
 	$('.ev-p-events__slider').owlCarousel({
 		loop: true,
 		margin: 10,
@@ -80,6 +84,7 @@ $(document).ready(function() {
 
 
 });
+
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
 $("#contact-get-price").validate();
@@ -186,7 +191,11 @@ $(document).ready(function () {
 
 	});
 
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> refs/remotes/Yevgheny/master
 
 	$('#b-f__zoom-gallery').magnificPopup({
 
@@ -369,6 +378,29 @@ $(document).ready(function () {
 		}
 
 	});
+	$('.ev-g__gallary').magnificPopup({
+
+		delegate: 'a',
+		type: 'image',
+		closeOnContentClick: false,
+		closeBtnInside: false,
+		mainClass: 'mfp-with-zoom mfp-img-mobile',
+		image: {
+			verticalFit: true,
+			titleSrc: function(item) {
+				return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">image source</a>';
+			}
+		},
+		gallery: {
+			enabled: true
+		},
+		zoom: {
+			enabled: true,
+			duration: 300, // don't foget to change the duration also in CSS
+			opener: function(element) {
+				return element.find('img');
+			}
+		}
 
 	$(function() {
 	    var d = $(".ca-d__choice-delivery label"),

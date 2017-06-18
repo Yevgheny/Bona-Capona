@@ -479,7 +479,7 @@ footer {
   text-transform: uppercase;
   outline: none;
   cursor: pointer;
-  padding: 5px 0;
+  padding: 5px 0 3px 0;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
@@ -634,6 +634,147 @@ label.error {
   font-size: 14px;
   color: red;
 }
+.password-modal,
+.enter-modal,
+.register-modal {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  background: #fff;
+  margin: 0 auto 10px;
+  padding: 45px 30px 30px;
+}
+.remodal-close {
+  top: 15px;
+  right: 12px;
+}
+.remodal-close:before {
+  font-size: 45px;
+}
+.modal__headline {
+  font-family: 'BergenSansSemiBold', sans-serif;
+  font-size: 2.4rem;
+  color: #78c8c9;
+  letter-spacing: 0.1em;
+  margin-bottom: 30px;
+}
+.pa-m__form .input-group,
+.en-m__form .input-group,
+.re-m__form .input-group {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pa-m__form .input-group input,
+.en-m__form .input-group input,
+.re-m__form .input-group input {
+  width: 100%;
+  height: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #78c8c9;
+}
+.pa-m__btn,
+.en-m__btn,
+.re-m__btn {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.password-modal a,
+.enter-modal a,
+.re-m__link-center {
+  display: inline-block;
+  width: 49%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.password-modal a:hover,
+.enter-modal a:hover,
+.re-m__link-center:hover,
+.password-modal a:active,
+.enter-modal a:active,
+.re-m__link-center:active,
+.password-modal a:focus,
+.enter-modal a:focus,
+.re-m__link-center:focus {
+  color: #86878c;
+}
+.pa-m__link-right {
+  text-align: right;
+}
+.pa-m__link-left {
+  text-align: left;
+}
+.en-m__text-halp {
+  display: block;
+  color: #86878c;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.en-m__social {
+  width: 300px;
+  margin: 0 auto 20px;
+}
+.en-m__social-item {
+  display: inline-block;
+  width: 85px;
+  height: 30px;
+  margin-right: 18px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.en-m__social-item:hover {
+  opacity: 0.6;
+}
+.en-m__social-item a {
+  display: block;
+  width: 85px;
+  height: 30px;
+}
+.en-m__social-item--1 {
+  background: url("../img/google-icon.svg") no-repeat top center;
+}
+.en-m__social-item--2 {
+  background: url("../img/facebook-icon.svg") no-repeat top center;
+}
+.en-m__social-item--3 {
+  background: url("../img/vkontakte-icon.svg") no-repeat top center;
+  margin-right: 0;
+}
+.en-m__checkbox-wrap {
+  margin-bottom: 25px;
+}
+.re-m__form-left,
+.re-m__form-right {
+  display: inline-block;
+  width: 47%;
+}
+.re-m__form-left {
+  margin-right: 5%;
+}
+.re-m__checkbox-wrap {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.re-m__checkbox-wrap a {
+  border-bottom: 2px solid #86878c;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.re-m__checkbox-wrap a:hover,
+.re-m__checkbox-wrap a:active,
+.re-m__checkbox-wrap a:focus {
+  color: #86878c;
+  text-decoration: none;
+  border-bottom: 2px dotted #86878c;
+}
+.re-m__link-center {
+  width: 100%;
+  text-align: center;
+}
 .mp-p_about-restaurant {
   padding-top: 90px;
 }
@@ -653,12 +794,12 @@ label.error {
   margin: 10px 0 0 auto;
 }
 .mp-p_reserve__headline {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .mp-p_reserve__headline:before {
   content: '';
   position: absolute;
-  top: 35px;
+  top: 20px;
   right: 15px;
   display: block;
   width: 50px;
@@ -749,6 +890,83 @@ label.error {
 }
 .mp-p_preview .mp-p_events p {
   text-align: left;
+}
+.mp-p_events--inner {
+  min-height: 221px;
+}
+.mp-p_testimonials {
+  padding-top: 85px;
+}
+.mp-p_testimonials__headline {
+  margin-bottom: 65px;
+}
+.mp-p_testimonials-wr__pic,
+.mp-p_testimonials-wr__txt {
+  display: inline-block;
+  vertical-align: top;
+}
+.mp-p_testimonials-wr__pic {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  max-width: 168px;
+  overflow: hidden;
+}
+.mp-p_testimonials-wr__txt {
+  max-width: 270px;
+  text-align: left;
+  margin-left: 15px;
+}
+.mp-p_testimonials-wr__txt h3 {
+  font-family: 'BergenSansSemiBold', sans-serif;
+  font-size: 2.4rem;
+  color: #78c8c9;
+  text-align: left;
+}
+.mp-p_testimonials-wr__txt h3:after {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 3px;
+  background: #78c8c9;
+  margin: 10px 0 15px 0;
+}
+.mp-p_testimonials-wr__txt h4 {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 1.8rem;
+  color: #949494;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  padding-top: 8px;
+  margin-bottom: 20px;
+}
+.mp-p_test-slider {
+  max-width: 200px;
+  margin: 50px auto;
+}
+.test-slider .owl-nav [class*=owl-] {
+  font-size: 45px;
+  position: absolute;
+  top: 25%;
+  color: #77C6C7;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.7;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+  margin-top: -28px;
+}
+.test-slider .owl-nav [class*=owl-]:hover {
+  color: #77C6C7;
+  opacity: 1;
+  background: transparent;
+}
+.test-slider .owl-nav .owl-prev {
+  left: -65px;
+}
+.test-slider .owl-nav .owl-next {
+  right: -65px;
 }
 .ab-p__news-head {
   padding-top: 30px;
@@ -1570,6 +1788,10 @@ label.error {
 .si-e__btn {
   max-width: 175px;
   margin: 0 auto 60px;
+}
+.ev-g__btn {
+  max-width: 175px;
+  margin: 0 auto 65px;
 }
 /*------------------- FAQ PAGE.css------------------*/
 .fa-p__ask-your-question {

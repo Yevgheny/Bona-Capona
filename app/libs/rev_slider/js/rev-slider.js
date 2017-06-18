@@ -5,7 +5,7 @@ $(document).ready(function() {
 		startheight:730,
 		startWithSlide:0,
 
-		fullScreenAlignForce:"off",
+		fullScreenAlignForce:"on",
 		autoHeight:"off",
 
 		shuffle:"off",
