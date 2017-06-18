@@ -1,3 +1,4 @@
+
 function mobileMenu(){
 	$('.open-mobile-menu').on('click', function(event) {
 		event.preventDefault();
@@ -53,19 +54,21 @@ $(document).ready(function() {
 		items: 1
 	});
 
-	$('#slider-1').owlCarousel({
+	$('#test-slider').owlCarousel({
 		loop:true,
 		margin:30,
 		nav:true,
+		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		dots:false,
 		responsive:{
 			0:{
 				items:1
 			},
 			600:{
-				items:3
+				items:2
 			},
 			1000:{
-				items:5
+				items:2
 			}
 		}
 	})
@@ -80,6 +83,7 @@ $(document).ready(function() {
 
 
 });
+
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
 $("#contact-get-price").validate();
