@@ -137,6 +137,7 @@
 .btn.btn--ac-p:focus,
 .btn.btn--ac-p:active {
 	color: #78c8c9;
+	background: #fff;
 	border: 3px solid #78c8c9;
 }
 /*-------------------finish ACCOUNT PAGE-HEADER.css------------------*/
