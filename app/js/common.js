@@ -191,12 +191,6 @@ $(document).ready(function () {
 
 	});
 
-<<<<<<< HEAD
-	
-=======
-
->>>>>>> refs/remotes/Yevgheny/master
-
 	$('#b-f__zoom-gallery').magnificPopup({
 
 		delegate: 'a',
@@ -378,6 +372,7 @@ $(document).ready(function () {
 		}
 
 	});
+
 	$('.ev-g__gallary').magnificPopup({
 
 		delegate: 'a',
@@ -401,6 +396,8 @@ $(document).ready(function () {
 				return element.find('img');
 			}
 		}
+
+	});
 
 	$(function() {
 	    var d = $(".ca-d__choice-delivery label"),
