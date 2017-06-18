@@ -653,12 +653,12 @@ label.error {
   margin: 10px 0 0 auto;
 }
 .mp-p_reserve__headline {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .mp-p_reserve__headline:before {
   content: '';
   position: absolute;
-  top: 35px;
+  top: 20px;
   right: 15px;
   display: block;
   width: 50px;
