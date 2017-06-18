@@ -1,3 +1,4 @@
+
 function mobileMenu(){
 	$('.open-mobile-menu').on('click', function(event) {
 		event.preventDefault();
@@ -53,19 +54,21 @@ $(document).ready(function() {
 		items: 1
 	});
 
-	$('#slider-1').owlCarousel({
+	$('#test-slider').owlCarousel({
 		loop:true,
 		margin:30,
 		nav:true,
+		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		dots:false,
 		responsive:{
 			0:{
 				items:1
 			},
 			600:{
-				items:3
+				items:2
 			},
 			1000:{
-				items:5
+				items:2
 			}
 		}
 	})
@@ -74,11 +77,13 @@ $(document).ready(function() {
 		margin: 10,
 		nav: true,
 		dots: true,
-		items: 1
+		items: 1,
+		animateOut: 'fadeOut',
 	});
 
 
 });
+
 $("#contact-call-back").validate();
 $("#contact-order-call").validate();
 $("#contact-get-price").validate();
@@ -368,7 +373,6 @@ $(document).ready(function () {
 		}
 
 	});
-
 	$('.ev-g__gallary').magnificPopup({
 
 		delegate: 'a',
@@ -392,7 +396,17 @@ $(document).ready(function () {
 				return element.find('img');
 			}
 		}
-
+	$(function() {
+	    var d = $(".ca-d__choice-delivery label"),
+	        a = $("div.ab-p__form--wrap");
+	    d.each(function(c, b) {
+	        $(b).on("click", function() {
+	            a.stop().not(a.eq(c)).slideUp(function() {
+	                a.eq(c).slideDown()
+	            })
+	        });
+	        $("input", b).is(":checked") && $(b).click()
+	    })
 	});
 
 });
@@ -459,20 +473,6 @@ $(document).ready(function () {
 	}
 
 })();
-
-$(document).ready(function () {
-
-	myCh.addEventListener('change', changeListener);
-
-	function changeListener() {
-		var id = this.id;
-		var selects = document.querySelectorAll('[data-to-disable]');
-		for(var i=0; i<selects.length; i++) {
-			console.log(selects[i].disabled)
-			selects[i].disabled = !selects[i].disabled;
-		}
-	}
-});
 
 jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-angle-up" aria-hidden="true"></i></div><div class="quantity-button quantity-down"><i class="fa fa-angle-down" aria-hidden="true"></i></div></div>').insertAfter('.quantity input');
 jQuery('.quantity').each(function() {
