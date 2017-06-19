@@ -365,7 +365,7 @@ jQuery('#datetimepicker1').datetimepicker({
  format:'d.m.Y'
 });
 //Табы для главной страницы и личного кабинета !!!Обязательно в самом низу, иначе в корзине получается полный слэш!!!
-$("#verticalTab").easyResponsiveTabs({
+$(".verticalTab_v").easyResponsiveTabs({
     type: 'vertical', //Типы: default, vertical, accordion           
     width: 'auto', //auto или любое значение ширины
     fit: false,   // 100% пространства занимает в контейнере
