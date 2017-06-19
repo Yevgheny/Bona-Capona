@@ -1829,21 +1829,6 @@ label.error {
 .b-f__form-bottom {
   padding-bottom: 90px;
 }
-.photo-gallery {
-  max-width: 270px;
-  height: auto;
-  overflow: hidden;
-  margin-bottom: 25px;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-.photo-gallery img {
-  max-width: 100%;
-  height: auto;
-}
-.photo-gallery:hover {
-  opacity: 0.6;
-}
 .image-source-link {
   display: none;
 }
