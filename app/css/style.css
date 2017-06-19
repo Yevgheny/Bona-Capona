@@ -2260,7 +2260,7 @@ label.error {
 }
 .main-screen-bottom-form .input-group {
   width: 100%;
-  height: 30px;
+  height: 31px;
   padding-left: 20px;
   margin-bottom: 25px;
   position: relative;
@@ -2268,11 +2268,11 @@ label.error {
 .main-screen-bottom-form .input-group input,
 .main-screen-bottom-form .input-group select {
   width: 100%;
-  height: 30px;
+  height: 31px;
   font-size: 14px;
   outline: none;
   background-color: #6e9899;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
 }
 .input-group-date:before {
   content: url(/img/date-icon.svg);
