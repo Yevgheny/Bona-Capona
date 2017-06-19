@@ -10,19 +10,20 @@
 	margin-bottom: 65px;
 }
 .resp-vtabs .resp-tabs-list li {
+	display: inline-block;
+    font-family: 'Gilroy', sans-serif;
 	text-transform: uppercase;
 	font-size: 1.8rem;
-	color: #78c8c9;
-	background: #f7f7f7;
-	border-bottom: 1px solid #78c8c9;
+	color: #78c8c9;	
+	padding: 9px 15px 6px 15px !important;
+    margin-top: 10px;
 	transition: 0.5s ease;
 }
-.resp-tabs-list li:hover {
-	background: #fafafa;
-}
 .resp-vtabs li.resp-tab-active {
+	border: none;
 	color: #fff;
 	background: #78c8c9;
+	transform: translateX(-30px);
 }
 .resp-vtabs .resp-tabs-container {
 	border: inherit;
