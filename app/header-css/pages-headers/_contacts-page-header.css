@@ -1,3 +1,27 @@
+/*------------------- 	CONTACTS-PAGE HEADER.css------------------*/
+.contacts-page {
+	padding-top: 65px;
+}
+.co-p__map-wrap {
+	height: 430px;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.co-p__addres-wrap {
+	margin-bottom: 35px;
+}
+.co-p__addres-wrap p {
+	margin-bottom: 5px;
+	margin-left: 17px;
+}
+.co-p__addres-wrap span {
+	display: inline-block;
+	font-family: 'Gilroy-Semibold', sans-serif;
+	font-size: 1.8rem;
+	color: #949494;
+	margin-bottom: 20px;
+}
+/*------------------- finish	CONTACTS-PAGE HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */

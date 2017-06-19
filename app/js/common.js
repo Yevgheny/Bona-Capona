@@ -511,6 +511,42 @@ jQuery('.quantity').each(function() {
 
 
 });
+$(document).ready(function(){
+    $('input.timepicker').timepicker({
+        timeFormat: 'HH:mm:ss',
+        // year, month, day and seconds are not important
+        minTime: new Date(0, 0, 0, 9, 0, 0),
+        maxTime: new Date(0, 0, 0, 23, 0, 0),
+        // time entries start being generated at 6AM but the plugin 
+        // shows only those within the [minTime, maxTime] interval
+        startHour: 6,
+        // the value of the first item in the dropdown, when the input
+        // field is empty. This overrides the startHour and startMinute 
+        // options
+        startTime: new Date(0, 0, 0, 8, 20, 0),
+        // items in the dropdown are separated by at interval minutes
+        interval: 10
+    });
+});
+jQuery.datetimepicker.setLocale('ru');
+
+jQuery('#datetimepicker1').datetimepicker({
+ i18n:{
+  de:{
+   months:[
+    'Januar','Februar','März','April',
+    'Mai','Juni','Juli','August',
+    'September','Oktober','November','Dezember',
+   ],
+   dayOfWeek:[
+    "So.", "Mo", "Di", "Mi", 
+    "Do", "Fr", "Sa.",
+   ]
+  }
+ },
+ timepicker:false,
+ format:'d.m.Y'
+});
 //Табы для главной страницы и личного кабинета !!!Обязательно в самом низу, иначе в корзине получается полный слэш!!!
 $(".verticalTab_v").easyResponsiveTabs({
     type: 'vertical', //Типы: default, vertical, accordion           

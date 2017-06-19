@@ -147,6 +147,9 @@
 	.ca-d__choose-payment--card {
 		margin-bottom: 25px;
 	}
+	.co-p__form-top.file-upload {
+	    margin-top: -34px;
+	}
 }
 @media only screen and (max-width : 991px) {
 	.ab-p__news--item {
@@ -377,6 +380,9 @@
 	.file-upload {
 	    margin-top: -34px;
 	}
+	.co-p__form-top.file-upload {
+	    margin-top: -35px;
+	}
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
@@ -511,6 +517,23 @@
 	.de-p__modal-card ul li .de-p__modal-cart--discription span {
 		margin-bottom: 10px;
 	}
+	.co-p__addres-wrap span {
+		margin-bottom: 5px;
+	}
+	.co-p__addres-wrap p {
+		margin-left: 5px;
+	}
+	.co-p__social ul li .co-p__social--icon a {
+		padding: 20px 17px;
+	}
+	.co-p__form-top.file-upload {
+	    margin-top: -57px;
+	}
+	.co-p__restorans-site ul li {
+		display: block;		
+		border-right: inherit;
+		margin: 0 auto 25px;
+	}
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
@@ -519,6 +542,15 @@
 	}
 	.me-p__breakfasts--price h3 {
 		padding-left: 0;
+	}
+	.btn-main-bottom-form-wrap,
+	.main-screen-bottom-form .input-group {
+		padding-left: 0;
+	}
+	.input-group-date:before,
+	.input-group-time:before,
+	.input-group-user:before {
+		display: none;
 	}	
 }
 @media only screen and (max-width : 380px) {
@@ -536,6 +568,9 @@
 	}
 	.btn-ca-d-main-form {
 		min-width: 100%;
+	}
+	.co-p__social ul li .co-p__social--icon a {
+	    padding: 20px 14px;
 	}
 }
 /* Custom, iPhone 6 */
@@ -580,7 +615,6 @@
 		margin-right: 5px;
 		margin-bottom: 10px;
 	}
-
 	.password-modal a {
 		display: block;
 		width: 100%;
@@ -600,6 +634,9 @@
 	.register-modal {
 		padding: 45px 20px 30px;
 	}	
+	.co-p__social ul li .co-p__social--icon a {
+	    padding: 20px 13px;
+	}
 }
 
 @media only screen and (max-width : 360px) {
@@ -619,6 +656,19 @@
 	}
 	.ca-d__promo--btn {
 		padding-top: 25px;
+	}
+	.co-p__social ul {
+		min-height: 65px;
+	}
+	.co-p__social ul li .co-p__social--icon a .fa-instagram, 
+	.co-p__social ul li .co-p__social--icon a .fa-vk, 
+	.co-p__social ul li .co-p__social--icon a .fa-facebook, 
+	.co-p__social ul li .co-p__social--icon a .fa-youtube-play, 
+	.co-p__social ul li .co-p__social--icon a .fa-tripadvisor {
+		font-size: 3rem;
+	}
+	.co-p__social ul li .co-p__social--icon a {
+	    padding: 20px 12px;
 	}
 }
 /* Custom, iPhone Retina */
@@ -648,6 +698,9 @@
 	}
 	.file-upload {
 	    margin-top: -43px;
+	}
+	.co-p__form-top.file-upload {
+	    margin-top: -62px;
 	}
 }
 

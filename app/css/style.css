@@ -1695,6 +1695,21 @@ label.error {
   min-width: 370px;
   margin: 0 auto;
 }
+.ui-timepicker-standard a {
+  color: #fff;
+  background: #78c8c9;
+}
+.ui-timepicker-standard .ui-state-hover {
+  color: #fff;
+}
+.xdsoft_datetimepicker {
+  color: #78c8c9;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td,
+.xdsoft_datetimepicker .xdsoft_calendar th {
+  background: #78c8c9;
+  border: 1px solid #78c8c9;
+}
 .ca-d__total-two {
   text-align: left;
 }
@@ -1865,21 +1880,6 @@ label.error {
 }
 .b-f__form-bottom {
   padding-bottom: 90px;
-}
-.photo-gallery {
-  max-width: 270px;
-  height: auto;
-  overflow: hidden;
-  margin-bottom: 25px;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-.photo-gallery img {
-  max-width: 100%;
-  height: auto;
-}
-.photo-gallery:hover {
-  opacity: 0.6;
 }
 .image-source-link {
   display: none;
@@ -2180,6 +2180,159 @@ label.error {
 .policy-confidential p {
   text-align: left;
 }
+/*------------------- 	CONTACTS-PAGE.css------------------*/
+.co-p__social--head {
+  margin-bottom: 25px;
+}
+.co-p__social ul {
+  text-align: center;
+  background: #f7f7f7;
+  min-height: 80px;
+  padding: 0;
+  margin: 0 0 70px 0;
+}
+.co-p__social ul li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  border-right: 1px solid #e4eaea;
+}
+.co-p__social ul li .co-p__social--icon a {
+  display: inline-block;
+  padding: 22px 25px;
+  margin-bottom: 0;
+}
+.co-p__social ul li .co-p__social--icon a .fa-instagram,
+.co-p__social ul li .co-p__social--icon a .fa-vk,
+.co-p__social ul li .co-p__social--icon a .fa-facebook,
+.co-p__social ul li .co-p__social--icon a .fa-youtube-play,
+.co-p__social ul li .co-p__social--icon a .fa-tripadvisor {
+  font-size: 3.8rem;
+  color: #78c8c9;
+}
+.co-p__social ul li .co-p__social--icon a:hover {
+  background: #ebebeb;
+}
+.co-p__social ul li:last-child {
+  border-right: inherit;
+}
+.co-p__restorans-site ul {
+  text-align: center;
+  padding: 0;
+  margin: 0 0 70px 0;
+}
+.co-p__restorans-site ul li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: bottom;
+  max-width: 148px;
+  padding: 11px;
+  border-right: 1px solid #e4eaea;
+}
+.co-p__restorans-site ul li a img {
+  max-width: 100%;
+  height: auto;
+}
+.co-p__restorans-site ul li:last-child {
+  border-right: inherit;
+}
+.co-p__contact-us {
+  padding-bottom: 90px;
+}
+.co-p__contact-us--head h2:after {
+  display: none;
+}
+.co-p__checkbox-wrap {
+  margin-bottom: 25px;
+}
+.co-p__reservation {
+  width: 100%;
+  min-height: 300px;
+  background: #6e9899;
+  padding-top: 60px;
+  padding-bottom: 25px;
+}
+.co-p__reservation--head {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.co-p__reservation--head h2 {
+  text-transform: uppercase;
+  font-family: 'BergenSansSemiBold', sans-serif;
+  color: #fff;
+}
+.co-p__form-top--wrap .input-group-text textarea {
+  width: 100%;
+  height: 85px;
+  font-size: 1.4rem;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #78c8c9;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+.co-p__form-top.file-upload-wrap {
+  padding-right: 21px;
+}
+.co-p__form-top.file-upload {
+  margin-top: -33px;
+}
+.co-p__label--custom {
+  font-size: 1.3rem;
+}
+.fa-file-image-o {
+  color: #78c8c9;
+  font-size: 19px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.file-upload:hover {
+  background: #78c8c9;
+}
+.file-upload:hover .fa-file-image-o {
+  color: #fff;
+}
+.btn-main-bottom-form-wrap {
+  padding-left: 20px;
+}
+.main-screen-bottom-form .input-group {
+  width: 100%;
+  height: 31px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.main-screen-bottom-form .input-group input,
+.main-screen-bottom-form .input-group select {
+  width: 100%;
+  height: 31px;
+  font-size: 14px;
+  outline: none;
+  background-color: #6e9899;
+  border: 3px solid #fff;
+}
+.input-group-date:before {
+  content: url(/img/date-icon.svg);
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: -10px;
+}
+.input-group-time:before {
+  content: url(/img/time-icon-2.svg);
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: -10px;
+}
+.input-group-user:before {
+  content: url(/img/user-icon-2.svg);
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: -10px;
+}
+/*------------------- finish CONTACTS-PAGE.css------------------*/
 .main-footer {
   min-height: 390px;
   background: #78c8c9;

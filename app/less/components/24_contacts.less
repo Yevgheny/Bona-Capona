@@ -1,1 +1,162 @@
-
+/*------------------- 	CONTACTS-PAGE.css------------------*/
+.co-p {
+	&__social {
+		&--head {
+			margin-bottom: 25px;
+		}
+		ul {
+			text-align: center;
+			background: #f7f7f7;
+			min-height: 80px;
+			padding:0;
+			margin: 0 0 70px 0;		
+			li {
+				list-style: none;
+				display: inline-block;
+				vertical-align: top;				
+				border-right: 1px solid #e4eaea;
+				.co-p__social--icon {					
+					a {
+						display: inline-block;						
+						padding: 22px 25px;
+						margin-bottom: 0;
+						.fa-instagram,
+						.fa-vk,
+						.fa-facebook,
+						.fa-youtube-play,
+						.fa-tripadvisor {
+							font-size: 3.8rem;
+							color: @blue;
+						}
+					}
+					a:hover {
+						background: #ebebeb;
+					}
+				}
+			}
+			li:last-child {
+				border-right: inherit;
+			}
+		}
+	}
+	&__restorans-site {
+		ul {
+			text-align: center;
+			padding: 0;
+			margin: 0 0 70px 0;
+			li {
+				list-style: none;
+				display: inline-block;
+				vertical-align: bottom;
+				max-width: 148px;
+				padding: 11px;
+				border-right: 1px solid #e4eaea;
+				a {
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+				}
+			}
+			li:last-child {
+				border-right: inherit;
+			}
+		}
+	}
+	&__contact-us {
+		padding-bottom: 90px;
+		&--head h2:after {
+			display: none;
+		}
+	}
+	&__checkbox-wrap {
+		margin-bottom: 25px;
+	}
+	&__reservation {
+		width: 100%;
+		min-height: 300px;
+		background: #6e9899;
+		padding-top: 60px;
+		padding-bottom: 25px;
+		&--head {
+			text-align: center;
+			margin-bottom: 50px;
+			h2 {
+				text-transform: uppercase;
+				font-family: @ff3;
+				color: @white;
+			}
+		}
+	}
+}
+.co-p__form-top--wrap .input-group-text textarea {
+	width: 100%;
+	height: 85px;
+	font-size: 1.4rem;
+	outline: none;
+	background-color: #fff;  
+	border: 2px solid @blue;
+	padding-top: 10px;
+	margin-bottom: 25px;
+}
+.co-p__form-top.file-upload-wrap {
+	padding-right: 21px;
+}
+.co-p__form-top.file-upload {
+	margin-top: -33px;
+}
+.co-p__label--custom {
+	font-size: 1.3rem;
+}
+.fa-file-image-o {
+  color: @blue;
+  font-size: 19px;
+  transition: 0.5s ease;
+}
+.file-upload:hover {
+	background: @blue;
+	.fa-file-image-o {
+	    color: @white;
+	} 
+}
+.btn-main-bottom-form-wrap {
+	padding-left: 20px;
+}
+.main-screen-bottom-form .input-group {
+	width: 100%;
+    height: 31px; 
+    padding-left: 20px;    
+    margin-bottom: 25px;
+    position: relative;
+}
+.main-screen-bottom-form .input-group input,
+.main-screen-bottom-form .input-group select {
+    width: 100%;
+    height: 31px;  
+    font-size: 14px;    
+    outline: none;    
+    background-color: #6e9899;  
+    border: 3px solid #fff;
+}
+.input-group-date:before {
+	content: url(/img/date-icon.svg);
+	display: block;		
+	position: absolute;
+	top: 6px;
+	left: -10px;
+}
+.input-group-time:before {
+	content: url(/img/time-icon-2.svg);
+	display: block;		
+	position: absolute;
+	top: 6px;
+	left: -10px;
+}
+.input-group-user:before {
+	content: url(/img/user-icon-2.svg);
+	display: block;		
+	position: absolute;
+	top: 6px;
+	left: -10px;
+}
+/*------------------- finish CONTACTS-PAGE.css------------------*/
