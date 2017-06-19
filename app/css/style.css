@@ -1677,6 +1677,14 @@ label.error {
 .ui-timepicker-standard .ui-state-hover {
   color: #fff;
 }
+.xdsoft_datetimepicker {
+  color: #78c8c9;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td,
+.xdsoft_datetimepicker .xdsoft_calendar th {
+  background: #78c8c9;
+  border: 1px solid #78c8c9;
+}
 .ca-d__total-two {
   text-align: left;
 }
