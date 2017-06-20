@@ -1693,6 +1693,7 @@ label.error {
 }
 .ui-timepicker-standard .ui-state-hover {
   color: #fff;
+  background: #fdd71f;
 }
 .xdsoft_datetimepicker {
   color: #78c8c9;
