@@ -419,7 +419,7 @@ a {
   margin: 0 0 1rem;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .main-headline {
   font-family: 'BergenSansSemiBold', sans-serif;
@@ -1881,6 +1881,12 @@ label.error {
 .b-f__vacancies--description {
   padding-left: 25px;
 }
+.b-f__vacancies--description a {
+  color: #86878c;
+}
+.b-f__vacancies--description a:hover {
+  color: #78c8c9;
+}
 .b-f__form-bottom-head {
   padding-top: 45px;
 }
@@ -2315,6 +2321,7 @@ label.error {
 .main-screen-bottom-form .input-group select {
   width: 100%;
   height: 31px;
+  color: #fff;
   font-size: 14px;
   outline: none;
   background-color: #6e9899;
@@ -2340,6 +2347,30 @@ label.error {
   position: absolute;
   top: 6px;
   left: -10px;
+}
+form#co-p-form-bottom ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+form#co-p-form-bottom :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+form#co-p-form-bottom ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+form#co-p-form-bottom :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
 }
 /*------------------- finish CONTACTS-PAGE.css------------------*/
 .main-footer {

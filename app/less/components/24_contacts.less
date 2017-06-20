@@ -132,7 +132,8 @@
 .main-screen-bottom-form .input-group input,
 .main-screen-bottom-form .input-group select {
     width: 100%;
-    height: 31px;     
+    height: 31px; 
+    color: @white;    
     font-size: 14px;    
     outline: none;    
     background-color: #6e9899;  
@@ -158,5 +159,27 @@
 	position: absolute;
 	top: 6px;
 	left: -10px;
+}
+form#co-p-form-bottom {
+    ::-webkit-input-placeholder { /* WebKit browsers */
+     color: @white !important;
+     font-family: @ff;
+     font-size: 14px;   
+ }
+ :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color:  @white !important;
+     font-family: @ff;
+     font-size: 14px;   
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: @white !important;
+     font-family: @ff;
+     font-size: 14px;   
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+     color: @white !important;
+     font-family: @ff;
+     font-size: 14px;   
+ }
 }
 /*------------------- finish CONTACTS-PAGE.css------------------*/
