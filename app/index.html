@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!-->
 <html lang="ru">
 <!--<![endif]-->
@@ -13,1013 +16,1187 @@
 	<meta name="description" content="">
 
 	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
-	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
-	
-	<!-- Load CSS Compilled without JS -->
-	<noscript><link rel="stylesheet" href="style.min.css"></noscript>
+	<script>!function () {
+		function e(e, t, n) {
+			e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n)
+		}
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		function t(e) {
+			return window.localStorage && localStorage.font_css_cache && localStorage.font_css_cache_file === e
+		}
 
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+		function n() {
+			if (window.localStorage && window.XMLHttpRequest)if (t(o)) a(localStorage.font_css_cache); else {
+				var n = new XMLHttpRequest;
+				n.open("GET", o, !0), e(n, "load", function () {
+					4 === n.readyState && (a(n.responseText), localStorage.font_css_cache = n.responseText, localStorage.font_css_cache_file = o)
+				}), n.send()
+			} else {
+				var c = document.createElement("link");
+				c.href = o, c.rel = "stylesheet", c.type = "text/css", document.getElementsByTagName("head")[0].appendChild(c), document.cookie = "font_css_cache"
+			}
+		}
 
+		function a(e) {
+			var t = document.createElement("style");
+			t.innerHTML = e, document.getElementsByTagName("head")[0].appendChild(t)
+		}
 
-</head>
+		var o = "_fonts.css";
+		window.localStorage && localStorage.font_css_cache || document.cookie.indexOf("font_css_cache") > -1 ? n() : e(window, "load", n)
+	}();</script>
 
+	<!-- Удалить после посадки верстки -->
+	<style>.loader{background:none repeat scroll 0 0 #fff;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:9999}.loader_inner{height:60px;width:60px;margin-top:-30px;margin-left:-30px;left:50%;top:50%;position:absolute}
+	.cssload-thecube{width:43px;height:43px;margin:0 auto;position:relative;transform:rotateZ(45deg);-o-transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg)}.cssload-thecube .cssload-cube{position:relative;transform:rotateZ(45deg);-o-transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg)}.cssload-thecube .cssload-cube{float:left;width:50%;height:50%;position:relative;transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1)}.cssload-thecube .cssload-cube:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgb(120,200,201);animation:cssload-fold-thecube 2.4s infinite linear both;-o-animation:cssload-fold-thecube 2.4s infinite linear both;-ms-animation:cssload-fold-thecube 2.4s infinite linear both;-webkit-animation:cssload-fold-thecube 2.4s infinite linear both;-moz-animation:cssload-fold-thecube 2.4s infinite linear both;transform-origin:100% 100%;-o-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%}.cssload-thecube .cssload-c2{transform:scale(1.1) rotateZ(90deg);-o-transform:scale(1.1) rotateZ(90deg);-ms-transform:scale(1.1) rotateZ(90deg);-webkit-transform:scale(1.1) rotateZ(90deg);-moz-transform:scale(1.1) rotateZ(90deg)}.cssload-thecube .cssload-c3{transform:scale(1.1) rotateZ(180deg);-o-transform:scale(1.1) rotateZ(180deg);-ms-transform:scale(1.1) rotateZ(180deg);-webkit-transform:scale(1.1) rotateZ(180deg);-moz-transform:scale(1.1) rotateZ(180deg)}.cssload-thecube .cssload-c4{transform:scale(1.1) rotateZ(270deg);-o-transform:scale(1.1) rotateZ(270deg);-ms-transform:scale(1.1) rotateZ(270deg);-webkit-transform:scale(1.1) rotateZ(270deg);-moz-transform:scale(1.1) rotateZ(270deg)}.cssload-thecube .cssload-c2:before{animation-delay:0.3s;-o-animation-delay:0.3s;-ms-animation-delay:0.3s;-webkit-animation-delay:0.3s;-moz-animation-delay:0.3s}.cssload-thecube .cssload-c3:before{animation-delay:0.6s;-o-animation-delay:0.6s;-ms-animation-delay:0.6s;-webkit-animation-delay:0.6s;-moz-animation-delay:0.6s}.cssload-thecube .cssload-c4:before{animation-delay:0.9s;-o-animation-delay:0.9s;-ms-animation-delay:0.9s;-webkit-animation-delay:0.9s;-moz-animation-delay:0.9s}@keyframes cssload-fold-thecube{0%,10%{transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{transform:perspective(80px) rotateY(180deg);opacity:0}}@-o-keyframes cssload-fold-thecube{0%,10%{-o-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-o-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-o-transform:perspective(80px) rotateY(180deg);opacity:0}}@-ms-keyframes cssload-fold-thecube{0%,10%{-ms-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-ms-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-ms-transform:perspective(80px) rotateY(180deg);opacity:0}}@-webkit-keyframes cssload-fold-thecube{0%,10%{-webkit-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-webkit-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-webkit-transform:perspective(80px) rotateY(180deg);opacity:0}}@-moz-keyframes cssload-fold-thecube{0%,10%{-moz-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-moz-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-moz-transform:perspective(80px) rotateY(180deg);opacity:0}}</style>
+
+		<!-- Load CSS Compilled without JS -->
+		<noscript><link rel="stylesheet" href="style.min.css"></noscript>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+		</head>
 <body>
-	<div class="loader">
-		<div class="loader_inner"></div>
+<div class="loader">
+	<div class="loader_inner">
+		<div class="cssload-thecube">
+			<div class="cssload-cube cssload-c1"></div>
+			<div class="cssload-cube cssload-c2"></div>
+			<div class="cssload-cube cssload-c4"></div>
+			<div class="cssload-cube cssload-c3"></div>
+		</div>
 	</div>
-	<div class="remodal-bg">
-		<header class="main-header">
-			<div class="container clearfix">
-				<div class="row">
-					<a href="#modal" class="mp-p_login mp-p_login-mob">Войти</a>
-					<div class="col-sm-4 col-sm-offset-1 col-sm-push-3">
-						<div class="main-logo-wrap">
-							<a href="#modal-e">
-								<img src="img/main-logo.png" alt="Bona Capona">
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-2 col-md-offset-1 col-sm-pull-5">
-						<a href="about-page.html#ab-p__restaurant-map" class="btn btn-white header__btn">Рестораны</a>
-					</div>
-					<div class="col-sm-2 col-sm-offset-2 col-md-offset-1">
-						<a href="#modal-e" class="mp-p_login">Войти</a>
-						<a href="delivery-page.html" class="btn btn-yellow header__btn-yellow">Доставка</a>
+</div>
+<div class="remodal-bg">
+	<header class="main-header">
+		<div class="container clearfix">
+			<div class="row">
+				<a href="#modal-e" class="mp-p_login mp-p_login-mob">Войти</a>
+				<div class="col-sm-4 col-sm-offset-1 col-sm-push-3">
+					<div class="main-logo-wrap">
+						<a href="index.html">
+							<img src="img/main-logo.png" alt="Bona Capona">
+						</a>
 					</div>
 				</div>
-				<div class="main-menu-wrapper">
-					<nav>
-						<div class="open-mobile-menu">
-							<span></span>
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-						<ul class="main-drop-down-menu" id="main-drop-down-menu">
-							<li class="searchform-popup searchform-popup-mob">
-								<form action="form-control/mail.php" method="get" class="searchform searchform-mob">
-									<fieldset>
+				<div class="col-sm-2 col-md-offset-1 col-sm-pull-5">
+					<a href="about-page.html#ab-p__restaurant-map" class="btn btn-white header__btn">Рестораны</a>
+				</div>
+				<div class="col-sm-2 col-sm-offset-2 col-md-offset-1">
+					<a href="#modal-e" class="mp-p_login">Войти</a>
+					<a href="delivery-page.html" class="btn btn-yellow header__btn-yellow">Доставка</a>
+				</div>
+			</div>
+			<div class="main-menu-wrapper">
+				<nav>
+					<div class="open-mobile-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul class="main-drop-down-menu" id="main-drop-down-menu">
+						<li class="searchform-popup searchform-popup-mob">
+							<form action="form-control/mail.php" method="get" class="searchform searchform-mob">
+								<fieldset>
 										<span class="text">
-											<input name="s" id="sm" type="text" value="" placeholder="Поиск…" autocomplete="off">
+											<input name="s" id="sm" type="text" value="" placeholder="Поиск…"
+												   autocomplete="off">
 										</span>
-										<span class="button-wrap">
+									<span class="button-wrap">
 											<button class="btn btn-special" title="Search" type="submit">
 												<i class="fa fa-search"></i>
 											</button>
 										</span>
-									</fieldset>
-								</form>
-							</li>
-							<li class='drop-down'><a href='#'> О ресторане</a>
-								<ul>
-									<li><a href='bona-family.html'>BONA FAMILY</a></li>
-									<li><a href='news-page.html'>Новости ресторана</a></li>
-									<li><a href='about-page.html#ab-p__restaurant-map'>Рестораны</a></li>
-								</ul>
-							</li>
-							<li class='drop-down'><a href='#'> Меню</a>
-								<ul>
-									<li><a href='menu-page.html#me-p__kitchen'>Кухня</a></li>
-									<li><a href='menu-page.html#me-p__map-beverages'>Кофе и чай</a></li>
-									<li>
-										<a href='menu-page.html#me-p__children'>Детское меню</a>
-									</li>
-									<li>
-										<a href='menu-page.html#me-p__breakfasts'>Завтраки</a>
-									</li>
-									<li>
-										<a href='menu-page.html#me-p__business-lunches'>Бизнес-ланчи</a>
-									</li>
-									<li><a href='#me-p__map-alcohol'>Бар</a></li>
-								</ul>
-							</li>
-							<!--data-label is for the jQuery to recent post from the blog feed -->
-							<li class='drop-down' data-label='Javascript'>
-								<a href='#'> Доставка</a>
-								<ul>
-									<li><a href='delivery-page.html'>Каталог</a></li>
-									<li><a href='#modal-e'>Войти как
-										покупатель</a></li>
-									</ul>
-								</li>
-								<li class='drop-down'><a class="no-arrow" href='promos-page.html'> Акции</a></li>
-								<li class='drop-down'><a href='events-page.html'> Мероприятия</a>
-									<ul>
-										<li><a href='events-page.html#ev-p-poster'>Афиша</a></li>
-										<li><a href='events-page.html#ev-p-report'>Фотоотчеты</a></li>
-									</ul>
-								</li>
-								<li class='drop-down'><a class="no-arrow" href='faq-page.html'> FAQ</a></li>
-								<li class='drop-down'><a href='bona-family.html'> BONA FAMILY</a>
-									<ul>
-										<li><a href='bona-family.html#ab-p__cooks-team'>Наша команда</a></li>
-										<li><a href='bona-family.html#b-f__our-life'>Наша жизнь</a></li>
-										<li><a href='bona-family.html#b-f__vacancies'>Вакансии</a></li>
-									</ul>
-								</li>
-								<li class='drop-down'><a class="no-arrow" href='contacts-page.html'> Контакты</a></li>
+								</fieldset>
+							</form>
+						</li>
+						<li class='drop-down'><a href='#'> О ресторане</a>
+							<ul>
+								<li><a href='bona-family.html'>BONA FAMILY</a></li>
+								<li><a href='news-page.html'>Новости ресторана</a></li>
+								<li><a href='about-page.html#ab-p__restaurant-map'>Рестораны</a></li>
 							</ul>
-						</nav>
-						<div class="mp-p_wrap-for-icons">
-							<div class="searchform-popup">
-								<a class="search-toggle" id="search-toggle" href="#">
-									<i class="fa fa-search"></i>
-								</a>
-								<form action="form-control/mail.php" method="get" class="searchform" id="searchform">
-									<fieldset>
+						</li>
+						<li class='drop-down'><a href='#'> Меню</a>
+							<ul>
+								<li><a href='menu-page.html#me-p__kitchen'>Кухня</a></li>
+								<li><a href='menu-page.html#me-p__map-beverages'>Кофе и чай</a></li>
+								<li>
+									<a href='menu-page.html#me-p__children'>Детское меню</a>
+								</li>
+								<li>
+									<a href='menu-page.html#me-p__breakfasts'>Завтраки</a>
+								</li>
+								<li>
+									<a href='menu-page.html#me-p__business-lunches'>Бизнес-ланчи</a>
+								</li>
+								<li><a href='#me-p__map-alcohol'>Бар</a></li>
+							</ul>
+						</li>
+						<!--data-label is for the jQuery to recent post from the blog feed -->
+						<li class='drop-down' data-label='Javascript'>
+							<a href='#'> Доставка</a>
+							<ul>
+								<li><a href='delivery-page.html'>Каталог</a></li>
+								<li><a href='#modal-e'>Войти как
+									покупатель</a></li>
+							</ul>
+						</li>
+						<li class='drop-down'><a class="no-arrow" href='promos-page.html'> Акции</a></li>
+						<li class='drop-down'><a href='events-page.html'> Мероприятия</a>
+							<ul>
+								<li><a href='events-page.html#ev-p-poster'>Афиша</a></li>
+								<li><a href='events-page.html#ev-p-report'>Фотоотчеты</a></li>
+							</ul>
+						</li>
+						<li class='drop-down'><a class="no-arrow" href='faq-page.html'> FAQ</a></li>
+						<li class='drop-down'><a href='bona-family.html'> BONA FAMILY</a>
+							<ul>
+								<li><a href='bona-family.html#ab-p__cooks-team'>Наша команда</a></li>
+								<li><a href='bona-family.html#b-f__our-life'>Наша жизнь</a></li>
+								<li><a href='bona-family.html#b-f__vacancies'>Вакансии</a></li>
+							</ul>
+						</li>
+						<li class='drop-down'><a class="no-arrow" href='contacts-page.html'> Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="mp-p_wrap-for-icons">
+					<div class="searchform-popup">
+						<a class="search-toggle" id="search-toggle" href="#">
+							<i class="fa fa-search"></i>
+						</a>
+						<form action="form-control/mail.php" method="get" class="searchform" id="searchform">
+							<fieldset>
 										<span class="text">
-											<input name="s" id="s" type="text" value="" placeholder="Поиск…" autocomplete="off">
+											<input name="s" id="s" type="text" value="" placeholder="Поиск…"
+												   autocomplete="off">
 										</span>
-										<span class="button-wrap">
+								<span class="button-wrap">
 											<button class="btn btn-special" title="Search" type="submit">
 												<i class="fa fa-search"></i>
 											</button>
 										</span>
-									</fieldset>
-								</form>
-							</div>
-							<div class="main-header__social-icons">
-								<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-							</div>
-						</div>
+							</fieldset>
+						</form>
+					</div>
+					<div class="main-header__social-icons">
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
 					</div>
 				</div>
-			</header>
-			<section class="mp-p-main-screen">
-				<div id="slideshow">
-					<div id="main-screen" class="revolution-slider">
-						<ul>    <!-- SLIDE  -->
-							<!-- Slide1 -->
-							<li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
-								<div class="slideshow-overlay"></div>
-								<!-- MAIN IMAGE -->
-								<div class="caption sft medium_grey"  data-x="center" data-y="350" data-speed="1500" data-start="1700" data-easing="easeOutBack">
-									<h1 class="main-headings">Подарок от шеф-повара!</h1>
-								</div>
-								<div class="caption sfb medium_grey"  data-x="center" data-y="450" data-speed="1500" data-start="2500" data-easing="easeOutBack">
-									<p class="first-screen-headings main-headings">Дарим всем именинникам специальное блюдо от шефа <br>
-										в день рождения</p>
-									</div>
-									<div class="caption sfb medium_grey"  data-x="center" data-y="530" data-speed="1500" data-start="3500" data-easing="easeOutBack">
-										<a href="#" class="btn btn-white mp-p-slider-btn">подробнее</a>
-									</div>
-									<img src="img/slide.jpg" alt="Bona Capona">
-								</li>
-
-								<!-- Slide2 -->
-								<li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500">
-									<div class="slideshow-overlay"></div>
-									<!-- MAIN IMAGE -->
-									<div class="caption sfb medium_grey"  data-x="center" data-y="350" data-speed="1500" data-start="1900" data-easing="easeOutBack">
-										<h2 class="main-headings">Доставка до двери</h2>
-									</div>
-									<div class="caption sfb medium_grey"  data-x="center" data-y="450" data-speed="1500" data-start="2500" data-easing="easeOutBack">
-										<p class="first-screen-headings main-headings">Специальное предложение при доставке еды на дом</p>
-									</div>
-									<div class="caption sfb medium_grey"  data-x="center" data-y="530" data-speed="1500" data-start="3500" data-easing="easeOutBack">
-										<a href="#" class="btn btn-white mp-p-slider-btn">подробнее</a>
-									</div>
-									<img src="img/slide.jpg" alt="Bona Capona">
-								</li>
-
-								<!-- Slide3 -->
-								<li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
-									<div class="slideshow-overlay"></div>
-									<!-- MAIN IMAGE -->
-									<div class="caption lfr medium_grey"  data-x="center" data-y="350" data-speed="1500" data-start="2000">
-										<h2 class="main-headings">Неделя бонусов</h2>
-									</div>
-									<div class="caption sfb medium_grey"  data-x="center" data-y="450" data-speed="1500" data-start="2500" data-easing="easeOutBack">
-										<p class="first-screen-headings main-headings">Набирайте баллы и получите специальный бонус <br>
-											от нашего ресторана</p>
-										</div>
-										<div class="caption sfb medium_grey"  data-x="center" data-y="530" data-speed="1500" data-start="3500" data-easing="easeOutBack">
-											<a href="#" class="btn btn-white mp-p-slider-btn">подробнее</a>
-										</div>
-										<img src="img/slide.jpg" alt="Bona Capona">
-									</li>
-								</ul>
-							</div>
+			</div>
+		</div>
+	</header>
+	<section class="mp-p-main-screen">
+		<div id="slideshow">
+			<div id="main-screen" class="revolution-slider">
+				<ul>    <!-- SLIDE  -->
+					<!-- Slide1 -->
+					<li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
+						<div class="slideshow-overlay"></div>
+						<!-- MAIN IMAGE -->
+						<div class="caption sft medium_grey" data-x="center" data-y="350" data-speed="1500"
+							 data-start="1700" data-easing="easeOutBack">
+							<h1 class="main-headings">Подарок от шеф-повара!</h1>
 						</div>
-						<a href="#" class="main-slider-arrow-down">
-							<i class="fa fa-arrow-down" aria-hidden="true"></i>
-						</a>
-					</section>
-					<main>
-						<section class="mp-p_about-restaurant">
-							<div class="container clearfix">
-								<div class="row">
-									<div class="pr-p__promo-post">
-										<div class="col-md-6 col-md-push-6">
-											<h2 class="main-headline mp-p_about__headline">О ресторане</h2>
-											<div class="pr-p__text-post">
-												<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.</p>
-											</div>
-											<a href="about-page.html" class="btn btn-blue pr-p__btn">Подробнее</a>
-										</div>
-										<div class="col-md-6 col-md-pull-6">
-											<div class="pr-p__photo-wrap">
-												<img src="img/action-big-1.jpg" alt="Акция">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-2 col-md-offset-5">
-										<div class="ab-p__news--all-news">
-											<a class="btn btn-blue btn-all-news" href="news-page.html">все новости</a>
-										</div>
-									</div>
-								</div>
-							</div>
-
-			</section>	<!-- finish ab-p news -->
-			<section class="mp-p_table-reserve">
-				<div class="container clearfix">
-					<div class="row">
-						<div class="pr-p__promo-post">
-							<div class="col-md-5 col-md-push-6">
-								<h2 class="main-headline mp-p_reserve__headline">Бронируйте столик или банкет</h2>
-								<h3 class="grey-headline mp-p_reserve__sub-headline">Удобная форма бронирования</h3>
-								<a href="contacts-page.html#co-p__reservation" class="btn btn-blue mp-p_reserve__btn">Забронировать</a>
-							</div>
-							<div class="col-md-6 col-md-pull-5">
-								<div class="pr-p__photo-wrap">
-									<img src="img/reservation.jpg" alt="Резезв">
-								</div>
-							</div>
+						<div class="caption sfb medium_grey" data-x="center" data-y="450" data-speed="1500"
+							 data-start="2500" data-easing="easeOutBack">
+							<p class="first-screen-headings main-headings">Дарим всем именинникам специальное блюдо от
+								шефа <br>
+								в день рождения</p>
 						</div>
-					</div>
-				</div>
+						<div class="caption sfb medium_grey" data-x="center" data-y="530" data-speed="1500"
+							 data-start="3500" data-easing="easeOutBack">
+							<a href="single-promo.html" class="btn btn-white mp-p-slider-btn">подробнее</a>
+						</div>
+						<img src="img/slide.jpg" alt="Bona Capona">
+					</li>
 
-						</section>
-						<section class="ab-p__news"><!-- ab-p news -->
-							<div class="container clearfix">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="ab-p__news-head mp-p_news__head-wrap">
-											<h2 class="main-headline">новости</h2>
-											<h3>постоянно растем и развиваемся</h3>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="ab-p__news ab-p__news--item">
-											<img src="img/news-1.jpg" alt="news-1">
-										</div>
-										<div class="ab-p__news--description news-date">
-											<span>01.01.2017</span>
-											<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения</p>
-											<div class="ab-p__news--more">
-												<a href="single-news-page.html">подробнее</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="ab-p__news ab-p__news--item">
-											<img src="img/news-2.jpg" alt="news-2">
-										</div>
-										<div class="ab-p__news--description news-date">
-											<span>01.01.2017</span>
-											<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения</p>
-											<div class="ab-p__news--more">
-												<a href="single-news-page.html">подробнее</a>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="ab-p__news ab-p__news--item">
-											<img src="img/news-3.jpg" alt="news-3">
-										</div>
-										<div class="ab-p__news--description news-date">
-											<span>01.01.2017</span>
-											<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения</p>
-											<div class="ab-p__news--more">
-												<a href="single-news-page.html">подробнее</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-2 col-md-offset-5">
-										<div class="ab-p__news--all-news">
-											<a class="btn btn-blue btn-all-news" href="news-page.html">все новости</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>	<!-- finish ab-p news -->
-						<section class="mp-p_table-reserve">
-							<div class="container clearfix">
-								<div class="row">
-									<div class="pr-p__promo-post">
-										<div class="col-md-5 col-md-push-6">
-											<h2 class="main-headline mp-p_reserve__headline">Бронируйте столик или банкет</h2>
-											<h3 class="grey-headline mp-p_reserve__sub-headline">Удобная форма бронирования</h3>
-											<a href="single-promo.html" class="btn btn-blue mp-p_reserve__btn">Забронировать</a>
-										</div>
-										<div class="col-md-6 col-md-pull-5">
-											<div class="pr-p__photo-wrap">
-												<img src="img/reservation.jpg" alt="Резезв">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<section class="mp-p_menu-sec">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-6 col-md-push-6">
-										<h2 class="main-headline mp-p_about__headline">Меню</h2>
-										<h3 class="grey-headline" >подзаголовок</h3>
-										<div class="pr-p__text-post">
-											<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.</p>
-										</div>
-										<a href="menu-page.html" class="btn btn-blue pr-p__btn">Подробнее</a>
-									</div>
-									<div class="col-md-6 col-md-pull-6">
-										<ul class="mp-p_menu-sec__list">
-											<li><img src="img/dish-photo-1.jpg" alt="Меню"></li>
-											<li><img src="img/dish-photo-2.jpg" alt="Меню"></li>
-											<li><img src="img/dish-photo-3.jpg" alt="Меню"></li>
-											<li><img src="img/dish-photo-4.jpg" alt="Меню"></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-						<section class="mp-p_delivery-service">
-							<div class="container clearfix">
-								<div class="row">
-									<div class="mp-p_dev-ser__text clearfix">
-										<div class="col-md-5 col-md-offset-1">
-											<h2 class="main-headline del-ser__headline">Доставка блюд</h2>
-											<div class="del-ser__text-post">
-												<h3 class="grey-headline del-ser__sub-headline" >заказывайте <br>
-													готовую продукцию <br>
-													нашего ресторана</h3>
-												</div>
-												<a href="cart-delivery.html" class="btn btn-blue del-ser__btn">заказать доставку</a>
-											</div>
-											<div class="col-md-6 no-padding">
-												<div class="mp-p__photo-wrap">
-													<img src="img/delivery.jpg" alt="Доставка">
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
-							<section class="ab-p__news mp-p_preview"><!-- ab-p news -->
-								<div class="container clearfix">
-									<div class="row">
-										<div class="col-sm-4">
-											<div class="ab-p__news ab-p__news--item">
-												<img src="img/action-1.jpg" alt="news-1">
-											</div>
-											<div class="ab-p__news--description news-date mp-p_events">
-												<div class="mp-p_events--inner">
-													<h3>название <br>акции</h3>
-													<span>01.01.2017 – 30.01.2017</span>
-													<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения</p>
-												</div>
-												<div class="ab-p__news--more">
-													<a href="single-promo.html">подробнее</a>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-4">
-											<div class="ab-p__news ab-p__news--item">
-												<img src="img/event.jpg" alt="news-2">
-											</div>
-											<div class="ab-p__news--description news-date mp-p_events">
-												<div class="mp-p_events--inner">
-													<h3>название <br>мероприятия</h3>
-													<span>01.01.2017</span>
-													<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения</p>
-												</div>
-												<div class="ab-p__news--more">
-													<a href="single-event.html">подробнее</a>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-4">
-											<div class="ab-p__news ab-p__news--item">
-												<img src="img/new.jpg" alt="news-3">
-											</div>
-											<div class="ab-p__news--description news-date mp-p_events">
-												<div class="mp-p_events--inner">
-													<h3>название <br>новинки</h3>
-													<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения</p>
-												</div>
-												<div class="ab-p__news--more">
-													<a href="menu-page.html">подробнее</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>	<!-- finish ab-p news -->
-							<section class="ac-p account-page mp-p_ingridiens">
-								<div class="container clearfix">
-									<div class="row">
-										<div class="col-md-12">
-											<div class="ab-p__head ac-p__head">
-												<h2 class="main-headline">ингредиенты</h2>
-											</div>
-										</div>
-									</div>
-									<div class="ac-p-tab-wrap">
-										<div class="row">
-											<div class="col-md-11 col-md-offset-1">
-												<!--vertical Tabs-->
-												<div id="verticalTab-2" class="verticalTab_v">
-													<ul class="resp-tabs-list">
-														<li>тесто и паста</li>
-														<li>мясо и морепродукты</li>
-														<li>специи и пряности</li>
-														<li>овощи и фрукты</li>
-														<li>напитки</li>
-													</ul>
-													<div class="resp-tabs-container">
-														<div>
-															<div class="ac-p__account">
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-pic">
-																			<img src="img/ingredient-2.jpg" alt="тесто и паста">
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-text">
-																			<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.</p>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div>
-															<div class="ac-p__account">
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-pic">
-																			<img src="img/ingredient-2.jpg" alt="тесто и паста">
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-text">
-																			<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. </p>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div>
-															<div class="ac-p__account">
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-pic">
-																			<img src="img/ingredient-2.jpg" alt="тесто и паста">
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-text">
-																			<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.</p>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div>
-															<div class="ac-p__account">
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-pic">
-																			<img src="img/ingredient-2.jpg" alt="тесто и паста">
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-text">
-																			<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение </p>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div>
-															<div class="ac-p__account">
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-pic">
-																			<img src="img/ingredient-2.jpg" alt="тесто и паста">
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="verticalTab_v-text">
-																			<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.</p>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
-							<section class="mp-p_testimonials">
-								<div class="container clearfix">
-									<div class="row">
-										<h2 class="main-headline mp-p_testimonials__headline">отзывы</h2>
-										<div class="col-sm-10 col-sm-offset-1">
-											<div id="test-slider" class="test-slider owl-carousel owl-theme">
-												<div>
-													<div class="mp-p_testimonials-wr">
-														<div class="mp-p_testimonials-wr__pic">
-															<img src="img/face-1.jpg" alt="отзывы">
-														</div>
-														<div class="mp-p_testimonials-wr__txt">
-															<h3>имя и фамилия</h3>
-															<h4>род занятий</h4>
-															<p>«Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.»</p>
-														</div>
-													</div>
-												</div>
-												<div>
-													<div class="mp-p_testimonials-wr">
-														<div class="mp-p_testimonials-wr__pic">
-															<img src="img/face-2.jpg" alt="отзывы">
-														</div>
-														<div class="mp-p_testimonials-wr__txt">
-															<h3>имя и фамилия</h3>
-															<h4>род занятий</h4>
-															<p>«Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.»</p>
-														</div>
-													</div>
-												</div>
-												<div>
-													<div class="mp-p_testimonials-wr">
-														<div class="mp-p_testimonials-wr__pic">
-															<img src="img/face-3.jpg" alt="отзывы">
-														</div>
-														<div class="mp-p_testimonials-wr__txt">
-															<h3>имя и фамилия</h3>
-															<h4>род занятий</h4>
-															<p>«Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.»</p>
-														</div>
-													</div>
-												</div>
-												<div>
-													<div class="mp-p_testimonials-wr">
-														<div class="mp-p_testimonials-wr__pic">
-															<img src="img/face-4.jpg" alt="отзывы">
-														</div>
-														<div class="mp-p_testimonials-wr__txt">
-															<h3>имя и фамилия</h3>
-															<h4>род занятий</h4>
-															<p>«Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.»</p>
-														</div>
-													</div>
-												</div>
-												<div>
-													<div class="mp-p_testimonials-wr">
-														<div class="mp-p_testimonials-wr__pic">
-															<img src="img/face-5.jpg" alt="отзывы">
-														</div>
-														<div class="mp-p_testimonials-wr__txt">
-															<h3>имя и фамилия</h3>
-															<h4>род занятий</h4>
-															<p>«Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.»</p>
-														</div>
-													</div>
-												</div>
-												<div>
-													<div class="mp-p_testimonials-wr">
-														<div class="mp-p_testimonials-wr__pic">
-															<img src="img/face-6.jpg" alt="отзывы">
-														</div>
-														<div class="mp-p_testimonials-wr__txt">
-															<h3>имя и фамилия</h3>
-															<h4>род занятий</h4>
-															<p>«Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.»</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<a href="#modal-co" class="btn btn-blue mp-p_test-slider">оставить отзыв</a>
-								</div>
-							</section>			
-						</main>
-		<footer class="main-footer">
-			<div class="instafeed"></div>
+					<!-- Slide2 -->
+					<li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500">
+						<div class="slideshow-overlay"></div>
+						<!-- MAIN IMAGE -->
+						<div class="caption sfb medium_grey" data-x="center" data-y="350" data-speed="1500"
+							 data-start="1900" data-easing="easeOutBack">
+							<h2 class="main-headings">Доставка до двери</h2>
+						</div>
+						<div class="caption sfb medium_grey" data-x="center" data-y="450" data-speed="1500"
+							 data-start="2500" data-easing="easeOutBack">
+							<p class="first-screen-headings main-headings">Специальное предложение при доставке еды на
+								дом</p>
+						</div>
+						<div class="caption sfb medium_grey" data-x="center" data-y="530" data-speed="1500"
+							 data-start="3500" data-easing="easeOutBack">
+							<a href="single-promo.html" class="btn btn-white mp-p-slider-btn">подробнее</a>
+						</div>
+						<img src="img/slide.jpg" alt="Bona Capona">
+					</li>
+
+					<!-- Slide3 -->
+					<li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
+						<div class="slideshow-overlay"></div>
+						<!-- MAIN IMAGE -->
+						<div class="caption lfr medium_grey" data-x="center" data-y="350" data-speed="1500"
+							 data-start="2000">
+							<h2 class="main-headings">Неделя бонусов</h2>
+						</div>
+						<div class="caption sfb medium_grey" data-x="center" data-y="450" data-speed="1500"
+							 data-start="2500" data-easing="easeOutBack">
+							<p class="first-screen-headings main-headings">Набирайте баллы и получите специальный бонус
+								<br>
+								от нашего ресторана</p>
+						</div>
+						<div class="caption sfb medium_grey" data-x="center" data-y="530" data-speed="1500"
+							 data-start="3500" data-easing="easeOutBack">
+							<a href="single-promo.html" class="btn btn-white mp-p-slider-btn">подробнее</a>
+						</div>
+						<img src="img/slide.jpg" alt="Bona Capona">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<a href="#mp-p_about-restaurant" class="main-slider-arrow-down">
+			<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</a>
+	</section>
+	<main>
+		<section class="mp-p_about-restaurant wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" id="mp-p_about-restaurant">
 			<div class="container clearfix">
 				<div class="row">
-					<div class="col-md-2 no-padding">
-						<a href="#" class="logo-footer-wrap">
-							<img src="img/logo-footer.png" class="logo-footer" alt="logo">
-						</a>
+					<div class="pr-p__promo-post">
+						<div class="col-md-6 col-md-push-6">
+							<h2 class="main-headline mp-p_about__headline">О ресторане</h2>
+							<div class="pr-p__text-post">
+								<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и
+									сфера нашей активности требуют определения и уточнения модели развития.
+									Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение
+									нашей деятельности позволяет оценить значение системы обучения кадров, соответствует
+									насущным потребностям.</p>
+							</div>
+							<a href="about-page.html" class="btn btn-blue pr-p__btn">Подробнее</a>
+						</div>
+						<div class="col-md-6 col-md-pull-6">
+							<div class="pr-p__photo-wrap">
+								<img src="img/action-big-1.jpg" alt="Акция">
+							</div>
+						</div>
 					</div>
-					<div class="col-md-9 col-md-offset-1">
-						<ul class="footer-nav">
-							<li><a href="about-page.html">О ресторане</a></li>
-							<li><a href="menu-page.html">Меню</a></li>
-							<li><a href="delivery-page.html">Доставка</a></li>
-							<li><a href="promos-page.html">Акции</a></li>
-							<li><a href="events-page.html">Мероприятия</a></li>
-							<li><a href="faq-page.html">FAQ</a></li>
-							<li><a href="bona-family.html">BONA FAMILY</a></li>
-							<li><a href="contacts-page.html">Контакты</a></li>
+				</div>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-5">
+						<div class="ab-p__news--all-news">
+							<a class="btn btn-blue btn-all-news" href="news-page.html">все новости</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>    <!-- finish ab-p news -->
+		<section class="mp-p_table-reserve wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+			<div class="container clearfix">
+				<div class="row">
+					<div class="pr-p__promo-post">
+						<div class="col-md-5 col-md-push-6">
+							<h2 class="main-headline mp-p_reserve__headline">Бронируйте столик или банкет</h2>
+							<h3 class="grey-headline mp-p_reserve__sub-headline">Удобная форма бронирования</h3>
+							<a href="contacts-page.html#co-p__reservation" class="btn btn-blue mp-p_reserve__btn">Забронировать</a>
+						</div>
+						<div class="col-md-6 col-md-pull-5">
+							<div class="pr-p__photo-wrap">
+								<img src="img/reservation.jpg" alt="Резезв">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section class="ab-p__news wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s"><!-- ab-p news -->
+			<div class="container clearfix">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="ab-p__news-head mp-p_news__head-wrap">
+							<h2 class="main-headline">новости</h2>
+							<h3>постоянно растем и развиваемся</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="ab-p__news ab-p__news--item">
+							<img src="img/news-1.jpg" alt="news-1">
+						</div>
+						<div class="ab-p__news--description news-date">
+							<span>01.01.2017</span>
+							<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера
+								нашей активности требуют определения</p>
+							<div class="ab-p__news--more">
+								<a href="single-news-page.html">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="ab-p__news ab-p__news--item">
+							<img src="img/news-2.jpg" alt="news-2">
+						</div>
+						<div class="ab-p__news--description news-date">
+							<span>01.01.2017</span>
+							<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера
+								нашей активности требуют определения</p>
+							<div class="ab-p__news--more">
+								<a href="single-news-page.html">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="ab-p__news ab-p__news--item">
+							<img src="img/news-3.jpg" alt="news-3">
+						</div>
+						<div class="ab-p__news--description news-date">
+							<span>01.01.2017</span>
+							<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера
+								нашей активности требуют определения</p>
+							<div class="ab-p__news--more">
+								<a href="single-news-page.html">подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-5">
+						<div class="ab-p__news--all-news">
+							<a class="btn btn-blue btn-all-news" href="news-page.html">все новости</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>    <!-- finish ab-p news -->
+		<section class="mp-p_table-reserve wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+			<div class="container clearfix">
+				<div class="row">
+					<div class="pr-p__promo-post">
+						<div class="col-md-5 col-md-push-6">
+							<h2 class="main-headline mp-p_reserve__headline">Бронируйте столик или банкет</h2>
+							<h3 class="grey-headline mp-p_reserve__sub-headline">Удобная форма бронирования</h3>
+							<a href="single-promo.html" class="btn btn-blue mp-p_reserve__btn">Забронировать</a>
+						</div>
+						<div class="col-md-6 col-md-pull-5">
+							<div class="pr-p__photo-wrap">
+								<img src="img/reservation.jpg" alt="Резезв">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mp-p_menu-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-push-6">
+						<h2 class="main-headline mp-p_about__headline">Меню</h2>
+						<h3 class="grey-headline">подзаголовок</h3>
+						<div class="pr-p__text-post">
+							<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера
+								нашей активности требуют определения и уточнения модели развития. Разнообразный и
+								богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности
+								позволяет оценить значение системы обучения кадров, соответствует насущным
+								потребностям.</p>
+						</div>
+						<a href="menu-page.html" class="btn btn-blue pr-p__btn">Подробнее</a>
+					</div>
+					<div class="col-md-6 col-md-pull-6">
+						<ul class="mp-p_menu-sec__list">
+							<li><img src="img/dish-photo-1.jpg" alt="Меню"></li>
+							<li><img src="img/dish-photo-2.jpg" alt="Меню"></li>
+							<li><img src="img/dish-photo-3.jpg" alt="Меню"></li>
+							<li><img src="img/dish-photo-4.jpg" alt="Меню"></li>
 						</ul>
 					</div>
 				</div>
+			</div>
+		</section>
+		<section class="mp-p_delivery-service wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+			<div class="container clearfix">
 				<div class="row">
-					<div class="col-md-5 col-md-push-7">
-						<div class="footer-social-data">
-							<p>Мы в социальных сетях:</p>
-							<div class="main-header__social-icons">
-								<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-								<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+					<div class="mp-p_dev-ser__text clearfix">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="main-headline del-ser__headline">Доставка блюд</h2>
+							<div class="del-ser__text-post">
+								<h3 class="grey-headline del-ser__sub-headline">заказывайте <br>
+									готовую продукцию <br>
+									нашего ресторана</h3>
 							</div>
-							<div class="main-footer__form-wrap">
-								<p>Подпишитесь на нашу рассылку:</p>
-								<form action="form-control/mail.php" method="get" class="subscribe-form" id="subscribe" style="display: block;">
-									<fieldset>
+							<a href="cart-delivery.html" class="btn btn-blue del-ser__btn">заказать доставку</a>
+						</div>
+						<div class="col-md-6 no-padding">
+							<div class="mp-p__photo-wrap">
+								<img src="img/delivery.jpg" alt="Доставка">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ab-p__news mp-p_preview wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s"><!-- ab-p news -->
+			<div class="container clearfix">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="ab-p__news ab-p__news--item">
+							<img src="img/action-1.jpg" alt="news-1">
+						</div>
+						<div class="ab-p__news--description news-date mp-p_events">
+							<div class="mp-p_events--inner">
+								<h3>название <br>акции</h3>
+								<span>01.01.2017 – 30.01.2017</span>
+								<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и
+									сфера нашей активности требуют определения</p>
+							</div>
+							<div class="ab-p__news--more">
+								<a href="single-promo.html">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="ab-p__news ab-p__news--item">
+							<img src="img/event.jpg" alt="news-2">
+						</div>
+						<div class="ab-p__news--description news-date mp-p_events">
+							<div class="mp-p_events--inner">
+								<h3>название <br>мероприятия</h3>
+								<span>01.01.2017</span>
+								<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и
+									сфера нашей активности требуют определения</p>
+							</div>
+							<div class="ab-p__news--more">
+								<a href="single-event.html">подробнее</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="ab-p__news ab-p__news--item">
+							<img src="img/new.jpg" alt="news-3">
+						</div>
+						<div class="ab-p__news--description news-date mp-p_events">
+							<div class="mp-p_events--inner">
+								<h3>название <br>новинки</h3>
+								<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и
+									сфера нашей активности требуют определения</p>
+							</div>
+							<div class="ab-p__news--more">
+								<a href="menu-page.html">подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>    <!-- finish ab-p news -->
+		<section class="ac-p account-page mp-p_ingridiens wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+			<div class="container clearfix">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="ab-p__head ac-p__head">
+							<h2 class="main-headline">ингредиенты</h2>
+						</div>
+					</div>
+				</div>
+				<div class="ac-p-tab-wrap">
+					<div class="row">
+						<div class="col-md-11 col-md-offset-1">
+							<!--vertical Tabs-->
+							<div id="verticalTab-2" class="verticalTab_v">
+								<ul class="resp-tabs-list">
+									<li>тесто и паста</li>
+									<li>мясо и морепродукты</li>
+									<li>специи и пряности</li>
+									<li>овощи и фрукты</li>
+									<li>напитки</li>
+								</ul>
+								<div class="resp-tabs-container">
+									<div>
+										<div class="ac-p__account">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="verticalTab_v-pic">
+														<img src="img/ingredient-2.jpg" alt="тесто и паста">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="verticalTab_v-text">
+														<p>Значимость этих проблем настолько очевидна, что постоянный
+															количественный рост и сфера нашей активности требуют
+															определения и уточнения модели развития. Разнообразный и
+															богатый опыт постоянное информационно-пропагандистское
+															обеспечение нашей деятельности позволяет оценить значение
+															системы обучения кадров, соответствует насущным
+															потребностям.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="ac-p__account">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="verticalTab_v-pic">
+														<img src="img/ingredient-2.jpg" alt="тесто и паста">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="verticalTab_v-text">
+														<p>Значимость этих проблем настолько очевидна, что постоянный
+															количественный рост и сфера нашей активности требуют
+															определения и уточнения модели развития. </p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="ac-p__account">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="verticalTab_v-pic">
+														<img src="img/ingredient-2.jpg" alt="тесто и паста">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="verticalTab_v-text">
+														<p>Значимость этих проблем настолько очевидна, что постоянный
+															количественный рост и сфера нашей активности требуют
+															определения и уточнения модели развития. Разнообразный и
+															богатый опыт постоянное информационно-пропагандистское
+															обеспечение нашей деятельности позволяет оценить значение
+															системы обучения кадров, соответствует насущным
+															потребностям.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="ac-p__account">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="verticalTab_v-pic">
+														<img src="img/ingredient-2.jpg" alt="тесто и паста">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="verticalTab_v-text">
+														<p>Значимость этих проблем настолько очевидна, что постоянный
+															количественный рост и сфера нашей активности требуют
+															определения и уточнения модели развития. Разнообразный и
+															богатый опыт постоянное информационно-пропагандистское
+															обеспечение </p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="ac-p__account">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="verticalTab_v-pic">
+														<img src="img/ingredient-2.jpg" alt="тесто и паста">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="verticalTab_v-text">
+														<p>Значимость этих проблем настолько очевидна, что постоянный
+															количественный рост и сфера нашей активности требуют
+															определения и уточнения модели развития. Разнообразный и
+															богатый опыт постоянное информационно-пропагандистское
+															обеспечение нашей деятельности позволяет оценить значение
+															системы обучения кадров, соответствует насущным
+															потребностям.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mp-p_testimonials wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+			<div class="container clearfix">
+				<div class="row">
+					<h2 class="main-headline mp-p_testimonials__headline">отзывы</h2>
+					<div class="col-sm-10 col-sm-offset-1">
+						<div id="test-slider" class="test-slider owl-carousel owl-theme">
+							<div>
+								<div class="mp-p_testimonials-wr">
+									<div class="mp-p_testimonials-wr__pic">
+										<img src="img/face-1.jpg" alt="отзывы">
+									</div>
+									<div class="mp-p_testimonials-wr__txt">
+										<h3>имя и фамилия</h3>
+										<h4>род занятий</h4>
+										<p>«Значимость этих проблем настолько очевидна, что постоянный количественный
+											рост и сфера нашей активности требуют определения и уточнения модели
+											развития.»</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="mp-p_testimonials-wr">
+									<div class="mp-p_testimonials-wr__pic">
+										<img src="img/face-2.jpg" alt="отзывы">
+									</div>
+									<div class="mp-p_testimonials-wr__txt">
+										<h3>имя и фамилия</h3>
+										<h4>род занятий</h4>
+										<p>«Значимость этих проблем настолько очевидна, что постоянный количественный
+											рост и сфера нашей активности требуют определения и уточнения модели
+											развития.»</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="mp-p_testimonials-wr">
+									<div class="mp-p_testimonials-wr__pic">
+										<img src="img/face-3.jpg" alt="отзывы">
+									</div>
+									<div class="mp-p_testimonials-wr__txt">
+										<h3>имя и фамилия</h3>
+										<h4>род занятий</h4>
+										<p>«Значимость этих проблем настолько очевидна, что постоянный количественный
+											рост и сфера нашей активности требуют определения и уточнения модели
+											развития.»</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="mp-p_testimonials-wr">
+									<div class="mp-p_testimonials-wr__pic">
+										<img src="img/face-4.jpg" alt="отзывы">
+									</div>
+									<div class="mp-p_testimonials-wr__txt">
+										<h3>имя и фамилия</h3>
+										<h4>род занятий</h4>
+										<p>«Значимость этих проблем настолько очевидна, что постоянный количественный
+											рост и сфера нашей активности требуют определения и уточнения модели
+											развития.»</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="mp-p_testimonials-wr">
+									<div class="mp-p_testimonials-wr__pic">
+										<img src="img/face-5.jpg" alt="отзывы">
+									</div>
+									<div class="mp-p_testimonials-wr__txt">
+										<h3>имя и фамилия</h3>
+										<h4>род занятий</h4>
+										<p>«Значимость этих проблем настолько очевидна, что постоянный количественный
+											рост и сфера нашей активности требуют определения и уточнения модели
+											развития.»</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="mp-p_testimonials-wr">
+									<div class="mp-p_testimonials-wr__pic">
+										<img src="img/face-6.jpg" alt="отзывы">
+									</div>
+									<div class="mp-p_testimonials-wr__txt">
+										<h3>имя и фамилия</h3>
+										<h4>род занятий</h4>
+										<p>«Значимость этих проблем настолько очевидна, что постоянный количественный
+											рост и сфера нашей активности требуют определения и уточнения модели
+											развития.»</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#modal-co" class="btn btn-blue mp-p_test-slider">оставить отзыв</a>
+			</div>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<div class="instafeed"></div>
+		<div class="container clearfix">
+			<div class="row">
+				<div class="col-md-2 no-padding">
+					<a href="#" class="logo-footer-wrap">
+						<img src="img/logo-footer.png" class="logo-footer" alt="logo">
+					</a>
+				</div>
+				<div class="col-md-9 col-md-offset-1">
+					<ul class="footer-nav">
+						<li><a href="about-page.html">О ресторане</a></li>
+						<li><a href="menu-page.html">Меню</a></li>
+						<li><a href="delivery-page.html">Доставка</a></li>
+						<li><a href="promos-page.html">Акции</a></li>
+						<li><a href="events-page.html">Мероприятия</a></li>
+						<li><a href="faq-page.html">FAQ</a></li>
+						<li><a href="bona-family.html">BONA FAMILY</a></li>
+						<li><a href="contacts-page.html">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-push-7">
+					<div class="footer-social-data">
+						<p>Мы в социальных сетях:</p>
+						<div class="main-header__social-icons">
+							<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+						</div>
+						<div class="main-footer__form-wrap">
+							<p>Подпишитесь на нашу рассылку:</p>
+							<form action="form-control/mail.php" method="get" class="subscribe-form" id="subscribe"
+								  style="display: block;">
+								<fieldset>
 										<span class="text">
-											<input name="s" id="sub" type="text" value="" placeholder="E-mail" autocomplete="off">
+											<input name="s" id="sub" type="text" value="" placeholder="E-mail"
+												   autocomplete="off">
 										</span>
-										<span class="button-wrap">
+									<span class="button-wrap">
 											<button class="btn-special" title="Subscribe" type="submit">Ok!</button>
 										</span>
-									</fieldset>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-md-offset-3 col-md-pull-5 no-padding">
-						<div class="footer-cotact-info">
-							<ul>
-								<li class="footer-cotact-info__item--1"><a href="#">Карта сайта</a></li>
-								<li class="footer-cotact-info__item--2">Телефон доставки – <a href="#">+7 (812) 900-00-00</a></li>
-								<li class="footer-cotact-info__item--3">© 2017, BONA CAPONA</li>
-								<li class="footer-cotact-info__item--4"><a href="#modal-2">Политика конфиденциальности</a></li>
-							</ul>
+								</fieldset>
+							</form>
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<!-- Модальные окна верстка-->
-			<!-- забыли пароль-->
-			<div class="remodal password-modal" data-remodal-id="modal-v" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div>
-					<h3 class="pa-m__headline modal__headline">Восстановление<br> пароля</h3>
-					<form action="form-control/mail.php" method="post" class="pa-m__form" id="modal-form-v" name="main-form">
-						<!-- Hidden Required Fields -->
-						<input type="hidden" name="project_name" value="Bona-Capona">
-						<input type="hidden" name="admin_email" value="mail@mail.ru">
-						<input type="hidden" name="form_subject" value="Восстановление пароля">
-						<!-- END Hidden Required Fields -->
-						<div class="input-group">
-							<input type="email"  name="login" placeholder="Адрес электронной почты" required>
-						</div>
-						<input type="hidden"  name="s_formi" value="Выслать пароль">
-						<button type="submit" name="submit" class="btn btn-yellow pa-m__btn">Выслать пароль</button>
-					</form>
-					<a href="#modal-r" class="pa-m__link-left">У меня нет аккаунта</a>
-					<a href="#modal-e" class="pa-m__link-right">Я вспомнил</a>
-				</div>
-			</div>
-
-			<!-- вход-->
-			<div class="remodal enter-modal" data-remodal-id="modal-e" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div>
-					<h3 class="en-m__headline modal__headline">Войти</h3>
-					<span class="en-m__text-halp">Через аккаунт</span>
-					<div class="en-m__social">
-						<div class="en-m__social-item en-m__social-item--1">
-							<a href="#"></a>
-						</div>
-						<div class="en-m__social-item en-m__social-item--2">
-							<a href="#"></a>
-						</div>
-						<div class="en-m__social-item en-m__social-item--3">
-							<a href="#"></a>
-						</div>
-					</div>
-					<span class="en-m__text-halp">или</span>
-					<form action="form-control/mail.php" method="post" class="en-m__form" id="modal-form-e" name="main-form">
-						<!-- Hidden Required Fields -->
-						<input type="hidden" name="project_name" value="Bona-Capona">
-						<input type="hidden" name="admin_email" value="mail@mail.ru">
-						<input type="hidden" name="form_subject" value="Вход">
-						<!-- END Hidden Required Fields -->
-						<div class="input-group">
-							<input type="email"  name="login" placeholder="Адрес электронной почты" required>
-						</div>
-						<div class="input-group">
-							<input type="password"  name="password" placeholder="Пароль" required>
-						</div>
-						<input type="hidden"  name="s_formi" value="Войти">
-						<button type="submit" name="submit" class="btn btn-yellow en-m__btn">Войти</button>
-						<div class="en-m__checkbox-wrap">
-							<label>
-								<input class="checkbox" type="checkbox" name="name">
-								<span class="checkbox-custom"></span>
-								<span class="en-m__checkbox-label ca-d__label">Запомнить меня</span>
-							</label>
-						</div>
-					</form>
-					<a href="#modal-r" class="pa-m__link-left">У меня нет аккаунта</a>
-					<a href="#modal-v" class="pa-m__link-right">Я забыл пароль</a>
-				</div>
-			</div>
-
-
-			<!-- регистрация-->
-			<div class="remodal register-modal" data-remodal-id="modal-r" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div>
-					<h3 class="re-m__headline modal__headline">Регистрация</h3>
-					<span class="en-m__text-halp">Через аккаунт</span>
-					<div class="en-m__social">
-						<div class="en-m__social-item en-m__social-item--1">
-							<a href="#"></a>
-						</div>
-						<div class="en-m__social-item en-m__social-item--2">
-							<a href="#"></a>
-						</div>
-						<div class="en-m__social-item en-m__social-item--3">
-							<a href="#"></a>
-						</div>
-					</div>
-					<span class="en-m__text-halp">или</span>
-					<form action="form-control/mail.php" method="post" class="re-m__form" id="modal-form-r" name="main-form">
-						<!-- Hidden Required Fields -->
-						<input type="hidden" name="project_name" value="Bona-Capona">
-						<input type="hidden" name="admin_email" value="mail@mail.ru">
-						<input type="hidden" name="form_subject" value="Регистрация">
-						<!-- END Hidden Required Fields -->
-						<div class="re-m__form-left">
-							<div class="input-group">
-								<input type="text"  name="name" placeholder="Имя" required>
-							</div>
-							<div class="input-group">
-								<input type="email" name="login" placeholder="Электронная почта" required>
-							</div>
-						</div>
-						<div class="re-m__form-right">
-							<div class="input-group">
-								<input type="text"  name="family" placeholder="Фамилия" required>
-							</div>
-							<div class="input-group">
-								<input type="tel"  name="tel" placeholder="Телефон" required>
-							</div>
-						</div>
-						<div class="input-group">
-							<input type="password"  name="password" placeholder="Пароль" required>
-						</div>
-						<div class="re-m__checkbox-wrap">
-							<label>
-								<input class="checkbox" type="checkbox" name="name">
-								<span class="checkbox-custom"></span>
-								<span class="en-m__checkbox-label ca-d__label">Согласен с <a href="#modal-2">политикой конфиденциальности</a></span>
-							</label>
-						</div>
-						<div class="re-m__checkbox-wrap">
-							<label>
-								<input class="checkbox" type="checkbox" name="name">
-								<span class="checkbox-custom"></span>
-								<span class="en-m__checkbox-label ca-d__label">Согласен с получением информационной рассылки</span>
-							</label>
-						</div>
-						<div class="re-m__checkbox-wrap">
-							<label>
-								<input class="checkbox" type="checkbox" name="name" checked="">
-								<span class="checkbox-custom"></span>
-								<span class="en-m__checkbox-label ca-d__label">Я не робот</span>
-							</label>
-						</div>
-						<input type="hidden"  name="s_formi" value="Зарегистрироваться">
-						<button type="submit" name="submit" class="btn btn-yellow re-m__btn">Зарегистрироваться</button>
-					</form>
-					<a href="#modal-e" class="re-m__link-center">У меня уже есть аккаунт</a>
-				</div>
-			</div>
-
-			<!-- оставить отзыв-->
-			<div class="remodal comment-modal" data-remodal-id="modal-co" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div>
-					<h3 class="co-m__headline modal__headline">Ваш отзыв</h3>
-					<form action="form-control/mail.php" method="post" class="co-m__form" id="modal-form-co" name="main-form">
-						<!-- Hidden Required Fields -->
-						<input type="hidden" name="project_name" value="Bona-Capona">
-						<input type="hidden" name="admin_email" value="mail@mail.ru">
-						<input type="hidden" name="form_subject" value="Отзыв">
-						<!-- END Hidden Required Fields -->
-						<div class="input-group">
-							<input type="text"  name="name" placeholder="Имя" required>
-						</div>
-						<div class="input-group">
-							<input type="text"  name="family" placeholder="Фамилия" required>
-						</div>
-						<div class="input-group">
-							<input type="text"  name="status" placeholder="Род занятий" required>
-						</div>
-						<div class="input-group-text">
-							<textarea name="text" id="co-m-message" cols="30" rows="10" required>Оставьте ваш отзыв
-							</textarea>
-						</div>
-						<input type="hidden"  name="s_formi" value="Оставить отзыв">
-						<button type="submit" name="submit" class="btn btn-yellow co-m__btn">Оставить отзыв</button>
-					</form>
-				</div>
-			</div>
-			<!--  модальное окно политика конфиденциальности -->
-			<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div id="policy" class="white-popup-block">
-					<div class="policy-confidential">
-						<h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
-						<p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>
-						<p>Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать личную информацию в особых случаях, описанных в "Согласии с рассылкой"</p>
-						<h2>Какие данные собираются на сайте</h2>
-						<p>При добровольной регистрации Вы отправляете свое Имя, телефон и E-mail через форму регистрации.</p>
-						<h2>С какой целью собираются эти данные</h2>
-						<p>Имя используется для обращения лично к Вам, а ваш e-mail и телефон для отправки Вам писем рассылок, новостей, полезных материалов, коммерческих предложений.</p>
-						<p>Ваши имя, телефон и e-mail не передаются третьим лицам, ни при каких условиях кроме случаев, связанных с исполнением требований законодательства. Ваше имя, телефон и e-mail на защищенных серверах сервиса getresponse.com и используются в соответствии с его политикой конфиденциальности.</p>
-						<p>Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.</p>
-						<h2>Как эти данные используются</h2>
-						<p>На сайте www.hodi.com.ua используются куки (Cookies) и данные о посетителях сервиса Google Analytics.</p>
-						<p>При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного контента и сервисов для посетителей.</p>
-						<p>Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и сервисы не смогут работать должным образом.</p>
-						<h2>Как эти данные защищаются</h2>
-						<p>Для защиты Вашей личной информации мы используем разнообразные административные, управленческие и технические меры безопасности. Наша Компания придерживается различных международных стандартов контроля, направленных на операции с личной информацией, которые включают определенные меры контроля по защите информации, собранной в Интернет.</p>
-						<p>Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим Уведомлением о конфиденциальности, нормами и инструкциями. Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить ее.</p>
-						<p>Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки, несанкционированного использования и изменения информации, которую мы контролируем. Несмотря на то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации хакеров сторонних организаций.</p>
-						<p>В случае изменения данной политики конфиденциальности Вы сможете прочитать об этих изменениях на этой странице или, в особых случаях, получить уведомление на свой e-mail.</p>
-						<p>Для связи с администратором сайта по любым вопросам Вы можете написать письмо на e-mail: hodi.legko@gmail.com</p>
-					</div>
-				</div>
-			</div>
-			<!-- /форма модальное окно политика конфиденциальности-->
-			<!-- Модальное окно с описанием блюда -->
-			<div class="remodal de-p-remodal" data-remodal-id="de-p__modal" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div>
-					<div class="de-p__modal-card">
+				<div class="col-md-4 col-md-offset-3 col-md-pull-5 no-padding">
+					<div class="footer-cotact-info">
 						<ul>
-							<li>
-								<div class="de-p__modal-cart--photo">
-									<img src="img/dish-4.jpg" alt="рекомендуем">
-								</div>
-							</li>
-							<li>
-								<div class="de-p__modal-cart--discription">
-									<h5>название блюда</h5>
-									<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-									<span class="weight">300 гр</span>
-									<span>350  &#8381;</span>
-								</div>
-								<div class="de-p__modal-card--button">
-									<div class="add-to-cart">
-										<button type="submit" name="submit" class="btn btn-cart">В корзину</button>
-									</div>
-								</div>
+							<li class="footer-cotact-info__item--1"><a href="#">Карта сайта</a></li>
+							<li class="footer-cotact-info__item--2">Телефон доставки – <a href="#">+7 (812)
+								900-00-00</a></li>
+							<li class="footer-cotact-info__item--3">© 2017, BONA CAPONA</li>
+							<li class="footer-cotact-info__item--4"><a href="#modal-2">Политика конфиденциальности</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-				<br>
 			</div>
-			<!-- Конец Модальное окно с описанием блюда  -->
-			<!--  модальное окно условия доставки -->
-			<div class="remodal policy-conf" data-remodal-id="modal-3" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div id="delivery" class="white-popup-block">
-					<div class="policy-confidential">
-						<h1>Условия доставки</h1>
-						<p>Мы стремимся доставить не только качественную еду, приготовленную с любовью нашими шефами, но и передать Вам солнечное настроение и удовольствие от жизни!</p>
-						<p>Мы начинаем готовить блюда только после получения заказа. Процесс приготовления Вашего заказа и доставка занимают около часа. </p>
-						<p>Стремясь сохранить вкус и свежесть наших блюд, мы осуществляем доставку в радиусе 5 км от наших ресторанов.Мы доставляем блюда в специальных термосумках, поддерживающих нужную температуру, что гарантирует доставку Ваших блюд горячими.</p>
-						<h2>Время доставки 11.00 — 23.00</h2>
-						<p>Вы можете сделать заказ ко времени</p>
-						<p>Минимальная сумма заказа 700 рублей.</p>
-						<h2>Оплата заказа:</h2>
-						<p>Наличный расчет / Оплата банковской картой курьеру при получении заказа / Оплата банковскойкартой при оформлении заказа на сайте</p>
-						<h2>Благодарим Вас за заказ и желаем приятного аппетита!</h2>
+		</div>
+
+		<!-- Модальные окна верстка-->
+		<!-- забыли пароль-->
+		<div class="remodal password-modal" data-remodal-id="modal-v" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div>
+				<h3 class="pa-m__headline modal__headline">Восстановление<br> пароля</h3>
+				<form action="form-control/mail.php" method="post" class="pa-m__form" id="modal-form-v"
+					  name="main-form">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Bona-Capona">
+					<input type="hidden" name="admin_email" value="mail@mail.ru">
+					<input type="hidden" name="form_subject" value="Восстановление пароля">
+					<!-- END Hidden Required Fields -->
+					<div class="input-group">
+						<input type="email" name="login" placeholder="Адрес электронной почты" required>
+					</div>
+					<input type="hidden" name="s_formi" value="Выслать пароль">
+					<button type="submit" name="submit" class="btn btn-yellow pa-m__btn">Выслать пароль</button>
+				</form>
+				<a href="#modal-r" class="pa-m__link-left">У меня нет аккаунта</a>
+				<a href="#modal-e" class="pa-m__link-right">Я вспомнил</a>
+			</div>
+		</div>
+
+		<!-- вход-->
+		<div class="remodal enter-modal" data-remodal-id="modal-e" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div>
+				<h3 class="en-m__headline modal__headline">Войти</h3>
+				<span class="en-m__text-halp">Через аккаунт</span>
+				<div class="en-m__social">
+					<div class="en-m__social-item en-m__social-item--1">
+						<a href="#"></a>
+					</div>
+					<div class="en-m__social-item en-m__social-item--2">
+						<a href="#"></a>
+					</div>
+					<div class="en-m__social-item en-m__social-item--3">
+						<a href="#"></a>
 					</div>
 				</div>
+				<span class="en-m__text-halp">или</span>
+				<form action="form-control/mail.php" method="post" class="en-m__form" id="modal-form-e"
+					  name="main-form">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Bona-Capona">
+					<input type="hidden" name="admin_email" value="mail@mail.ru">
+					<input type="hidden" name="form_subject" value="Вход">
+					<!-- END Hidden Required Fields -->
+					<div class="input-group">
+						<input type="email" name="login" placeholder="Адрес электронной почты" required>
+					</div>
+					<div class="input-group">
+						<input type="password" name="password" placeholder="Пароль" required>
+					</div>
+					<input type="hidden" name="s_formi" value="Войти">
+					<button type="submit" name="submit" class="btn btn-yellow en-m__btn">Войти</button>
+					<div class="en-m__checkbox-wrap">
+						<label>
+							<input class="checkbox" type="checkbox" name="name">
+							<span class="checkbox-custom"></span>
+							<span class="en-m__checkbox-label ca-d__label">Запомнить меня</span>
+						</label>
+					</div>
+				</form>
+				<a href="#modal-r" class="pa-m__link-left">У меня нет аккаунта</a>
+				<a href="#modal-v" class="pa-m__link-right">Я забыл пароль</a>
 			</div>
-			<!-- /форма модальное окно условия доставки-->
-			<!--  модальное окно система бонусов -->
-			<div class="remodal policy-conf" data-remodal-id="bonus-system" role="dialog">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div id="system-bonusi" class="white-popup-block">
-					<div class="policy-confidential">
-						<h2 class="main-headline">система бонусов</h2>
-						<p>Здесь описание бонусной системы и объяснение, что такое «Бонусы» и как они формируются.</p>
-						<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
-						<p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.</p>
+		</div>
+
+
+		<!-- регистрация-->
+		<div class="remodal register-modal" data-remodal-id="modal-r" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div>
+				<h3 class="re-m__headline modal__headline">Регистрация</h3>
+				<span class="en-m__text-halp">Через аккаунт</span>
+				<div class="en-m__social">
+					<div class="en-m__social-item en-m__social-item--1">
+						<a href="#"></a>
+					</div>
+					<div class="en-m__social-item en-m__social-item--2">
+						<a href="#"></a>
+					</div>
+					<div class="en-m__social-item en-m__social-item--3">
+						<a href="#"></a>
 					</div>
 				</div>
+				<span class="en-m__text-halp">или</span>
+				<form action="form-control/mail.php" method="post" class="re-m__form" id="modal-form-r"
+					  name="main-form">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Bona-Capona">
+					<input type="hidden" name="admin_email" value="mail@mail.ru">
+					<input type="hidden" name="form_subject" value="Регистрация">
+					<!-- END Hidden Required Fields -->
+					<div class="re-m__form-left">
+						<div class="input-group">
+							<input type="text" name="name" placeholder="Имя" required>
+						</div>
+						<div class="input-group">
+							<input type="email" name="login" placeholder="Электронная почта" required>
+						</div>
+					</div>
+					<div class="re-m__form-right">
+						<div class="input-group">
+							<input type="text" name="family" placeholder="Фамилия" required>
+						</div>
+						<div class="input-group">
+							<input type="tel" name="tel" placeholder="Телефон" required>
+						</div>
+					</div>
+					<div class="input-group">
+						<input type="password" name="password" placeholder="Пароль" required>
+					</div>
+					<div class="re-m__checkbox-wrap">
+						<label>
+							<input class="checkbox" type="checkbox" name="name">
+							<span class="checkbox-custom"></span>
+							<span class="en-m__checkbox-label ca-d__label">Согласен с <a href="#modal-2">политикой конфиденциальности</a></span>
+						</label>
+					</div>
+					<div class="re-m__checkbox-wrap">
+						<label>
+							<input class="checkbox" type="checkbox" name="name">
+							<span class="checkbox-custom"></span>
+							<span class="en-m__checkbox-label ca-d__label">Согласен с получением информационной рассылки</span>
+						</label>
+					</div>
+					<div class="re-m__checkbox-wrap">
+						<label>
+							<input class="checkbox" type="checkbox" name="name" checked="">
+							<span class="checkbox-custom"></span>
+							<span class="en-m__checkbox-label ca-d__label">Я не робот</span>
+						</label>
+					</div>
+					<input type="hidden" name="s_formi" value="Зарегистрироваться">
+					<button type="submit" name="submit" class="btn btn-yellow re-m__btn">Зарегистрироваться</button>
+				</form>
+				<a href="#modal-e" class="re-m__link-center">У меня уже есть аккаунт</a>
 			</div>
-			<!-- /форма модальное окно система бонусов -->
+		</div>
 
-		</footer>
-	</div>
+		<!-- оставить отзыв-->
+		<div class="remodal comment-modal" data-remodal-id="modal-co" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div>
+				<h3 class="co-m__headline modal__headline">Ваш отзыв</h3>
+				<form action="form-control/mail.php" method="post" class="co-m__form" id="modal-form-co"
+					  name="main-form">
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Bona-Capona">
+					<input type="hidden" name="admin_email" value="mail@mail.ru">
+					<input type="hidden" name="form_subject" value="Отзыв">
+					<!-- END Hidden Required Fields -->
+					<div class="input-group">
+						<input type="text" name="name" placeholder="Имя" required>
+					</div>
+					<div class="input-group">
+						<input type="text" name="family" placeholder="Фамилия" required>
+					</div>
+					<div class="input-group">
+						<input type="text" name="status" placeholder="Род занятий" required>
+					</div>
+					<div class="input-group-text">
+							<textarea name="text" id="co-m-message" cols="30" rows="10" required>Оставьте ваш отзыв
+							</textarea>
+					</div>
+					<input type="hidden" name="s_formi" value="Оставить отзыв">
+					<button type="submit" name="submit" class="btn btn-yellow co-m__btn">Оставить отзыв</button>
+				</form>
+			</div>
+		</div>
+		<!--  модальное окно политика конфиденциальности -->
+		<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div id="policy" class="white-popup-block">
+				<div class="policy-confidential">
+					<h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
+					<p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по
+						возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали
+						широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>
+					<p>Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно
+						используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша
+						информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать
+						личную информацию в особых случаях, описанных в "Согласии с рассылкой"</p>
+					<h2>Какие данные собираются на сайте</h2>
+					<p>При добровольной регистрации Вы отправляете свое Имя, телефон и E-mail через форму
+						регистрации.</p>
+					<h2>С какой целью собираются эти данные</h2>
+					<p>Имя используется для обращения лично к Вам, а ваш e-mail и телефон для отправки Вам писем
+						рассылок, новостей, полезных материалов, коммерческих предложений.</p>
+					<p>Ваши имя, телефон и e-mail не передаются третьим лицам, ни при каких условиях кроме случаев,
+						связанных с исполнением требований законодательства. Ваше имя, телефон и e-mail на защищенных
+						серверах сервиса getresponse.com и используются в соответствии с его политикой
+						конфиденциальности.</p>
+					<p>Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные
+						в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.</p>
+					<h2>Как эти данные используются</h2>
+					<p>На сайте www.hodi.com.ua используются куки (Cookies) и данные о посетителях сервиса Google
+						Analytics.</p>
+					<p>При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения
+						его содержания, улучшения функциональных возможностей сайта и, как следствие, создания
+						качественного контента и сервисов для посетителей.</p>
+					<p>Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все
+						файлы cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и
+						сервисы не смогут работать должным образом.</p>
+					<h2>Как эти данные защищаются</h2>
+					<p>Для защиты Вашей личной информации мы используем разнообразные административные, управленческие и
+						технические меры безопасности. Наша Компания придерживается различных международных стандартов
+						контроля, направленных на операции с личной информацией, которые включают определенные меры
+						контроля по защите информации, собранной в Интернет.</p>
+					<p>Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим
+						Уведомлением о конфиденциальности, нормами и инструкциями. Тем не менее, несмотря на то, что мы
+						стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить
+						ее.</p>
+					<p>Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания
+						в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки,
+						несанкционированного использования и изменения информации, которую мы контролируем. Несмотря на
+						то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и
+						систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к
+						этой информации хакеров сторонних организаций.</p>
+					<p>В случае изменения данной политики конфиденциальности Вы сможете прочитать об этих изменениях на
+						этой странице или, в особых случаях, получить уведомление на свой e-mail.</p>
+					<p>Для связи с администратором сайта по любым вопросам Вы можете написать письмо на e-mail:
+						hodi.legko@gmail.com</p>
+				</div>
+			</div>
+		</div>
+		<!-- /форма модальное окно политика конфиденциальности-->
+		<!-- Модальное окно с описанием блюда -->
+		<div class="remodal de-p-remodal" data-remodal-id="de-p__modal" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div>
+				<div class="de-p__modal-card">
+					<ul>
+						<li>
+							<div class="de-p__modal-cart--photo">
+								<img src="img/dish-4.jpg" alt="рекомендуем">
+							</div>
+						</li>
+						<li>
+							<div class="de-p__modal-cart--discription">
+								<h5>название блюда</h5>
+								<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный
+									количественный рост и сфера нашей активности требуют определения и уточнения модели
+									развития.</p>
+								<span class="weight">300 гр</span>
+								<span>350  &#8381;</span>
+							</div>
+							<div class="de-p__modal-card--button">
+								<div class="add-to-cart">
+									<button type="submit" name="submit" class="btn btn-cart">В корзину</button>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<br>
+		</div>
+		<!-- Конец Модальное окно с описанием блюда  -->
+		<!--  модальное окно условия доставки -->
+		<div class="remodal policy-conf" data-remodal-id="modal-3" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div id="delivery" class="white-popup-block">
+				<div class="policy-confidential">
+					<h1>Условия доставки</h1>
+					<p>Мы стремимся доставить не только качественную еду, приготовленную с любовью нашими шефами, но и
+						передать Вам солнечное настроение и удовольствие от жизни!</p>
+					<p>Мы начинаем готовить блюда только после получения заказа. Процесс приготовления Вашего заказа и
+						доставка занимают около часа. </p>
+					<p>Стремясь сохранить вкус и свежесть наших блюд, мы осуществляем доставку в радиусе 5 км от наших
+						ресторанов.Мы доставляем блюда в специальных термосумках, поддерживающих нужную температуру, что
+						гарантирует доставку Ваших блюд горячими.</p>
+					<h2>Время доставки 11.00 — 23.00</h2>
+					<p>Вы можете сделать заказ ко времени</p>
+					<p>Минимальная сумма заказа 700 рублей.</p>
+					<h2>Оплата заказа:</h2>
+					<p>Наличный расчет / Оплата банковской картой курьеру при получении заказа / Оплата банковскойкартой
+						при оформлении заказа на сайте</p>
+					<h2>Благодарим Вас за заказ и желаем приятного аппетита!</h2>
+				</div>
+			</div>
+		</div>
+		<!-- /форма модальное окно условия доставки-->
+		<!--  модальное окно система бонусов -->
+		<div class="remodal policy-conf" data-remodal-id="bonus-system" role="dialog">
+			<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+			<div id="system-bonusi" class="white-popup-block">
+				<div class="policy-confidential">
+					<h2 class="main-headline">система бонусов</h2>
+					<p>Здесь описание бонусной системы и объяснение, что такое «Бонусы» и как они формируются.</p>
+					<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+						менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
+						выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
+						универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти
+						предложений в абзаце, что позволяет сделать текст более привлекательным и живым для
+						визуально-слухового восприятия.</p>
+					<p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+						некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+						рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+						советских времен.</p>
+				</div>
+			</div>
+		</div>
+		<!-- /форма модальное окно система бонусов -->
+
+	</footer>
+</div>
 
 
-					<script src="libs/jquery/jquery-1.11.2.min.js"></script>   
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 
-	<!--[if lt IE 9]>
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
 
-	<!-- Load CSS -->
-	<script>
-		function loadCSS(hf) {
-			var ms=document.createElement("link");ms.rel="stylesheet";
-			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+<!-- Load CSS -->
+<script>
+	function loadCSS(hf) {
+		var ms = document.createElement("link");
+		ms.rel = "stylesheet";
+		ms.href = hf;
+		document.getElementsByTagName("head")[0].appendChild(ms);
+	}
+	loadCSS("_fonts.css"); //Load Libs CSS: Animate CSS
+	loadCSS("libs/owlcarousel/owl.carousel.min.css"); //Load Libs CSS: OwlCarousel CSS
+	loadCSS("libs/owlcarousel/owl.theme.default.min.css"); //Load Libs CSS: OwlCarousel CSS
+	loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
+	loadCSS("libs/jquery-timepicker-1.3.5/jquery.timepicker.min.css"); //Load Libs CSS: Timepicker CSS
+	loadCSS("libs/jquery.datepicker/jquery.datetimepicker.min.css"); //Load Libs CSS: Datepicker CSS
+	loadCSS("libs/remodal/remodal.css"); //Load Libs CSS: Remodal CSS
+	loadCSS("libs/remodal/remodal-default-theme.css"); //Load Libs CSS: Remodal CSS
+	loadCSS("libs/rev_slider/css/settings.css"); //Load Libs CSS: Rev-Slider CSS
+	loadCSS("libs/rev_slider/css/style.css"); //Load Libs CSS: Rev-Slider CSS
+	loadCSS("libs/magnific-popup/magnific-popup.css"); //Load Libs CSS: Magnific-Popup CSS
+	loadCSS("libs/responsive-tabs-accordeon/easy-responsive-tabs.css"); //Load Libs CSS:
+	loadCSS("header-css/_header.css");   //Header Styles (compress & paste to header after release)
+	loadCSS("css/style.css");            //User Styles: Main
+	loadCSS("css/_media.css");           //User Styles: Media
+</script>
+
+<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
+<script>var ms = document.createElement("link");
+ms.rel = "stylesheet";
+// ms.href="style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+</script>
+
+
+<!-- Load Scripts -->
+<script>var scr = {
+	"scripts": [
+		{"src": "libs/modernizr/modernizr.js", "async": false},
+		{"src": "libs/animate/wow.js", "async": false},
+		{"src": "libs/plugins-scroll/plugins-scroll.js", "async": false},
+		{"src": "libs/equalHeights/jquery.equalheights.min.js", "async": false},
+		{"src": "libs/owlcarousel/owl.carousel.min.js", "async": false},
+		{"src": "libs/remodal/remodal.min.js", "async": false},
+		{"src": "libs/rev_slider/js/jquery.themepunch.tools.min.js", "async": false},
+		{"src": "libs/rev_slider/js/jquery.themepunch.revolution.min.js", "async": false},
+		{"src": "libs/jquery-timepicker-1.3.5/jquery.timepicker.min.js", "async": false},
+		{"src": "libs/jquery.datepicker/jquery.datetimepicker.full.min.js", "async": false},
+		{"src": "libs/validate/jquery.validate.min.js", "async": false},
+		{"src": "libs/validate/messages_ru.min.js", "async": false},
+		{"src": "libs/rev_slider/js/rev-slider.js", "async": false},
+		{"src": "libs/magnific-popup/jquery.magnific-popup.min.js", "async": false},
+		{"src": "libs/resposive-tabs/jquery.responsiveTabs.min.js", "async": false},
+		{"src": "libs/responsive-tabs-accordeon/easyResponsiveTabs.js", "async": false},
+		{"src": "js/common.js", "async": false}
+	]
+};
+!function (t, n, r) {
+	"use strict";
+	var c = function (t) {
+		if ("[object Array]" !== Object.prototype.toString.call(t))return !1;
+		for (var r = 0; r < t.length; r++) {
+			var c = n.createElement("script"), e = t[r];
+			c.src = e.src, c.async = e.async, n.body.appendChild(c)
 		}
-		loadCSS("_fonts.css"); //Load Libs CSS: Animate CSS
-		loadCSS("libs/owlcarousel/owl.carousel.min.css"); //Load Libs CSS: OwlCarousel CSS
-		loadCSS("libs/owlcarousel/owl.theme.default.min.css"); //Load Libs CSS: OwlCarousel CSS
-		loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
-		loadCSS("libs/jquery-timepicker-1.3.5/jquery.timepicker.min.css"); //Load Libs CSS: Timepicker CSS
-		loadCSS("libs/jquery.datepicker/jquery.datetimepicker.min.css"); //Load Libs CSS: Datepicker CSS
-		loadCSS("libs/remodal/remodal.css"); //Load Libs CSS: Remodal CSS
-		loadCSS("libs/remodal/remodal-default-theme.css"); //Load Libs CSS: Remodal CSS
-		loadCSS("libs/rev_slider/css/settings.css"); //Load Libs CSS: Rev-Slider CSS
-		loadCSS("libs/rev_slider/css/style.css"); //Load Libs CSS: Rev-Slider CSS
-		loadCSS("libs/magnific-popup/magnific-popup.css"); //Load Libs CSS: Magnific-Popup CSS
-		loadCSS("libs/responsive-tabs-accordeon/easy-responsive-tabs.css"); //Load Libs CSS:
-		loadCSS("header-css/_header.css");   //Header Styles (compress & paste to header after release)
-		loadCSS("css/style.css");            //User Styles: Main
-		loadCSS("css/_media.css");           //User Styles: Media
-	</script>
+		return !0
+	};
+	t.addEventListener ? t.addEventListener("load", function () {
+			c(r.scripts);
+		}, !1) : t.attachEvent ? t.attachEvent("onload", function () {
+				c(r.scripts)
+			}) : t.onload = function () {
+				c(r.scripts)
+			}
+}(window, document, scr);
+</script>
+<script>
+	$(window).load(function () {
 
-	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
-	<script>var ms=document.createElement("link");ms.rel="stylesheet";
-		// ms.href="style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
-	</script>
+		$("#wrapper").fadeOut();
+		$(".loader").delay(400).fadeOut("slow");
+	});
 
 
-
-	<!-- Load Scripts -->
-	<script>var scr = {"scripts":[
-		{"src" : "libs/modernizr/modernizr.js", "async" : false},				
-		{"src" : "libs/animate/wow.js", "async" : false},
-		{"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
-		{"src" : "libs/equalHeights/jquery.equalheights.min.js", "async" : false},
-		{"src" : "libs/owlcarousel/owl.carousel.min.js", "async" : false},
-		{"src" : "libs/remodal/remodal.min.js", "async" : false},
-		{"src" : "libs/rev_slider/js/jquery.themepunch.tools.min.js", "async" : false},
-		{"src" : "libs/rev_slider/js/jquery.themepunch.revolution.min.js", "async" : false},        
-		{"src" : "libs/jquery-timepicker-1.3.5/jquery.timepicker.min.js", "async" : false},
-		{"src" : "libs/jquery.datepicker/jquery.datetimepicker.full.min.js", "async" : false},
-		{"src" : "libs/validate/jquery.validate.min.js", "async" : false},
-		{"src" : "libs/validate/messages_ru.min.js", "async" : false},
-		{"src" : "libs/rev_slider/js/rev-slider.js", "async" : false},
-		{"src" : "libs/magnific-popup/jquery.magnific-popup.min.js", "async" : false},
-		{"src" : "libs/resposive-tabs/jquery.responsiveTabs.min.js", "async" : false},
-		{"src" : "libs/responsive-tabs-accordeon/easyResponsiveTabs.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
-		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-	</script>
-	<script>
-		$(window).load(function() {
-
-			$("#wrapper").fadeOut();
-			$(".loader").delay(400).fadeOut("slow");
-		});
-
-
-	</script>
+</script>
 
 
 </body>
