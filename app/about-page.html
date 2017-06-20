@@ -366,7 +366,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12">
-							<div id="horizontalTab">
+							<div class="horizontalTab">
 								<ul>
 									<li><a href="#tab-1">Ветеранов пр-т</a></li>
 									<li><a href="#tab-2">Московский пр-т</a></li>
@@ -656,7 +656,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12">
-							<div id="horizontalTab-2">
+							<div class="horizontalTab">
 								<ul>
 									<li><a href="#tab-1-interior">Ветеранов пр-т</a></li>
 									<li><a href="#tab-2-interior">Московский пр-т</a></li>
@@ -666,7 +666,7 @@
 									<li><a href="#tab-6-interior">Комендантский пр-т</a></li>
 								</ul>
 								<div id="tab-1-interior"><!--  about-page interior tabs #1-->
-									<div class="ab-p__interior--galary" id="ab-p-tab-1__zoom-gallery">
+									<div class="ab-p__interior--galary ev-g__gallary">
 										<div class="row">								
 											<div class="col-xs-6 col-sm-4 col-md-3">
 												<div class="ab-p__interior--item-photo">
@@ -756,7 +756,7 @@
 									</div>
 								</div><!--  finish about-page interior tabs #1-->
 								<div id="tab-2-interior"><!--  about-page interior tabs #2-->
-									<div class="ab-p__interior--galary" id="ab-p-tab-2__zoom-gallery">
+									<div class="ab-p__interior--galary ev-g__gallary">
 										<div class="row">								
 											<div class="col-xs-6 col-sm-4 col-md-3">
 												<div class="ab-p__interior--item-photo">
@@ -846,7 +846,7 @@
 									</div>
 								</div><!--  finish about-page interior tabs #2-->
 								<div id="tab-3-interior"><!--  about-page interior tabs #3-->
-									<div class="ab-p__interior--galary" id="ab-p-tab-3__zoom-gallery">
+									<div class="ab-p__interior--galary ev-g__gallary">
 										<div class="row">								
 											<div class="col-xs-6 col-sm-4 col-md-3">
 												<div class="ab-p__interior--item-photo">
@@ -936,7 +936,7 @@
 									</div>
 								</div><!--  finish about-page interior tabs #3-->
 								<div id="tab-4-interior"><!--  about-page interior tabs #4-->
-									<div class="ab-p__interior--galary" id="ab-p-tab-4__zoom-gallery">
+									<div class="ab-p__interior--galary ev-g__gallary">
 										<div class="row">								
 											<div class="col-xs-6 col-sm-4 col-md-3">
 												<div class="ab-p__interior--item-photo">
@@ -1026,7 +1026,7 @@
 									</div>
 								</div><!--  finish about-page interior tabs #4-->
 								<div id="tab-5-interior"><!--  about-page interior tabs #4-->
-									<div class="ab-p__interior--galary" id="ab-p-tab-5__zoom-gallery">
+									<div class="ab-p__interior--galary ev-g__gallary">
 										<div class="row">								
 											<div class="col-xs-6 col-sm-4 col-md-3">
 												<div class="ab-p__interior--item-photo">
@@ -1116,7 +1116,7 @@
 									</div>
 								</div><!--  finish about-page interior tabs #5-->
 								<div id="tab-6-interior"><!--  about-page interior tabs #6-->
-									<div class="ab-p__interior--galary" id="ab-p-tab-6__zoom-gallery">
+									<div class="ab-p__interior--galary ev-g__gallary">
 										<div class="row">								
 											<div class="col-xs-6 col-sm-4 col-md-3">
 												<div class="ab-p__interior--item-photo">
@@ -1456,10 +1456,7 @@
 	};
 </script>
 
-<script type="text/javascript">
-	day = 1; hour= 2; minute= 55; sec= 56;
-	function CountBox(a){dateNow=new Date,amount=dateFuture-dateNow.getTime()+5,delete dateNow,amount<0?(out="<div class='countbox-num'><div id='countbox-days1'><span></span>0</div><div id='countbox-days2'><span></span>0</div><div id='countbox-days-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-hours1'><span></span>0</div><div id='countbox-hours2'><span></span>0</div><div id='countbox-hours-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-mins1'><span></span>0</div><div id='countbox-mins2'><span></span>0</div><div id='countbox-mins-text'></div></div><div class='countbox-space'></div><div class='countbox-num  countbox-num__sec'><div id='countbox-secs1'><span></span>0</div><div id='countbox-secs2'><span></span>0</div><div id='countbox-secs-text'></div></div>",document.getElementById(a).innerHTML=out):(days=0,days1=0,days2=0,hours=0,hours1=0,hours2=0,mins=0,mins1=0,mins2=0,secs=0,secs1=0,secs2=0,out="",amount=Math.floor(amount/1e3),days=Math.floor(amount/86400),days1=days>=10?days.toString().charAt(0):"0",days2=days>=10?days.toString().charAt(1):days.toString().charAt(0),amount%=86400,hours=Math.floor(amount/3600),hours1=hours>=10?hours.toString().charAt(0):"0",hours2=hours>=10?hours.toString().charAt(1):hours.toString().charAt(0),amount%=3600,mins=Math.floor(amount/60),mins1=mins>=10?mins.toString().charAt(0):"0",mins2=mins>=10?mins.toString().charAt(1):mins.toString().charAt(0),amount%=60,secs=Math.floor(amount),secs1=secs>=10?secs.toString().charAt(0):"0",secs2=secs>=10?secs.toString().charAt(1):secs.toString().charAt(0),out="<div class='countbox-num'><div id='countbox-days1'><span></span>"+days1+"</div><div id='countbox-days2'><span></span>"+days2+"</div><div id='countbox-days-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-hours1'><span></span>"+hours1+"</div><div id='countbox-hours2'><span></span>"+hours2+"</div><div id='countbox-hours-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-mins1'><span></span>"+mins1+"</div><div id='countbox-mins2'><span></span>"+mins2+"</div><div id='countbox-mins-text'></div></div><div class='countbox-space'></div><div class='countbox-num  countbox-num__sec'><div id='countbox-secs1'><span></span>"+secs1+"</div><div id='countbox-secs2'><span></span>"+secs2+"</div><div id='countbox-secs-text'></div></div>",document.getElementById(a).innerHTML=out,setTimeout(function(){CountBox(a)},1e3))}day=1,hour=2,minute=55,sec=56,dateFuture=(new Date).getTime()+1e3*(60*(24*day+hour)*60+60*minute+sec),window.onload=function(){CountBox("countbox"),CountBox("countbox1")};
-</script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQuA3wc-ZE2DtYyudxCJK0jZ2HGvsHOIM&callback=initMap"
 type="text/javascript"></script>
 </body>

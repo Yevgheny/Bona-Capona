@@ -1187,15 +1187,7 @@ label.error {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-#horizontalTab li:hover,
-#horizontalTab-2 li:hover,
-#horizontalTab-3 li:hover,
-#horizontalTab-4 li:hover,
-#horizontalTab-5 li:hover,
-#horizontalTab-6 li:hover,
-#horizontalTab-7 li:hover,
-#horizontalTab-8 li:hover,
-#horizontalTab-9 li:hover {
+.r-tabs .r-tabs-nav .r-tabs-anchor:hover {
   background: #ebebeb;
 }
 .r-tabs a {
@@ -1302,24 +1294,24 @@ label.error {
   max-width: 205px;
   margin: 20px auto 30px;
 }
-#horizontalTab-4 .r-tabs-nav .r-tabs-anchor,
-#horizontalTab-6 .r-tabs-nav .r-tabs-anchor {
+.horizontalTab-4 .r-tabs-nav .r-tabs-anchor,
+.horizontalTab-6 .r-tabs-nav .r-tabs-anchor {
   padding: 10px 34px;
 }
-#horizontalTab-5 .r-tabs-nav {
+.horizontalTab-5 .r-tabs-nav {
   margin-left: 23%;
   margin-right: 23%;
 }
-#horizontalTab-7 .r-tabs-nav .r-tabs-anchor,
-#horizontalTab-8 .r-tabs-nav .r-tabs-anchor {
+.horizontalTab-7 .r-tabs-nav .r-tabs-anchor,
+.horizontalTab-8 .r-tabs-nav .r-tabs-anchor {
   padding: 10px 40px;
 }
-#horizontalTab-7 .r-tabs-nav,
-#horizontalTab-8 .r-tabs-nav {
+.horizontalTab-7 .r-tabs-nav,
+.horizontalTab-8 .r-tabs-nav {
   margin-left: 17%;
   margin-right: 17%;
 }
-#horizontalTab-9 .r-tabs-nav .r-tabs-anchor {
+.horizontalTab-9 .r-tabs-nav .r-tabs-anchor {
   padding: 10px 38.7px;
 }
 /*------------------- DELIVERY-PAGE.css------------------*/
@@ -1458,7 +1450,7 @@ label.error {
 .btn-cart:active {
   text-decoration: none;
 }
-#horizontalTab-10.r-tabs .r-tabs-panel {
+.horizontalTab-10.r-tabs .r-tabs-panel {
   padding-bottom: 25px;
 }
 .remodal-close {
@@ -1701,6 +1693,7 @@ label.error {
 }
 .ui-timepicker-standard .ui-state-hover {
   color: #fff;
+  background: #fdd71f;
 }
 .xdsoft_datetimepicker {
   color: #78c8c9;
@@ -1709,6 +1702,25 @@ label.error {
 .xdsoft_datetimepicker .xdsoft_calendar th {
   background: #78c8c9;
   border: 1px solid #78c8c9;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  background: #fdd71f !important;
+}
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
+  background: #fdd71f;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  background: #6e9899;
+  -webkit-box-shadow: #6e9899 0 1px 3px 0 inset;
+          box-shadow: #6e9899 0 1px 3px 0 inset;
+}
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
+  background: #6e9899;
+  -webkit-box-shadow: #6e9899 0 1px 3px 0 inset;
+          box-shadow: #6e9899 0 1px 3px 0 inset;
 }
 .ca-d__total-two {
   text-align: left;
@@ -1863,10 +1875,7 @@ label.error {
   min-width: 100%;
 }
 /*-------------------finish FAQ PAGE.css------------------*/
-#horizontalTab-3 li:hover {
-  background: #ebebeb;
-}
-#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
+.horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
   padding: 15px 46.4px;
 }
 .b-f__vacancies--description {
@@ -2088,7 +2097,7 @@ label.error {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   float: right;
-  margin-top: -45px;
+  margin-top: -33px;
   margin-right: -20px;
 }
 .file-upload label {
