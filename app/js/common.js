@@ -259,7 +259,7 @@ $(document).ready(function(){
 });
 jQuery.datetimepicker.setLocale('ru');
 
-jQuery('#datetimepicker1').datetimepicker({
+jQuery('.datetimepicker1').datetimepicker({
  i18n:{
   de:{
    months:[
