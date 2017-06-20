@@ -60,6 +60,7 @@ $(document).ready(function() {
 		margin:30,
 		nav:true,
 		autoplay:true,
+		autoplayTimeout:3000,
 		autoplayHoverPause:true,
 		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 		dots:false,
