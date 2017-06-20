@@ -68,7 +68,7 @@
 	.ab-p__cooks-team {
 		padding-top: 0;
 	}
-	#horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
+	.horizontalTab-3 .r-tabs-nav .r-tabs-anchor {
 	    padding: 15px 29.7px;
 	}
 	.ab-p__interior--item-photo {
@@ -80,9 +80,9 @@
 	.file-upload {
 		margin-top: -34px;
 	}
-	#horizontalTab-5 .r-tabs-nav,
-    #horizontalTab-7 .r-tabs-nav, 
-    #horizontalTab-8 .r-tabs-nav {
+	.horizontalTab-5 .r-tabs-nav,
+    .horizontalTab-7 .r-tabs-nav, 
+    .horizontalTab-8 .r-tabs-nav {
     	margin-left: 0;
     	margin-right: 0;
     }
