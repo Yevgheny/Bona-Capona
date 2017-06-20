@@ -30,16 +30,133 @@
 </head>
 
 <body>
-	<div class="loader">
-		<div class="loader_inner"></div>
-	</div>
-	<div class="remodal-bg">
-		<header class="main-header">
-			<div class="container clearfix">
+<div class="loader">
+	<div class="loader_inner"></div>
+</div>
+<div class="remodal-bg">
+	<header class="main-header">
+		<div class="container clearfix">
+			<div class="row">
+				<a href="#modal" class="mp-p_login mp-p_login-mob">Войти</a>
+				<div class="col-sm-4 col-sm-offset-1 col-sm-push-3">
+					<div class="main-logo-wrap">
+						<a href="#modal-e">
+							<img src="img/main-logo.png" alt="Bona Capona">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-2 col-md-offset-1 col-sm-pull-5">
+					<a href="about-page.html#ab-p__restaurant-map" class="btn btn-white header__btn">Рестораны</a>
+				</div>
 
+				<div class="col-sm-2 col-sm-offset-2 col-md-offset-1">
+					<a href="#modal-e" class="mp-p_login">Войти</a>
+					<a href="delivery-page.html" class="btn btn-yellow header__btn-yellow">Доставка</a>
+				</div>
 			</div>
-		</header>
+			<div class="main-menu-wrapper">
+				<nav>
+					<div class="open-mobile-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul class="main-drop-down-menu" id="main-drop-down-menu">
 
+						<li class="searchform-popup searchform-popup-mob">
+							<form action="" method="get" class="searchform searchform-mob">
+								<fieldset>
+								<span class="text">
+									<input name="s" id="sm" type="text" value="" placeholder="Поиск…" autocomplete="off">
+								</span>
+									<span class="button-wrap">
+									<button class="btn btn-special" title="Search" type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</span>
+								</fieldset>
+							</form>
+						</li>
+						<li class='drop-down'><a href='#'> О ресторане</a>
+							<ul>
+								<li><a href='bona-family.html'>BONA FAMILY</a></li>
+								<li><a href='news-page.html'>Новости ресторана</a></li>
+								<li><a href='about-page.html#ab-p__restaurant-map'>Рестораны</a></li>
+							</ul>
+						</li>
+						<li class='drop-down'><a href='#'> Меню</a>
+							<ul>
+								<li><a href='menu-page.html#me-p__kitchen'>Кухня</a></li>
+								<li><a href='menu-page.html#me-p__map-beverages'>Кофе и чай</a></li>
+								<li>
+									<a href='menu-page.html#me-p__children'>Детское меню</a>
+								</li>
+								<li>
+									<a href='menu-page.html#me-p__breakfasts'>Завтраки</a>
+								</li>
+								<li>
+									<a href='menu-page.html#me-p__business-lunches'>Бизнес-ланчи</a>
+								</li>
+								<li><a href='#me-p__map-alcohol'>Бар</a></li>
+							</ul>
+						</li>
+						<!--data-label is for the jQuery to recent post from the blog feed -->
+						<li class='drop-down' data-label='Javascript'>
+							<a href='#'> Доставка</a>
+							<ul>
+								<li><a href='delivery-page.html'>Каталог</a></li>
+								<li><a href='#modal-e'>Войти как
+									покупатель</a></li>
+							</ul>
+						</li>
+						<li class='drop-down'><a class="no-arrow" href='promos-page.html'> Акции</a></li>
+						<li class='drop-down'><a href='events-page.html'> Мероприятия</a>
+							<ul>
+								<li><a href='events-page.html#ev-p-poster'>Афиша</a></li>
+								<li><a href='events-page.html#ev-p-report'>Фотоотчеты</a></li>
+							</ul>
+						</li>
+						<li class='drop-down'><a class="no-arrow" href='faq-page.html'> FAQ</a></li>
+						<li class='drop-down'><a href='bona-family.html'> BONA FAMILY</a>
+							<ul>
+								<li><a href='bona-family.html#ab-p__cooks-team'>Наша команда</a></li>
+								<li><a href='bona-family.html#b-f__our-life'>Наша жизнь</a></li>
+								<li><a href='bona-family.html#b-f__vacancies'>Вакансии</a></li>
+							</ul>
+						</li>
+						<li class='drop-down'><a class="no-arrow" class="no-arrow" href='contacts-page.html'> Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="mp-p_wrap-for-icons">
+					<div class="searchform-popup">
+						<a class="search-toggle" id="search-toggle" href="#">
+							<i class="fa fa-search"></i>
+						</a>
+						<form action="" method="get" class="searchform" id="searchform">
+							<fieldset>
+								<span class="text">
+									<input name="s" id="s" type="text" value="" placeholder="Поиск…" autocomplete="off">
+								</span>
+								<span class="button-wrap">
+									<button class="btn btn-special" title="Search" type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</span>
+							</fieldset>
+						</form>
+					</div>
+					<div class="main-header__social-icons">
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 		<main>
 			<section class="promos-page">
 				<div class="container clearfix">
@@ -104,6 +221,7 @@
 					</div>
 				</div>
 			</section>
+>>>>>>> df0053d15bffa48dc3317ed9c6d48281b7ae9544
 
 		</main>
 		<footer class="main-footer">
