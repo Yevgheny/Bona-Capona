@@ -1709,6 +1709,18 @@ label.error {
 .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
   background: #fdd71f;
 }
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  background: #6e9899;
+  -webkit-box-shadow: #6e9899 0 1px 3px 0 inset;
+          box-shadow: #6e9899 0 1px 3px 0 inset;
+}
+.xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
+  background: #6e9899;
+  -webkit-box-shadow: #6e9899 0 1px 3px 0 inset;
+          box-shadow: #6e9899 0 1px 3px 0 inset;
+}
 .ca-d__total-two {
   text-align: left;
 }
