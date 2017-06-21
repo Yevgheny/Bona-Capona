@@ -28,9 +28,12 @@
 	width: 210px;
 	text-align: left;
 	color: #646569;
+	margin-bottom: 0;
 }
 .me-p__dish-dot {
+	width: 220px;
 	color: #646569;
+	overflow: hidden;
 }
 .me-p__dish-menu span {
 	display: inline-block;
@@ -46,9 +49,11 @@
 .me-p__dish-dot, 
 .me-p__dish-menu span {
 	display: inline-block;
+	vertical-align: bottom;
 }
 .me-p__kitchen--dish-description {
 	max-width: 465px;
+	padding-top: 10px;
 }
 .me-p__kitchen--dish-description span {
 	display: inline-block;
