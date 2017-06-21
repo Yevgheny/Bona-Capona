@@ -141,7 +141,7 @@
 							<a class="search-toggle" id="search-toggle" href="#">
 								<i class="fa fa-search"></i>
 							</a>
-							<form action="" method="get" class="searchform" id="searchform">
+							<form action="form-control/mail.php" method="get" class="searchform" id="searchform">
 								<fieldset>
 								<span class="text">
 									<input name="s" id="s" type="text" value="" placeholder="Поиск…" autocomplete="off">
@@ -344,7 +344,7 @@
 								</div>
 								<div class="col-sm-12 col-md-4">
 									<div class="input-group-text">												
-										<textarea name="text" id="message-3" cols="30" rows="10" required="">Сообщение</textarea>
+										<textarea name="text" id="message-3" cols="30" rows="10" placeholder="Сообщение" required=""></textarea>
 
 									</div>
 								</div>
@@ -414,24 +414,24 @@
 						<div class="row">
 							<div class="col-xs-6 col-sm-6 col-md-3">
 								<div class="input-group">								
-									<select name="name" id="select-restaurant" size="1">
-										<option selected value="Выберите ресторан">Выберите ресторан</option>
-										<option value="Ветеранов пр-т">Ветеранов пр-т</option>
-										<option value="Московский пр-т">Московский пр-т</option>
-										<option value="Славы пр-т">Славы пр-т</option>
-										<option value="ул. Есенина">ул. Есенина</option>
-										<option value="г. Пушкин, ул. Оранжерейная">г. Пушкин, ул. Оранжерейная</option>
-										<option value="Комендантский пр-т">Комендантский пр-т</option>
+									<select name="select-restaurant" id="select-restaurant" size="1">
+										<option disabled selected>Выберите ресторан</option>
+										<option value="select-restaurant-1">Ветеранов пр-т</option>
+										<option value="select-restaurant-2">Московский пр-т</option>
+										<option value="select-restaurant-3">Славы пр-т</option>
+										<option value="select-restaurant-4">ул. Есенина</option>
+										<option value="select-restaurant-5">г. Пушкин, ул. Оранжерейная</option>
+										<option value="select-restaurant-6">Комендантский пр-т</option>
 									</select>
 								</div>
 							</div>
 							<div class="col-xs-6 col-sm-6 col-md-3">
 								<div class="input-group">								
-									<select name="name" id="select-restaurant-1" size="1">
-										<option selected value="Столик">Столик</option>
-										<option value="столик на 2 персоны">столик на 2 персоны</option>
-										<option value="столик на 4 персоны">столик на 4 персоны</option>
-										<option value="столик на 8 персон">столик на 8 персон</option>
+									<select name="select-table" id="select-table" size="1">
+										<option disabled selected>Столик</option>
+										<option value="select-table-1">столик на 2 персоны</option>
+										<option value="select-table-2">столик на 4 персоны</option>
+										<option value="select-table-3">столик на 8 персон</option>
 									</select>
 								</div>
 							</div>
@@ -447,11 +447,12 @@
 							</div>
 							<div class="col-xs-6 col-sm-6 col-md-3">
 								<div class="input-group input-group-user">								
-									<select name="name" id="select-user" size="1">
-										<option selected value="1 персона">1 персона</option>
-										<option value="2 персоны">2 персоны</option>
-										<option value="3 персоны">3 персоны</option>
-										<option value="4 персон">4 персон</option>
+									<select name="select-user" id="select-user" size="1">
+										<option  disabled selected>Количество человек</option>
+										<option value="select-user-1">1 персона</option>
+										<option value="select-user-2">2 персоны</option>
+										<option value="select-user-3">3 персоны</option>
+										<option value="select-user-4">4 персоны</option>
 									</select>
 								</div>
 							</div>
@@ -699,7 +700,7 @@
 							<input type="text"  name="status" placeholder="Род занятий" required>
 						</div>
 						<div class="input-group-text">		
-							<textarea name="text" id="co-m-message" cols="30" rows="10" required>Оставьте ваш отзыв		
+							<textarea name="text" id="co-m-message" cols="30" rows="10" placeholder="Оставьте ваш отзыв" required>		
 							</textarea>
 						</div>
 						<input type="hidden"  name="s_formi" value="Оставить отзыв">
