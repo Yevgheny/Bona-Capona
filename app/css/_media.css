@@ -94,7 +94,7 @@
     	padding-bottom: 45px;
     }
     .me-p__dish-dot {
-    	width: 120px;
+    	display: none;
     }
 	.logo-footer-wrap {
 		position: relative;
@@ -306,15 +306,6 @@
 	.delivery-page {
 		padding-bottom: 30px;
 	}
-	.me-p__dish-menu h3 {
-		width: 175px;
-	}
-	.me-p__dish-dot {
-	    width: 45px;
-	}
-	.business-lunches-dot {
-		width: 35px;
-	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -343,11 +334,8 @@
     	margin: 0 auto;
     }
     .me-p__dish-menu h3 {
-    	width: 45%;
-    } 
-    .me-p__dish-dot {
-	    width: 42%;
-	}   
+    	width: 80%;
+    }    
     .me-p__kitchen--dish-photo,
     .me-p__kitchen--download-menu  {
     	margin: 0 auto;
@@ -358,12 +346,9 @@
     .me-p__breakfasts--price h3 {
     	max-width: 270px;
     }
-    .btn-download-menu.download-menu-btn-mob {
-    	margin: 0 auto;
-    }
     .me-p__breakfasts--price {
     	max-width: 570px;
-    	margin: 0 auto;
+    	margin: 45px auto 0;
     }
     .ca-d__current-time,
     .ca-d__choose-payment--card,
@@ -441,6 +426,7 @@
 	.policy-confidential h2 {
 	    font-size: 3rem;
 	}
+<<<<<<< HEAD
 	.me-p__dish-dot {
 	    width: 40%;
 	}
@@ -449,6 +435,8 @@
 	}
 =======
 >>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -477,12 +465,12 @@
 	.me-p__kitchen--download-menu {
 		padding-top: 30px;
 	}
-	.me-p__dish-dot {
-	    width: 35%;
+	.breakfasts-dot {
+		display: none;
 	}
-	.business-lunches-dot {
-		width: 25%;
-	}		
+	.me-p__breakfasts--price span {
+		padding-left: 120px;
+	}	
 	.ca-d__choose-payment--btn {	    
 	    margin: -10px 0 30px 0;
 	}
@@ -515,14 +503,8 @@
 	.checkbox-wrap .b-f__label--costom a {
 	    font-size: 1.3rem;
 	}
-	.me-p__dish-dot {
-	    width: 33%;
-	}
-	.breakfasts-dot {
-		width: 25%;
-	}
-	.business-lunches-dot {
-		width: 12%;
+	.me-p__breakfasts--price span {
+		padding-left: 60px;
 	}	
 	.ca-d__delivery-explanation {
 		padding-top: 0;
@@ -615,6 +597,7 @@
 	.policy-confidential h2 {
 	    font-size: 2.6rem;
 	}
+<<<<<<< HEAD
 	.me-p__dish-menu h3 {
 	    width: 55%;
 	}
@@ -626,11 +609,14 @@
 	}
 =======
 >>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
 	.ab-p__news-head {
 		padding-top: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 	}		
 =======
@@ -645,6 +631,15 @@
 	}
 
 >>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+	}
+	.me-p__breakfasts--price span {
+		padding-left: 30px;
+	}
+	.me-p__dish-menu h3 {
+		width: 75%;
+	}
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
@@ -707,12 +702,6 @@
 	.ca-d__total span {
 		font-size: 1.5rem;
 	}
-	.me-p__dish-dot {
-	    width: 16%;
-	}
-	.business-lunches-dot {
-	    width: 5%;
-	}
 }
 @media only screen and (max-width : 330px) {
 	.footer-cotact-info ul a {
@@ -741,6 +730,7 @@
 	.policy-confidential h2 {
 	    font-size: 2.1rem;
 	}
+<<<<<<< HEAD
 	.me-p__dish-dot {
 	    width: 14%;
 	}
@@ -755,6 +745,8 @@
 	}
 =======
 >>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -765,7 +757,13 @@
 		height: 50px;
 		padding-top: 14px;
 		margin-top: 10px;
-	}		
+	}
+	.me-p__breakfasts--price h3 {
+	    max-width: 195px;
+	}
+	.me-p__dish-menu h3 {
+	    width: 70%;
+	}
 	.ca-d__promo--btn {
 	    padding-top: 0;
 	}
