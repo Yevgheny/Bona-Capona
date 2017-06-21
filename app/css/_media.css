@@ -398,12 +398,6 @@
 	.co-p__form-top.file-upload {
 	    margin-top: -35px;
 	}
-	.policy-confidential h1 {
-		font-size: 4.6rem;
-	}
-	.policy-confidential h2 {
-		font-size: 3.5rem;
-	}
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
@@ -440,6 +434,7 @@
 	.de-p__modal-card ul li .de-p__modal-cart--discription p {
 		margin-bottom: 10px;
 	}
+<<<<<<< HEAD
 	.policy-confidential h1 {
 	    font-size: 4rem;
 	}
@@ -452,6 +447,8 @@
 	.business-lunches-dot {
 		width: 35%;
 	}
+=======
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -500,9 +497,6 @@
 	.re-m__form-right {
 		display: block;
 		width: 100%;
-	}
-	.policy-confidential h1 {
-	    font-size: 3rem;
 	}
 }
 @media only screen and (max-width : 416px) {
@@ -614,6 +608,7 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 14px;
 	}
+<<<<<<< HEAD
 	.policy-confidential h1 {
 	    font-size: 2.6rem;
 	}
@@ -629,30 +624,51 @@
 	.business-lunches-dot {
 		width: 8%;
 	}
+=======
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
 	.ab-p__news-head {
 		padding-top: 15px;
+<<<<<<< HEAD
 	}		
+=======
+	}
+
+	.me-p__breakfasts--price span {
+		padding-left: 30px;
+	}
+
+	.me-p__dish-menu h3 {
+		width: 75%;
+	}
+
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
+
 	.ev-p-poster__item {
 		width: 90%;
 	}
+
 	.de-p__card--photo-dish {
 		margin-bottom: 10px;
 	}
+
 	.de-p__card--discription-dish h5 {
 		margin-bottom: 10px;
 	}
+
 	.de-p__card--photo-dish span {
 		padding: 3px 10px;
 	}
+
 	.de-p__card--discription-dish {
 		padding-left: 5px;
 	}
+
 	.de-p__card--discription-dish span {
 		margin-right: 5px;
 		margin-bottom: 10px;
@@ -661,9 +677,6 @@
 		display: block;
 		width: 100%;
 		text-align: center;
-	}
-	.policy-confidential h1 {
-	    font-size: 2.4rem;
 	}
 }
 @media only screen and (max-width : 360px) {
@@ -682,6 +695,9 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 13px;
 	}
+}
+
+@media only screen and (max-width : 360px) {
 	.ca-d__score--btn {
 		padding-top: 25px;
 	}
@@ -718,6 +734,7 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 12px;
 	}
+<<<<<<< HEAD
 	.policy-confidential h1 {
 	    font-size: 2.1rem;
 	}
@@ -736,6 +753,8 @@
 	.me-p__kitchen--head h3 {
 		font-size: 1.6rem;
 	}
+=======
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
