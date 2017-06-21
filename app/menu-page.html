@@ -15,6 +15,10 @@
 	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
 	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
 
+	<!-- Удалить после посадки верстки -->
+	<style>.loader{background:none repeat scroll 0 0 #fff;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:9999}.loader_inner{height:60px;width:60px;margin-top:-30px;margin-left:-30px;left:50%;top:50%;position:absolute}
+	.cssload-thecube{width:43px;height:43px;margin:0 auto;position:relative;transform:rotateZ(45deg);-o-transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg)}.cssload-thecube .cssload-cube{position:relative;transform:rotateZ(45deg);-o-transform:rotateZ(45deg);-ms-transform:rotateZ(45deg);-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg)}.cssload-thecube .cssload-cube{float:left;width:50%;height:50%;position:relative;transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1)}.cssload-thecube .cssload-cube:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgb(120,200,201);animation:cssload-fold-thecube 2.4s infinite linear both;-o-animation:cssload-fold-thecube 2.4s infinite linear both;-ms-animation:cssload-fold-thecube 2.4s infinite linear both;-webkit-animation:cssload-fold-thecube 2.4s infinite linear both;-moz-animation:cssload-fold-thecube 2.4s infinite linear both;transform-origin:100% 100%;-o-transform-origin:100% 100%;-ms-transform-origin:100% 100%;-webkit-transform-origin:100% 100%;-moz-transform-origin:100% 100%}.cssload-thecube .cssload-c2{transform:scale(1.1) rotateZ(90deg);-o-transform:scale(1.1) rotateZ(90deg);-ms-transform:scale(1.1) rotateZ(90deg);-webkit-transform:scale(1.1) rotateZ(90deg);-moz-transform:scale(1.1) rotateZ(90deg)}.cssload-thecube .cssload-c3{transform:scale(1.1) rotateZ(180deg);-o-transform:scale(1.1) rotateZ(180deg);-ms-transform:scale(1.1) rotateZ(180deg);-webkit-transform:scale(1.1) rotateZ(180deg);-moz-transform:scale(1.1) rotateZ(180deg)}.cssload-thecube .cssload-c4{transform:scale(1.1) rotateZ(270deg);-o-transform:scale(1.1) rotateZ(270deg);-ms-transform:scale(1.1) rotateZ(270deg);-webkit-transform:scale(1.1) rotateZ(270deg);-moz-transform:scale(1.1) rotateZ(270deg)}.cssload-thecube .cssload-c2:before{animation-delay:0.3s;-o-animation-delay:0.3s;-ms-animation-delay:0.3s;-webkit-animation-delay:0.3s;-moz-animation-delay:0.3s}.cssload-thecube .cssload-c3:before{animation-delay:0.6s;-o-animation-delay:0.6s;-ms-animation-delay:0.6s;-webkit-animation-delay:0.6s;-moz-animation-delay:0.6s}.cssload-thecube .cssload-c4:before{animation-delay:0.9s;-o-animation-delay:0.9s;-ms-animation-delay:0.9s;-webkit-animation-delay:0.9s;-moz-animation-delay:0.9s}@keyframes cssload-fold-thecube{0%,10%{transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{transform:perspective(80px) rotateY(180deg);opacity:0}}@-o-keyframes cssload-fold-thecube{0%,10%{-o-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-o-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-o-transform:perspective(80px) rotateY(180deg);opacity:0}}@-ms-keyframes cssload-fold-thecube{0%,10%{-ms-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-ms-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-ms-transform:perspective(80px) rotateY(180deg);opacity:0}}@-webkit-keyframes cssload-fold-thecube{0%,10%{-webkit-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-webkit-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-webkit-transform:perspective(80px) rotateY(180deg);opacity:0}}@-moz-keyframes cssload-fold-thecube{0%,10%{-moz-transform:perspective(80px) rotateX(-180deg);opacity:0}25%,75%{-moz-transform:perspective(80px) rotateX(0deg);opacity:1}90%,100%{-moz-transform:perspective(80px) rotateY(180deg);opacity:0}}</style>
+
 	<!-- Load CSS Compilled without JS -->
 	<noscript><link rel="stylesheet" href="style.min.css"></noscript>
 
@@ -25,22 +29,26 @@
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-
-
 </head>
-
 <body>
-	<div class="loader">
-		<div class="loader_inner"></div>
+<div class="loader">
+	<div class="loader_inner">
+		<div class="cssload-thecube">
+			<div class="cssload-cube cssload-c1"></div>
+			<div class="cssload-cube cssload-c2"></div>
+			<div class="cssload-cube cssload-c4"></div>
+			<div class="cssload-cube cssload-c3"></div>
+		</div>
 	</div>
+</div>
 	<div class="remodal-bg">
 		<header class="main-header">
 			<div class="container clearfix">
 				<div class="row">
-					<a href="#modal" class="mp-p_login mp-p_login-mob">Войти</a>
+					<a href="#modal-e" class="mp-p_login mp-p_login-mob">Войти</a>
 					<div class="col-sm-4 col-sm-offset-1 col-sm-push-3">
 						<div class="main-logo-wrap">
-							<a href="#modal-e">
+							<a href="index.html">
 								<img src="img/main-logo.png" alt="Bona Capona">
 							</a>
 						</div>
@@ -63,29 +71,29 @@
 							<span></span>
 						</div>
 						<ul class="main-drop-down-menu" id="main-drop-down-menu">
-
 							<li class="searchform-popup searchform-popup-mob">
-								<form action="" method="get" class="searchform searchform-mob">
+								<form action="form-control/mail.php" method="get" class="searchform searchform-mob">
 									<fieldset>
-								<span class="text">
-									<input name="s" id="sm" type="text" value="" placeholder="Поиск…" autocomplete="off">
-								</span>
+										<span class="text">
+											<input name="s" id="sm" type="text" value="" placeholder="Поиск…"
+												   autocomplete="off">
+										</span>
 										<span class="button-wrap">
-									<button class="btn btn-special" title="Search" type="submit">
-										<i class="fa fa-search"></i>
-									</button>
-								</span>
+											<button class="btn btn-special" title="Search" type="submit">
+												<i class="fa fa-search"></i>
+											</button>
+										</span>
 									</fieldset>
 								</form>
 							</li>
-							<li class='drop-down'><a href='#'> О ресторане</a>
+							<li class='drop-down'><a href='about-page.html'> О ресторане</a>
 								<ul>
 									<li><a href='bona-family.html'>BONA FAMILY</a></li>
 									<li><a href='news-page.html'>Новости ресторана</a></li>
 									<li><a href='about-page.html#ab-p__restaurant-map'>Рестораны</a></li>
 								</ul>
 							</li>
-							<li class='drop-down'><a href='#'> Меню</a>
+							<li class='drop-down'><a href='menu-page.html'> Меню</a>
 								<ul>
 									<li><a href='menu-page.html#me-p__kitchen'>Кухня</a></li>
 									<li><a href='menu-page.html#me-p__map-beverages'>Кофе и чай</a></li>
@@ -103,7 +111,7 @@
 							</li>
 							<!--data-label is for the jQuery to recent post from the blog feed -->
 							<li class='drop-down' data-label='Javascript'>
-								<a href='#'> Доставка</a>
+								<a href='delivery-page.html'> Доставка</a>
 								<ul>
 									<li><a href='delivery-page.html'>Каталог</a></li>
 									<li><a href='#modal-e'>Войти как
@@ -125,7 +133,7 @@
 									<li><a href='bona-family.html#b-f__vacancies'>Вакансии</a></li>
 								</ul>
 							</li>
-							<li class='drop-down'><a class="no-arrow" class="no-arrow" href='contacts-page.html'> Контакты</a></li>
+							<li class='drop-down'><a class="no-arrow" href='contacts-page.html'> Контакты</a></li>
 						</ul>
 					</nav>
 					<div class="mp-p_wrap-for-icons">
@@ -162,13 +170,13 @@
 			<img src="img/menu-1.jpg" alt="menu-1">
 		</div>
 
-		<main>	
+		<main>
 			<section id="me-p__kitchen" class="me-p__kitchen">
 				<div class="container clearfix">
 					<div class="row">
 						<div class="co-md-12">
 							<div class="me-p__kitchen--head">
-								<h2 class="main-headline">кухня</h2>					
+								<h2 class="main-headline">кухня</h2>
 							</div>
 						</div>
 					</div>
@@ -223,18 +231,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -244,7 +252,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -253,7 +261,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -262,7 +270,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
@@ -301,14 +309,14 @@
 										<div class="col-sm-6 col-sm-pull-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -318,16 +326,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -336,7 +335,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -345,7 +344,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -388,27 +396,6 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
-											</div>
-											<div class="me-p__kitchen--novelty">
-												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
-													<h3>название блюда название</h3>
-													<div class="me-p__dish-dot">.................................................................</div>
-													<span>350  &#8381;</span>
-													<div class="me-p__kitchen--dish-description">
-														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-														<span>400 гр.</span>
-													</div>	
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -418,7 +405,19 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--novelty">
+												<span>новинка</span>
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
+													<h3>название блюда название</h3>
+													<div class="me-p__dish-dot">.................................................................</div>
+													<span>350  &#8381;</span>
+													<div class="me-p__kitchen--dish-description">
+														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+														<span>400 гр.</span>
+													</div>
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -427,7 +426,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -469,18 +477,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -490,7 +498,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -499,7 +507,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -508,7 +516,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -545,14 +553,14 @@
 										<div class="col-sm-6 col-sm-pull-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -562,16 +570,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -580,7 +579,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -589,7 +588,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -631,27 +639,6 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
-											</div>
-											<div class="me-p__kitchen--novelty">
-												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
-													<h3>название блюда название</h3>
-													<div class="me-p__dish-dot">.................................................................</div>
-													<span>350  &#8381;</span>
-													<div class="me-p__kitchen--dish-description">
-														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-														<span>400 гр.</span>
-													</div>	
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -661,7 +648,19 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--novelty">
+												<span>новинка</span>
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
+													<h3>название блюда название</h3>
+													<div class="me-p__dish-dot">.................................................................</div>
+													<span>350  &#8381;</span>
+													<div class="me-p__kitchen--dish-description">
+														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+														<span>400 гр.</span>
+													</div>
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -670,7 +669,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -707,14 +715,14 @@
 										<div class="col-sm-6 col-sm-pull-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -724,16 +732,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -742,7 +741,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -751,7 +750,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -793,18 +801,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -814,7 +822,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -823,7 +831,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -832,7 +840,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -874,27 +882,6 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
-											</div>
-											<div class="me-p__kitchen--novelty">
-												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
-													<h3>название блюда название</h3>
-													<div class="me-p__dish-dot">.................................................................</div>
-													<span>350  &#8381;</span>
-													<div class="me-p__kitchen--dish-description">
-														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-														<span>400 гр.</span>
-													</div>	
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -904,7 +891,19 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--novelty">
+												<span>новинка</span>
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
+													<h3>название блюда название</h3>
+													<div class="me-p__dish-dot">.................................................................</div>
+													<span>350  &#8381;</span>
+													<div class="me-p__kitchen--dish-description">
+														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+														<span>400 гр.</span>
+													</div>
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -913,7 +912,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -955,18 +963,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -976,7 +984,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -985,7 +993,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -994,7 +1002,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -1010,7 +1018,7 @@
 					<div class="row">
 						<div class="co-md-12">
 							<div class="me-p__kitchen--head">
-								<h2 class="main-headline">карта напитков</h2>			
+								<h2 class="main-headline">карта напитков</h2>
 							</div>
 						</div>
 					</div>
@@ -1021,7 +1029,7 @@
 									<li><a href="#tab-beverages-1">Чай</a></li>
 									<li><a href="#tab-beverages-2">Кофе</a></li>
 									<li><a href="#tab-beverages-3">Свежевыжатые соки</a></li>
-									<li><a href="#tab-beverages-4">Молочные коктейли</a></li>	
+									<li><a href="#tab-beverages-4">Молочные коктейли</a></li>
 								</ul>
 								<div id="tab-beverages-1"> <!--  menu-page beverages tabs #1-->
 									<div class="row">
@@ -1059,18 +1067,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -1080,7 +1088,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1089,7 +1097,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1098,7 +1106,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать в формате pdf</a>
 										</div>
@@ -1135,14 +1143,14 @@
 										<div class="col-sm-6 col-sm-pull-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -1152,16 +1160,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1170,7 +1169,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1179,7 +1178,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать в формате pdf</a>
 										</div>
@@ -1221,27 +1229,6 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
-											</div>
-											<div class="me-p__kitchen--novelty">
-												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
-													<h3>название блюда название</h3>
-													<div class="me-p__dish-dot">.................................................................</div>
-													<span>350  &#8381;</span>
-													<div class="me-p__kitchen--dish-description">
-														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-														<span>400 гр.</span>
-													</div>	
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -1251,7 +1238,19 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--novelty">
+												<span>новинка</span>
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
+													<h3>название блюда название</h3>
+													<div class="me-p__dish-dot">.................................................................</div>
+													<span>350  &#8381;</span>
+													<div class="me-p__kitchen--dish-description">
+														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+														<span>400 гр.</span>
+													</div>
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1260,7 +1259,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать в формате pdf</a>
 										</div>
@@ -1302,18 +1310,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -1323,7 +1331,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1332,7 +1340,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1341,18 +1349,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать в формате pdf</a>
 										</div>
 									</div>
-								</div><!--  finish menu-page beverages tabs #4-->		
+								</div><!--  finish menu-page beverages tabs #4-->
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-		</main>	
+		</main>
 		<div class="me-p menu-page">
 			<img src="img/menu-2.jpg" alt="menu-2">
 		</div>
@@ -1362,7 +1370,7 @@
 					<div class="row">
 						<div class="co-md-12">
 							<div class="me-p__kitchen--head">
-								<h2 class="main-headline">детское меню</h2>				
+								<h2 class="main-headline">детское меню</h2>
 							</div>
 						</div>
 					</div>
@@ -1417,18 +1425,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -1438,7 +1446,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1447,7 +1455,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1456,7 +1464,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -1493,14 +1501,14 @@
 										<div class="col-sm-6 col-sm-pull-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -1510,16 +1518,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1528,7 +1527,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1537,7 +1536,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -1579,27 +1587,6 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
-											</div>
-											<div class="me-p__kitchen--novelty">
-												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
-													<h3>название блюда название</h3>
-													<div class="me-p__dish-dot">.................................................................</div>
-													<span>350  &#8381;</span>
-													<div class="me-p__kitchen--dish-description">
-														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-														<span>400 гр.</span>
-													</div>	
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -1609,7 +1596,19 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--novelty">
+												<span>новинка</span>
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
+													<h3>название блюда название</h3>
+													<div class="me-p__dish-dot">.................................................................</div>
+													<span>350  &#8381;</span>
+													<div class="me-p__kitchen--dish-description">
+														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+														<span>400 гр.</span>
+													</div>
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
@@ -1618,7 +1617,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название блюда</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -1783,7 +1791,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page children tabs #5-->
 								<div id="tab-children-6"><!--  menu-page children tabs #6-->
@@ -1864,7 +1872,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page children tabs #6-->
 								<div id="tab-children-7"><!--  menu-page children tabs #7-->
@@ -1945,7 +1953,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page children tabs #7-->
 								<div id="tab-children-8"><!--  menu-page children tabs #8-->
@@ -2026,7 +2034,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page children tabs #8-->
 								<div id="tab-children-9"><!--  menu-page children tabs #9-->
@@ -2107,7 +2115,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page children tabs #9-->
 								<div id="tab-children-10"><!--  menu-page children tabs #10-->
@@ -2188,7 +2196,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page children tabs #10-->
 							</div>
@@ -2196,7 +2204,7 @@
 					</div>
 				</div>
 			</section>
-		</div>	
+		</div>
 		<div class="me-p menu-page">
 			<img src="img/menu-3.jpg" alt="menu-3">
 		</div>
@@ -2206,7 +2214,7 @@
 					<div class="row">
 						<div class="co-md-12">
 							<div class="me-p__kitchen--head">
-								<h2 class="main-headline">завтраки</h2>				
+								<h2 class="main-headline">завтраки</h2>
 							</div>
 						</div>
 					</div>
@@ -2218,26 +2226,26 @@
 									<li><a href="#tab-breakfasts-2">Вторник</a></li>
 									<li><a href="#tab-breakfasts-3">Среда</a></li>
 									<li><a href="#tab-breakfasts-4">Четверг</a></li>
-									<li><a href="#tab-breakfasts-5">Пятница</a></li>	
+									<li><a href="#tab-breakfasts-5">Пятница</a></li>
 								</ul>
 								<div id="tab-breakfasts-1"> <!--  menu-page breakfasts tabs #1-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -2245,30 +2253,30 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2278,58 +2286,58 @@
 											<h3>стоимость завтрака</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page breakfasts tabs #1-->
 								<div id="tab-breakfasts-2"><!--  menu-page breakfasts tabs #2-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2339,27 +2347,27 @@
 											<h3>стоимость завтрака</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page breakfasts tabs #2-->
 								<div id="tab-breakfasts-3"><!-- menu-page breakfasts tabs #3-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -2367,30 +2375,30 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>									
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2400,58 +2408,58 @@
 											<h3>стоимость завтрака</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page breakfasts tabs #3-->
 								<div id="tab-breakfasts-4"><!--  menu-page breakfasts tabs #4-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>	
+												</div>
+											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2461,27 +2469,27 @@
 											<h3>стоимость завтрака</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page breakfasts tabs #4-->
 								<div id="tab-breakfasts-5"><!--  menu-page breakfasts tabs #5-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -2489,30 +2497,30 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2522,9 +2530,9 @@
 											<h3>стоимость завтрака</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
-								</div><!--  finish menu-page breakfasts tabs #5-->		
+								</div><!--  finish menu-page breakfasts tabs #5-->
 							</div>
 						</div>
 					</div>
@@ -2540,7 +2548,7 @@
 					<div class="row">
 						<div class="co-md-12">
 							<div class="me-p__kitchen--head">
-								<h2 class="main-headline">бизнес-ланчи</h2>				
+								<h2 class="main-headline">бизнес-ланчи</h2>
 							</div>
 						</div>
 					</div>
@@ -2552,26 +2560,26 @@
 									<li><a href="#tab-business-lunches-2">Вторник</a></li>
 									<li><a href="#tab-business-lunches-3">Среда</a></li>
 									<li><a href="#tab-business-lunches-4">Четверг</a></li>
-									<li><a href="#tab-business-lunches-5">Пятница</a></li>	
+									<li><a href="#tab-business-lunches-5">Пятница</a></li>
 								</ul>
 								<div id="tab-business-lunches-1"> <!--  menu-page business-lunches tabs #1-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -2579,30 +2587,30 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2612,58 +2620,58 @@
 											<h3>стоимость бизнес-ланча</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page business-lunches tabs #1-->
 								<div id="tab-business-lunches-2"><!--  menu-page business-lunches tabs #2-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>									
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2673,27 +2681,27 @@
 											<h3>стоимость бизнес-ланча</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page business-lunches tabs #2-->
 								<div id="tab-business-lunches-3"><!-- menu-page business-lunches tabs #3-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -2701,30 +2709,30 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2734,58 +2742,58 @@
 											<h3>стоимость бизнес-ланча</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page business-lunches tabs #3-->
 								<div id="tab-business-lunches-4"><!--  menu-page business-lunches tabs #4-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>	
+												</div>
+											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2795,27 +2803,27 @@
 											<h3>стоимость бизнес-ланча</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page business-lunches tabs #4-->
 								<div id="tab-business-lunches-5"><!--  menu-page business-lunches tabs #5-->
-									<div class="row">									
+									<div class="row">
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>					
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название блюда название</h3>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -2823,30 +2831,30 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
+												</div>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название блюда</h3>	
+												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название блюда</h3>
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--download-menu">
 												<a  class="btn btn-blue btn-download-menu" href="#">скачать меню в формате pdf</a>
@@ -2856,7 +2864,7 @@
 											<h3>стоимость бизнес-ланча</h3>
 											<div class="me-p__dish-dot breakfasts-dot">.................................................................</div>
 											<span>350  &#8381;</span>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page business-lunches tabs #5-->
 							</div>
@@ -2870,7 +2878,7 @@
 						<div class="co-md-12">
 							<div class="me-p__kitchen--head">
 								<h2 class="main-headline">карта алкоголя</h2>
-								<h3>подтвердите, что вам есть 18 лет:</h3>			
+								<h3>подтвердите, что вам есть 18 лет:</h3>
 							</div>
 							<div class="me-p__map-alcohol--confirmation">
 								<a class="btn btn-blue btn-download-menu" href="#">мне есть 18</a>
@@ -2926,18 +2934,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название напитка</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -2947,7 +2955,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -2956,7 +2964,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -2965,7 +2973,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -3002,14 +3010,14 @@
 										<div class="col-sm-6 col-sm-pull-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название напитка</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -3019,16 +3027,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название напитка</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -3037,7 +3036,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -3046,7 +3045,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название напитка</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -3088,27 +3096,6 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название напитка</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
-											</div>
-											<div class="me-p__kitchen--novelty">
-												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
-													<h3>название напитка</h3>
-													<div class="me-p__dish-dot">.................................................................</div>
-													<span>350  &#8381;</span>
-													<div class="me-p__kitchen--dish-description">
-														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-														<span>400 гр.</span>
-													</div>	
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -3118,7 +3105,19 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--novelty">
+												<span>новинка</span>
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
+													<h3>название напитка</h3>
+													<div class="me-p__dish-dot">.................................................................</div>
+													<span>350  &#8381;</span>
+													<div class="me-p__kitchen--dish-description">
+														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+														<span>400 гр.</span>
+													</div>
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -3127,7 +3126,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название напитка</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -3169,18 +3177,18 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название напитка</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -3190,7 +3198,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -3199,7 +3207,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -3208,7 +3216,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -3292,7 +3300,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page alcohol tabs #5-->
 								<div id="tab-alcohol-6"><!--  menu-page alcohol tabs #6-->
@@ -3373,7 +3381,7 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page alcohol tabs #6-->
 								<div id="tab-alcohol-7"><!--  menu-page alcohol tabs #7-->
@@ -3407,14 +3415,14 @@
 										<div class="col-sm-6 col-sm-pull-6">
 											<div class="me-p__kitchen--novelty">
 												<span>новинка</span>
-												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">			
+												<div class="me-p__kitchen--menu-map me-p__dish-menu me-p__novelty">
 													<h3>название напитка</h3>
 													<div class="me-p__dish-dot">.................................................................</div>
 													<span>350  &#8381;</span>
 													<div class="me-p__kitchen--dish-description">
 														<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 														<span>400 гр.</span>
-													</div>	
+													</div>
 												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
@@ -3424,16 +3432,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
-											</div>										
-											<div class="me-p__kitchen--menu-map me-p__dish-menu">
-												<h3>название напитка</h3>
-												<div class="me-p__dish-dot">.................................................................</div>
-												<span>350  &#8381;</span>
-												<div class="me-p__kitchen--dish-description">
-													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
-													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -3442,7 +3441,7 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
 											</div>
 											<div class="me-p__kitchen--menu-map me-p__dish-menu">
 												<h3>название напитка</h3>
@@ -3451,7 +3450,16 @@
 												<div class="me-p__kitchen--dish-description">
 													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
 													<span>400 гр.</span>
-												</div>	
+												</div>
+											</div>
+											<div class="me-p__kitchen--menu-map me-p__dish-menu">
+												<h3>название напитка</h3>
+												<div class="me-p__dish-dot">.................................................................</div>
+												<span>350  &#8381;</span>
+												<div class="me-p__kitchen--dish-description">
+													<p>Описание блюда. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития.</p>
+													<span>400 гр.</span>
+												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
 										</div>
@@ -3535,14 +3543,14 @@
 												</div>
 											</div>
 											<a  class="btn btn-blue btn-download-menu download-menu-btn-mob" href="#">скачать меню в формате pdf</a>
-										</div>							
+										</div>
 									</div>
 								</div><!--  finish menu-page alcohol tabs #8-->
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>			
+			</section>
 		</div>
 		<footer class="main-footer">
 			<div class="instafeed"></div>
@@ -3616,7 +3624,7 @@
 						<input type="hidden" name="project_name" value="Bona-Capona">
 						<input type="hidden" name="admin_email" value="mail@mail.ru">
 						<input type="hidden" name="form_subject" value="Восстановление пароля">
-						<!-- END Hidden Required Fields -->   
+						<!-- END Hidden Required Fields -->
 						<div class="input-group">
 							<input type="email"  name="login" placeholder="Адрес электронной почты" required>
 						</div>
@@ -3629,7 +3637,7 @@
 			</div>
 
 			<!-- вход-->
-			<div class="remodal enter-modal" data-remodal-id="modal-e" role="dialog"> 
+			<div class="remodal enter-modal" data-remodal-id="modal-e" role="dialog">
 				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 				<div>
 					<h3 class="en-m__headline modal__headline">Войти</h3>
@@ -3651,7 +3659,7 @@
 						<input type="hidden" name="project_name" value="Bona-Capona">
 						<input type="hidden" name="admin_email" value="mail@mail.ru">
 						<input type="hidden" name="form_subject" value="Вход">
-						<!-- END Hidden Required Fields -->   
+						<!-- END Hidden Required Fields -->
 						<div class="input-group">
 							<input type="email"  name="login" placeholder="Адрес электронной почты" required>
 						</div>
@@ -3660,7 +3668,7 @@
 						</div>
 						<input type="hidden"  name="s_formi" value="Войти">
 						<button type="submit" name="submit" class="btn btn-yellow en-m__btn">Войти</button>
-						<div class="en-m__checkbox-wrap">			
+						<div class="en-m__checkbox-wrap">
 							<label>
 								<input class="checkbox" type="checkbox" name="name">
 								<span class="checkbox-custom"></span>
@@ -3675,7 +3683,7 @@
 
 
 			<!-- регистрация-->
-			<div class="remodal register-modal" data-remodal-id="modal-r" role="dialog"> 
+			<div class="remodal register-modal" data-remodal-id="modal-r" role="dialog">
 				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 				<div>
 					<h3 class="re-m__headline modal__headline">Регистрация</h3>
@@ -3697,11 +3705,11 @@
 						<input type="hidden" name="project_name" value="Bona-Capona">
 						<input type="hidden" name="admin_email" value="mail@mail.ru">
 						<input type="hidden" name="form_subject" value="Регистрация">
-						<!-- END Hidden Required Fields --> 
+						<!-- END Hidden Required Fields -->
 						<div class="re-m__form-left">
 							<div class="input-group">
 								<input type="text"  name="name" placeholder="Имя" required>
-							</div> 
+							</div>
 							<div class="input-group">
 								<input type="email" name="login" placeholder="Электронная почта" required>
 							</div>
@@ -3709,7 +3717,7 @@
 						<div class="re-m__form-right">
 							<div class="input-group">
 								<input type="text"  name="family" placeholder="Фамилия" required>
-							</div> 
+							</div>
 							<div class="input-group">
 								<input type="tel"  name="tel" placeholder="Телефон" required>
 							</div>
@@ -3717,21 +3725,21 @@
 						<div class="input-group">
 							<input type="password"  name="password" placeholder="Пароль" required>
 						</div>
-						<div class="re-m__checkbox-wrap">			
+						<div class="re-m__checkbox-wrap">
 							<label>
 								<input class="checkbox" type="checkbox" name="name">
 								<span class="checkbox-custom"></span>
 								<span class="en-m__checkbox-label ca-d__label">Согласен с <a href="#modal-2">политикой конфиденциальности</a></span>
 							</label>
 						</div>
-						<div class="re-m__checkbox-wrap">			
+						<div class="re-m__checkbox-wrap">
 							<label>
 								<input class="checkbox" type="checkbox" name="name">
 								<span class="checkbox-custom"></span>
 								<span class="en-m__checkbox-label ca-d__label">Согласен с получением информационной рассылки</span>
 							</label>
 						</div>
-						<div class="re-m__checkbox-wrap">			
+						<div class="re-m__checkbox-wrap">
 							<label>
 								<input class="checkbox" type="checkbox" name="name" checked="">
 								<span class="checkbox-custom"></span>
@@ -3755,7 +3763,7 @@
 						<input type="hidden" name="project_name" value="Bona-Capona">
 						<input type="hidden" name="admin_email" value="mail@mail.ru">
 						<input type="hidden" name="form_subject" value="Отзыв">
-						<!-- END Hidden Required Fields -->   
+						<!-- END Hidden Required Fields -->
 						<div class="input-group">
 							<input type="text"  name="name" placeholder="Имя" required>
 						</div>
@@ -3765,8 +3773,8 @@
 						<div class="input-group">
 							<input type="text"  name="status" placeholder="Род занятий" required>
 						</div>
-						<div class="input-group-text">		
-							<textarea name="text" id="co-m-message" cols="30" rows="10" required>Оставьте ваш отзыв		
+						<div class="input-group-text">
+							<textarea name="text" id="co-m-message" cols="30" rows="10" required>Оставьте ваш отзыв
 							</textarea>
 						</div>
 						<input type="hidden"  name="s_formi" value="Оставить отзыв">
@@ -3810,7 +3818,7 @@
 						<ul>
 							<li>
 								<div class="de-p__modal-cart--photo">
-									<img src="img/dish-4.jpg" alt="рекомендуем">	
+									<img src="img/dish-4.jpg" alt="рекомендуем">
 								</div>
 							</li>
 							<li>
@@ -3839,13 +3847,13 @@
 					<div class="policy-confidential">
 						<h1>Условия доставки</h1>
 						<p>Мы стремимся доставить не только качественную еду, приготовленную с любовью нашими шефами, но и передать Вам солнечное настроение и удовольствие от жизни!</p>
-						<p>Мы начинаем готовить блюда только после получения заказа. Процесс приготовления Вашего заказа и доставка занимают около часа. </p>				
+						<p>Мы начинаем готовить блюда только после получения заказа. Процесс приготовления Вашего заказа и доставка занимают около часа. </p>
 						<p>Стремясь сохранить вкус и свежесть наших блюд, мы осуществляем доставку в радиусе 5 км от наших ресторанов.Мы доставляем блюда в специальных термосумках, поддерживающих нужную температуру, что гарантирует доставку Ваших блюд горячими.</p>
 						<h2>Время доставки 11.00 — 23.00</h2>
-						<p>Вы можете сделать заказ ко времени</p>				
-						<p>Минимальная сумма заказа 700 рублей.</p>				
+						<p>Вы можете сделать заказ ко времени</p>
+						<p>Минимальная сумма заказа 700 рублей.</p>
 						<h2>Оплата заказа:</h2>
-						<p>Наличный расчет / Оплата банковской картой курьеру при получении заказа / Оплата банковскойкартой при оформлении заказа на сайте</p>				
+						<p>Наличный расчет / Оплата банковской картой курьеру при получении заказа / Оплата банковскойкартой при оформлении заказа на сайте</p>
 						<h2>Благодарим Вас за заказ и желаем приятного аппетита!</h2>
 					</div>
 				</div>
@@ -3858,8 +3866,8 @@
 					<div class="policy-confidential">
 						<h2 class="main-headline">система бонусов</h2>
 						<p>Здесь описание бонусной системы и объяснение, что такое «Бонусы» и как они формируются.</p>
-						<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>				
-						<p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.</p>				
+						<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+						<p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.</p>
 					</div>
 				</div>
 			</div>
@@ -3867,7 +3875,7 @@
 
 		</footer>
 	</div>
-	
+
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 
 <!--[if lt IE 9]>
@@ -3911,7 +3919,7 @@
 	{"src" : "libs/remodal/remodal.min.js", "async" : false},
 	{"src" : "libs/validate/jquery.validate.min.js", "async" : false},
 	{"src" : "libs/validate/messages_ru.min.js", "async" : false},
-	{"src" : "libs/magnific-popup/jquery.magnific-popup.min.js", "async" : false},	
+	{"src" : "libs/magnific-popup/jquery.magnific-popup.min.js", "async" : false},
 	{"src" : "libs/resposive-tabs/jquery.responsiveTabs.min.js", "async" : false},
 	{"src" : "js/common.js", "async" : false}
 	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);

@@ -13,6 +13,7 @@
 	position: absolute;
     bottom: 45%;
     background: none;
+	font-size: 50px;
     color: #77C6C7;
     transition: 0.5s ease;
 }

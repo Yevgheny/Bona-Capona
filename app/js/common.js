@@ -26,9 +26,9 @@ $(function() {
 
 
 	// Smooth Scroll to block
-	$('a[href^="#l"]').click(function(){
+	$('a[href^="#mp-p_about-restaurant"]').click(function(){
 		var target = $(this).attr('href');
-		$('html, body').animate({scrollTop: $(target).offset().top}, 1000);
+		$('html, body').animate({scrollTop: $(target).offset().top}, 500);
 		return false;
 	});
 
@@ -51,6 +51,7 @@ $(document).ready(function() {
 		margin: 10,
 		nav: true,
 		dots: true,
+		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 		items: 1
 	});
 

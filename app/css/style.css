@@ -2416,6 +2416,11 @@ form#co-p-form-bottom :-ms-input-placeholder {
   font-size: 1rem;
   color: #fff;
   text-align: center;
+  -webkit-transition: 0.35s ease;
+  transition: 0.35s ease;
+}
+.footer-nav li a:hover {
+  text-decoration: underline;
 }
 .footer-cotact-info ul {
   list-style-type: none;
