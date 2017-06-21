@@ -419,6 +419,24 @@
 	.de-p__modal-card ul li .de-p__modal-cart--discription p {
 		margin-bottom: 10px;
 	}
+<<<<<<< HEAD
+	.policy-confidential h1 {
+	    font-size: 4rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 3rem;
+	}
+<<<<<<< HEAD
+	.me-p__dish-dot {
+	    width: 40%;
+	}
+	.business-lunches-dot {
+		width: 35%;
+	}
+=======
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -572,11 +590,36 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 14px;
 	}
+<<<<<<< HEAD
+	.policy-confidential h1 {
+	    font-size: 2.6rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 2.6rem;
+	}
+<<<<<<< HEAD
+	.me-p__dish-menu h3 {
+	    width: 55%;
+	}
+	.me-p__dish-dot {
+	    width: 20%;
+	}
+	.business-lunches-dot {
+		width: 8%;
+	}
+=======
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
 	.ab-p__news-head {
 		padding-top: 15px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	}		
+=======
 	}
 
 	.me-p__breakfasts--price span {
@@ -587,6 +630,16 @@
 		width: 75%;
 	}
 
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+	}
+	.me-p__breakfasts--price span {
+		padding-left: 30px;
+	}
+	.me-p__dish-menu h3 {
+		width: 75%;
+	}
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
@@ -670,6 +723,30 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 12px;
 	}
+<<<<<<< HEAD
+	.policy-confidential h1 {
+	    font-size: 2.1rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 2.1rem;
+	}
+<<<<<<< HEAD
+	.me-p__dish-dot {
+	    width: 14%;
+	}
+	.me-p__breakfasts--price h3 {
+		margin-left: -7px;
+	}
+	.breakfasts-dot {
+		width: 11%;
+	}
+	.me-p__kitchen--head h3 {
+		font-size: 1.6rem;
+	}
+=======
+>>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
+=======
+>>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
