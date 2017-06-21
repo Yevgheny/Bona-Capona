@@ -94,7 +94,7 @@
     	padding-bottom: 45px;
     }
     .me-p__dish-dot {
-    	display: none;
+    	width: 120px;
     }
 	.logo-footer-wrap {
 		position: relative;
@@ -306,8 +306,16 @@
 	.delivery-page {
 		padding-bottom: 30px;
 	}
+	.me-p__dish-menu h3 {
+		width: 175px;
+	}
+	.me-p__dish-dot {
+	    width: 45px;
+	}
+	.business-lunches-dot {
+		width: 35px;
+	}
 }
-
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
 	.ab-p__news--all-news {
@@ -334,8 +342,11 @@
     	margin: 0 auto;
     }
     .me-p__dish-menu h3 {
-    	width: 80%;
-    }    
+    	width: 45%;
+    }
+    .me-p__dish-dot {
+	    width: 42%;
+	}    
     .me-p__kitchen--dish-photo,
     .me-p__kitchen--download-menu  {
     	margin: 0 auto;
@@ -346,9 +357,12 @@
     .me-p__breakfasts--price h3 {
     	max-width: 270px;
     }
+    .btn-download-menu.download-menu-btn-mob {
+    	margin: 0 auto;
+    }
     .me-p__breakfasts--price {
     	max-width: 570px;
-    	margin: 45px auto 0;
+    	margin: 0 auto;
     }
     .ca-d__current-time,
     .ca-d__choose-payment--card,
@@ -383,10 +397,21 @@
 	.co-p__form-top.file-upload {
 	    margin-top: -35px;
 	}
+	.policy-confidential h1 {
+		font-size: 4.6rem;
+	}
+	.policy-confidential h2 {
+		font-size: 3.5rem;
+	}
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
-	
+	.policy-confidential h1 {
+	    font-size: 4rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 3rem;
+	}
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
@@ -418,25 +443,13 @@
 	}
 	.de-p__modal-card ul li .de-p__modal-cart--discription p {
 		margin-bottom: 10px;
-	}
-<<<<<<< HEAD
-	.policy-confidential h1 {
-	    font-size: 4rem;
-	}
-	.policy-confidential h2 {
-	    font-size: 3rem;
-	}
-<<<<<<< HEAD
+	}	
 	.me-p__dish-dot {
 	    width: 40%;
 	}
 	.business-lunches-dot {
 		width: 35%;
 	}
-=======
->>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
-=======
->>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -465,11 +478,11 @@
 	.me-p__kitchen--download-menu {
 		padding-top: 30px;
 	}
-	.breakfasts-dot {
-		display: none;
+	.me-p__dish-dot {
+	    width: 35%;
 	}
-	.me-p__breakfasts--price span {
-		padding-left: 120px;
+	.business-lunches-dot {
+		width: 25%;
 	}	
 	.ca-d__choose-payment--btn {	    
 	    margin: -10px 0 30px 0;
@@ -485,6 +498,9 @@
 	.re-m__form-right {
 		display: block;
 		width: 100%;
+	}
+	.policy-confidential h1 {
+	    font-size: 3rem;
 	}
 }
 @media only screen and (max-width : 416px) {
@@ -503,8 +519,14 @@
 	.checkbox-wrap .b-f__label--costom a {
 	    font-size: 1.3rem;
 	}
-	.me-p__breakfasts--price span {
-		padding-left: 60px;
+	.me-p__dish-dot {
+	    width: 33%;
+	}
+	.breakfasts-dot {
+		width: 25%;
+	}
+	.business-lunches-dot {
+		width: 12%;
 	}	
 	.ca-d__delivery-explanation {
 		padding-top: 0;
@@ -552,6 +574,12 @@
 		border-right: inherit;
 		margin: 0 auto 25px;
 	}
+	.policy-confidential h1 {
+	    font-size: 2.6rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 2.6rem;
+	}
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
@@ -590,14 +618,12 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 14px;
 	}
-<<<<<<< HEAD
 	.policy-confidential h1 {
 	    font-size: 2.6rem;
 	}
 	.policy-confidential h2 {
 	    font-size: 2.6rem;
 	}
-<<<<<<< HEAD
 	.me-p__dish-menu h3 {
 	    width: 55%;
 	}
@@ -607,63 +633,30 @@
 	.business-lunches-dot {
 		width: 8%;
 	}
-=======
->>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
-=======
->>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
 	.ab-p__news-head {
 		padding-top: 15px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	}		
-=======
-	}
-
-	.me-p__breakfasts--price span {
-		padding-left: 30px;
-	}
-
-	.me-p__dish-menu h3 {
-		width: 75%;
-	}
-
->>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
-=======
-	}
-	.me-p__breakfasts--price span {
-		padding-left: 30px;
-	}
-	.me-p__dish-menu h3 {
-		width: 75%;
-	}
->>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
+	}	
 	.me-p__map-alcohol--confirmation {
 		max-width: 80%;
 	}
-
 	.ev-p-poster__item {
 		width: 90%;
 	}
-
 	.de-p__card--photo-dish {
 		margin-bottom: 10px;
 	}
-
 	.de-p__card--discription-dish h5 {
 		margin-bottom: 10px;
 	}
-
 	.de-p__card--photo-dish span {
 		padding: 3px 10px;
 	}
-
 	.de-p__card--discription-dish {
 		padding-left: 5px;
 	}
-
 	.de-p__card--discription-dish span {
 		margin-right: 5px;
 		margin-bottom: 10px;
@@ -672,6 +665,9 @@
 		display: block;
 		width: 100%;
 		text-align: center;
+	}
+	.policy-confidential h1 {
+	    font-size: 2.4rem;
 	}
 }
 @media only screen and (max-width : 360px) {
@@ -690,9 +686,6 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 13px;
 	}
-}
-
-@media only screen and (max-width : 360px) {
 	.ca-d__score--btn {
 		padding-top: 25px;
 	}
@@ -701,6 +694,12 @@
 	}
 	.ca-d__total span {
 		font-size: 1.5rem;
+	}
+	.me-p__dish-dot {
+	    width: 16%;
+	}
+	.business-lunches-dot {
+	    width: 5%;
 	}
 }
 @media only screen and (max-width : 330px) {
@@ -723,14 +722,12 @@
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 12px;
 	}
-<<<<<<< HEAD
 	.policy-confidential h1 {
 	    font-size: 2.1rem;
 	}
 	.policy-confidential h2 {
 	    font-size: 2.1rem;
 	}
-<<<<<<< HEAD
 	.me-p__dish-dot {
 	    width: 14%;
 	}
@@ -743,10 +740,6 @@
 	.me-p__kitchen--head h3 {
 		font-size: 1.6rem;
 	}
-=======
->>>>>>> parent of bf4c584... Поправил на адаптиве заголовки в политике
-=======
->>>>>>> parent of d87e71d... Поправил мобильную версию MENU-PAGE
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -757,13 +750,7 @@
 		height: 50px;
 		padding-top: 14px;
 		margin-top: 10px;
-	}
-	.me-p__breakfasts--price h3 {
-	    max-width: 195px;
-	}
-	.me-p__dish-menu h3 {
-	    width: 70%;
-	}
+	}	
 	.ca-d__promo--btn {
 	    padding-top: 0;
 	}
