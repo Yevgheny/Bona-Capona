@@ -1273,6 +1273,7 @@ label.error {
   text-align: left;
   padding-left: 15px;
   color: #646569;
+  margin-bottom: 0;
 }
 .me-p__breakfasts--price span {
   font-size: 1.8rem;
