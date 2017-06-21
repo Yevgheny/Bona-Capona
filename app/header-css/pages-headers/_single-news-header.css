@@ -11,7 +11,10 @@
 }
 .si-n__slider .owl-nav [class*=owl-] {
 	position: absolute;
-    bottom: 45%;
+    bottom: 42%;
+    width: 40px;
+    height: 64px;
+    line-height: 59px;
     background: none;
 	font-size: 50px;
     color: #77C6C7;
@@ -23,10 +26,10 @@
     color: #77C6C7;
 }
 .si-n__slider .owl-nav .owl-prev {
-    left: -90px;
+    left: -70px;
 }
 .si-n__slider .owl-nav .owl-next {
-    right: -90px;
+    right: -70px;
 }
 .si-n__slider .owl-dots{
 	position: absolute;
@@ -123,6 +126,10 @@
 @media only screen and (max-width : 480px) {
 	.si-n__slider .owl-dots {
 		display: none;
+	}
+	.si-n__slider .owl-nav [class*=owl-] {
+		bottom: 34%;
+
 	}
 }
 
