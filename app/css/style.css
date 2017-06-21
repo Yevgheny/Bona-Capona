@@ -2430,6 +2430,9 @@ form#co-p-form-bottom :-ms-input-placeholder {
   font-size: 10px;
   color: #fff;
 }
+.footer-cotact-info ul a:hover {
+  text-decoration: underline;
+}
 .footer-cotact-info li {
   display: inline-block;
   vertical-align: top;
