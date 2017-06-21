@@ -685,7 +685,7 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 		font-size: 3rem;
 	}
 	.main-menu-wrapper nav .main-drop-down-menu {
-		width: 48%;
+		width: 63%;
 	}
 	.main-menu-wrapper nav>ul>li>a {
 		font-size: 16px;
@@ -695,7 +695,7 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 	}
 	nav>ul>li.drop-down:hover>ul {
 		width: 125px;
-		left: 134px;
+		left: 146px;
 	}
 	nav>ul>li.drop-down>ul a {
 		font-size: 16px;
