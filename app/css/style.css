@@ -978,6 +978,9 @@ label.error {
 .verticalTab_v-text p {
   padding-top: 50px;
 }
+.mp-p_ingridiens .resp-vtabs .resp-tabs-list li:hover {
+  background: #fafafa;
+}
 .mp-p_ingridiens .resp-vtabs li.resp-tab-active {
   border: none;
   background: #78c8c9;
@@ -2190,16 +2193,10 @@ label.error {
 .btn-b-f-main-form {
   width: 100%;
 }
-.policy-confidential h1 {
-  font-size: 5.6rem;
-  font-weight: 400;
-  font-family: 'BergenSansSemiBold', sans-serif;
-  color: #78c8c9;
-}
 .policy-confidential h2 {
+  text-transform: uppercase;
   font-family: 'Gilroy-Semibold', sans-serif;
-  font-size: 4rem;
-  color: #78c8c9;
+  font-size: 2.2rem;
 }
 .policy-confidential p {
   text-align: left;
