@@ -439,6 +439,12 @@
 	.business-lunches-dot {
 		width: 35%;
 	}
+	.accordion a::after {
+		right: 20px;
+	}
+	.accordion a {
+		font-size: 1.6rem;
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -487,6 +493,9 @@
 	.re-m__form-right {
 		display: block;
 		width: 100%;
+	}
+	.accordion a {
+		font-size: 1.2rem;
 	}	
 }
 @media only screen and (max-width : 416px) {
@@ -560,6 +569,18 @@
 		border-right: inherit;
 		margin: 0 auto 25px;
 	}	
+	.accordion a {
+	    font-size: 1.4rem;
+	}
+	.accordion.fa-p-accardion a {
+		font-size: 1.3rem;
+	}
+	.accordion a::after {
+		width: 8px;
+		height: 8px;
+		margin-top: -5px;
+	    right: 13px;
+	}
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
@@ -639,6 +660,9 @@
 		display: block;
 		width: 100%;
 		text-align: center;
+	}
+	.accordion a::after {
+		right: 10px;
 	}	
 }
 @media only screen and (max-width : 360px) {
@@ -707,6 +731,10 @@
 	}
 	.me-p__kitchen--head h3 {
 		font-size: 1.6rem;
+	}
+	.accordion a,
+	.accordion.fa-p-accardion a {
+	    font-size: 1.1rem;
 	}
 }
 /* Custom, iPhone Retina */

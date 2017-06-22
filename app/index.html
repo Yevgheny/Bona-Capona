@@ -273,7 +273,7 @@
 			<div class="container clearfix">
 				<div class="row">
 					<div class="pr-p__promo-post">
-						<div class="col-md-6 col-md-push-6">
+						<div class="col-md-6">
 							<h2 class="main-headline mp-p_about__headline">О ресторане</h2>
 							<div class="pr-p__text-post">
 								<p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и
@@ -284,7 +284,7 @@
 							</div>
 							<a href="about-page.html" class="btn btn-blue pr-p__btn">Подробнее</a>
 						</div>
-						<div class="col-md-6 col-md-pull-6">
+						<div class="col-md-6">
 							<div class="pr-p__photo-wrap">
 								<img src="img/action-big-1.jpg" alt="Акция">
 							</div>
@@ -293,7 +293,7 @@
 				</div>				
 			</div>
 		</section> 
-		<section class="ab-p__news wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s"><!-- ab-p news -->
+		<section class="ab-p__news wow fadeIn" data-wow-duration="2s" data-wow-delay="1s"><!-- ab-p news -->
 			<div class="container clearfix">
 				<div class="row">
 					<div class="col-md-12">
@@ -356,13 +356,13 @@
 		<section class="mp-p_table-reserve wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
 			<div class="container clearfix">
 				<div class="row">
-					<div class="pr-p__promo-post">
+					<div class="pr-p__promo-post mp-p_dev-ser__text clearfix">
 						<div class="col-md-5 col-md-push-6">
 							<h2 class="main-headline mp-p_reserve__headline">Бронируйте столик или банкет</h2>
 							<h3 class="grey-headline mp-p_reserve__sub-headline">Удобная форма бронирования</h3>
 							<a href="contacts-page.html#co-p__reservation" class="btn btn-blue mp-p_reserve__btn">Забронировать</a>
 						</div>
-						<div class="col-md-6 col-md-pull-5">
+						<div class="col-md-6 col-md-pull-5 no-padding">
 							<div class="pr-p__photo-wrap">
 								<img src="img/reservation.jpg" alt="Резезв">
 							</div>
@@ -931,8 +931,9 @@
 						<input type="text" name="status" placeholder="Род занятий" required>
 					</div>
 					<div class="input-group-text">
-							<textarea name="text" id="co-m-message" cols="30" rows="10" placeholder="Оставьте ваш отзыв" required>		
-							</textarea>
+
+						<textarea name="text" cols="30" rows="10" placeholder="Оставьте ваш отзыв" required=""></textarea>							
+							
 					</div>
 					<input type="hidden" name="s_formi" value="Оставить отзыв">
 					<button type="submit" name="submit" class="btn btn-yellow co-m__btn">Оставить отзыв</button>
