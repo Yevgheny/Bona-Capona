@@ -177,36 +177,29 @@ $(document).ready(function () {
 				break;
 		}
 	};
-//function
-	switchAccordion = function(e) {
 
-		console.log("triggered");
-		e.preventDefault();
-		var thisAnswer = e.target.parentNode.nextElementSibling;
-		var thisQuestion = e.target;
-		if(thisAnswer.classList.contains('is-collapsed')) {
-			setAccordionAria(thisQuestion, thisAnswer, 'true');
-		} else {
-			setAccordionAria(thisQuestion, thisAnswer, 'false');
-		}
-		thisQuestion.classList.toggle('is-collapsed');
-		thisQuestion.classList.toggle('is-expanded');
-		thisAnswer.classList.toggle('is-collapsed');
-		thisAnswer.classList.toggle('is-expanded');
-
-		thisAnswer.classList.toggle('animateIn');
-	};
-	for (var i=0,len=accordionToggles.length; i<len; i++) {
-		if(touchSupported) {
-			accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
-		}
-		if(pointerSupported){
-			accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
-		}
-		accordionToggles[i].addEventListener('click', switchAccordion, false);
-	}
 
 })();
+(function($) {
+    $('.accordion > li:eq(0) a').addClass('active').next().slideDown();
+
+    $('.accordion a').click(function(j) {
+        var dropDown = $(this).closest('li').find('p');
+
+        $(this).closest('.accordion').find('p').not(dropDown).slideUp();
+
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+        } else {
+            $(this).closest('.accordion').find('a.active').removeClass('active');
+            $(this).addClass('active');
+        }
+
+        dropDown.stop(false, true).slideToggle();
+
+        j.preventDefault();
+    });
+})(jQuery);
 
 jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-angle-up" aria-hidden="true"></i></div><div class="quantity-button quantity-down"><i class="fa fa-angle-down" aria-hidden="true"></i></div></div>').insertAfter('.quantity input');
 jQuery('.quantity').each(function() {
@@ -277,6 +270,56 @@ jQuery('.datetimepicker1').datetimepicker({
  },
  timepicker:false,
  format:'d.m.Y'
+});
+$(document).ready(function () {
+    $('.sub > a').click(function(){
+      $('.sub ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+      $('.sub-one ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+    });
+       $('.mini-menu > ul > li > a').click(function(){
+	   $('.mini-menu > ul > li > a, .sub a').removeClass('active');
+	   $(this).addClass('active');
+	}),
+       $('.sub ul li a').click(function(){
+	   $('.sub ul li a').removeClass('active');
+	   $(this).addClass('active');
+	}),
+      $('.sub-two > a').click(function(){
+      $('.sub-two ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+      $('.sub-two ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+    });
+       $('.mini-menu > ul > li > a').click(function(){
+	   $('.mini-menu > ul > li > a, .sub-two a').removeClass('active');
+	   $(this).addClass('active');
+	}),
+       $('.sub-two ul li a').click(function(){
+	   $('.sub-two ul li a').removeClass('active');
+	   $(this).addClass('active');
+	})
 });
 //Табы для главной страницы и личного кабинета !!!Обязательно в самом низу, иначе в корзине получается полный слэш!!!
 $(".verticalTab_v").easyResponsiveTabs({

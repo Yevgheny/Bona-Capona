@@ -1,6 +1,73 @@
 /*------------------- SITE-MENU HEADER.css------------------*/
-.site-map {
+.site-map {	
 	padding-top: 45px;
+	padding-bottom: 90px;
+}
+.mini-menu ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.mini-menu > ul > li > a,
+.mini-menu > ul > li > ul > li > a {
+    display: inline-block;	    
+    color:#86878c; 
+    position: relative;   
+}
+.mini-menu .sub ul li a, 
+.mini-menu .sub ul li .sub-two ul li a {
+	display: inline-block !important;	    
+    color:#86878c; 
+    position: relative; 
+}
+.mini-menu > ul > li > a:hover, 
+.mini-menu > ul > li > a.active {	
+    color: #78c8c9;
+    text-decoration: underline;
+}
+.mini-menu .sub  ul {
+    display: none;    
+}
+.mini-menu .sub ul li a,
+.mini-menu .sub ul li .sub-two ul li a {
+    display: block;    
+    color: #86878c;
+    margin-left: 35px;
+    text-decoration: none;
+}
+.sub-3 {
+	margin-left: 35px;
+}
+.mini-menu .sub ul li a:hover,
+.mini-menu .sub ul li a.active {
+    color: #78c8c9;    
+    text-decoration: underline;    
+}
+.mini-menu .sub > a:before {
+    content: '';
+  	position: absolute;
+  	border: 5px solid;    
+  	border-color: #86878c transparent transparent transparent; 
+  	top: 50%;
+  	left: 105%;  
+    transition: 0.5s;    
+}
+.mini-menu .sub-two > a:before {
+    content: '';
+  	position: absolute;
+  	border: 5px solid;    
+  	border-color: #86878c transparent transparent transparent; 
+  	top: 50%;
+  	left: 105%;  
+    transition: 0.5s;    
+}
+.mini-menu .sub > a.active:before{
+    border-color: transparent transparent #78c8c9 transparent;
+    margin-top: -7px;
+}
+.mini-menu .sub-two > a.active:before{
+    border-color: transparent transparent #78c8c9 transparent;
+    margin-top: -7px;
 }
 /*------------------- finish SITE-MENU HEADER.css------------------*/
 /*==========  Desktop First Method  ==========*/
