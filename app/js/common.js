@@ -271,6 +271,56 @@ jQuery('.datetimepicker1').datetimepicker({
  timepicker:false,
  format:'d.m.Y'
 });
+$(document).ready(function () {
+    $('.sub > a').click(function(){
+      $('.sub ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+      $('.sub-one ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+    });
+       $('.mini-menu > ul > li > a').click(function(){
+	   $('.mini-menu > ul > li > a, .sub a').removeClass('active');
+	   $(this).addClass('active');
+	}),
+       $('.sub ul li a').click(function(){
+	   $('.sub ul li a').removeClass('active');
+	   $(this).addClass('active');
+	}),
+      $('.sub-two > a').click(function(){
+      $('.sub-two ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+      $('.sub-two ul').slideUp();
+       if ($(this).next().is(":visible")){
+           $(this).next().slideUp();
+       } else {
+       $(this).next().slideToggle();
+       }
+      return false;
+    });
+       $('.mini-menu > ul > li > a').click(function(){
+	   $('.mini-menu > ul > li > a, .sub-two a').removeClass('active');
+	   $(this).addClass('active');
+	}),
+       $('.sub-two ul li a').click(function(){
+	   $('.sub-two ul li a').removeClass('active');
+	   $(this).addClass('active');
+	})
+});
 //Табы для главной страницы и личного кабинета !!!Обязательно в самом низу, иначе в корзине получается полный слэш!!!
 $(".verticalTab_v").easyResponsiveTabs({
     type: 'vertical', //Типы: default, vertical, accordion           
