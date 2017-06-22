@@ -396,22 +396,11 @@
 	}
 	.co-p__form-top.file-upload {
 	    margin-top: -35px;
-	}
-	.policy-confidential h1 {
-		font-size: 4.6rem;
-	}
-	.policy-confidential h2 {
-		font-size: 3.5rem;
-	}
+	}	
 }
 /* Custom, iPhone 6 */
-@media only screen and (max-width : 667px) {
-	.policy-confidential h1 {
-	    font-size: 4rem;
-	}
-	.policy-confidential h2 {
-	    font-size: 3rem;
-	}
+@media only screen and (max-width : 667px) {	
+	
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
@@ -498,10 +487,7 @@
 	.re-m__form-right {
 		display: block;
 		width: 100%;
-	}
-	.policy-confidential h1 {
-	    font-size: 3rem;
-	}
+	}	
 }
 @media only screen and (max-width : 416px) {
 	.file-upload-wrap {
@@ -573,13 +559,7 @@
 		display: block;		
 		border-right: inherit;
 		margin: 0 auto 25px;
-	}
-	.policy-confidential h1 {
-	    font-size: 2.6rem;
-	}
-	.policy-confidential h2 {
-	    font-size: 2.6rem;
-	}
+	}	
 }
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
@@ -617,13 +597,7 @@
 	}
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 14px;
-	}
-	.policy-confidential h1 {
-	    font-size: 2.6rem;
-	}
-	.policy-confidential h2 {
-	    font-size: 2.6rem;
-	}
+	}	
 	.me-p__dish-menu h3 {
 	    width: 55%;
 	}
@@ -665,10 +639,7 @@
 		display: block;
 		width: 100%;
 		text-align: center;
-	}
-	.policy-confidential h1 {
-	    font-size: 2.4rem;
-	}
+	}	
 }
 @media only screen and (max-width : 360px) {
 	.enter-modal {
@@ -721,10 +692,7 @@
 	}
 	.co-p__social ul li .co-p__social--icon a {
 	    padding: 20px 12px;
-	}
-	.policy-confidential h1 {
-	    font-size: 2.1rem;
-	}
+	}	
 	.policy-confidential h2 {
 	    font-size: 2.1rem;
 	}
