@@ -47,6 +47,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     margin-top: 10px;
 	transition: 0.5s ease;
 }
+.resp-vtabs .resp-tabs-list li:hover {
+	background: #fafafa;
+}
 .resp-vtabs li.resp-tab-active {
 	border: none;
 	color: #fff;
