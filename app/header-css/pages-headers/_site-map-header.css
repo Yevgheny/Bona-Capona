@@ -22,6 +22,7 @@
 }
 .mini-menu > ul > li > a:hover, 
 .mini-menu > ul > li > a.active {	
+    color: #78c8c9;
     text-decoration: underline;
 }
 .mini-menu .sub  ul {
@@ -38,7 +39,8 @@
 	margin-left: 35px;
 }
 .mini-menu .sub ul li a:hover,
-.mini-menu .sub ul li a.active {    
+.mini-menu .sub ul li a.active {
+    color: #78c8c9;    
     text-decoration: underline;    
 }
 .mini-menu .sub > a:before {
@@ -60,11 +62,11 @@
     transition: 0.5s;    
 }
 .mini-menu .sub > a.active:before{
-    border-color: transparent transparent #86878c transparent;
+    border-color: transparent transparent #78c8c9 transparent;
     margin-top: -7px;
 }
 .mini-menu .sub-two > a.active:before{
-    border-color: transparent transparent #86878c transparent;
+    border-color: transparent transparent #78c8c9 transparent;
     margin-top: -7px;
 }
 /*------------------- finish SITE-MENU HEADER.css------------------*/
