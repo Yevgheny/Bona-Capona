@@ -405,7 +405,7 @@ nav>ul>li.drop-down>ul>li.sub-drop>ul:before {
 .tp-caption a:hover{color: #78c8c9;}
 .opacity75 {opacity: .75;filter: alpha(75);
 }
-.tp-leftarrow.default, .tp-rightarrow.default { background: none; overflow: visible; -webkit-transform: none; transition: all 0.35s ease; -webkit-transition: all 0.35s ease; top: 50% !important; width: auto; height: auto; }
+.tp-leftarrow.default, .tp-rightarrow.default { background: none; overflow: visible; -webkit-transform: none; transition: all 0.35s ease; -webkit-transition: all 0.35s ease; top: 49% !important; width: auto; height: auto; }
 .tp-leftarrow.default:hover, .tp-rightarrow.default:hover { opacity: 1; filter: alpha(100); }
 .tp-leftarrow.default:before {  }
 .tp-rightarrow.default:before {  }

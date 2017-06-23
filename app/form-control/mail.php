@@ -1,6 +1,6 @@
 <head>
 	
-	<meta http-equiv="refresh" content="0; url= http://www.vilaragro.com.ua/" />
+	<meta http-equiv="refresh" content="0; url= http://oneweb-test.ru/" />
 
 </head>
 <?php

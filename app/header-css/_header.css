@@ -48,7 +48,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	transition: 0.5s ease;
 }
 .resp-vtabs .resp-tabs-list li:hover {
-	background: #fafafa;
+	background: #eeeeee;
+}
+.resp-vtabs .resp-tabs-list li.resp-tab-active:hover {
+	background: #78c8c9;
 }
 .resp-vtabs li.resp-tab-active {
 	border: none;
